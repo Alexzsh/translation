@@ -21,7 +21,7 @@ lastest mission|password
 ![Error image](/Image/error3.jpg)
 
 > 
-**You need to add a blank after --> **  
+**You need to add a blank after -->**  
 ![Right image](/Image/error4.jpg)
 
 
