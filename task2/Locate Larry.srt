@@ -1,0 +1,2335 @@
+﻿1
+00:00:00,030 --> 00:00:03,899
+ladies and gentlemen welcome my name is
+女士们，先生们，欢迎我的名字是
+
+2
+00:00:03,899 --> 00:00:06,059
+Walker Skype with Palo Alto education
+ 沃克Skype与帕洛阿尔托教育
+
+3
+00:00:06,059 --> 00:00:09,179
+and today have we had a treat for you we
+ 今天我们有我们为你服务
+
+4
+00:00:09,179 --> 00:00:13,349
+are going to be finding Larry that's
+ 将会发现拉里
+
+5
+00:00:13,349 --> 00:00:14,339
+right we're gonna be finding Larry
+ 对，我们会找到拉里
+
+6
+00:00:14,339 --> 00:00:17,129
+where's Larry well apparently he's right
+ 拉里在哪里显然他是对的
+
+7
+00:00:17,129 --> 00:00:17,550
+here
+这里
+
+8
+00:00:17,550 --> 00:00:18,690
+as you can see on the screen this is
+你可以在屏幕上看到，这是
+
+9
+00:00:18,690 --> 00:00:20,579
+Larry David he's one of the creators of
+拉里大卫他是创作者之一
+
+10
+00:00:20,579 --> 00:00:23,850
+Seinfeld which is a superb television
+ Seinfeld是一个非常出色的电视台
+
+11
+00:00:23,850 --> 00:00:26,420
+show that is very funny and heartwarming
+表明这是非常有趣和感人的
+
+12
+00:00:26,420 --> 00:00:29,399
+but more importantly we are going to be
+ 但更重要的是我们要成为
+
+13
+00:00:29,399 --> 00:00:31,859
+doing some machine learning to find an
+做一些机器学习来找到一个
+
+14
+00:00:31,859 --> 00:00:34,950
+object in a picture today this object
+ 在今天的图片中反对这个对象
+
+15
+00:00:34,950 --> 00:00:37,500
+will be Larry I'm gonna find the Larry
+ 将拉里，我会找到拉里
+
+16
+00:00:37,500 --> 00:00:40,020
+our Larry will not look like this Larry
+ 我们的拉里看起来不像这个拉里
+
+17
+00:00:40,020 --> 00:00:43,530
+will be a cartoon character I'm so so
+将是一个卡通人物我是如此
+
+18
+00:00:43,530 --> 00:00:46,079
+briefly this is this is a harder project
+简而言之，这是一个更难的项目
+
+19
+00:00:46,079 --> 00:00:48,359
+than we've done thus far not only in
+比我们迄今所做不仅在
+
+20
+00:00:48,359 --> 00:00:50,090
+scratchers are quite a few more steps
+ 划伤者还有更多的步骤
+
+21
+00:00:50,090 --> 00:00:54,259
+but there is a certain level of
+ 但是有一定的水平
+
+22
+00:00:54,259 --> 00:00:57,770
+difficulty when we're given a problem
+当我们遇到问题时会遇到困难
+
+23
+00:00:57,770 --> 00:01:00,770
+for instance we've done things such as
+ 例如我们已经完成了诸如
+
+24
+00:01:00,770 --> 00:01:03,238
+determining whether this space is your
+确定这个空间是否是你的
+
+25
+00:01:03,238 --> 00:01:06,269
+face or your dog's face or not your face
+脸或你的狗的脸或不是你的脸
+
+26
+00:01:06,269 --> 00:01:08,340
+right we're trying to say this is or
+对，我们试图说这是或
+
+27
+00:01:08,340 --> 00:01:11,188
+isn't a face but we've been given a face
+不是一张脸， 但我们已经得到了一张脸
+
+28
+00:01:11,188 --> 00:01:13,140
+we know that and if we happen then we
+我们知道，如果我们发生， 那么我们
+
+29
+00:01:13,140 --> 00:01:14,159
+just know that it's obviously not the
+ 只知道 它显然不是
+
+30
+00:01:14,159 --> 00:01:15,390
+face we're looking for because at least
+ 我们正在寻找，因为至少
+
+31
+00:01:15,390 --> 00:01:18,090
+we're looking for a face this is hey
+我们正在寻找一张脸， 这是嘿
+
+32
+00:01:18,090 --> 00:01:21,239
+we're looking for Larry in a picture so
+我们在图片中寻找拉里 如此
+
+33
+00:01:21,239 --> 00:01:23,188
+there could be tons of different things
+可能会有很多不同的东西
+
+34
+00:01:23,188 --> 00:01:25,920
+you have to like find where he is and
+ 你必须要找到他所在的地方
+
+35
+00:01:25,920 --> 00:01:27,989
+then oh yeah he's right here
+然后哦，他就在这里
+
+36
+00:01:27,989 --> 00:01:31,459
+and then you determine if that's him so
+然后你确定他是否如此
+
+37
+00:01:31,459 --> 00:01:33,959
+buckle up we're gonna do this it's gonna
+扣上去我们会做这个它会去的
+
+38
+00:01:33,959 --> 00:01:34,618
+be amazing
+ 太棒了
+
+39
+00:01:34,618 --> 00:01:37,890
+you got this we got this let's hop it
+你有这个我们有这个让我们跳吧
+
+40
+00:01:37,890 --> 00:01:40,469
+though the first step that we would like
+尽管我们希望的第一步
+
+41
+00:01:40,469 --> 00:01:43,649
+to accomplish is to get our uh a guide
+ 要完成的是让我们呃指导
+
+42
+00:01:43,649 --> 00:01:45,090
+I'm gonna get her a got it with you
+ 我会让她和你一起
+
+43
+00:01:45,090 --> 00:01:47,549
+follow you on so you want to go into a
+跟着你，所以你想进入 一个
+
+44
+00:01:47,549 --> 00:01:51,209
+web browser some internet access methods
+网页浏览器一些互联网访问方法
+
+45
+00:01:51,209 --> 00:01:52,769
+we can get to the get to the Internet
+我们可以得到的get互联网
+
+46
+00:01:52,769 --> 00:01:54,450
+yep then we want to go to machine
+ 是的，那么我们想要去机器
+
+47
+00:01:54,450 --> 00:01:57,899
+learning for kids dot uk' the this guy
+ 为孩子们学习点英国'这个家伙
+
+48
+00:01:57,899 --> 00:02:00,180
+right here I do this every time you want
+就在这里， 我每次都想 这样做
+
+49
+00:02:00,180 --> 00:02:01,920
+to go here you can also just type in
+ 去这里你也可以输入
+
+50
+00:02:01,920 --> 00:02:03,899
+machine learning for kids and you'll
+机器学习的孩子，你会的
+
+51
+00:02:03,899 --> 00:02:05,849
+find it should be the first item there
+发现它应该是第一项
+
+52
+00:02:05,849 --> 00:02:07,109
+so you wanna go in here you want to log
+所以你想在这里想要登录
+
+53
+00:02:07,109 --> 00:02:09,030
+in then you want to go to your
+然后你想去你的
+
+54
+00:02:09,030 --> 00:02:10,840
+worksheets right things
+工作表正确的事情
+
+55
+00:02:10,840 --> 00:02:14,949
+are our worksheets and we are looking
+ 是我们的工作表，我们正在寻找
+
+56
+00:02:14,949 --> 00:02:18,939
+notice how far down we have to go huh
+注意我们要走多远
+
+57
+00:02:18,939 --> 00:02:22,750
+see this is his intermediate also known
+看到这是他的中间人也知道
+
+58
+00:02:22,750 --> 00:02:26,318
+as buckle up it's the law but also just
+作为扣除它是法律，但也是公正的
+
+59
+00:02:26,318 --> 00:02:28,000
+for your for your safety and for your
+ 为了你的安全和你的安全
+
+60
+00:02:28,000 --> 00:02:30,430
+own well-being just know this this could
+ 自己的幸福只是知道这可能
+
+61
+00:02:30,430 --> 00:02:31,930
+be a little bit more involved more
+ 一点点 更多参与更多
+
+62
+00:02:31,930 --> 00:02:35,318
+detailed then things we've done prior we
+ 详细介绍了我们之前完成的工作
+
+63
+00:02:35,318 --> 00:02:37,000
+shall rise to the challenge so we're
+ 应该迎接挑战，所以我们是
+
+64
+00:02:37,000 --> 00:02:38,919
+gonna go to our download project
+会去我们的下载项目
+
+65
+00:02:38,919 --> 00:02:43,360
+worksheet and we shall see this yeah so
+工作表， 我们会看到这样的
+
+66
+00:02:43,360 --> 00:02:46,419
+we're here want to move down and this
+我们在这里想要移动和这个
+
+67
+00:02:46,419 --> 00:02:50,110
+this is kind of our stage which we get
+这是我们获得的舞台
+
+68
+00:02:50,110 --> 00:02:53,379
+to more in depth a little bit later but
+ 更深入一点 ，但以后
+
+69
+00:02:53,379 --> 00:02:54,969
+as we see there are many characters we
+因为我们看到有许多字符，我们
+
+70
+00:02:54,969 --> 00:02:57,400
+had a starfish we have a dinosaur
+有一只海星我们有一只恐龙
+
+71
+00:02:57,400 --> 00:03:00,489
+get a pair we get a ballerina we get we
+得到一对我们得到一个芭蕾舞演员我们得到我们
+
+72
+00:03:00,489 --> 00:03:02,530
+got all these people right they actually
+ 实际上让所有这些人都适合他们
+
+73
+00:03:02,530 --> 00:03:07,568
+don't have names yet you have to decide
+没有名字，但你必须决定
+
+74
+00:03:07,568 --> 00:03:09,848
+who is gonna be Larry who's gonna be
+谁会成为拉里谁是 谁
+
+75
+00:03:09,848 --> 00:03:13,628
+Larry it's it's naming time on us it's
+ 拉里，这是它的命名时间
+
+76
+00:03:13,628 --> 00:03:16,060
+second yeah so pick pick one of these
+第二个是，所以挑选其中之一
+
+77
+00:03:16,060 --> 00:03:17,859
+guys and determine them in your mind
+ 球员和确定它们在你的心中
+
+78
+00:03:17,859 --> 00:03:22,150
+this is Larry I chose this dude I just I
+ 这是拉里我选择了这个家伙，我只是我
+
+79
+00:03:22,150 --> 00:03:23,229
+thought they were so cute
+以为他们太可爱了
+
+80
+00:03:23,229 --> 00:03:25,239
+so that's that's a Larry for this
+所以这就是拉里
+
+81
+00:03:25,239 --> 00:03:28,930
+presentation but in this worksheet they
+演示文稿， 但在这张工作表中他们
+
+82
+00:03:28,930 --> 00:03:30,729
+actually use the catch notice scratch
+实际上使用捕捉通知从头开始
+
+83
+00:03:30,729 --> 00:03:36,639
+cat for the Larry but my Larry is this
+拉里的猫，但我的拉里就是这样
+
+84
+00:03:36,639 --> 00:03:38,219
+cutesy little guy right here alright so
+娇媚的小家伙就在这里这么好吗
+
+85
+00:03:38,219 --> 00:03:41,439
+you know pick one of those do it and
+ 你知道选择其中一个这样做和
+
+86
+00:03:41,439 --> 00:03:44,439
+then we are gonna hop on over to where
+那么我们会跳到哪里去
+
+87
+00:03:44,439 --> 00:03:47,109
+the magic happens which is this website
+ 这个网站发生了什么奇迹
+
+88
+00:03:47,109 --> 00:03:49,060
+machinima for kids um
+ machinima为孩子们
+
+89
+00:03:49,060 --> 00:03:51,129
+make sure logged in then we're gonna
+确保登录，然后我们会
+
+90
+00:03:51,129 --> 00:03:52,780
+create a project this little guy right
+ 创建一个项目这个小家伙吧
+
+91
+00:03:52,780 --> 00:03:55,299
+there boom smash that button and we
+ 那里的热潮粉碎了那个按钮和我们
+
+92
+00:03:55,299 --> 00:03:57,609
+should see options such as this which if
+应该看到如果这样的选项
+
+93
+00:03:57,609 --> 00:03:59,739
+you've done project before it's all very
+你在完成之前完成了项目
+
+94
+00:03:59,739 --> 00:04:02,469
+familiar I don't really recommend this
+ 熟悉我不真的推荐这个
+
+95
+00:04:02,469 --> 00:04:04,539
+project as your first project although
+项目作为你的第一个项目
+
+96
+00:04:04,539 --> 00:04:05,889
+if you were brave if you're feeling it
+ 如果你 感觉它 勇敢的话
+
+97
+00:04:05,889 --> 00:04:08,109
+do it anyway mmm be strong
+ 无论如何反正 -坚强
+
+98
+00:04:08,109 --> 00:04:10,930
+yes to do that we're locating Larry me
+是的，我们正在寻找拉里我
+
+99
+00:04:10,930 --> 00:04:13,030
+whatever you want though recognizing
+无论你想要什么，虽然承认
+
+100
+00:04:13,030 --> 00:04:15,879
+images that part is important once you
+图像这部分是重要的，一旦你
+
+101
+00:04:15,879 --> 00:04:20,430
+do this
+ 做这个
+
+102
+00:04:20,430 --> 00:04:22,410
+or no pup in click it that's what you do
+ 或者没有小朋友点击它，这就是你所做的
+
+103
+00:04:22,410 --> 00:04:24,600
+and you see all these these selections
+你会看到所有这些选择
+
+104
+00:04:24,600 --> 00:04:28,800
+here such as these selections here then
+这里比如这里的这些选择
+
+105
+00:04:28,800 --> 00:04:32,000
+you're gonna go to Train alright a
+你会去训练好的
+
+106
+00:04:32,000 --> 00:04:34,949
+little bit of ahead of myself don't hear
+ 我自己的超前 一点不闻
+
+107
+00:04:34,949 --> 00:04:37,160
+right now but we're gonna do it anyway
+现在， 但我们仍然会这样做
+
+108
+00:04:37,160 --> 00:04:39,120
+it's fine though this is taking a long
+ 这很好，尽管这需要很长时间
+
+109
+00:04:39,120 --> 00:04:40,500
+time to load so we're gonna do is we're
+ 时间加载，所以我们要做的就是我们
+
+110
+00:04:40,500 --> 00:04:42,930
+gonna make two labels with this button
+ 要用这个按钮做两个标签
+
+111
+00:04:42,930 --> 00:04:45,930
+right here and these are our two classes
+ 在这里，这是我们的两个班级
+
+112
+00:04:45,930 --> 00:04:49,259
+or two buckets of stuff but we're gonna
+或两桶的东西， 但我们会
+
+113
+00:04:49,259 --> 00:04:51,060
+put our pictures of Larry and all the
+ 把我们的拉里和所有的照片
+
+114
+00:04:51,060 --> 00:04:53,310
+things that are not Larry now this may
+ 这可能不是拉里的东西
+
+115
+00:04:53,310 --> 00:04:56,129
+seem very similar and is to other
+看起来非常相似，是对其他
+
+116
+00:04:56,129 --> 00:04:57,870
+projects we've done so far except this
+ 我们迄今为止所做的项目除此之外
+
+117
+00:04:57,870 --> 00:04:59,430
+one is kind of interesting because it
+其中之一是有趣的，因为它
+
+118
+00:04:59,430 --> 00:05:03,930
+does it over not just an image but full
+做它在不只是一个形象，但全
+
+119
+00:05:03,930 --> 00:05:05,430
+image where what we're looking for is
+图片在哪里我们正在寻找的是
+
+120
+00:05:05,430 --> 00:05:09,829
+only in part of them if that makes sense
+ 只有部分是有意义的
+
+121
+00:05:09,829 --> 00:05:12,269
+we'll see we'll see more but basically
+ 我们会看到我们会看到更多，但基本上
+
+122
+00:05:12,269 --> 00:05:16,168
+you have boxes think of like a chess
+你的盒子会像国际象棋一样思考
+
+123
+00:05:16,168 --> 00:05:19,139
+board and typically what we've been
+ 董事会，通常我们一直在
+
+124
+00:05:19,139 --> 00:05:20,788
+doing has only been looking at like one
+做只看起来像一个
+
+125
+00:05:20,788 --> 00:05:23,788
+piece of the checker board but now we're
+一块棋盘 ，但现在我们
+
+126
+00:05:23,788 --> 00:05:25,139
+looking at the whole checker board and
+看着整个棋盘和
+
+127
+00:05:25,139 --> 00:05:27,478
+Larry can only be in one of them so we
+拉里只能在其中一个，所以我们
+
+128
+00:05:27,478 --> 00:05:29,000
+can have to look through all of them and
+ 可以看看他们所有的人
+
+129
+00:05:29,000 --> 00:05:32,069
+make sure we don't classify we don't say
+确保我们不分类，我们不说
+
+130
+00:05:32,069 --> 00:05:35,069
+like oh yes the the starfish is Larry
+像哦，是的，海星是拉里
+
+131
+00:05:35,069 --> 00:05:37,019
+because the starfish is not Larry the
+因为海星不是拉里的
+
+132
+00:05:37,019 --> 00:05:39,360
+starfish is Patrick as we all know
+ 我们都知道海星是帕特里克
+
+133
+00:05:39,360 --> 00:05:42,180
+spongebob reference for all you folks
+海绵宝宝参考你所有的人
+
+134
+00:05:42,180 --> 00:05:44,220
+out there alright so we do that we add
+ 在那里好，所以我们这样做，我们补充
+
+135
+00:05:44,220 --> 00:05:45,959
+those labels we don't actually add the
+这些标签我们实际上并没有添加
+
+136
+00:05:45,959 --> 00:05:48,029
+images yet we'll do that in a moment but
+图像， 但我们会在一瞬间做到这一点，但
+
+137
+00:05:48,029 --> 00:05:50,720
+we do that let me go back to a project
+ 我们这样做让我回到一个项目
+
+138
+00:05:50,720 --> 00:05:52,939
+which we'll do right here so I go back
+ 我们会在这里做，所以我回去
+
+139
+00:05:52,939 --> 00:05:55,918
+project we are going to go over to mr.
+ 项目，我们要去看看先生。
+
+140
+00:05:55,918 --> 00:06:01,199
+scratch ever gonna go to mr. scratch and
+ 划痕永远要去先生。从头开始
+
+141
+00:06:01,199 --> 00:06:04,800
+we pop in each load actually not gonna
+我们在每个负载中弹出实际上不会
+
+142
+00:06:04,800 --> 00:06:05,848
+use this one because I already have it
+ 使用这个，因为我已经拥有了它
+
+143
+00:06:05,848 --> 00:06:09,180
+open right here map hacks so we do that
+ 在这里打开地图黑客，所以我们这样做
+
+144
+00:06:09,180 --> 00:06:13,168
+and we see things actually don't see
+ 我们看到的东西其实并没有看到
+
+145
+00:06:13,168 --> 00:06:15,120
+things which is why we need to open the
+这就是为什么我们需要开放的东西
+
+146
+00:06:15,120 --> 00:06:18,839
+project template click this guy you want
+项目模板点击你想要的这个人
+
+147
+00:06:18,839 --> 00:06:21,478
+to open locate Larry cuz we're looking
+ 打开找到拉里因为我们正在寻找
+
+148
+00:06:21,478 --> 00:06:24,389
+for Larry to do the coding the scratchy
+对于拉里来说，这个编码很棘手
+
+149
+00:06:24,389 --> 00:06:26,699
+scratch code and so we've opened our
+ 临时代码，所以我们已经打开我们的
+
+150
+00:06:26,699 --> 00:06:29,788
+project template we should hopefully
+项目模板，我们应该希望
+
+151
+00:06:29,788 --> 00:06:31,810
+hopefully see something similar too
+希望看到类似的东西太多
+
+152
+00:06:31,810 --> 00:06:36,668
+what we see here that is peruse the
+我们在这里看到的是细读的
+
+153
+00:06:36,668 --> 00:06:39,490
+world we have all these little boxes for
+世界上，我们拥有所有这些小盒子
+
+154
+00:06:39,490 --> 00:06:41,379
+instance we got our scratched cats we
+例如，我们得到了我们的划痕猫
+
+155
+00:06:41,379 --> 00:06:44,199
+got our crab get the adorable horse oh
+让我们的螃蟹得到可爱的马哦
+
+156
+00:06:44,199 --> 00:06:46,269
+the gang's all here and then we have all
+这个帮派在这里，然后我们都有
+
+157
+00:06:46,269 --> 00:06:47,470
+these other areas which are basically
+这些其他领域基本上是
+
+158
+00:06:47,470 --> 00:06:49,990
+the quadrants the sections the cubes the
+ 象限是立方体的部分
+
+159
+00:06:49,990 --> 00:06:51,970
+boxes of our picture right there are
+我们的图片框在那里
+
+160
+00:06:51,970 --> 00:06:54,910
+like little areas in it there's 12 of
+像其中的小区域有12个
+
+161
+00:06:54,910 --> 00:06:57,970
+them and these are those stuff they're
+他们和这些是那些他们的东西
+
+162
+00:06:57,970 --> 00:07:01,449
+also up here but these are the connected
+ 也在这里，但这些都是连接
+
+163
+00:07:01,449 --> 00:07:03,699
+right all right so first what we're
+首先，我们就是这样
+
+164
+00:07:03,699 --> 00:07:08,860
+gonna do is go to the store it's part of
+要去的是商店的一部分
+
+165
+00:07:08,860 --> 00:07:10,930
+our first quadrants this is our first
+我们的第一个象限是我们的第一个象限
+
+166
+00:07:10,930 --> 00:07:14,560
+guy zero zero dude and we look at these
+家伙零零花花公子，我们看看这些
+
+167
+00:07:14,560 --> 00:07:17,740
+define store it because when we see
+定义存储它，因为当我们看到
+
+168
+00:07:17,740 --> 00:07:19,899
+Larry you want to make sure that we
+拉里你想确保我们
+
+169
+00:07:19,899 --> 00:07:23,379
+remember that we saw Larry so we're
+请记住，我们看到拉里，所以我们
+
+170
+00:07:23,379 --> 00:07:24,399
+gonna go there and we're going to make
+要去那里，我们要去做
+
+171
+00:07:24,399 --> 00:07:29,819
+some adjustments they're fairly simple
+一些调整相当简单
+
+172
+00:07:29,819 --> 00:07:33,610
+but I suppose shall see in a moment they
+但我想他们会在一瞬间看到
+
+173
+00:07:33,610 --> 00:07:34,740
+may take some time
+可能需要一些时间
+
+174
+00:07:34,740 --> 00:07:36,970
+hey just just bear with me so these are
+嘿，只是忍受着我，所以这些都是
+
+175
+00:07:36,970 --> 00:07:39,360
+these are simple just drag drop things
+ 这些只是简单的拖放东西
+
+176
+00:07:39,360 --> 00:07:43,060
+you want to do that for the define hit
+ 你想为定义点击 做到这一点
+
+177
+00:07:43,060 --> 00:07:44,829
+then you'd like to do the same exact
+那么你想要做同样的事情
+
+178
+00:07:44,829 --> 00:07:48,220
+thing except when you were looking for
+ 除非你正在寻找 的东西
+
+179
+00:07:48,220 --> 00:07:50,079
+misses things that are not Larry well
+ 错过了拉里不擅长的事情
+
+180
+00:07:50,079 --> 00:07:51,220
+perhaps we're looking for things that
+也许我们正在寻找的东西
+
+181
+00:07:51,220 --> 00:07:54,699
+are not very interesting so I believe
+ 所以我相信不是很有趣
+
+182
+00:07:54,699 --> 00:07:56,560
+that is the only um difference between
+ 那是唯一的差别
+
+183
+00:07:56,560 --> 00:08:02,168
+those two adjustments there okay so it's
+那两个调整就好了
+
+184
+00:08:02,168 --> 00:08:06,160
+possible it's possible that um you know
+可能这可能是你知道的
+
+185
+00:08:06,160 --> 00:08:11,019
+hey do this thing for this guy and this
+嘿，为这家伙和这个做这件事
+
+186
+00:08:11,019 --> 00:08:18,430
+guy and this guy and there's 12 yes you
+ 男人和这个人，那里是12你是
+
+187
+00:08:18,430 --> 00:08:21,850
+gotta do this 12 times but what a great
+ 总得做12次，但有什么了不起
+
+188
+00:08:21,850 --> 00:08:24,399
+opportunity to read a book am i right I
+ 有机会阅读一本书我是否正确
+
+189
+00:08:24,399 --> 00:08:27,250
+like reading books particularly an audio
+ 特别喜欢看书的音频
+
+190
+00:08:27,250 --> 00:08:29,740
+book because then your eyes can do these
+ 因为那时你的眼睛可以做到这些
+
+191
+00:08:29,740 --> 00:08:32,979
+things so it takes a while this is the
+东西，所以还需要一段时间，这是
+
+192
+00:08:32,979 --> 00:08:34,719
+run of the mill of this portion of the
+ 这部分工厂的运行
+
+193
+00:08:34,719 --> 00:08:38,019
+of the video but it's it's fine just
+的视频， 但它只是很好
+
+194
+00:08:38,019 --> 00:08:40,958
+drag drop it is a copy paste function I
+拖放它是一个复制粘贴功能I
+
+195
+00:08:40,958 --> 00:08:42,580
+couldn't find it if you can find it
+如果你能找到它，找不到它
+
+196
+00:08:42,580 --> 00:08:43,899
+please tell your friends and share with
+请告诉你的朋友并分享
+
+197
+00:08:43,899 --> 00:08:44,590
+your family
+ 你的家人
+
+198
+00:08:44,590 --> 00:08:46,539
+and I'll celebrate because it'll save a
+ 我会庆祝，因为它会拯救一个
+
+199
+00:08:46,539 --> 00:08:48,429
+lot of time I could not so I just did it
+ 很多时候我不能这样做，我只是做了
+
+200
+00:08:48,429 --> 00:08:51,370
+by hand forgot to save lost it really
+用手忘记保存了吧
+
+201
+00:08:51,370 --> 00:08:54,370
+did it and then at that point I remember
+做了，然后在那个时候我记得
+
+202
+00:08:54,370 --> 00:08:55,539
+to save
+ 保存
+
+203
+00:08:55,539 --> 00:08:58,620
+I saved very fervently quite often
+我经常保存非常热烈
+
+204
+00:08:58,620 --> 00:09:01,419
+alright so you're gonna do that for each
+ 好，所以你会为每个人做
+
+205
+00:09:01,419 --> 00:09:03,339
+of them you got this
+ 他们你有这个
+
+206
+00:09:03,339 --> 00:09:07,059
+do not despair all right we do this next
+不要绝望， 我们接下来会做这件事
+
+207
+00:09:07,059 --> 00:09:10,179
+we move on to the next stage alright so
+ 我们进入到下一个阶段， 这样好吗
+
+208
+00:09:10,179 --> 00:09:13,899
+I click on the stage and I named mine
+ 我点击舞台并命名为我的
+
+209
+00:09:13,899 --> 00:09:15,639
+Larry I'd like to layer I thought Larry
+拉里， 我想拉我，拉里
+
+210
+00:09:15,639 --> 00:09:18,210
+was a great name its name of this video
+ 这个视频的名字是一个很好的名字
+
+211
+00:09:18,210 --> 00:09:20,740
+you can name it whatever you want he
+ 你可以将它命名为任何你想要的东西
+
+212
+00:09:20,740 --> 00:09:23,830
+named yours Patrick trying to come up
+命名为你的帕特里克试图出现
+
+213
+00:09:23,830 --> 00:09:24,940
+with a name I can do that you can name
+用我可以做的名字命名
+
+214
+00:09:24,940 --> 00:09:26,589
+it whatever you want but make sure that
+ 任何你想要的，但确保
+
+215
+00:09:26,589 --> 00:09:28,899
+you computer knows that you're looking
+你的电脑知道你在看
+
+216
+00:09:28,899 --> 00:09:32,200
+for that name right because that's it's
+因为这个名字是正确的，因为就是这样
+
+217
+00:09:32,200 --> 00:09:33,789
+learning to look for something needs for
+学习寻找一些需求
+
+218
+00:09:33,789 --> 00:09:36,039
+know what this is what so I wanted to
+知道这就是我想要的
+
+219
+00:09:36,039 --> 00:09:39,129
+click on stage in the top right box
+ 点击右上方的舞台
+
+220
+00:09:39,129 --> 00:09:41,889
+right there adjust the name I'm just
+右边有调整，我只是名字
+
+221
+00:09:41,889 --> 00:09:43,389
+trying to make sure they're exactly the
+ 试图确保它们完全符合
+
+222
+00:09:43,389 --> 00:09:45,549
+same such as capitalization and things
+像大写字母和东西一样
+
+223
+00:09:45,549 --> 00:09:51,700
+of like now we're going to train we're
+像现在我们要培养我们
+
+224
+00:09:51,700 --> 00:09:54,850
+gonna collect some data so as we see
+我们会收集一些数据
+
+225
+00:09:54,850 --> 00:09:57,610
+here we can click the train button which
+在这里我们可以点击哪个火车按钮
+
+226
+00:09:57,610 --> 00:09:59,200
+is what we're doing and it may take a
+ 是我们正在做的事情，可能需要一个
+
+227
+00:09:59,200 --> 00:10:00,460
+moment but it's going to set up the
+ 时刻，但它会建立
+
+228
+00:10:00,460 --> 00:10:03,970
+stage and it will ask you where this
+舞台，它会问你在哪里
+
+229
+00:10:03,970 --> 00:10:05,589
+this little portion right here will pop
+这个小部分就在这里弹出
+
+230
+00:10:05,589 --> 00:10:07,360
+up and you're going to want to click on
+ 并且你将要点击
+
+231
+00:10:07,360 --> 00:10:09,730
+your character and nothing at let's make
+ 你的性格和我们所做的一切
+
+232
+00:10:09,730 --> 00:10:12,100
+sure that you click on your dude as
+确保你在你的哥们单击 以
+
+233
+00:10:12,100 --> 00:10:14,679
+mentioned I picked a little Pico his
+ 上面提到我选了一个Pico他
+
+234
+00:10:14,679 --> 00:10:16,269
+name is Pico this little guy who's your
+名字是Pico这个小家伙谁是你的
+
+235
+00:10:16,269 --> 00:10:18,580
+toughest head right here but that is the
+最艰难的头在这里， 但那是
+
+236
+00:10:18,580 --> 00:10:23,279
+guy and then briefly after that it will
+然后在那之后简要介绍一下
+
+237
+00:10:23,279 --> 00:10:26,230
+take mode and it will ask you to click
+采取模式，它会要求你点击
+
+238
+00:10:26,230 --> 00:10:30,159
+on somewhere other than Larry or whoever
+ 在拉里或其他地方
+
+239
+00:10:30,159 --> 00:10:33,279
+you named your little guy as do so
+你这样命名你的小家伙
+
+240
+00:10:33,279 --> 00:10:35,409
+literally anywhere else doesn't matter
+ 从字面上看，其他地方并不重要
+
+241
+00:10:35,409 --> 00:10:39,009
+but don't click on your dude if you did
+但如果你这样做，不要点击你的家伙
+
+242
+00:10:39,009 --> 00:10:43,120
+this incorrectly if Oh crud I intended
+ 这不正确，如果哦，我打算crud
+
+243
+00:10:43,120 --> 00:10:45,700
+to click on Larry but I clicked on the
+ 点击拉里，但我点击了
+
+244
+00:10:45,700 --> 00:10:48,250
+horse with a bear or the moon because
+ 有熊或月亮的马因为
+
+245
+00:10:48,250 --> 00:10:50,169
+one of the pictures is the moon so do
+其中一张照片就是月亮
+
+246
+00:10:50,169 --> 00:10:53,200
+that and that's ok it's ok because we
+ 这一点，这是确定它的确定，因为我们
+
+247
+00:10:53,200 --> 00:10:55,230
+will go back to our project
+会回到我们的项目
+
+248
+00:10:55,230 --> 00:10:57,850
+so briefly you want to make sure you
+所以暂时你想确保你
+
+249
+00:10:57,850 --> 00:11:00,509
+have at least ten of these uh these
+ 这些呃这些至少有十个
+
+250
+00:11:00,509 --> 00:11:05,860
+photos in each side right so a run
+ 照片在每一边都是如此的奔跑
+
+251
+00:11:05,860 --> 00:11:08,740
+should gather you a data point for each
+应该为你收集每个数据点
+
+252
+00:11:08,740 --> 00:11:11,379
+side occasionally it doesn't take it
+ 偶尔它不会采取它
+
+253
+00:11:11,379 --> 00:11:13,690
+just doesn't store it or I just can't
+只是不存储它，或者我不能
+
+254
+00:11:13,690 --> 00:11:16,600
+count also very possible but so make
+ 也很有可能，但这样做
+
+255
+00:11:16,600 --> 00:11:19,299
+sure that you have at least ten in your
+确定你至少有十个在你的
+
+256
+00:11:19,299 --> 00:11:22,929
+training set in each of your boxes and
+ 训练集在你的每个箱子里
+
+257
+00:11:22,929 --> 00:11:25,870
+make sure that they are correct right so
+ 确保它们正确无误
+
+258
+00:11:25,870 --> 00:11:27,789
+if Larry is in your NOC Larry section
+如果拉里在你的NOC拉里部分
+
+259
+00:11:27,789 --> 00:11:29,049
+get them out of there there you are
+ 让他们离开你那里
+
+260
+00:11:29,049 --> 00:11:31,840
+Larry your Larry
+ 拉里你的拉里
+
+261
+00:11:31,840 --> 00:11:35,080
+if you've any non Larry photos in the
+如果你有任何非拉里照片
+
+262
+00:11:35,080 --> 00:11:36,820
+Larry section well that is of course
+拉里部分，当然是
+
+263
+00:11:36,820 --> 00:11:39,429
+incorrect because Larry is Larry and not
+ 不正确，因为拉里不是拉里
+
+264
+00:11:39,429 --> 00:11:42,840
+Hernan okay you get it just check there
+ 埃尔南没关系，你得到它只是在那里检查
+
+265
+00:11:42,840 --> 00:11:45,879
+and that is as you see I'm gonna go back
+ 就像你看到我要回去一样
+
+266
+00:11:45,879 --> 00:11:47,559
+to your profile just show you I'll just
+到你的个人资料只是告诉你我会
+
+267
+00:11:47,559 --> 00:11:50,669
+we'll just hop in right all right so
+我们就这样跳吧
+
+268
+00:11:50,669 --> 00:12:02,649
+projects face lock locate Larry and in
+项目面对锁定拉里和英寸
+
+269
+00:12:02,649 --> 00:12:07,649
+your training data we can see the data
+你的训练数据我们可以看到数据
+
+270
+00:12:07,649 --> 00:12:11,259
+as it loads yes so here we see we have
+因为它加载是所以在这里我们看到我们有
+
+271
+00:12:11,259 --> 00:12:13,690
+actually twelve and thirteen so many
+ 其实十二和十三这么多
+
+272
+00:12:13,690 --> 00:12:16,539
+images oh my goodness do you see this
+图像哦，我的天啊，你看到这个
+
+273
+00:12:16,539 --> 00:12:18,850
+this actually is interesting I did this
+ 这实际上很有趣，我做到了
+
+274
+00:12:18,850 --> 00:12:21,429
+a moment ago unbeknownst to myself we
+ 刚才我不知道我们
+
+275
+00:12:21,429 --> 00:12:24,730
+see I'm sorry but a horse is simply not
+看到我很抱歉， 但马不是
+
+276
+00:12:24,730 --> 00:12:27,610
+Larry so we shall take that out of our
+拉里因此，我们应采取出来的我们
+
+277
+00:12:27,610 --> 00:12:30,009
+data set of things that are Larry this
+ 事情的数据集是拉里此
+
+278
+00:12:30,009 --> 00:12:32,080
+is good and then on the right we see
+ 是好的，然后在我们看到的右边
+
+279
+00:12:32,080 --> 00:12:34,210
+that Larry our little peeko guy is
+ 那个拉里是我们的小个子
+
+280
+00:12:34,210 --> 00:12:38,220
+nowhere to be found just as we want yes
+无处可寻，就像我们想要的一样
+
+281
+00:12:38,220 --> 00:12:40,450
+ladies and gentlemen I hope you're ready
+ 女士们，先生们，我希望你们准备好了
+
+282
+00:12:40,450 --> 00:12:46,330
+because it is time for some magic it's
+ 因为现在是时候了一些魔术了
+
+283
+00:12:46,330 --> 00:12:49,360
+time to do the machine learning magic -
+时间做机器学习魔术-
+
+284
+00:12:49,360 --> 00:12:51,909
+Zam we're gonna do the training we're
+扎姆我们要去做我们的训练
+
+285
+00:12:51,909 --> 00:12:53,110
+gonna do the training the model now it's
+怎么办现在训练模型是
+
+286
+00:12:53,110 --> 00:12:56,350
+gonna click a good old phone and test
+ 要点击一个好的旧手机并进行测试
+
+287
+00:12:56,350 --> 00:12:58,029
+button once we have done so we will
+按钮一旦我们这样做了，我们会
+
+288
+00:12:58,029 --> 00:12:59,559
+scroll to the bottom of the screen if
+滚动到屏幕底部
+
+289
+00:12:59,559 --> 00:13:01,809
+you must see things that are different
+你必须看到不同的东西
+
+290
+00:13:01,809 --> 00:13:04,210
+from what we see here and that's okay
+ 从我们在这里看到的，没关系
+
+291
+00:13:04,210 --> 00:13:05,590
+because this is what you should see
+因为这是你应该看到的
+
+292
+00:13:05,590 --> 00:13:07,720
+after you press the button and wait
+ 按下按钮后等待
+
+293
+00:13:07,720 --> 00:13:08,539
+awhile
+ 一会儿
+
+294
+00:13:08,539 --> 00:13:11,360
+and it might be a while because images
+这可能是一段时间，因为图像
+
+295
+00:13:11,360 --> 00:13:14,419
+are big and they're messy and computers
+很大，而且他们很乱并且电脑
+
+296
+00:13:14,419 --> 00:13:15,740
+have a hard time with them basically
+ 与他们基本上很难相处
+
+297
+00:13:15,740 --> 00:13:17,269
+which is why we're doing this visit
+ 这就是我们为什么要这样做的原因
+
+298
+00:13:17,269 --> 00:13:21,230
+stuff lets me do that and it is trained
+ 东西让我这样做，它被训练
+
+299
+00:13:21,230 --> 00:13:24,289
+and now we have a model which means we
+现在我们有一个模型，这意味着我们
+
+300
+00:13:24,289 --> 00:13:27,559
+can go on to the next portion we're
+可以继续我们的下一部分
+
+301
+00:13:27,559 --> 00:13:29,840
+gonna go back into scratch back to
+会回到从头开始
+
+302
+00:13:29,840 --> 00:13:34,129
+scratch back to reality and we are gonna
+ 回到现实，我们会去的
+
+303
+00:13:34,129 --> 00:13:40,039
+change some things around right so what
+改变一些东西， 所以什么
+
+304
+00:13:40,039 --> 00:13:42,440
+we're changing it's different stems them
+我们正在改变它的不同
+
+305
+00:13:42,440 --> 00:13:43,519
+will be changed before right we're gonna
+将在我们要去之前改变
+
+306
+00:13:43,519 --> 00:13:45,500
+keep keep all that stuff added earlier
+保持先前添加的所有东西
+
+307
+00:13:45,500 --> 00:13:46,940
+hopefully you save your project don't
+希望你保存你的项目不要
+
+308
+00:13:46,940 --> 00:13:50,360
+forget don't forget I would know so sad
+ 忘记不要忘记我会知道这么伤心
+
+309
+00:13:50,360 --> 00:13:53,000
+it's okay um we're gonna change these
+ 没关系，我们会改变这些
+
+310
+00:13:53,000 --> 00:13:54,679
+guys out here which if you notice we
+ 如果你注意到我们，那么这里有人
+
+311
+00:13:54,679 --> 00:13:56,389
+need to scroll down if you're like I
+需要如果你像我向下滚动
+
+312
+00:13:56,389 --> 00:13:58,129
+can't find it it's because it's probably
+找不到它是因为它可能
+
+313
+00:13:58,129 --> 00:13:59,720
+not on the screen you need to scroll
+ 不需要在屏幕上滚动
+
+314
+00:13:59,720 --> 00:14:02,269
+down so you do so find it down here and
+ 所以你这样做，找到它在这里和
+
+315
+00:14:02,269 --> 00:14:05,240
+you change the stuff right it is the
+你改变了正确的东西
+
+316
+00:14:05,240 --> 00:14:08,960
+stuff right there do not neglect do take
+那里的东西不要忽视
+
+317
+00:14:08,960 --> 00:14:11,629
+note but the difference is in words here
+请注意， 但区别在这里
+
+318
+00:14:11,629 --> 00:14:13,909
+highly recommend following along with
+强烈建议连同以下
+
+319
+00:14:13,909 --> 00:14:18,679
+those another thing of note that you
+那些注意到你的另一件事
+
+320
+00:14:18,679 --> 00:14:25,730
+don't want to neglect is scroll right as
+不想忽视的是滚动权
+
+321
+00:14:25,730 --> 00:14:29,870
+we see here it's got a top and it's got
+ 我们在这里看到它有一个顶部，它有
+
+322
+00:14:29,870 --> 00:14:31,879
+a bottom they're different which is okay
+底部他们是不同的，这是可以的
+
+323
+00:14:31,879 --> 00:14:34,070
+in fact they can be so different
+事实上他们可以如此不同
+
+324
+00:14:34,070 --> 00:14:37,159
+this guy's got a top doesn't even have a
+ 这家伙有顶级甚至没有
+
+325
+00:14:37,159 --> 00:14:41,539
+bottom it's totally okay it's totally
+它完全没问题
+
+326
+00:14:41,539 --> 00:14:44,029
+fine it's how it's designed and it
+ 很好，这是它的设计和它
+
+327
+00:14:44,029 --> 00:14:47,139
+should that's okay alright so we do so
+应该没关系，所以我们这样做
+
+328
+00:14:47,139 --> 00:14:50,570
+for all 12 up again get a good book pop
+ 为所有12再次得到一本好书流行
+
+329
+00:14:50,570 --> 00:14:54,289
+on a movie just think just sit there and
+在电影上只是想坐在那里
+
+330
+00:14:54,289 --> 00:14:56,480
+enjoy the enjoy the silence or the noise
+ 享受沉默或喧嚣
+
+331
+00:14:56,480 --> 00:14:57,200
+in the background
+ 在后台
+
+332
+00:14:57,200 --> 00:14:59,450
+whichever but it's gonna take a while
+无论如何， 但它会需要一段时间
+
+333
+00:14:59,450 --> 00:15:01,340
+have to do for all 12 but it's okay once
+ 必须为所有12做，但没关系
+
+334
+00:15:01,340 --> 00:15:03,080
+you have done so don't forget to save
+你已经这样做了，别忘了保存
+
+335
+00:15:03,080 --> 00:15:05,360
+please don't forget to save do it for me
+ 请不要忘记保存为我做
+
+336
+00:15:05,360 --> 00:15:08,090
+do it for me don't say you're going to
+做到这一点，我不说你要
+
+337
+00:15:08,090 --> 00:15:12,350
+want to test it it's time please and
+想要测试它是时候了，请
+
+338
+00:15:12,350 --> 00:15:14,149
+jump it's time we've made it or maybe
+跳跃是时候我们做了或者也许
+
+339
+00:15:14,149 --> 00:15:15,350
+right to find out what we've made at
+ 右，找出我们在做
+
+340
+00:15:15,350 --> 00:15:16,600
+least to the point we can
+ 至少我们可以
+
+341
+00:15:16,600 --> 00:15:20,110
+we've made made it right yeah all right
+我们已经取得了取得的权利是啊没事
+
+342
+00:15:20,110 --> 00:15:23,860
+so we are gonna click the start button
+ 所以我们要点击开始按钮
+
+343
+00:15:23,860 --> 00:15:25,960
+the flag we're setting it up we're
+ 我们正在设置它的旗子，我们是
+
+344
+00:15:25,960 --> 00:15:27,970
+setting up the green flag by the way if
+ 顺便设置绿色标志
+
+345
+00:15:27,970 --> 00:15:30,129
+it's taking a long time is a great way
+需要很长时间才是一个好方法
+
+346
+00:15:30,129 --> 00:15:32,950
+to do exactly that because sometimes it
+做到这一点，因为有时它
+
+347
+00:15:32,950 --> 00:15:35,309
+just kind of freezes up and that's fine
+只是一种冻结，这很好
+
+348
+00:15:35,309 --> 00:15:39,340
+so it's gonna pop up in a moment or it
+ 所以它会在一瞬间弹出或它
+
+349
+00:15:39,340 --> 00:15:40,870
+won't and we'll click the green flag and
+不会，我们将点击绿色标志和
+
+350
+00:15:40,870 --> 00:15:42,309
+that'll be that
+那就是那个
+
+351
+00:15:42,309 --> 00:15:45,039
+I think we might click the green flag
+我想我们可以点击绿色标志
+
+352
+00:15:45,039 --> 00:15:49,450
+right there yeah we are you do this and
+在那里是的，我们是你这样做和
+
+353
+00:15:49,450 --> 00:15:52,149
+we are gonna see how well it does now
+ 我们会看到，现在效果如何
+
+354
+00:15:52,149 --> 00:15:54,519
+I'll tell you right now it doesn't do a
+ 我 现在 告诉你，它不会做
+
+355
+00:15:54,519 --> 00:15:57,070
+great job of putting the like little
+ 很不错的工作
+
+356
+00:15:57,070 --> 00:16:00,159
+arrow things it makes like locate you
+ 箭头使它找到你的东西
+
+357
+00:16:00,159 --> 00:16:01,779
+see or Larry's right here we have found
+见或拉里就在这里，我们找到了
+
+358
+00:16:01,779 --> 00:16:03,970
+him yes kind of puts him like a little
+ 他有点像他一样
+
+359
+00:16:03,970 --> 00:16:05,769
+bit off to the side but I have seen this
+咬下到一边，但我已经看到了这
+
+360
+00:16:05,769 --> 00:16:07,570
+over and over again and I can tell that
+ 一遍又一遍，我可以告诉大家，
+
+361
+00:16:07,570 --> 00:16:09,159
+it's just it's just putting him off to
+ 这只是让他离开 而已
+
+362
+00:16:09,159 --> 00:16:10,570
+the side but it knows that he should be
+ 一边但知道他应该
+
+363
+00:16:10,570 --> 00:16:12,519
+I think they're like pointing is the
+我觉得他们就像是指点了
+
+364
+00:16:12,519 --> 00:16:17,820
+idea these guys was taking a while I
+想法这些人当时正在同时我
+
+365
+00:16:17,820 --> 00:16:23,379
+think we're just gonna let it go it's
+认为我们只会放过它而已
+
+366
+00:16:23,379 --> 00:16:26,370
+gonna do it it's gonna be so good this
+要做到这一点这会是这么好这个
+
+367
+00:16:26,370 --> 00:16:28,720
+is some really good quality time we can
+ 我们可以有一些非常好的品质
+
+368
+00:16:28,720 --> 00:16:30,490
+we can recognize the dancing that's
+我们可以认出那是跳舞
+
+369
+00:16:30,490 --> 00:16:32,620
+going on here we go yes we would like to
+在这里我们走是的，我们想
+
+370
+00:16:32,620 --> 00:16:34,840
+test you like to see if it's working all
+测试你喜欢看它是否全部工作
+
+371
+00:16:34,840 --> 00:16:38,440
+right let's get this guy oh screen oh my
+ 让我们得到这个人哦屏幕哦我的
+
+372
+00:16:38,440 --> 00:16:45,610
+goodness is Larry there yes so as
+ 善良是拉里那里是的，所以
+
+373
+00:16:45,610 --> 00:16:47,860
+mentioned before it doesn't do a great
+它不会做很大前面提到的
+
+374
+00:16:47,860 --> 00:16:49,659
+job of like putting putting a little
+ 喜欢放一点工作
+
+375
+00:16:49,659 --> 00:16:51,429
+like is Larry here bachas like very act
+就像拉里这里的贝克斯一样非常行事
+
+376
+00:16:51,429 --> 00:16:55,389
+accurately it's like qirush but if you
+ 准确地说，它就像qirush，但如果你
+
+377
+00:16:55,389 --> 00:16:57,639
+take my word for it I have played this
+ 听我说我已经玩了这个
+
+378
+00:16:57,639 --> 00:16:59,789
+game enough to know that like that
+ 游戏足以知道那样
+
+379
+00:16:59,789 --> 00:17:01,629
+configuration the way those things are
+ 配置这些东西的方式
+
+380
+00:17:01,629 --> 00:17:04,390
+set up it can tell that he's there it's
+建立它可以告诉他他在那里
+
+381
+00:17:04,390 --> 00:17:06,240
+actually it's actually working
+实际上它实际上工作
+
+382
+00:17:06,240 --> 00:17:08,410
+we're gonna run another one even though
+ 尽管如此，我们仍然会运行另一个
+
+383
+00:17:08,410 --> 00:17:11,019
+it will take a while that's alright
+ 这将需要一段时间，没关系
+
+384
+00:17:11,019 --> 00:17:12,910
+maybe it just goes faster if it's not
+也许它只是更快，如果它不
+
+385
+00:17:12,910 --> 00:17:16,720
+full screen this is possible yeah okay
+全屏这可能是好的
+
+386
+00:17:16,720 --> 00:17:18,400
+good to know it goes a lot quicker if
+ 很高兴知道它如果速度更快
+
+387
+00:17:18,400 --> 00:17:21,759
+it's not full screen sure and we see
+它不是全屏幕，我们看到
+
+388
+00:17:21,759 --> 00:17:24,309
+that Larry is I'm just gonna guess he's
+拉里是我只是猜测他是
+
+389
+00:17:24,309 --> 00:17:25,450
+like yours
+像你的
+
+390
+00:17:25,450 --> 00:17:28,490
+see look at this look at this oh that's
+看看这个哦， 看看这个
+
+391
+00:17:28,490 --> 00:17:29,660
+pretty cool we have an image there's a
+ 很酷，我们有一个图像有一个
+
+392
+00:17:29,660 --> 00:17:31,250
+bunch of stuff going on we can tell that
+一堆东西，怎么回事，我们可以知道的
+
+393
+00:17:31,250 --> 00:17:32,480
+layer is there even though we got these
+层即使我们得到了这些
+
+394
+00:17:32,480 --> 00:17:34,940
+little these little birdy things over
+ 这些小小的鸟儿的东西很少
+
+395
+00:17:34,940 --> 00:17:38,140
+space there he is hey Larry
+ 那里的空间他是嘿拉里
+
+396
+00:17:38,140 --> 00:17:40,609
+yeah so how many is that we made a thing
+是的，我们做了一件事情有多少
+
+397
+00:17:40,609 --> 00:17:43,759
+that can find our guy we can we can find
+可以找到我们的人，我们可以，我们可以找到
+
+398
+00:17:43,759 --> 00:17:47,140
+him pick him out of a crowd amazing so
+ 所以他从人群中挑出他
+
+399
+00:17:47,140 --> 00:17:52,460
+let's say perhaps first didn't work it
+让我们说，也许第一个没有工作
+
+400
+00:17:52,460 --> 00:17:53,750
+just didn't work there was something
+ 只是没有工作有一些东西
+
+401
+00:17:53,750 --> 00:17:57,559
+wrong Oh Shutts follow the law I did all
+ 错误的哦关闭遵循我所做的一切法律
+
+402
+00:17:57,559 --> 00:18:00,559
+the steps for each 12 of those boxes
+这12个盒子的步骤
+
+403
+00:18:00,559 --> 00:18:02,720
+might I add I even remember to save it
+我可以添加我甚至记得保​​存它
+
+404
+00:18:02,720 --> 00:18:04,640
+it still doesn't work something is awry
+ 它仍然无法正常工作
+
+405
+00:18:04,640 --> 00:18:07,220
+something is amiss it don't function
+ 有些东西是不合适的，它不起作用
+
+406
+00:18:07,220 --> 00:18:10,160
+it's okay this is part of the learning
+ 没关系，这是学习的一部分
+
+407
+00:18:10,160 --> 00:18:13,519
+process which maybe not enjoy but it's
+ 可能不喜欢的 过程，但它是
+
+408
+00:18:13,519 --> 00:18:15,259
+still really helpful yay what everyone
+每个人都还是很有帮助的
+
+409
+00:18:15,259 --> 00:18:17,480
+wants to hear sound like Calvin's dad if
+想要像加尔文的爸爸那样听到声音
+
+410
+00:18:17,480 --> 00:18:19,609
+you've ever read calvin and hobbes it's
+你读过卡尔文和霍布斯是
+
+411
+00:18:19,609 --> 00:18:22,730
+awesome highly recommend oh yeah here we
+ 真棒强烈推荐哦，在这里，我们
+
+412
+00:18:22,730 --> 00:18:24,619
+there are some options okay
+ 有一些选项可以
+
+413
+00:18:24,619 --> 00:18:25,730
+could be unlike the machine learning
+可能不像机器学习
+
+414
+00:18:25,730 --> 00:18:28,970
+side right where you didn't have enough
+你没有足够的权利
+
+415
+00:18:28,970 --> 00:18:30,559
+data even though you already had 10 it
+数据， 尽管你已经有10个了
+
+416
+00:18:30,559 --> 00:18:34,150
+just wasn't enough more typically better
+只是不够，通常更好
+
+417
+00:18:34,150 --> 00:18:36,710
+maybe your data was messy maybe there's
+ 也许你的数据很混乱
+
+418
+00:18:36,710 --> 00:18:39,490
+some noise in your data as they say ak8
+ 他们说ak8会导致数据中出现一些噪音
+
+419
+00:18:39,490 --> 00:18:41,660
+it's another way of saying that you had
+ 这是 说，你有另一种方式
+
+420
+00:18:41,660 --> 00:18:44,029
+the horse as just like I did I put the
+这匹马就像我所做的那样
+
+421
+00:18:44,029 --> 00:18:45,799
+horse I called the I called the horse
+马我叫我叫马
+
+422
+00:18:45,799 --> 00:18:48,289
+Larry and they won't force really have
+ 拉里和他们不会真的有力量
+
+423
+00:18:48,289 --> 00:18:51,049
+that the horse I'm not Larry no man my
+那马我不是拉里， 没有人是我的
+
+424
+00:18:51,049 --> 00:18:54,680
+name is Joe Joe the horse do you check
+ 名字是乔乔马你检查
+
+425
+00:18:54,680 --> 00:18:56,569
+your your data and the training and
+你的数据和训练和
+
+426
+00:18:56,569 --> 00:18:59,539
+tests or the Train part it shows all you
+测试或火车部分，它显示了你所有
+
+427
+00:18:59,539 --> 00:19:01,720
+little pictures if you're looking at
+如果你正在看，照片很小
+
+428
+00:19:01,720 --> 00:19:05,420
+that's another thing check and also the
+ 这是另一件事检查，也是
+
+429
+00:19:05,420 --> 00:19:08,569
+the code there's a lot of code we
+ 代码中有很多代码我们
+
+430
+00:19:08,569 --> 00:19:10,309
+adjusted right there's a lot of
+调整了很多
+
+431
+00:19:10,309 --> 00:19:12,619
+something that we're messing around with
+ 我们搞乱了一些东西
+
+432
+00:19:12,619 --> 00:19:15,440
+any part of that could you know just oh
+ 你可以知道任何一部分哦
+
+433
+00:19:15,440 --> 00:19:17,180
+I put Larry and not Larry and now
+我把拉里，而不是拉里，现在
+
+434
+00:19:17,180 --> 00:19:19,359
+everything is broken and nothing works
+一切都被打破，没有任何工作
+
+435
+00:19:19,359 --> 00:19:23,779
+so feel free to check in there may take
+ 所以随时检查可能会采取
+
+436
+00:19:23,779 --> 00:19:27,289
+some time but it's okay it's fine we
+有一段时间，但没关系，我们很好
+
+437
+00:19:27,289 --> 00:19:28,960
+shall prevail
+ 为准
+
+438
+00:19:28,960 --> 00:19:31,599
+yes so what what did we do here we made
+ 是等什么我们做了什么，我们在这里做
+
+439
+00:19:31,599 --> 00:19:35,440
+a super cool little find and Larry box
+一个超酷的小发现和拉里盒子
+
+440
+00:19:35,440 --> 00:19:38,680
+thing right we trained it on some things
+ 正确的是，我们在一些事情上训练了它
+
+441
+00:19:38,680 --> 00:19:41,170
+that are Larry right we saw the images
+那是Larry，我们看到了这些图像
+
+442
+00:19:41,170 --> 00:19:43,630
+and meet and tell that's Larry that's
+并会见并告诉那就是Larry
+
+443
+00:19:43,630 --> 00:19:45,789
+our little peeko so I picked a pic to
+我们的小Peeko，所以我选了一张照片
+
+444
+00:19:45,789 --> 00:19:47,529
+peek oh he's adorable
+ 偷看哦，他很可爱
+
+445
+00:19:47,529 --> 00:19:50,920
+but you can pick a room you want so we
+但你可以选择一个你想要的房间，所以我们
+
+446
+00:19:50,920 --> 00:19:53,289
+do that and then give it a new image
+做到这一点，然后给它一个新的形象
+
+447
+00:19:53,289 --> 00:19:56,230
+which which are which has things a
+哪些是哪些东西a 
+
+448
+00:19:56,230 --> 00:19:57,819
+little bit changed around you notice
+一点点改变你的注意
+
+449
+00:19:57,819 --> 00:20:00,460
+that but the characters will be in
+ 那个角色会在
+
+450
+00:20:00,460 --> 00:20:01,660
+different positions they'll be a little
+ 他们会有一些不同的位置
+
+451
+00:20:01,660 --> 00:20:03,759
+bit different sized and the backdrop
+ 有点不同的大小和背景
+
+452
+00:20:03,759 --> 00:20:05,589
+will be different occasion will be on
+将不同的场合将是
+
+453
+00:20:05,589 --> 00:20:08,109
+the moon which I really enjoyed and then
+ 我真正喜欢的月亮然后
+
+454
+00:20:08,109 --> 00:20:10,509
+we can tell where there he is
+我们可以知道他在哪里
+
+455
+00:20:10,509 --> 00:20:11,920
+even though things have changed we
+尽管事情已经改变了我们
+
+456
+00:20:11,920 --> 00:20:13,319
+haven't just memorized we have
+不只是记得我们
+
+457
+00:20:13,319 --> 00:20:15,308
+generalized which is another way of
+一般化这是另一种方式
+
+458
+00:20:15,308 --> 00:20:16,630
+saying we're pretty good at the game
+ 说我们对比赛非常擅长
+
+459
+00:20:16,630 --> 00:20:19,960
+right good at the game the game of
+对游戏的游戏性很好
+
+460
+00:20:19,960 --> 00:20:22,440
+finding Larry we're pretty good at it
+发现拉里我们很擅长
+
+461
+00:20:22,440 --> 00:20:24,789
+yeah so that's that's what we've done
+ 是的，这就是我们所做的
+
+462
+00:20:24,789 --> 00:20:27,519
+here is be able to find Larry in an
+ 这里是能够找到拉里的
+
+463
+00:20:27,519 --> 00:20:31,690
+image of other creatures amazing once
+其他生物的图像惊人的一次
+
+464
+00:20:31,690 --> 00:20:32,980
+again ladies and gentlemen this is
+ 女士们，先生们，这是
+
+465
+00:20:32,980 --> 00:20:35,619
+Walker Skype with Palo Alto education
+ 沃克Skype与帕洛阿尔托教育
+
+466
+00:20:35,619 --> 00:20:38,980
+wishing you a very very wonderful day
+祝你有一个美好的一天
+
+467
+00:20:38,980 --> 00:20:40,325
+thank you
+ 谢谢
+
