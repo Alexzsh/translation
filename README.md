@@ -13,15 +13,15 @@ lastest mission|password
 
 ### Common errors
 >  
-**You need  a blank line between different sentences**
+**You need  a blank line between different sentences**  
 ![Error image](/Image/error1.jpg)
 
 >  
-**You need to combine the context' time**
+**You need to combine the context' time**  
 ![Error image](/Image/error3.jpg)
 
 > 
-**You need to add a blank after '-->' **
+**You need to add a blank after --> **  
 ![Right image](/Image/error4.jpg)
 
 
