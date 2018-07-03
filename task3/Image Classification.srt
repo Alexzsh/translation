@@ -1,0 +1,1215 @@
+﻿1
+00:00:00,030 --> 00:00:01,709
+welcome to the machine learning for
+欢迎来到机器学习
+
+2
+00:00:01,709 --> 00:00:03,928
+students series I'll be your teacher
+ 学生系列我会成为你的老师
+
+3
+00:00:03,928 --> 00:00:05,370
+today and we're going to be learning
+今天，我们将要学习
+
+4
+00:00:05,370 --> 00:00:07,559
+about image classifiers are you ready
+关于图像分类器你准备好了吗？
+
+5
+00:00:07,559 --> 00:00:13,039
+let's go so what is image classification
+让我们去吧图像分类是什么
+
+6
+00:00:13,039 --> 00:00:15,779
+well let's start with the basics
+ 好吧，让我们从基础开始吧
+
+7
+00:00:15,779 --> 00:00:18,118
+it's a subfield of computer vision and
+它是计算机视觉的子场
+
+8
+00:00:18,118 --> 00:00:20,039
+what it does is it helps a computer
+它的作用是帮助计算机
+
+9
+00:00:20,039 --> 00:00:21,089
+learn how to distinguish between
+学习如何区分
+
+10
+00:00:21,089 --> 00:00:23,850
+different objects like our furry friends
+ 像我们毛茸茸的朋友一样不同
+
+11
+00:00:23,850 --> 00:00:25,350
+here the dog in the cat
+这里是猫的狗
+
+12
+00:00:25,350 --> 00:00:27,570
+so where did image classification come
+所以图像分类来自何处
+
+13
+00:00:27,570 --> 00:00:30,449
+from that's an excellent question
+从那是一个很好的问题
+
+14
+00:00:30,449 --> 00:00:32,368
+it's actually been around since the rise
+它实际上是自上升以来一直存在
+
+15
+00:00:32,368 --> 00:00:33,988
+of computers but it hasn't really been
+计算机但它确实没有
+
+16
+00:00:33,988 --> 00:00:38,909
+that good now in 2012 everything changed
+ 现在，2012年的一切 ，良好的改变
+
+17
+00:00:38,909 --> 00:00:41,640
+because of Professor Gregory hen he
+ 因为格雷戈里教授，他
+
+18
+00:00:41,640 --> 00:00:44,549
+proposed using convolutional neural
+提出使用卷积神经网络
+
+19
+00:00:44,549 --> 00:00:48,030
+networks to classify images now that
+网络现在对图像进行分类
+
+20
+00:00:48,030 --> 00:00:50,219
+might sound like a scary word to you but
+可能听起来像是一个可怕的词，但是
+
+21
+00:00:50,219 --> 00:00:52,920
+it's not I promise what it was able to
+这不是我保证能做到的
+
+22
+00:00:52,920 --> 00:00:55,920
+do was classify images of 85% accuracy
+ 做的是对85％准确度的图像进行分类
+
+23
+00:00:55,920 --> 00:00:58,920
+way better than it's ever done been done
+更好的方式比以往任何时候完成已经完成
+
+24
+00:00:58,920 --> 00:01:01,009
+before in the past and it's completely
+ 在过去之前它完全是
+
+25
+00:01:01,009 --> 00:01:04,438
+revolutionized machine learning now
+ 现在彻底改变了机器学习
+
+26
+00:01:04,438 --> 00:01:05,879
+let's get into the history of image
+让我们进入图像的历史
+
+27
+00:01:05,879 --> 00:01:08,519
+classification a little more I'm going
+分类多一点我要去
+
+28
+00:01:08,519 --> 00:01:10,109
+to bring you into the groovy 70s here a
+ 给您带来进入70年代常规这里
+
+29
+00:01:10,109 --> 00:01:13,469
+starter back in the 70s developers used
+首发回到70年代开发人员使用
+
+30
+00:01:13,469 --> 00:01:17,938
+to use nested Nets and very specifically
+使用嵌套网络非常具体
+
+31
+00:01:17,938 --> 00:01:20,340
+to find parameters of images to classify
+ 找到要分类的图像参数
+
+32
+00:01:20,340 --> 00:01:22,739
+them the assumption was that everything
+他们的假设就是一切
+
+33
+00:01:22,739 --> 00:01:24,719
+looked the same we know that that's not
+ 看起来一样，我们知道那不是
+
+34
+00:01:24,719 --> 00:01:27,450
+true not every fish in the ocean looks
+ 真的不是海洋中的每条鱼都看起来
+
+35
+00:01:27,450 --> 00:01:30,060
+the same right well that's where
+同样正确的那就是在哪里
+
+36
+00:01:30,060 --> 00:01:32,099
+convolutional neural networks came in
+卷积神经网络进来了
+
+37
+00:01:32,099 --> 00:01:34,409
+we're gonna fast forward into the 94
+我们要快进到94
+
+38
+00:01:34,409 --> 00:01:36,629
+convolutional neural networks were able
+卷积神经网络能够
+
+39
+00:01:36,629 --> 00:01:40,009
+to be used now fast forward again until
+ 现在再次快速使用，直到
+
+40
+00:01:40,009 --> 00:01:43,709
+2012 an image net that changed all the
+ 2012年改变了所有的图像网
+
+41
+00:01:43,709 --> 00:01:47,009
+rules it gave rise to a whole new world
+规则它带来了一个全新的世界
+
+42
+00:01:47,009 --> 00:01:49,500
+of deep learning kind of like how
+深度学习有点像
+
+43
+00:01:49,500 --> 00:01:51,959
+Michael Jordan changed basketball or how
+迈克尔乔丹改变了篮球或如何
+
+44
+00:01:51,959 --> 00:01:54,599
+Babe Ruth changed baseball or Tom Brady
+ Babe Ruth改变了棒球或Tom Brady 
+
+45
+00:01:54,599 --> 00:01:58,438
+changed football at this point I hope
+ 我希望在这一点上改变足球
+
+46
+00:01:58,438 --> 00:01:59,819
+you're wondering how image
+你想知道如何形象
+
+47
+00:01:59,819 --> 00:02:02,159
+classification actually works well let's
+分类实际上效果很好，让我们
+
+48
+00:02:02,159 --> 00:02:05,549
+start diving into it first it's really
+开始深入到它首先它真的
+
+49
+00:02:05,549 --> 00:02:08,038
+based on a lot of data and computational
+ 基于大量数据和计算
+
+50
+00:02:08,038 --> 00:02:10,139
+power so remember how I was just talking
+力量所以记住我是如何说话的
+
+51
+00:02:10,139 --> 00:02:12,110
+about in the 70s we didn't have
+ 在70年代，我们没有
+
+52
+00:02:12,110 --> 00:02:13,699
+we needed to really do image
+我们需要真正做到形象
+
+53
+00:02:13,699 --> 00:02:16,009
+classification right well we definitely
+分类对我们肯定
+
+54
+00:02:16,009 --> 00:02:19,009
+do now image classification is
+现在要做的图像分类
+
+55
+00:02:19,009 --> 00:02:21,349
+supervised learning classification now
+ 现在监督学习分类
+
+56
+00:02:21,349 --> 00:02:23,000
+that might sound a little intimidating
+这可能听起来有点令人生畏
+
+57
+00:02:23,000 --> 00:02:24,590
+but I promise you it's not I'm going to
+但我向你保证，这不是我要去的
+
+58
+00:02:24,590 --> 00:02:26,629
+go ahead and break it down what it does
+继续前进，打破它，它做什么
+
+59
+00:02:26,629 --> 00:02:28,879
+is it takes a lot of labeled images and
+是它需要大量的标记图像和
+
+60
+00:02:28,879 --> 00:02:31,789
+then it puts those through an input
+然后它通过输入放置那些
+
+61
+00:02:31,789 --> 00:02:34,759
+layer and after that it moves into some
+层，然后它移动到一些
+
+62
+00:02:34,759 --> 00:02:37,580
+hidden layers where the algorithm learns
+ 算法学习的隐藏层
+
+63
+00:02:37,580 --> 00:02:39,439
+a little bit about the images maybe what
+ 关于图像的一点点也许是什么
+
+64
+00:02:39,439 --> 00:02:41,900
+color it is maybe what shape it is and
+颜色可能是它的形状和形状
+
+65
+00:02:41,900 --> 00:02:43,699
+then it puts it into the output layer
+然后它将它放入输出层
+
+66
+00:02:43,699 --> 00:02:46,280
+and tells you what the image actually is
+ 并告诉你图像实际是什么
+
+67
+00:02:46,280 --> 00:02:48,259
+so if we're thinking about it in terms
+所以，如果我们用它来思考它
+
+68
+00:02:48,259 --> 00:02:50,209
+of a dog or a cat
+一只狗或一只猫
+
+69
+00:02:50,209 --> 00:02:52,729
+it'll take thousands and thousands of
+它需要成千上万的
+
+70
+00:02:52,729 --> 00:02:55,159
+images of dogs and a cat it'll put it
+ 狗和猫的图像， 它会把它
+
+71
+00:02:55,159 --> 00:02:58,189
+into this input layer the algorithm then
+ 然后进入这个输入层的算法
+
+72
+00:02:58,189 --> 00:03:01,039
+learns what features about dogs and cats
+ 了解狗和猫的特征
+
+73
+00:03:01,039 --> 00:03:03,409
+we make a dog and a cat a dog and a cat
+我们让狗和猫成为一只狗和一只猫
+
+74
+00:03:03,409 --> 00:03:05,959
+and then it'll tell you whether or not
+ 然后它会告诉你是否不
+
+75
+00:03:05,959 --> 00:03:08,569
+the image is a dog in a cat now once our
+ 现在我们的图像是一只猫的狗
+
+76
+00:03:08,569 --> 00:03:11,509
+algorithm has learned we can use it to
+算法已经学会了我们可以用它来
+
+77
+00:03:11,509 --> 00:03:14,000
+predict images that B has never seen
+ 预测B从未见过的图像
+
+78
+00:03:14,000 --> 00:03:15,830
+before so you can give it a whole bunch
+ 之前你可以给它一大堆
+
+79
+00:03:15,830 --> 00:03:17,539
+of pictures of your own dog and your own
+ 你自己的狗和你自己的狗的照片
+
+80
+00:03:17,539 --> 00:03:20,030
+cat and ask it hey is this a dog or a
+猫，问它嘿这是一只狗还是一只狗
+
+81
+00:03:20,030 --> 00:03:22,969
+cat and it'll let you know so now that
+猫，它现在就让你知道了
+
+82
+00:03:22,969 --> 00:03:25,280
+you know how image classification works
+你知道图像分类是如何工作的
+
+83
+00:03:25,280 --> 00:03:27,080
+let's talk about some of the problems
+ 让我们来谈谈一些 问题
+
+84
+00:03:27,080 --> 00:03:29,000
+that it's solving this is very exciting
+ 它解决这个问题非常令人兴奋
+
+85
+00:03:29,000 --> 00:03:32,269
+stuff it's doing facial detection a lot
+东西它做面部检测了很多
+
+86
+00:03:32,269 --> 00:03:33,860
+of you might have seen this on Facebook
+你可能在Facebook上看过这个
+
+87
+00:03:33,860 --> 00:03:35,389
+you've probably encountered it before
+ 以前你可能已经遇到了它
+
+88
+00:03:35,389 --> 00:03:36,860
+where your friends are pre-selected for
+您的朋友预先选择的地方
+
+89
+00:03:36,860 --> 00:03:38,900
+you and Facebook actually tells you
+ 你和Facebook实际上告诉你
+
+90
+00:03:38,900 --> 00:03:41,209
+who's in a picture I think that's really
+谁在图片中我认为这是真的
+
+91
+00:03:41,209 --> 00:03:44,289
+cool and that's all image classification
+酷，这是所有图像分类
+
+92
+00:03:44,289 --> 00:03:46,430
+self-driving cars use image
+ 自动驾驶汽车使用图像
+
+93
+00:03:46,430 --> 00:03:48,259
+classification because they need to know
+分类， 因为他们需要知道
+
+94
+00:03:48,259 --> 00:03:49,669
+what the difference is between a stop
+停止之间有什么区别
+
+95
+00:03:49,669 --> 00:03:52,009
+sign and a person running into a car
+标志和一个人跑进一辆车
+
+96
+00:03:52,009 --> 00:03:54,349
+they're almost entirely based on image
+它们几乎完全基于图像
+
+97
+00:03:54,349 --> 00:03:55,610
+classification because they actually
+分类因为它们实际上
+
+98
+00:03:55,610 --> 00:03:57,739
+need to see the world around them to
+ 需要看到他们周围的世界，以
+
+99
+00:03:57,739 --> 00:04:00,319
+drive and we're also using facial
+开车，我们也在使用面部护理
+
+100
+00:04:00,319 --> 00:04:02,989
+recognition and security imagine getting
+ 认可和安全想象得到
+
+101
+00:04:02,989 --> 00:04:05,750
+into a house or getting into some sort
+进入房子或进入某种形式
+
+102
+00:04:05,750 --> 00:04:07,909
+of business with a picture of your face
+ 与你的脸 图片的业务
+
+103
+00:04:07,909 --> 00:04:10,759
+it's being used right now in real time
+ 它现在正在实时使用
+
+104
+00:04:10,759 --> 00:04:14,180
+to make your world even more secure so
+让你的世界变得更加安全
+
+105
+00:04:14,180 --> 00:04:16,488
+let's talk about some more uses now I
+ 现在我来谈谈更多用途
+
+106
+00:04:16,488 --> 00:04:18,620
+know that we just went over three but
+我知道我们刚刚超过三个但是
+
+107
+00:04:18,620 --> 00:04:20,389
+this is such exciting stuff and there's
+这是令人兴奋的东西，而且还有
+
+108
+00:04:20,389 --> 00:04:22,279
+so much out there that we need to talk
+如此多的在那里，我们需要谈谈
+
+109
+00:04:22,279 --> 00:04:24,620
+about even more of it let's talk about
+ 有关更多的是让我们来谈谈
+
+110
+00:04:24,620 --> 00:04:25,579
+plant
+厂
+
+111
+00:04:25,579 --> 00:04:28,370
+identification we're using image
+识别我们正在使用图像
+
+112
+00:04:28,370 --> 00:04:30,259
+recognition to be able to identify
+ 承认能够识别
+
+113
+00:04:30,259 --> 00:04:32,930
+whether or not a plant disease that
+无论是否植物疾病
+
+114
+00:04:32,930 --> 00:04:35,000
+means that biologists out there are able
+意味着那里的生物学家有能力
+
+115
+00:04:35,000 --> 00:04:36,769
+to quickly identify which disease the
+ 快速确定哪种疾病
+
+116
+00:04:36,769 --> 00:04:38,629
+plant has and better come up with
+工厂有更好的想法
+
+117
+00:04:38,629 --> 00:04:41,180
+approaches you George for it you're
+ 接近你乔治它 你
+
+118
+00:04:41,180 --> 00:04:43,848
+using smart cameras and smart homes that
+使用智能相机和智能家居是
+
+119
+00:04:43,848 --> 00:04:45,379
+can tell you who's at your door now
+可以告诉你， 现在 谁是在你家门口
+
+120
+00:04:45,379 --> 00:04:47,779
+imagine if you were home the doorbell
+ 想象一下，如果你回家门铃
+
+121
+00:04:47,779 --> 00:04:49,728
+rang and the house immediately said hey
+ 响了，房子马上说嘿
+
+122
+00:04:49,728 --> 00:04:52,158
+grandma's at the front door how great
+ 奶奶在前门有多棒
+
+123
+00:04:52,158 --> 00:04:54,889
+would that be we've also used image
+那就是我们也用过图像
+
+124
+00:04:54,889 --> 00:04:57,079
+recognition and cancer detection what's
+识别和癌症检测是什么
+
+125
+00:04:57,079 --> 00:04:59,478
+really interesting about this example is
+ 这个例子真的很有意思
+
+126
+00:04:59,478 --> 00:05:01,819
+that image recognition was able to find
+ 图像识别能够找到
+
+127
+00:05:01,819 --> 00:05:03,978
+cancer markers that real human
+真正的人类癌症标志物
+
+128
+00:05:03,978 --> 00:05:06,769
+scientists have missed it found things
+ 科学家们错过了它发现的东西
+
+129
+00:05:06,769 --> 00:05:09,459
+about cancer that we didn't even know
+关于我们甚至不知道的癌症
+
+130
+00:05:09,459 --> 00:05:12,139
+now beyond all those examples I just
+现在超越所有这些例子我只是
+
+131
+00:05:12,139 --> 00:05:14,418
+gave let's talk about how image
+让我们谈谈形象如何
+
+132
+00:05:14,418 --> 00:05:16,639
+classification is empowering the future
+分类赋予未来权力
+
+133
+00:05:16,639 --> 00:05:19,579
+of robotics image classification is the
+ 机器人图像分类是
+
+134
+00:05:19,579 --> 00:05:22,639
+basic tool robotics uses to interact
+基本工具机器人用于交互
+
+135
+00:05:22,639 --> 00:05:25,009
+with the world around it a robot doesn't
+ 周围的世界，机器人没有
+
+136
+00:05:25,009 --> 00:05:27,288
+really have eyes so how does it know
+真的有眼睛所以它怎么知道
+
+137
+00:05:27,288 --> 00:05:29,689
+what's around well through image
+什么是通过图像很好
+
+138
+00:05:29,689 --> 00:05:32,269
+classification it has all of those
+分类它有所有这些
+
+139
+00:05:32,269 --> 00:05:34,788
+trained models inside of it so that it
+ 在它内部训练模型以便它
+
+140
+00:05:34,788 --> 00:05:37,459
+knows when it sees a human or animal or
+知道何时看到人或动物或
+
+141
+00:05:37,459 --> 00:05:40,430
+airplane or an alien or an insect what
+飞机或外星人或昆虫是什么
+
+142
+00:05:40,430 --> 00:05:44,120
+those things actually are how cool is
+这些东西实际上是如何的酷是
+
+143
+00:05:44,120 --> 00:05:44,689
+that
+那
+
+144
+00:05:44,689 --> 00:05:47,658
+how does image classification work we're
+我们的图像分类是如何工作的
+
+145
+00:05:47,658 --> 00:05:49,338
+going to go into it into some detail
+要深入研究一些细节
+
+146
+00:05:49,338 --> 00:05:52,310
+what we have here is a convolutional
+ 我们这里有一个卷积
+
+147
+00:05:52,310 --> 00:05:54,019
+neural network and that's what you see
+神经网络，这就是你所看到的
+
+148
+00:05:54,019 --> 00:05:56,870
+on the slide what it does is it takes a
+ 在幻灯片上它做的是需要一个
+
+149
+00:05:56,870 --> 00:05:59,598
+bunch of label images of cats and dogs
+一群猫，狗的标签图像
+
+150
+00:05:59,598 --> 00:06:01,519
+and it puts it into the input letter
+ 它把它放入输入信中
+
+151
+00:06:01,519 --> 00:06:03,319
+that's what you see there on the bottom
+ 这就是你在底部看到的东西
+
+152
+00:06:03,319 --> 00:06:06,139
+now all of those image go into what we
+ 现在所有这些形象都进入我们的行列
+
+153
+00:06:06,139 --> 00:06:08,538
+call activated neurons those are those
+召唤激活的神经元那些是那些
+
+154
+00:06:08,538 --> 00:06:10,699
+hidden layers that's where the
+隐藏的图层就在哪里
+
+155
+00:06:10,699 --> 00:06:12,649
+algorithms trying to figure out what
+ 算法试图找出什么
+
+156
+00:06:12,649 --> 00:06:14,478
+features the images that you gave it are
+功能，你给了它是图像
+
+157
+00:06:14,478 --> 00:06:18,139
+a cat and a dog it might use color it
+ 一只猫和一只狗，它可能会使用颜色
+
+158
+00:06:18,139 --> 00:06:20,449
+might use size it might use shape or
+ 可能会使用它可能使用形状的尺寸
+
+159
+00:06:20,449 --> 00:06:21,680
+distance between the eyes
+ 眼睛之间的距离
+
+160
+00:06:21,680 --> 00:06:24,439
+we don't really know then after it's
+我们真的不那么知道它的后
+
+161
+00:06:24,439 --> 00:06:26,959
+done all of that learning the image will
+完成所有学习图像的所有内容
+
+162
+00:06:26,959 --> 00:06:29,000
+come out into the output layer and the
+ 进入输出层和
+
+163
+00:06:29,000 --> 00:06:30,620
+algorithms gonna let you know whether or
+ 算法会告诉你是否或
+
+164
+00:06:30,620 --> 00:06:32,990
+not it thinks the image is a dog or a
+ 没有它认为图像是狗或
+
+165
+00:06:32,990 --> 00:06:36,168
+cat now this is called a deep neural
+ 猫现在这被称为深度神经
+
+166
+00:06:36,168 --> 00:06:38,680
+network and this is
+网络，这是
+
+167
+00:06:38,680 --> 00:06:40,899
+the latest and greatest in image
+最新最好的形象
+
+168
+00:06:40,899 --> 00:06:43,959
+classification once you have a trained
+分类一旦你有一个训练有素的
+
+169
+00:06:43,959 --> 00:06:46,600
+model you can give the model a new image
+模型你可以给模型一个新的图像
+
+170
+00:06:46,600 --> 00:06:48,668
+that it's never seen before so if the
+ 它以前从未见过如果是的话
+
+171
+00:06:48,668 --> 00:06:50,529
+computers have never seen my dog or my
+电脑从未见过我的狗或我的
+
+172
+00:06:50,529 --> 00:06:52,990
+cat before and I showed a picture of one
+ 猫之前和我展示了一张照片
+
+173
+00:06:52,990 --> 00:06:54,579
+of them it's gonna tell me whether or
+ 他们会告诉我是否
+
+174
+00:06:54,579 --> 00:06:58,120
+not it's my dog or my cat so what real
+ 不是我的狗或我的猫所以真实
+
+175
+00:06:58,120 --> 00:07:00,910
+companies use image classification well
+公司很好地使用图像分类
+
+176
+00:07:00,910 --> 00:07:03,939
+let's get into some examples Google uses
+让我们来看看谷歌使用的一些例子
+
+177
+00:07:03,939 --> 00:07:05,680
+image classification to help you search
+图像分类， 以帮助您搜索
+
+178
+00:07:05,680 --> 00:07:07,839
+the web it'll help you get to where you
+网络它会帮助你到达你的目的地
+
+179
+00:07:07,839 --> 00:07:11,019
+need to go faster Tesla uses image
+ 需要走得更快特斯拉使用图像
+
+180
+00:07:11,019 --> 00:07:13,029
+classifications to develop self-driving
+ 发展自驾车的分类
+
+181
+00:07:13,029 --> 00:07:14,100
+cars
+汽车
+
+182
+00:07:14,100 --> 00:07:16,600
+Facebook uses image classification to
+ Facebook使用图像分类来
+
+183
+00:07:16,600 --> 00:07:17,918
+help you find which friends are in that
+帮助您找到哪些朋友
+
+184
+00:07:17,918 --> 00:07:20,800
+picture you just took and Apple uses
+ 您刚刚拍摄的图片和Apple使用的图片
+
+185
+00:07:20,800 --> 00:07:23,288
+image classification to help you make
+图像分类， 以帮助您
+
+186
+00:07:23,288 --> 00:07:25,389
+those bit mo G's even more fun
+那些有点莫的更有趣
+
+187
+00:07:25,389 --> 00:07:27,250
+they actually track your face and make
+他们实际上跟踪你的脸和制作
+
+188
+00:07:27,250 --> 00:07:29,228
+the same expressions that you do and
+与你相同的表达方式
+
+189
+00:07:29,228 --> 00:07:31,478
+some of you might have actually used all
+ 你们中的一些人可能实际上使用了所有
+
+190
+00:07:31,478 --> 00:07:33,759
+of this already and didn't even know it
+这已经并且甚至都不知道
+
+191
+00:07:33,759 --> 00:07:36,279
+so what if you want to learn more about
+ 那么如果您想了解更多信息呢？
+
+192
+00:07:36,279 --> 00:07:38,649
+image classification in this exciting
+图像分类在这令人兴奋
+
+193
+00:07:38,649 --> 00:07:41,079
+field well we've given you three books
+ 我们给你三本书
+
+194
+00:07:41,079 --> 00:07:43,478
+here that we think are great you have
+在这里， 我们认为你很棒
+
+195
+00:07:43,478 --> 00:07:45,430
+image recognition and classification by
+图像识别与分类
+
+196
+00:07:45,430 --> 00:07:51,788
+barren body you have OpenCV by Gary Brad
+ 贫瘠的身体你有加里布拉德的 OpenCV
+
+197
+00:07:51,788 --> 00:07:53,949
+ste it's part of the O'Reilly series of
+ 它是O'Reilly系列的一部分
+
+198
+00:07:53,949 --> 00:07:56,680
+books and then you have computer vision
+书籍，然后你有计算机视野
+
+199
+00:07:56,680 --> 00:07:59,740
+by Richard Solinsky I'm sure you're
+ 理查德索林斯基，我相信你
+
+200
+00:07:59,740 --> 00:08:02,228
+wondering where can I find real examples
+ 想知道在哪里可以找到真实的例子
+
+201
+00:08:02,228 --> 00:08:03,779
+of the power of image classification
+ 图像分类的力量
+
+202
+00:08:03,779 --> 00:08:07,149
+well we have some here for you first
+ 还有我们有一些在这里为你第一
+
+203
+00:08:07,149 --> 00:08:09,699
+let's talk about google's alphago it
+ 让我们谈谈谷歌的alphago吧
+
+204
+00:08:09,699 --> 00:08:12,639
+beat the world's best go player now if
+ 如果，现在击败世界上最好的球员
+
+205
+00:08:12,639 --> 00:08:14,259
+you don't know what go is it's
+你不知道它到底是什么
+
+206
+00:08:14,259 --> 00:08:16,360
+considered the most nerdy game in the
+被认为是最讨厌的游戏
+
+207
+00:08:16,360 --> 00:08:19,360
+world there's actually more moves in the
+世界上实际上有更多动作
+
+208
+00:08:19,360 --> 00:08:22,300
+game go then there are stars and atoms
+ 游戏然后有星星和原子
+
+209
+00:08:22,300 --> 00:08:25,689
+in our universe and believe it or not
+在我们的宇宙中，信不信由你
+
+210
+00:08:25,689 --> 00:08:27,759
+using image classification and other
+使用图像分类等
+
+211
+00:08:27,759 --> 00:08:30,038
+machine learning techniques Google was
+机器学习技术谷歌
+
+212
+00:08:30,038 --> 00:08:33,009
+able to develop a program to beat the
+ 能够制定一个能够击败的计划
+
+213
+00:08:33,009 --> 00:08:35,620
+best go player you can check out this
+最好的球员你可以看看这个
+
+214
+00:08:35,620 --> 00:08:38,110
+video here on YouTube to see it in
+视频在YouTube上观看
+
+215
+00:08:38,110 --> 00:08:40,719
+action this next examples for all you
+ 为你所有的下一个例子采取行动
+
+216
+00:08:40,719 --> 00:08:42,639
+gamers out there I don't know if any of
+游戏玩家在那里，我不知道是否有任何
+
+217
+00:08:42,639 --> 00:08:44,110
+you guys play the Defense of the
+ 你们玩的是防守
+
+218
+00:08:44,110 --> 00:08:46,659
+Ancients game online but you might think
+古人在线游戏， 但你可能会想
+
+219
+00:08:46,659 --> 00:08:47,110
+it's a
+它是
+
+220
+00:08:47,110 --> 00:08:50,169
+possible for someone to actually be one
+可能有人实际上是一个
+
+221
+00:08:50,169 --> 00:08:51,669
+of the real world players using a
+ 使用a的现实世界玩家
+
+222
+00:08:51,669 --> 00:08:54,100
+computer if you do you'd actually be
+电脑， 如果你这样做，你实际上是
+
+223
+00:08:54,100 --> 00:08:54,789
+wrong
+ 错误
+
+224
+00:08:54,789 --> 00:08:57,429
+open AI was able to develop an algorithm
+ open AI能够开发出一种算法
+
+225
+00:08:57,429 --> 00:09:00,370
+using image classification that was able
+ 使用 能够的 图像分类
+
+226
+00:09:00,370 --> 00:09:03,190
+to beat one of the world's best defense
+ 击败世界上最好的防守之一
+
+227
+00:09:03,190 --> 00:09:05,769
+of the ancient players definitely check
+古代球员肯定会检查
+
+228
+00:09:05,769 --> 00:09:07,328
+out this youtube video if you want to
+ 如果你愿意，可以输出这个youtube视频
+
+229
+00:09:07,328 --> 00:09:10,328
+see that algorithm in action this next
+看到这个下一个 动作是算法
+
+230
+00:09:10,328 --> 00:09:11,828
+example is so exciting
+ 例子是如此令人兴奋
+
+231
+00:09:11,828 --> 00:09:13,980
+Saudi Arabia created its first
+沙特阿拉伯创造了第一个
+
+232
+00:09:13,980 --> 00:09:17,409
+artificial intelligence citizen Sophia
+ 人工智能公民索菲亚
+
+233
+00:09:17,409 --> 00:09:20,289
+she uses image classification to
+ 她使用图像分类来
+
+234
+00:09:20,289 --> 00:09:22,929
+interact with the world around her kind
+ 与她周围的世界互动
+
+235
+00:09:22,929 --> 00:09:24,879
+of like that movie I Robot where the
+ 喜欢那部电影我机器人的地方
+
+236
+00:09:24,879 --> 00:09:27,339
+robots were actually able to communicate
+机器人实际上能够沟通
+
+237
+00:09:27,339 --> 00:09:30,370
+with human beings now take a look at
+与人类现在就来看看
+
+238
+00:09:30,370 --> 00:09:33,039
+this video on YouTube if you want to see
+ 如果你想看到 这个视频在YouTube上
+
+239
+00:09:33,039 --> 00:09:35,559
+that in action I want to thank you very
+ 我在行动中非常感谢你
+
+240
+00:09:35,559 --> 00:09:37,899
+much for taking the time to learn about
+ 多抽出来了解 时间
+
+241
+00:09:37,899 --> 00:09:39,940
+image classification with me today I'm
+ 今天跟我形象分类我是
+
+242
+00:09:39,940 --> 00:09:41,860
+so excited that you're going to be
+太激动了，你会是
+
+243
+00:09:41,860 --> 00:09:43,909
+training these algorithms in a future
+ 将来训练这些算法
+
