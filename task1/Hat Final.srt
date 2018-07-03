@@ -11,7 +11,7 @@ My name is Walker Stipe with palo alto education
 3
 00:00:05,879 --> 00:00:09,120
 and today o today to date today
-今天，没错就是今天
+今天没错就是今天
 
 4
 00:00:09,120 --> 00:00:10,509
@@ -466,7 +466,7 @@ then then we go back to project you may
 113
 00:05:01,170 --> 00:05:05,000
 be wondering Walker why did you move over to the side.
-你可能会很好奇我为什么会移动鼠标到网页边缘。
+你可能会很好奇我为什么会移动鼠标到网页边缘
 
 114
 00:05:05,000 --> 00:05:06,960
@@ -586,7 +586,7 @@ say we're trying to turn a cat into a
 137
 00:06:04,590 --> 00:06:07,890
 dog, a cat into a cup a lamp a house
-狗，一只猫变成一个杯子一盏台灯一座房子
+狗一只猫变成一个杯子一盏台灯一座房子
 
 138
 00:06:07,890 --> 00:06:10,680
@@ -736,7 +736,7 @@ It's a thing I don't know what's called the cool
 167
 00:07:11,979 --> 00:07:14,379
 after you do this you're going to create
-但你做了这件事之后，你就在创造
+但你做了这件事之后你就在创造
 
 168
 00:07:14,379 --> 00:07:17,319
@@ -796,17 +796,17 @@ and my mom both think it's amazing so
 179
 00:07:39,789 --> 00:07:42,370
 it's amazing. There it is. I'm a great
-神奇。事实如此，我是一个伟大的
+神奇事实如此我是一个伟大的
 
 180
 00:07:42,370 --> 00:07:45,550
 artist and there's that all right we
-艺术家，而这就是我的作品。好吧我们
+艺术家而这就是我的作品好吧我们
 
 181
 00:07:45,550 --> 00:07:48,069
 have our script we have our our model is
-已经有了我们的脚本，我们的模型也已经
+已经有了我们的脚本我们的模型也已经
 
 182
 00:07:48,069 --> 00:07:49,389
@@ -851,12 +851,12 @@ said was honestly if you were any
 190
 00:08:14,560 --> 00:08:18,159
 slower you'd be going backwards
-慢一点，你就会倒退
+慢一点你就会倒退
 
 191
 00:08:18,159 --> 00:08:21,490
 what a charmer what a nice guy so this is a
-他多么有魅力的好人啊。所以这就是一个
+他多么有魅力的好人啊 所以这就是一个
 
 192
 00:08:21,490 --> 00:08:25,240
@@ -886,7 +886,7 @@ and we may be doing pyromancy when we thought
 197
 00:08:33,969 --> 00:08:37,709
 we were a frost mage so let's find out
-我们是一个霜冻法师，所以让我们一起发现奥秘吧
+我们是一个霜冻法师 所以让我们一起发现奥秘吧
 
 198
 00:08:37,709 --> 00:08:41,919
@@ -896,7 +896,7 @@ I know about you but I was nervous what
 199
 00:08:41,919 --> 00:08:43,570
 this means is that at the very minimum
-从最简单的层面而言，这意味着
+从最简单的层面而言这意味着
 
 200
 00:08:43,570 --> 00:08:47,770
@@ -911,492 +911,569 @@ right let's look at some
 202
 00:08:48,870 --> 00:08:52,830
 other things that Ronald Weasley has
-一些罗恩·韦斯莱曾经
-
-203
-00:08:52,830 --> 00:08:55,580
-spoken so one of the things he said is
+Ronald Weasley说过的其他东西
 
 204
+00:08:52,830 --> 00:08:55,580
+spoken so one of the things he said is
+其中一件就是
+
+205
 00:08:55,580 --> 00:09:00,450
-don't let the muggles get you down for
+don't let the muggles get you down
+别让麻瓜把你给搞垮了
 
 206
 00:09:00,450 --> 00:09:02,160
-anyone who doesn't know muggles are you
+for anyone who doesn't know muggles are you
+有些人可能不知道麻瓜是指
 
 207
 00:09:02,160 --> 00:09:04,380
 and me the people without magical powers
+没有魔法的人就像我和你
 
 208
 00:09:04,380 --> 00:09:06,480
 now we are gaining our magical powers
+现在我们可以通过机器学习
 
 209
-00:09:06,480 --> 00:09:08,250
-through the power of machine learning so
+00:09:06,480 --> 00:09:08,000
+through the power of machine learning 
+来获得魔法了
 
 210
-00:09:08,250 --> 00:09:11,339
-very soon we're gonna get our message in
+00:09:08,000 --> 00:09:11,339
+so very soon we're gonna get our message in
+所以很快我们就能收到猫头鹰
 
 211
-00:09:11,339 --> 00:09:13,710
-the mail from the owls to hop on
+00:09:11,339 --> 00:09:14,710
+the mail from the owls to hop on Hogwarts
+送来的消息帮我们进入霍格沃兹
 
 212
-00:09:13,710 --> 00:09:15,720
-Hogwarts and it will be awesome where we
+00:09:14,710 --> 00:09:15,720
+and it will be awesome where we
+在那里我们可以学习如何
 
 213
 00:09:15,720 --> 00:09:17,210
 learn to be full-fledged wizards
+变成成熟的巫师
 
 214
-00:09:17,210 --> 00:09:21,150
-handedly amazing so here it worked it
+00:09:17,210 --> 00:09:19,350
+and it will be amazing 
+真是太棒了
 
 215
-00:09:21,150 --> 00:09:21,750
-actually worked
+00:09:19,350 --> 00:09:21,750
+so here it worked it actually worked
+这真的是可行的
 
 216
 00:09:21,750 --> 00:09:23,790
 now we're going to try something a
+现在我们要尝试一件
 
 217
 00:09:23,790 --> 00:09:25,800
 little bit ambitious in fact so
+有一些野心的事
 
 218
 00:09:25,800 --> 00:09:27,690
 ambitious that is the word that we're
+我们将直接用“野心”这个词
 
 219
 00:09:27,690 --> 00:09:29,520
-going to use because chem vicious is
+going to use because ambitious is
+因为这个词是
 
 220
 00:09:29,520 --> 00:09:32,279
 associated with the house of Slytherin
+和斯莱特林学院有关的
 
 221
-00:09:32,279 --> 00:09:36,029
-ambition at all costs so let's see if it
+00:09:32,279 --> 00:09:35,000
+ambition at all costs 
+就是要不惜一切代价达成自己的野心
 
 222
-00:09:36,029 --> 00:09:41,610
-learned it it didn't it didn't learn it
+00:09:35,000 --> 00:09:41,610
+so let's see if it learned it? it didn't, it didn't learn it
+现在我们来看一下它学会这个词了吗？它没有学会
 
 223
 00:09:41,610 --> 00:09:44,190
 what I want all this work I'm using the
+居然没有学会？我用了
 
 224
 00:09:44,190 --> 00:09:46,680
 magic of machine learning in here it
+机器学习的魔法
 
 225
-00:09:46,680 --> 00:09:48,480
-doesn't even learn that Slytherin is
-
-226
-00:09:48,480 --> 00:09:49,650
-ambitious
+00:09:46,680 --> 00:09:49,650
+doesn't even learn that Slytherin is ambitious
+但它居然连斯莱特林是有野心的都没有学会
 
 227
-00:09:49,650 --> 00:09:54,720
-it's a bad hat yeah actually you're
-
-228
-00:09:54,720 --> 00:09:55,140
-right
+00:09:49,650 --> 00:09:55,140
+it's a bad hat yeah actually you are right
+没错 这顶帽子不好
 
 229
 00:09:55,140 --> 00:09:57,029
-you're not even ruffled you're correct
+you're not even wrong you're correct
+你是对的
 
 230
 00:09:57,029 --> 00:09:58,920
 it's not a great hat okay
+这还不是一定好的帽子
 
 231
 00:09:58,920 --> 00:10:00,690
-it's learned let's learn to memorize
+it's learned it's learned to memorize
+它已经能够记住
 
 232
 00:10:00,690 --> 00:10:02,459
 okay it's learned a little bit about
+一些关于
 
 233
-00:10:02,459 --> 00:10:04,290
-Ronald Weasley it's learned a little bit
-
-234
-00:10:04,290 --> 00:10:07,170
-about Draco Malfoy look at that face but
+00:10:02,459 --> 00:10:06,000
+Ronald Weasley it's learned a little bit about Draco Malfoy
+罗恩和德拉科的知识
 
 235
-00:10:07,170 --> 00:10:10,770
-it's not learned Slytherin
+00:10:06,000 --> 00:10:10,770
+look at that face but it's not learned Slytherin
+看看这张脸 但是它还没有学会关于斯莱特林和
 
 236
-00:10:10,770 --> 00:10:12,690
-it is not learned Gryffindor and all
+00:10:10,770 --> 00:10:12,890
+it is not learned Gryffindor and all that
+格兰芬多的知识呀
 
 237
-00:10:12,690 --> 00:10:14,010
-that that means if you watch those
+00:10:12,890 --> 00:10:14,010
+that means if you watch those
+这意味着你看过这些电影
 
 238
-00:10:14,010 --> 00:10:15,870
-movies if read those books but you like
-
-239
-00:10:15,870 --> 00:10:19,320
-get that so well so how did we get our
+00:10:14,010 --> 00:10:17,500
+movies if read those books but you like get that so well 
+读过那些书 你想要更了解？
 
 240
-00:10:19,320 --> 00:10:22,589
-hat to be even better one of the things
+00:10:17,500 --> 00:10:21,589
+so how did we get our hat to be even better 
+所以我们要怎么样来优化这顶帽子呢
 
 241
-00:10:22,589 --> 00:10:25,290
-you will hear more and more if you are
+00:10:21,589 --> 00:10:25,290
+one of the things you will hear more and more if you are
+有一件事你会逐渐了解到
 
 242
 00:10:25,290 --> 00:10:27,089
 in the realm of data science at all
+如果你是在数据科学领域的话
 
 243
 00:10:27,089 --> 00:10:31,350
 is more data you need more data you know
+那就是你需要更多的数据
 
 244
-00:10:31,350 --> 00:10:33,360
-you need to see more of the you know
+00:10:31,350 --> 00:10:34,560
+you need to see more of the you know more about Harry Potter
+你需要更深入地去看哈利波特
 
 245
-00:10:33,360 --> 00:10:34,980
-more about Harry Potter and more about
-
-246
-00:10:34,980 --> 00:10:36,930
-Hermione and all these famous Gryffindor
+00:10:34,560 --> 00:10:37,530
+and more about Hermione and all these famous Gryffindor characters
+更加深入地了解赫敏等著名格兰芬多里的人物
 
 247
-00:10:36,930 --> 00:10:38,520
-characters and then eventually you may
+00:10:37,530 --> 00:10:39,520
+and then eventually you may realize like okay 
+最终你逐渐发觉
 
 248
-00:10:38,520 --> 00:10:40,890
-realize like okay I'm understanding the
-
-249
-00:10:40,890 --> 00:10:42,950
-essence of what it means to be a
+00:10:38,520 --> 00:10:42,950
+I'm understanding the essence of what it means to be a
+自己能理解成为一名格兰芬多人或者
 
 250
-00:10:42,950 --> 00:10:48,450
-Gryffindor or whatever so with our small
+00:10:42,950 --> 00:10:47,450
+Gryffindor or Hufflepuff or whatever 
+赫奇帕奇人的意义
 
 251
-00:10:48,450 --> 00:10:50,880
-10 samples we've really learned because
+00:10:47,450 --> 00:10:50,880
+so with our small 10 samples we've really learned because
+我们已经学习了十个样本
 
 252
 00:10:50,880 --> 00:10:52,440
 what we trained on particularly was
+样本内容是专门针对
 
 253
 00:10:52,440 --> 00:10:55,230
 quotes by Draco so we're gonna learn
+德拉科语录的 所以我们能够
 
 254
 00:10:55,230 --> 00:10:57,180
 Draco pretty well but he's not all of
+十分了解德拉科这个人物 但是他并不代表
 
 255
 00:10:57,180 --> 00:10:59,190
 Slytherin we've learned Ronald Weasley
+斯莱特林 我们也已经了解了罗恩
 
 256
 00:10:59,190 --> 00:11:01,720
-pretty well but not necess
+pretty well but not necessarily
+但是他也不能代表
 
 257
 00:11:01,720 --> 00:11:04,270
 all of Gryffindor because I guess kind
+整个格兰芬多 这样说肯定是
 
 258
-00:11:04,270 --> 00:11:05,500
-of cheated if you want to say it like
+00:11:04,270 --> 00:11:05,900
+of cheated if you want to say it like that
+不够准确的
 
 259
-00:11:05,500 --> 00:11:08,350
-that but that's what we have done and as
+00:11:05,900 --> 00:11:08,350
+but that's what we have done and as
+但是这就是现阶段我们所做的
 
 260
-00:11:08,350 --> 00:11:10,780
-we see it works well for what we trained
+00:11:08,350 --> 00:11:10,980
+we see it works well for what we trained on
+它在已经被训练过的内容上有很好的表现
 
 261
-00:11:10,780 --> 00:11:11,980
-on but if we look for things that we
+00:11:10,980 --> 00:11:11,980
+but if we look for things that we
+但是如果想要更多没有被训练过的
 
 262
 00:11:11,980 --> 00:11:13,810
 have not trained on we probably need
+信息的话 我们就需要录入
 
 263
 00:11:13,810 --> 00:11:16,840
 more data to get a better vision of the
+更多的数据来对整个魔法世界有一个
 
 264
-00:11:16,840 --> 00:11:18,610
-magical world all righty
+00:11:16,840 --> 00:11:17,610
+magical world
+更全面的视角
 
 265
-00:11:18,610 --> 00:11:20,380
-we've made it ladies and gentlemen
+00:11:17,610 --> 00:11:20,380
+all right we've made it ladies and gentlemen
+女士们先生们 我们做到了
 
 266
-00:11:20,380 --> 00:11:23,710
-welcome welcome to Hogwarts where we
+00:11:20,380 --> 00:11:22,710
+welcome welcome to Hogwarts 
+欢迎来到霍格沃茨
 
 267
-00:11:23,710 --> 00:11:25,420
-learn with Sheena learning all day long
+00:11:22,710 --> 00:11:25,420
+where we learn machine learning all day long
+在这里我们将持续学习机器学习
 
 268
 00:11:25,420 --> 00:11:27,040
 and become better wizards and more
+成为更好的巫师和
 
 269
-00:11:27,040 --> 00:11:29,800
-friendly people all the day long we done
+00:11:27,040 --> 00:11:28,200
+friendly people all the day long
+更友善的人
 
 270
-00:11:29,800 --> 00:11:31,720
-today what have we done well we created
-
+00:11:28,200 --> 00:11:30,720
+what we've done today what have we done well 
+我们今天完成了什么呢
+ 
 271
-00:11:31,720 --> 00:11:34,480
-a hat what does this hat do wonderful
+00:11:30,720 --> 00:11:34,000
+we created a hat what does this hat do
+我们创造了一定帽子 这顶帽子有什么用呢
 
 272
-00:11:34,480 --> 00:11:37,420
-question this hat is a classifier hat
+00:11:34,000 --> 00:11:37,420
+wonderful question this hat is a classifier hat
+问得好 这顶帽子可以分类
 
 273
 00:11:37,420 --> 00:11:39,520
-all right so we have four classes right
+all right so we have four classes all right
+我们有四个学院
 
 274
 00:11:39,520 --> 00:11:41,920
 we have our Gryffindor's we have our
+比如格兰芬多
 
 275
 00:11:41,920 --> 00:11:44,380
 slytherins and we have a hufflepuffs and
-
+斯莱特林赫奇帕奇
+ 
 276
 00:11:44,380 --> 00:11:46,660
 what we want to do is we want to tell is
+我们要做的就是用这顶帽子来判断
 
 277
 00:11:46,660 --> 00:11:48,610
 this person just does he fit in here
+这个人是否适合这个学院
 
 278
 00:11:48,610 --> 00:11:50,500
-does he is easy as leather is this ass
+is he a slyterin a slyterin person
+他是应该在斯莱特林
 
 279
-00:11:50,500 --> 00:11:51,670
-leather in person this is a is this a
+00:11:50,500 --> 00:11:52,000
+a slyterin person is this a ravenclaw 
+或者在拉文克劳
 
 280
-00:11:51,670 --> 00:11:54,190
-ravenclaw see so Hufflepuff or perhaps a
+00:11:52,000 --> 00:11:54,890
+is he a Hufflepuff or perhaps a Gryffindor
+还是在赫奇帕奇或者在格兰芬多
 
 281
-00:11:54,190 --> 00:11:58,330
-Gryffindor now as we see it wasn't it
+00:11:54,890 --> 00:11:58,330
+now as we see it wasn't it
+我们已经发现这个分类
 
 282
 00:11:58,330 --> 00:12:00,340
 wasn't it wasn't easy okay it learns
+并不简单 这个帽子确实
 
 283
-00:12:00,340 --> 00:12:02,710
-some things but it didn't learn all
+00:12:00,340 --> 00:12:02,990
+some things but it didn't learn all things
+学了一些东西 但它并没有学到所有东西
 
 284
-00:12:02,710 --> 00:12:04,270
-things and maybe your model when you
+00:12:02,990 --> 00:12:04,270
+and maybe your model when you
+所以也许你自己测试的时候
 
 285
 00:12:04,270 --> 00:12:06,220
 test it you know it does actually well
+它可能表现很好
 
 286
-00:12:06,220 --> 00:12:08,110
-or it doesn't do very well on on certain
+00:12:06,220 --> 00:12:08,610
+or it doesn't do very well on certain things
+它在一些事情上也可能表现得不理想
 
 287
-00:12:08,110 --> 00:12:10,090
-things and there many things we can do
+00:12:08,610 --> 00:12:10,090
+and there many things we can do
+我们能做很多事情来
 
 288
-00:12:10,090 --> 00:12:12,370
-to get that better but even the best
-
-289
-00:12:12,370 --> 00:12:14,740
-Wizards in the land I'm talking I'm
+00:12:10,090 --> 00:12:14,740
+to get that better but even the best Wizards in the land I'm talking I'm
+优化它 但是就算是最好的巫师
 
 290
 00:12:14,740 --> 00:12:16,720
 talking Godric Gryffindor I'm talking
+像戈德里克·格兰芬多
 
 291
 00:12:16,720 --> 00:12:18,280
 I'm talking Harry Potter himself a
+或者是哈利波特本人
 
 292
 00:12:18,280 --> 00:12:21,400
 Dumbledore perhaps even dare I say it's
+邓布利多
 
 293
 00:12:21,400 --> 00:12:23,260
 Voldemort that's right I said it
+甚至是伏地魔
 
 294
 00:12:23,260 --> 00:12:25,780
 I did it they even have a hard time with
+他们都很难做到
 
 295
 00:12:25,780 --> 00:12:27,790
 this okay these are very very difficult
+这是一个非常难掌握
 
 296
-00:12:27,790 --> 00:12:30,160
-spells to master natural language
+00:12:27,790 --> 00:12:30,760
+spells to master natural language processing
+的法术 自然语言处理
 
 297
-00:12:30,160 --> 00:12:31,960
-processing is the type of magic that
+00:12:30,760 --> 00:12:32,960
+is the type of magic that this is 
+就是我们所用的魔法
 
 298
-00:12:31,960 --> 00:12:33,850
-this is this is not pyromancy we're not
+00:12:32,960 --> 00:12:33,850
+this is not pyromancy we're not
+这不是火占卜
 
 299
 00:12:33,850 --> 00:12:35,770
 being a frost mage or even a necromancer
+也不是冰霜法师或是亡灵巫师
 
 300
 00:12:35,770 --> 00:12:38,110
 okay this is known as natural language
+这就是自然语言
 
 301
 00:12:38,110 --> 00:12:40,420
 processing because language it's natural
+处理 因为语言是自然的
 
 302
 00:12:40,420 --> 00:12:42,910
-it's what we speak talking about wizards
+it's what we speak we are talking about wizards
+是我们日常就要说的  我们聊巫师
 
 303
 00:12:42,910 --> 00:12:44,890
 and whatever and we want to you know
+聊其他的东西 我们想要
 
 304
 00:12:44,890 --> 00:12:46,930
-process this information we won't want
+process this information we want
+处理这些信息 我们想要知道
 
 305
 00:12:46,930 --> 00:12:48,790
 to know stuff about what we're saying
+我们在说些什么
 
 306
 00:12:48,790 --> 00:12:50,470
 that's literally what that means is
+所以这就是字面上的意思
 
 307
-00:12:50,470 --> 00:12:51,940
-knowing what the heck we're talking
+00:12:50,470 --> 00:12:51,540
+knowing what the heck we're talking about
+我们希望能知道我们到底在说些什么
 
 308
-00:12:51,940 --> 00:12:54,400
-about so it's really really hard and
+00:12:51,540 --> 00:12:54,400
+so it's really really hard and
+所以这真的非常难
 
 309
-00:12:54,400 --> 00:12:57,730
-even Dumbledore has a hard time so what
+00:12:54,400 --> 00:12:57,130
+even Dumbledore has a hard time 
+就算是邓布利多都很难做到
 
 310
-00:12:57,730 --> 00:12:58,810
-this means is that there's a ton of
+00:12:57,130 --> 00:12:59,810
+so what this means is that there's a ton of research being done 
+这也意味着已经完成了大量的实验
 
 311
-00:12:58,810 --> 00:13:00,760
-research being done to this there are
-
-312
-00:13:00,760 --> 00:13:02,860
-great minds great Wizards doing
+00:12:59,810 --> 00:13:02,860
+to this there are great minds great Wizards doing
+全球优秀的人 优秀的“巫师”
 
 313
 00:13:02,860 --> 00:13:06,490
 incredible things all over the globe to
+做了很多很棒的事
 
 314
-00:13:06,490 --> 00:13:08,530
-attempt to get better at understanding
+00:13:06,490 --> 00:13:08,830
+attempt to get better at understanding words
+来尝试对字词有更好的理解
 
 315
-00:13:08,530 --> 00:13:10,570
-words so as we can see with our half
+00:13:08,830 --> 00:13:10,570
+so as we can see with our half
+所以通过我们的努力
 
 316
 00:13:10,570 --> 00:13:12,430
 that we made here we can do some things
+我们可以做一些事
 
 317
-00:13:12,430 --> 00:13:15,130
-but it's still very hard so I hope we
-
-318
-00:13:15,130 --> 00:13:15,400
-have
+00:13:12,430 --> 00:13:15,400
+but it's still very hard so I hope we have
+但是这还是非常难的 所以我希望我们能够
 
 319
 00:13:15,400 --> 00:13:17,860
 sited some excitement towards the magic
+激起大家对
 
 320
 00:13:17,860 --> 00:13:19,690
 of this great new realm known as natural
+自然语言处理这个新领域的兴趣
 
 321
 00:13:19,690 --> 00:13:22,740
 language processing also known as words
+也就是对字词的兴趣
 
 322
 00:13:22,740 --> 00:13:25,600
 so once again this is Walker Stipe from
+好啦 大家记住 我是来自Palo Alto的
 
 323
 00:13:25,600 --> 00:13:28,780
 Palo Alto education hoping that you have
+walker stipe 希望大家有
 
 324
 00:13:28,780 --> 00:13:30,910
 a wonderful wonderful day thank you and
+美好的一天 谢谢大家
 
 325
 00:13:30,910 --> 00:13:33,120
 goodbye
+再见
