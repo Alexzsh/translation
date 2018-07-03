@@ -2,10 +2,10 @@
 
 ----------
 
-lastest mission|password
-:------|:-------
- https://pan.baidu.com/s/1jKWJHdVhFFwhdO8teeHa_g|fc1c
-
+id|task|password
+:-----|:------|:-------
+ 1|https://pan.baidu.com/s/1jKWJHdVhFFwhdO8teeHa_g|fc1c
+ 2|https://pan.baidu.com/s/1ggaz6SfQV8mbWm1iSkTzuA|2jf7
 ----------
 
 ### Standard content
