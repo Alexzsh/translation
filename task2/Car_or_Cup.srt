@@ -1,0 +1,1120 @@
+﻿1
+00:00:00,000 --> 00:00:02,040
+hello ladies and gentlemen and welcome
+女士们先生们 大家好
+
+2
+00:00:02,040 --> 00:00:04,259
+my name is Walker Stipe of Palo Alto
+我是来自Palo Alto的Walker Stipe
+
+3
+00:00:04,259 --> 00:00:07,469
+education and today we're gonna be doing
+今天我们要来做
+
+4
+00:00:07,469 --> 00:00:08,849
+some fun stuff we're gonna be
+一些有趣的事 我们要来看一看
+
+5
+00:00:08,849 --> 00:00:11,039
+determining the difference between cars
+汽车和杯子之间的差异
+
+6
+00:00:11,039 --> 00:00:14,039
+so just a Batmobile right here which is
+这是一辆蝙蝠车
+
+7
+00:00:14,039 --> 00:00:18,899
+so cool and cups I don't have an image of cups
+很酷吧 至于杯子 我这里没有杯子的图片
+
+8
+00:00:18,899 --> 00:00:21,629
+so I shall show you an image of
+但我有一个杯子可以给大家看一下
+
+9
+00:00:21,629 --> 00:00:25,199
+a cup this is an image of a cup it's a
+我手上是一个杯子
+
+10
+00:00:25,199 --> 00:00:27,180
+coffee cup at least right now it is 
+一个普通的咖啡杯 其实我们
+
+11
+00:00:27,180 --> 00:00:29,939
+it could be filled with anything but the
+可以装任何东西进去 但是
+
+12
+00:00:29,939 --> 00:00:32,219
+moment is filled with coffee so we're gonna
+现在里面装的是咖啡 现在
+
+13
+00:00:32,219 --> 00:00:34,500
+be doing that and we're gonna be yeah
+我们就要
+
+14
+00:00:34,500 --> 00:00:35,820
+we're gonna be doing that that's what
+没错
+
+15
+00:00:35,820 --> 00:00:38,520
+we're doing we're gonna be using machine learning
+我们将用机器学习
+
+16
+00:00:38,520 --> 00:00:39,329
+to determine the difference
+来探究汽车
+
+17
+00:00:39,329 --> 00:00:41,189
+between a car and a cup so we're gonna
+和杯子之间的差异 我们要
+
+18
+00:00:41,189 --> 00:00:44,399
+collect some data collect some pictures
+收集一些汽车的数据和图片
+
+19
+00:00:44,399 --> 00:00:47,509
+of cars whatever cars you want it's up to you
+你自己决定要什么样子的车
+
+20
+00:00:47,509 --> 00:00:50,488
+if you want to the only supercars
+你可以只想要超级跑车
+
+21
+00:00:50,488 --> 00:00:53,058
+I did I only want the fast ones
+我就只想要最快的那一辆车
+
+22
+00:00:53,058 --> 00:00:56,960
+whoopsies and only cups that were dragon cups
+哈哈 而杯子就是有龙图案的杯子了
+
+23
+00:00:56,960 --> 00:01:00,179
+I only use dragon cups because that
+我用了这个杯子 因为
+
+24
+00:01:00,179 --> 00:01:01,979
+was an option to me and I took that option
+我只有这一个选择
+
+25
+00:01:01,979 --> 00:01:03,710
+so we can have some fun with this one
+好了 我们来做有趣的事吧
+
+26
+00:01:03,710 --> 00:01:05,118
+and we will but yeah that's
+没错 这就是
+
+27
+00:01:05,118 --> 00:01:08,140
+that's the goal today so let's jump in 
+我们今天的目标 我们赶紧
+
+28
+00:01:08,140 --> 00:01:10,890
+to getting that done to doing that yeah
+开始吧！
+
+29
+00:01:10,890 --> 00:01:13,590
+alrighty so the first step we are gonna
+我们要完成
+
+30
+00:01:13,590 --> 00:01:15,989
+take toward the end of achieving our
+这个项目最终目标的
+
+31
+00:01:15,989 --> 00:01:18,478
+goals for this project is to be getting
+第一步就是输入
+
+32
+00:01:18,478 --> 00:01:21,329
+to the correct website this website is
+正确的网站 网址是
+
+33
+00:01:21,329 --> 00:01:24,569
+machinelearningforkids.co.uk
+machinelearningforkids.co.uk
+
+34
+00:01:24,569 --> 00:01:27,989
+also known as this guy right here right
+也就是屏幕上的这个
+
+35
+00:01:27,989 --> 00:01:30,390
+yeah boom awesome we got it you can also
+你也可以
+
+36
+00:01:30,390 --> 00:01:32,670
+just type into your google or whatever
+在谷歌或其他搜索引擎
+
+37
+00:01:32,670 --> 00:01:35,129
+machinelearningforkids and it should
+machinelearningforkids 这个网站会
+
+38
+00:01:35,129 --> 00:01:37,530
+be the first option once you're here
+会第一个显示出来 
+
+39
+00:01:37,530 --> 00:01:40,200
+welcome first of all I do want you to login
+找到网站后希望大家先登陆
+
+40
+00:01:40,200 --> 00:01:43,060
+don't forget to login it's very important
+千万不要忘记登陆啦 这很重要
+
+41
+00:01:43,060 --> 00:01:44,728
+you're gonna scroll it down to
+把网页往下拉一点
+
+42
+00:01:44,728 --> 00:01:47,189
+the good old fashioned car or cup
+看到“好的老式汽车或者杯子”
+
+43
+00:01:47,189 --> 00:01:50,878
+dude so many options we're gonna pick this one
+天哪 我们要挑选这么多选项 我们要选这个
+
+44
+00:01:50,878 --> 00:01:52,200
+because we're gonna be individuals
+因为我们是以个人
+
+45
+00:01:52,200 --> 00:01:56,629
+and the students we're making this thing
+和学生的身份登陆的 而且我们即将要来做这件事
+
+46
+00:01:56,629 --> 00:01:58,138
+wonderful ladies and gentleman
+很棒 女士们先生们
+
+47
+00:01:58,138 --> 00:02:00,478
+we clicked on the link I hope you clicked
+点击链接
+
+48
+00:02:00,478 --> 00:02:03,438
+on the link and we arrived at this page here
+随后我们到达了这个页面
+
+49
+00:02:03,438 --> 00:02:06,659
+boom yes moving on we see this
+哇 这里有很多东西
+
+50
+00:02:06,659 --> 00:02:07,550
+stuff we're gonna scroll down on
+滑动鼠标下拉页面
+
+51
+00:02:07,550 --> 00:02:09,239
+this is kind of what its gonna look like
+这大概就是我们要完成的东西
+
+52
+00:02:09,239 --> 00:02:11,959
+we are gonna have cars over one side for cups
+一边是车子一边是杯子
+
+53
+00:02:11,959 --> 00:02:13,878
+and we're gonna have all these scripts
+还有所有的这些脚本
+
+54
+00:02:13,878 --> 00:02:17,498
+doing our amazing things over to the other side
+来做神奇的事情
+
+55
+00:02:17,498 --> 00:02:20,150
+yeah we would like to move on
+继续往下
+
+56
+00:02:20,150 --> 00:02:23,060
+to the next portion get our data first
+我们要获取数据
+
+57
+00:02:23,060 --> 00:02:24,229
+we want to make our project so we're
+我们要实现我们的项目就要
+
+58
+00:02:24,229 --> 00:02:25,478
+gonna follow this little process here
+遵循这些过程
+
+59
+00:02:25,478 --> 00:02:27,400
+if you've done an any of these other
+如果你已经完成了其他任何一个
+
+60
+ 00:02:27,400 --> 00:02:29,359
+projects then you'll know how this works
+项目 那么你会知道这是如何运作的
+
+61
+00:02:29,359 --> 00:02:31,519
+it's gonna go into your projects you're
+你要先进入到你的项目里
+
+62
+00:02:31,519 --> 00:02:32,900
+gonna make one so we're gonna go to
+然后我们要
+
+63
+00:02:32,900 --> 00:02:35,269
+projects we're gonna make a new project
+新建一个项目
+
+64
+00:02:35,269 --> 00:02:36,859
+we're gonna name it kind of whatever you
+你可以用任何名字来命名它
+
+65
+00:02:36,859 --> 00:02:40,0530
+want but I named my car or cup 
+我把它命名为 车或杯子
+
+66
+00:02:40,530 --> 00:02:44,239
+it's recognizing images awesome awesome
+它正在识别图像 太棒了
+
+67
+00:02:44,239 --> 00:02:47,299
+awesome awesome now we want to train it
+现在我们要训练它
+
+68
+00:02:47,299 --> 00:02:49,340
+right make sure this is good
+来确保它是好的
+
+69
+00:02:49,340 --> 00:02:52,459
+this is where we do this yes this is
+往下拉 这里就是
+
+70
+00:02:52,459 --> 00:02:54,430
+where we do this wonderful all right so
+我们要训练它的地方了
+
+71
+00:02:54,430 --> 00:02:57,939
+it's time to have a good time ladies and gentlemen
+女士们先生们 现在
+
+72
+00:02:57,939 --> 00:02:59,239
+Oh what we're gonna do is
+我们要做的是
+
+73
+00:02:59,239 --> 00:03:01,579
+we're gonna grab awesome pictures from
+就是从网页中挑选
+
+74
+00:03:01,579 --> 00:03:04,789
+the interwebs of cars and cups
+汽车和杯子的照片
+
+75
+00:03:04,789 --> 00:03:07,908
+I must highly recommend to you that you
+我强烈推荐你
+
+76
+00:03:07,908 --> 00:03:10,158
+stick with the car or cup theme because
+坚持汽车或杯子的主题，因为
+
+77
+00:03:10,158 --> 00:03:13,370
+I tried to go to some sci-fi I try to
+我试着去尝试一些科幻类型的 我试过
+
+78
+00:03:13,370 --> 00:03:15,438
+put like two types of aliens the Zerg
+把两个类型的外星人 比如异族
+
+79
+00:03:15,438 --> 00:03:16,969
+and the Protoss from one of my favorite
+星灵放在一起 它们都是我最喜欢的
+
+80
+00:03:16,969 --> 00:03:17,539
+video games
+游戏
+
+81
+00:03:17,539 --> 00:03:20,959
+Starcraft and it didn't know what to do
+星际争霸里的 用这两个的时候程序就不知道该怎么做
+
+82
+00:03:20,959 --> 00:03:24,169
+because this one is looking for cars and
+因为它只在寻找汽车和
+
+83
+00:03:24,169 --> 00:03:28,310
+cups specifically anything else and just
+杯子 其他的东西无法
+
+84
+00:03:28,310 --> 00:03:29,160
+won't work and it would be sad 
+让它正常工作 这很可惜
+
+85
+00:03:29,160 --> 00:03:32,658
+so highly recommend you do cars and you do cups
+所以我强烈建议你做汽车和杯子
+
+86
+00:03:32,658 --> 00:03:34,818
+but there's some cool cups out there
+而且有些杯子是很酷的
+
+87
+00:03:34,818 --> 00:03:36,439
+look at these guys we got we got a face cup
+看看这些杯子 有的是一张脸
+
+88
+00:03:36,439 --> 00:03:39,789
+I don't want a face cup
+我不想要有一张脸的杯子
+
+89
+00:03:39,789 --> 00:03:42,008
+there are really cool cups out there 
+但还是有很多很酷的杯子的 
+
+90
+00:03:42,008 --> 00:03:45,039
+and obviouslythere's some really cool cars
+显然还有一些非常酷的车
+
+91
+00:03:45,039 --> 00:03:50,389
+so cool once we do this well first of all
+太酷了 做好这个事情之后
+
+92
+00:03:50,389 --> 00:03:54,489
+it is awesome quick side note make sure let's
+要注意啦
+
+93
+00:03:54,489 --> 00:03:56,810
+yeah so you don't want to do copy image
+我们不是点击复制图像
+
+94
+00:03:56,810 --> 00:03:58,908
+and I do that you're copying the image address
+而是复制图片地址
+
+95
+00:03:58,908 --> 00:04:02,519
+right and it actually might
+没错了 要选“复制图片地址”
+
+96
+00:04:02,519 --> 00:04:05,780
+take a second just kind of weird and like
+有点奇怪 要花一些时间哦
+
+97
+00:04:05,780 --> 00:04:10,280
+when you go here as we see it's pretty
+然后你点击这个 你会发现它确实很
+
+98
+00:04:10,280 --> 00:04:10,699
+short
+短
+
+99
+00:04:10,699 --> 00:04:14,870
+46 okay sometimes it would be like 8,000
+只有46 好吧有时候会是8000
+
+100
+00:04:14,870 --> 00:04:16,399
+you're lik e no it's too big I'm only
+我们不需要太大的 最多
+
+101
+00:04:16,399 --> 00:04:18,649
+allowed to do a thousand if it does that
+1000就可以啦 如果太大了
+
+102
+00:04:18,649 --> 00:04:21,529
+just try again its kind of pain but
+你就需要重新试一次啦 
+
+103
+00:04:21,529 --> 00:04:22,579
+it should work
+应该管用
+
+104
+00:04:22,579 --> 00:04:26,089
+rock on I hope that you have chosen at
+棒 我希望你已经选择了
+
+105
+00:04:26,089 --> 00:04:29,149
+least 10 tennis and imported at least
+并上传了至少十个？？？
+
+106
+00:04:29,149 --> 00:04:32,778
+ten images of each car and each Cup like
+每辆车和每个杯子都要有十张图像
+
+107
+00:04:32,778 --> 00:04:34,939
+total you only need ten images total 
+总共只需要10张图像
+
+108
+00:04:34,939 --> 00:04:36,769
+not kind of each that be a hundred and would
+不是每一种类都有十张 这样就有一百张图啦
+
+109
+00:04:36,769 --> 00:04:38,209
+be a lot don't do that
+这样就太多了 我们不这么做
+
+110
+00:04:38,209 --> 00:04:40,189
+all right so once you have done so go
+好了 做完之后呢
+
+111
+00:04:40,189 --> 00:04:42,709
+back to a project and this is where the
+我们回到项目里 这就是
+
+112
+00:04:42,709 --> 00:04:43,788
+magic happens
+魔法发生的地方啦
+
+113
+00:04:43,788 --> 00:04:46,100
+oh my goodness I'm so excited
+我的天啊 我很兴奋
+
+114
+00:04:46,310 --> 00:04:48,528
+we are gonna do the machine learning bit now
+我们现在要来进行一些机器学习
+
+115
+00:04:48,528 --> 00:04:50,629
+which is so cool so we're gonna go back
+酷爆了 我们回到
+
+116
+00:04:50,629 --> 00:04:53,718
+to our projects boom car or cup here it
+项目的页面 点击“汽车或杯子”
+
+117
+00:04:53,718 --> 00:04:57,588
+is learn and test yes and actually need
+再点击"学习和测试" 我们需要
+
+118
+00:04:57,588 --> 00:05:00,079
+to do this because another important
+赶紧这样做 因为我们
+
+119
+00:05:00,079 --> 00:05:01,459
+thing to note is that these things
+要注意这些东西
+
+120
+00:05:01,459 --> 00:05:02,569
+expire
+是会过期的呀
+
+121
+00:05:02,569 --> 00:05:04,560
+right so if you train something yesterday
+比如你昨天训练了一些东西
+
+122
+00:05:04,560 --> 00:05:06,079
+you have your model the next
+你建立了你的模型 第二天
+
+123
+00:05:06,079 --> 00:05:07,970
+day it is probably deleted 
+它可能已经被删除
+
+124
+00:05:07,970 --> 00:05:10,269
+and you'll be frustrated
+这就很让人难过了
+
+125
+00:05:10,269 --> 00:05:13,399
+skip that whole shebang and make your
+忽略那个 ？？ 我们来做
+
+126
+00:05:13,399 --> 00:05:14,439
+model so we're doing that here 
+模型吧 我们在这个页面上做
+
+127
+00:05:14,439 --> 00:05:17,209
+in a moment we will see the screen that we
+不一会儿 我们看着屏幕
+
+128
+00:05:17,209 --> 00:05:19,459
+would like to see that's like hey this
+希望看到
+
+129
+00:05:19,459 --> 00:05:22,430
+worked so while does that we are gonna
+它真的成功了 然后我们
+
+130
+00:05:22,430 --> 00:05:25,639
+go ahead discreetly move awesome
+继续
+
+131
+00:05:25,639 --> 00:05:27,829
+it is doing that it's happening it's waiting
+它正在完成 耐心等待
+
+132
+00:05:27,829 --> 00:05:32,280
+yes yes yes now we're gonna go into scratch
+现在我们要进入脚本
+
+133
+00:05:32,280 --> 00:05:34,680
+if it is complete is it complete
+它是否完整呢
+
+134
+00:05:34,680 --> 00:05:37,560
+it is not complete but it will be in a moment
+它并不完整 但是马上它就要完整了
+
+135
+00:05:37,560 --> 00:05:43,440
+in which case and yes ladies and gentlemen
+只要机器训练成功 各位同学
+
+136
+00:05:43,440 --> 00:05:46,320
+it worked we trained our machine learning model
+我们成功啦 我们训练了机器学习模型 
+
+137
+00:05:46,320 --> 00:05:49,680
+and boom here it is the work of our labor
+这就是我们辛苦劳动的成果
+
+138
+00:05:49,680 --> 00:05:51,000
+and while we are waiting
+在你等待的时候
+
+139
+00:05:51,000 --> 00:05:52,668
+we should see a screen such this now
+你可以好好看看这个页面
+
+140
+00:05:52,668 --> 00:05:57,600
+we're gonna go back to scratch
+我们先回到脚本
+
+142
+00:05:57,600 --> 00:06:00,840
+boom here we go we open it up
+我们打开它 然后进去
+
+142
+00:06:00,840 --> 00:06:03,000
+and it looks like this of course it does
+它是这个样子的 当然啦
+
+143
+00:06:03,000 --> 00:06:05,960
+yes alright so we want to open the project templates
+我们现在要打开工程模板
+
+144
+00:06:05,960 --> 00:06:08,720
+we're working on the car or cup dude
+就是我们正在做的 车和杯子
+
+145
+00:06:08,720 --> 00:06:10,520
+pop that open now
+现在把它打开
+
+146
+00:06:10,520 --> 00:06:13,009
+before we do any smooth coding and
+我们顺利写代码之前
+
+147
+00:06:13,009 --> 00:06:16,370
+things such as this try it out all right
+我们先试一下 
+
+148
+00:06:16,370 --> 00:06:18,800
+let's see what it does
+看看到底会得到什么结果
+
+149
+00:06:19,519 --> 00:06:21,709
+what you see is that it probably isn't gonna work
+大多数情况下 它不会运行
+
+150
+00:06:21,709 --> 00:06:24,939
+right at the back that's when we hop into
+所以我们现在要回到材料中
+
+151
+00:06:24,939 --> 00:06:29,649
+looking at code we're gonna change right
+看看代码 然后对其进行调整
+
+152
+00:06:29,649 --> 00:06:31,180
+so we need to change some things around
+我们需要做出调整
+
+153
+00:06:31,180 --> 00:06:34,480
+so let's do it we tried it but it doesn't work
+因为我们试过了 它不能运行
+
+154
+00:06:34,480 --> 00:06:36,000
+let‘s change these around we're gonna click
+所以我们要进行调整 我们要点击
+
+155
+00:06:36,000 --> 00:06:38,769
+on our good old mystery sprite mysteries
+神秘的老爷车图片
+
+156
+00:06:38,769 --> 00:06:42,519
+and we're gonna change
+我们要调整一下 
+
+157
+00:06:42,519 --> 00:06:45,000
+some things around to look like this
+页面要看起来像这个样子
+
+158
+00:06:46,000 --> 00:06:48,430
+perhaps this is your first time change things around 
+可能这是你第一次在脚本里面
+
+159
+00:06:48,430 --> 00:06:50,470
+in scratch that is okay
+做一些调整 没关系
+
+160
+00:06:50,470 --> 00:06:52,779
+perhaps you are not a veteran
+你可能是个老手
+
+161
+00:06:52,779 --> 00:06:54,000
+you know what you're doing 
+你知道你要做什么
+
+162
+00:06:54,000 --> 00:06:56,160
+you can move around adeptly adroitly
+你可以熟练快速的做到的
+
+163
+00:06:56,160 --> 00:07:00,250
+other words that mean good yeah
+反正你能很好做到
+
+163
+00:07:00,250 --> 00:07:02,589
+so changed around to look like this 
+把它调整成这个样子
+
+164
+00:07:02,589 --> 00:07:03,639
+honest to stick with this 
+一定要按照这个来
+
+165
+00:07:03,639 --> 00:07:05,889
+or one could get messed up very possible  
+不然很容易失败
+
+166
+00:07:05,889 --> 00:07:08,649
+so once you've done so then kid you not
+做完这一步之后
+
+167
+00:07:08,649 --> 00:07:11,899
+we're just ready we're ready to test it out
+我们准备好可以测试啦
+
+168
+00:07:11,899 --> 00:07:15,250
+so let's do it
+让我们试试看吧
+
+169
+00:07:15,250 --> 00:07:18,740
+full screen we're gonna click the button
+全屏 然后点这个按钮
+
+170
+00:07:18,740 --> 00:07:22,000
+my computer this goes very slowly
+这个在我电脑上走的很慢
+
+171
+00:07:22,000 --> 00:07:24,519
+but as we see it's put a car
+但是至少它把一辆车
+
+172
+00:07:24,519 --> 00:07:25,810
+I believe that this car is a little
+一辆小型的电动车
+
+173
+00:07:25,810 --> 00:07:28,240
+smart cars so cute in the top left
+非常可爱 放在左上角
+
+174
+00:07:28,240 --> 00:07:29,500
+now it's putting all these cups of coffee
+现在页面上出现了咖啡
+
+175
+00:07:29,500 --> 00:07:32,620
+in fact I will join in with my own cup of coffee beans
+事实上 现在我也要喝一杯咖啡
+
+177
+00:07:32,620 --> 00:07:34,320
+coffee is delicious 
+咖啡非常好喝
+
+178
+00:07:36,000 --> 00:07:39,930
+and we see that so far it's doing a really good job
+到目前为止 我们看到 现在一切都很顺利
+
+179
+00:07:39,930 --> 00:07:44,829
+all right sweet we have completed our project yes
+太棒啦 我们已经完成了我们的项目
+
+180
+00:07:44,829 --> 00:07:48,550
+maybe it didn't work even though 
+它可能无法运行
+
+181
+00:07:48,550 --> 00:07:50,000
+we did everything right
+虽然我们做的都是对的
+
+182
+00:07:50,000 --> 00:07:53,079
+maybe we didn't do everything right
+或者 我们犯了错误
+
+183
+00:07:53,079 --> 00:07:56,320
+we should go back and check just to be sure*3 right
+我们得回去检查一下代码 确保无误 对吧
+
+185
+00:07:56,320 --> 00:07:59,000
+or perhaps there's some other issues
+或者是有其他问题
+
+186
+00:07:59,000 --> 00:08:00,699
+maybe the images you chose 
+可能是你的电脑
+
+187
+00:08:00,699 --> 00:08:03,519
+the computer just didn't get
+没有办法呈现你选择的图片
+
+188
+00:08:03,519 --> 00:08:07,089
+maybe you chose such cool cars and such cool mugs but
+可能你选择了酷炫的车 酷炫的马克杯
+
+189
+00:08:07,089 --> 00:08:08,980
+they don't look like normal mugs
+他们看起来不像普通的杯子
+
+190
+00:08:08,980 --> 00:08:13,600
+they rise up above the rest
+他们比一般的好太多
+
+191
+00:08:13,600 --> 00:08:14,320
+and that's possible
+很有可能
+
+192
+00:08:14,320 --> 00:08:17,240
+so maybe finding some more normal mugs
+所以下次你可以找一些正常的杯子
+
+193
+00:08:17,240 --> 00:08:20,880
+your computer could actually figured out the difference
+这样电脑可能更容易辨别
+
+194
+00:08:20,880 --> 00:08:25,029
+or maybe just more images more data 
+或者多试几次 多加一些数据
+
+195
+00:08:25,029 --> 00:08:27,850
+of these super cool cups in these supercool cars
+多试一些酷杯子 酷车的图片
+
+196
+00:08:27,850 --> 00:08:28,750
+such as the Batmobile
+比如说蝙蝠车
+
+197
+00:08:28,750 --> 00:08:32,520
+it could help machine learning do better
+这可以让机器学习的更好
+
+198
+00:08:32,520 --> 00:08:37,880
+but as we see this is a really niche kind of thing
+但是我们也看到 这是一件很酷的事
+
+200
+00:08:37,880 --> 00:08:40,360
+we can do here right we can have two things
+我们有两样东西 我们就可以做点什么
+
+201
+00:08:40,360 --> 00:08:41,600
+the computer doesn't know a car doesn't know what a cup is
+计算机并不知道车 杯子是什么东西
+
+202
+00:08:41,600 --> 00:08:44,240
+but it's able to put them in these boxes 
+但是它能把它们放进盒子里去
+
+203
+00:08:44,240 --> 00:08:47,500
+very cool
+非常酷
+
+204
+00:08:47,500 --> 00:08:49,500
+so it's exciting that a computer
+计算机根本不知道它在做什么
+
+205
+00:08:49,500 --> 00:08:50,840
+doesn't really know what it's
+这让人激动
+
+206
+00:08:50,840 --> 00:08:53,360
+doing this is kind of clustering but
+这是一种聚类
+
+207
+00:08:53,360 --> 00:08:54,860
+it's sort of  we're not gonna get
+但是其实也有所出入 
+
+208
+00:08:54,860 --> 00:08:56,389
+into details it's a type of clustering
+我们今天不会讲聚类的细节
+
+209
+00:08:56,389 --> 00:08:59,299
+and clustering is amazing because it
+聚类非常奇妙 因为
+
+210
+00:08:59,299 --> 00:09:02,000
+allows you to do some really crazy things
+它可以让你做非常疯狂的事
+
+211
+00:09:02,000 --> 00:09:04,490
+again this gets complicated when
+当我想要细说的时候
+
+212
+00:09:04,490 --> 00:09:06,649
+I can go into the complications
+这些概念就会变得很复杂
+
+213
+00:09:06,649 --> 00:09:09,139
+but it can do so amazing things and you never
+但是计算机可以做很多事情
+
+214
+00:09:09,139 --> 00:09:12,169
+have to know what's going on
+而且你根本不需要知道究竟发生了什么
+
+215
+00:09:12,169 --> 00:09:13,669
+like the computers need to know exactly
+但是电脑准确地知道
+
+216
+00:09:13,669 --> 00:09:15,500
+what's happening and to sometimes
+发生了什么 有时候
+
+217
+00:09:15,500 --> 00:09:17,710
+lighted to you which is super cool
+它们会启发你 超级酷
+
+218
+00:09:17,710 --> 00:09:20,419
+clustering is amazing
+聚类很神奇
+
+219
+00:09:20,419 --> 00:09:22,820
+but here we see that weird with a differentiate
+在今天的项目中 我们看到分类
+
+220
+00:09:22 820 --> 00:09:26,690
+put into two separate boxes cars and cups
+将杯子与车分为两类
+
+221
+00:09:26,690 --> 00:09:29,899
+so enjoy yourself a nice cup of coffee or
+去喝一杯咖啡 
+
+222
+00:09:29,899 --> 00:09:32,779
+milk or chocolate sauce
+或者是牛奶 或者是巧克力
+
+223
+00:09:32,779 --> 00:09:35,090
+how about hot chocolate that makes more sense
+热巧克力就更好了
+
+224
+00:09:35,090 --> 00:09:37,519
+so once again this is Walker Stipe from
+我是沃克
+
+225
+00:09:37,519 --> 00:09:39,649
+ Palo Alto education hoping that you have an
+来自Palo Alto教育
+
+226
+00:09:39,649 --> 00:09:41,924
+absolutely wonderful there thank you
+希望你度过愉快的一天 谢谢
+
