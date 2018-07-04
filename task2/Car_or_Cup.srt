@@ -479,14 +479,9 @@ take a second just kind of weird and like
 有点奇怪 要花一些时间哦
 
 97
-00:04:05,780 --> 00:04:10,280
-when you go here as we see it's pretty
-然后你点击这个 你会发现它确实很
-
-98
-00:04:10,280 --> 00:04:10,699
-short
-短
+00:04:05,780 --> 00:04:10,699
+when you go here as we see it's pretty short
+然后你点击这个 你会发现它确实很短
 
 99
 00:04:10,699 --> 00:04:14,870
@@ -521,7 +516,7 @@ rock on I hope that you have chosen at
 105
 00:04:26,089 --> 00:04:29,149
 least 10 tennis and imported at least
-并上传了至少十个？？？
+并上传了至少十张图片
 
 106
 00:04:29,149 --> 00:04:32,778
@@ -621,7 +616,7 @@ and you'll be frustrated
 125
 00:05:10,269 --> 00:05:13,399
 skip that whole shebang and make your
-忽略那个 ？？ 我们来做
+忽略他把 让我们来做
 
 126
 00:05:13,399 --> 00:05:14,439

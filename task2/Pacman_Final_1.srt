@@ -118,10 +118,10 @@ you're trying to predict like two numbers
 it's a tuple of numbers
 那就是一个元组
 
-$26
+26
 00:00:59,969 --> 00:01:03,270
 or three or four or a serious cone you can count
-或者3个4个 数的清的锥体系
+或者3个4个等有限个数的元组
 
 27
 00:01:03,270 --> 00:01:06,810

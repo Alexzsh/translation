@@ -1500,13 +1500,13 @@ so what we're changing it's different
 
 305
 00:13:42,440 --> 00:13:43,000
-$same with all we've changed before right 
-$和我们之前做的改变一样 
+same with all we've changed before right 
+于我们之前做的改变 
 
 306
 00:13:43,000 --> 00:13:45,500
 we're gonna keep keep all that stuff added earlier
-保持先前添加的所有东西
+保持先前添加的所有内容
 
 307
 00:13:45,500 --> 00:13:46,540
@@ -1845,13 +1845,13 @@ it doesn't do a great job of like putting putting a little
 
 375
 00:16:49,659 --> 00:16:51,429
-$like is Larry here ??? like very ac
-$就像拉里这里的???
+like is Larry here like very ac
+就像拉里的一部分
 
 376
 00:16:51,429 --> 00:16:53,389
-$accurately it's like ？？？ 
-$准确地说，它就像？？？
+accurately it's like (balabala)
+准确地说，它就像(没听清)
 
 377
 00:16:55,389 --> 00:16:57,039
@@ -2080,8 +2080,8 @@ I put the horse I called the I called the horse Larry
 
 422
 00:18:46,799 --> 00:18:48,289
-$and it won't help the horse
-$当然这也不会对这匹马有多大帮助
+and it won't help the horse
+当然这也不会对识别这匹马有多大帮助
 
 423
 00:18:48,289 --> 00:18:51,049
