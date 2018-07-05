@@ -1,0 +1,765 @@
+﻿1
+00:00:03,569 --> 00:00:06,269
+hello ladies and gentlemen and welcome
+你好，女士们， 先生们，欢迎你
+
+2
+00:00:06,269 --> 00:00:08,009
+today's episode we will be covering
+今天的剧集我们将介绍
+
+3
+00:00:08,009 --> 00:00:09,869
+facial recognition where we were trying
+ 面部识别我们在哪里尝试
+
+4
+00:00:09,869 --> 00:00:12,599
+to see people and understand who the
+ 见人，并了解谁的
+
+5
+00:00:12,599 --> 00:00:15,808
+heck they are so we need a process we
+他们是这样，我们需要一个过程
+
+6
+00:00:15,808 --> 00:00:17,699
+need a step-by-step way to do this and
+需要一步一步的方法来做到这一点
+
+7
+00:00:17,699 --> 00:00:19,890
+our step by step process is on the page
+ 我们的分步流程在页面上
+
+8
+00:00:19,890 --> 00:00:22,528
+before you number one are we even
+在你排名第一之前，我们甚至是
+
+9
+00:00:22,528 --> 00:00:24,929
+looking at a face how would we know such
+ 看着一张脸我们怎么会知道这样的
+
+10
+00:00:24,929 --> 00:00:25,379
+a thing
+一件事
+
+11
+00:00:25,379 --> 00:00:28,379
+enter calculus well he said Mac things
+ 进入微积分，他说Mac的东西
+
+12
+00:00:28,379 --> 00:00:33,119
+I'm scared it's fun I swear what is this
+我害怕它很有趣我发誓这是什么
+
+13
+00:00:33,119 --> 00:00:34,829
+what are we doing here so this is called
+ 我们在这做什么所以这就是所谓的
+
+14
+00:00:34,829 --> 00:00:38,299
+a hog I know down on the farm here we go
+一头猪，我知道在农场在这里我们去
+
+15
+00:00:38,299 --> 00:00:42,359
+with calculus this it's actually
+ 这是微积分的实际情况
+
+16
+00:00:42,359 --> 00:00:45,630
+incredibly easy to calculate this first
+ 首先非常容易计算
+
+17
+00:00:45,630 --> 00:00:47,369
+off what this is is a histogram of
+ 这是一个直方图
+
+18
+00:00:47,369 --> 00:00:50,369
+oriented gradients now what is a
+ 现在定向的渐变是什么
+
+19
+00:00:50,369 --> 00:00:54,750
+gradient a gradients super simplified is
+梯度的梯度超简化是
+
+20
+00:00:54,750 --> 00:00:57,090
+a flow it's the rate of change it's a
+一个流程，它是一个变化的速度
+
+21
+00:00:57,090 --> 00:00:58,380
+flow we're just gonna say flow as it
+流动， 我们只是说它流动
+
+22
+00:00:58,380 --> 00:01:00,000
+sounds simpler and it is the same thing
+听起来更简单，也是一回事
+
+23
+00:01:00,000 --> 00:01:02,130
+so in this particular instance it's the
+ 所以在这个特殊情况下它是
+
+24
+00:01:02,130 --> 00:01:05,368
+flow of light towards dark or of dark
+光线流向黑暗或黑暗
+
+25
+00:01:05,368 --> 00:01:07,228
+towards light whichever which that's
+朝着光， 无论哪个
+
+26
+00:01:07,228 --> 00:01:09,228
+cool that's just a cool thing
+ 很酷，这只是一件很酷的事情
+
+27
+00:01:09,228 --> 00:01:13,049
+so all that aside I swear so easy to
+所以除此之外，我发誓这么容易
+
+28
+00:01:13,049 --> 00:01:14,810
+calculate this it is literally just
+计算这个是真的只是
+
+29
+00:01:14,810 --> 00:01:19,709
+subtraction amazing but even though it
+扣除惊人，但即使它
+
+30
+00:01:19,709 --> 00:01:21,810
+is so simple this does not mean that we
+很简单， 这并不意味着我们
+
+31
+00:01:21,810 --> 00:01:23,219
+have to climb to the top of this
+ 必须爬到这个顶端
+
+32
+00:01:23,219 --> 00:01:26,069
+mountain ourselves because oh oh what is
+山我们自己因为哦哦是什么
+
+33
+00:01:26,069 --> 00:01:28,469
+this this right here is a giant so
+ 这里本该权利是如此巨大
+
+34
+00:01:28,469 --> 00:01:29,700
+ladies and gentleman we have found a
+女士们， 先生们， 我们找到了
+
+35
+00:01:29,700 --> 00:01:32,310
+giant whose shoulders we will stand on
+ 我们会站在肩膀上的巨人
+
+36
+00:01:32,310 --> 00:01:34,109
+that's the analogy I was going for and
+ 这就是我要去的类比
+
+37
+00:01:34,109 --> 00:01:36,930
+this Giants name is get frontal face
+这个巨人队的名字是正面的
+
+38
+00:01:36,930 --> 00:01:40,170
+detector amazing so what we're gonna do
+探测器太棒了，所以我们要做什么
+
+39
+00:01:40,170 --> 00:01:43,228
+is just call this giant like hey giant
+只是称这个巨人像嘿巨人
+
+40
+00:01:43,228 --> 00:01:45,030
+can you can you do this like crazy
+你能不能像疯了一样做到这一点
+
+41
+00:01:45,030 --> 00:01:47,188
+gradient thing for me I just don't want
+对我来说渐变的事我只是不想要
+
+42
+00:01:47,188 --> 00:01:49,019
+to bother with it was like absolutely
+ 打扰它就像绝对一样
+
+43
+00:01:49,019 --> 00:01:51,629
+consider it done and then you get this
+ 考虑一下，然后你就明白了
+
+44
+00:01:51,629 --> 00:01:54,000
+guy this guy right here so why is this
+伙计这家伙就在这里，为什么会这样呢
+
+45
+00:01:54,000 --> 00:01:55,920
+important that we have this this hog as
+重要的是，我们有这个这个猪作为
+
+46
+00:01:55,920 --> 00:01:58,890
+it is referred to so what we do is we
+它是指我们做的是我们
+
+47
+00:01:58,890 --> 00:02:01,079
+have this is kind of kind of our our
+ 这有点像我们的
+
+48
+00:02:01,079 --> 00:02:04,140
+model this is our heart if someone's act
+ 如果有人的行为，这是我们的心
+
+49
+00:02:04,140 --> 00:02:06,780
+were to ask you hey what what faces look
+那些问你嘿什么面临的样子
+
+50
+00:02:06,780 --> 00:02:09,239
+like in the computer were to respond it
+ 就像在电脑里一样回应它
+
+51
+00:02:09,239 --> 00:02:11,068
+would literally give you this top left
+会真的给你这个左上角
+
+52
+00:02:11,068 --> 00:02:12,900
+image oh yeah faces they kind of look
+图像哦耶是面对他们的样子
+
+53
+00:02:12,900 --> 00:02:16,110
+like this this is what faces look like
+这样这是面临的样子
+
+54
+00:02:16,110 --> 00:02:19,449
+and with that if anyone shows them an
+ 如果有人向他们展示了一个
+
+55
+00:02:19,449 --> 00:02:20,620
+image they're like hey is there a face
+他们就像嘿，有一张脸
+
+56
+00:02:20,620 --> 00:02:22,659
+in here you're like oh actually yeah it
+在这里你喜欢哦实际上是啊，
+
+57
+00:02:22,659 --> 00:02:25,090
+looks kind of similar to what I know to
+看起来有点类似于我知道
+
+58
+00:02:25,090 --> 00:02:28,539
+be in the general realm of faces so
+ 在所有面孔的一般领域
+
+59
+00:02:28,539 --> 00:02:31,598
+that's that's really cool and I hope you
+这真的很酷，我希望你
+
+60
+00:02:31,598 --> 00:02:34,270
+think that that is kind of cool and
+认为这是一种清凉
+
+61
+00:02:34,270 --> 00:02:36,639
+actually that crazy-complicated just
+实际上那个疯狂复杂的
+
+62
+00:02:36,639 --> 00:02:38,229
+yeah it looks similar to this it's a
+是的它看起来与此相似它是一个
+
+63
+00:02:38,229 --> 00:02:41,709
+face so number two and this is another
+面对第二，这是另一个
+
+64
+00:02:41,709 --> 00:02:46,180
+fun one you want to be able to determine
+有趣的你想要确定
+
+65
+00:02:46,180 --> 00:02:49,360
+if this is a weird photo if this is not
+ 如果这不是一张奇怪的照片
+
+66
+00:02:49,360 --> 00:02:51,219
+you at your best you know it was picture
+你在你最好的，你知道这是图片
+
+67
+00:02:51,219 --> 00:02:53,169
+day and you just had a yeah yeah this is
+ 那一天，你只是有一个是啊是的，这是
+
+68
+00:02:53,169 --> 00:02:55,150
+it you forgot to brush your teeth yeah
+ 它，你忘了刷牙呀
+
+69
+00:02:55,150 --> 00:02:56,769
+you know we didn't get your makeup your
+你知道，我们没有得到你的化妆你
+
+70
+00:02:56,769 --> 00:02:58,060
+morning coffee you just look a little
+早上喝咖啡你只是看一点
+
+71
+00:02:58,060 --> 00:03:00,340
+weird it's okay it's fine what we can do
+ 奇怪，没关系，我们可以做的很好
+
+72
+00:03:00,340 --> 00:03:03,519
+is some basically think of Instagram to
+是一些基本上想到Instagram的人
+
+73
+00:03:03,519 --> 00:03:05,469
+capture get your filters heard those are
+捕获得到你的过滤器听到的那些
+
+74
+00:03:05,469 --> 00:03:07,419
+a thing and you know spruce yourself up
+一件事，你知道云杉你自己
+
+75
+00:03:07,419 --> 00:03:10,330
+to it to a more normal sense so there
+给它一个比较正常的意识，使有
+
+76
+00:03:10,330 --> 00:03:12,610
+are certain things you don't want to go
+ 是你不想去的 某些事情
+
+77
+00:03:12,610 --> 00:03:14,318
+too far on because you know eventually
+太远， 因为你最终知道
+
+78
+00:03:14,318 --> 00:03:16,030
+people are like hey that's is that even
+人是这样哎这是 连
+
+79
+00:03:16,030 --> 00:03:18,729
+you anymore and that's another thing
+你了，那是另一回事
+
+80
+00:03:18,729 --> 00:03:20,049
+that you're a computer can struggle with
+ 你是一个计算机可以与奋斗
+
+81
+00:03:20,049 --> 00:03:21,280
+like I really don't know if that's him
+就像我真的不知道那是不是他
+
+82
+00:03:21,280 --> 00:03:23,109
+anymore because there's there's just so
+ 了，因为那里的存在只是 这么
+
+83
+00:03:23,109 --> 00:03:26,590
+much makeup or whatever so we do that
+化妆或其他什么， 所以我们这样做
+
+84
+00:03:26,590 --> 00:03:30,159
+and we have a thing for that I'm
+ 我有一件事我就是这样
+
+85
+00:03:30,159 --> 00:03:31,569
+actually not sure I think I left that
+实际上不确定我认为我离开了那个
+
+86
+00:03:31,569 --> 00:03:33,280
+out because it's like some really simple
+ 因为它就像一些非常简单的东西
+
+87
+00:03:33,280 --> 00:03:36,069
+it's the same thing Instagram uses so I
+这与Instagram使用的一样，所以我
+
+88
+00:03:36,069 --> 00:03:38,859
+think you're familiar with this or
+认为你熟悉这个或
+
+89
+00:03:38,859 --> 00:03:40,030
+something of that nature
+ 这种性质的东西
+
+90
+00:03:40,030 --> 00:03:42,519
+so we do that you look normal you look
+ 所以我们这样看你看起来很正常
+
+91
+00:03:42,519 --> 00:03:44,229
+good it's picture day you look good
+很好， 这是你看起来很好的照片
+
+92
+00:03:44,229 --> 00:03:46,900
+number three we want to be able to pick
+第三， 我们希望能够选择
+
+93
+00:03:46,900 --> 00:03:49,120
+some things out like okay so we have
+有些事情好像我们有
+
+94
+00:03:49,120 --> 00:03:51,219
+this face we know it's a face but what
+ 这张脸，我们知道这是一张脸但是什么
+
+95
+00:03:51,219 --> 00:03:52,810
+about this space what do we know about
+ 关于这个空间我们知道什么
+
+96
+00:03:52,810 --> 00:03:54,729
+this face what are we looking for we're
+ 这张脸什么是我们寻找我们
+
+97
+00:03:54,729 --> 00:03:56,560
+looking for a big nose we're looking for
+寻找我们正在寻找的大鼻子
+
+98
+00:03:56,560 --> 00:03:58,719
+big lips we're looking for freckles we
+大嘴唇， 我们正在寻找雀斑我们
+
+99
+00:03:58,719 --> 00:04:01,209
+could confer in those fancy Egyptian
+可以授予那些花哨的埃及人
+
+100
+00:04:01,209 --> 00:04:05,709
+eyes sure I don't know things so should
+眼睛肯定我不知道事情应该如此
+
+101
+00:04:05,709 --> 00:04:06,759
+we do that and we kind of go through a
+ 我们这样做，我们有点经历
+
+102
+00:04:06,759 --> 00:04:09,549
+process of doing some such thing now you
+ 现在你做一些这样的事情的过程
+
+103
+00:04:09,549 --> 00:04:11,759
+may be querying Walker this sounds like
+可能是在查询沃克这听起来像
+
+104
+00:04:11,759 --> 00:04:15,250
+super fancy code yet again false we
+超级花哨的代码又错了我们
+
+105
+00:04:15,250 --> 00:04:16,600
+found some more Giants ladies and
+发现了一些更多的巨人女士和
+
+106
+00:04:16,600 --> 00:04:19,810
+gentlemen so we want to do is do in
+先生们所以我们想做的就是做
+
+107
+00:04:19,810 --> 00:04:23,110
+coatings basically the things we know
+ 涂料基本上是我们所知道的
+
+108
+00:04:23,110 --> 00:04:26,680
+about this space so the image is this
+ 关于这个空间所以图像是这样的
+
+109
+00:04:26,680 --> 00:04:28,750
+this top line here who's pointing out
+该顶线在这里谁是指出
+
+110
+00:04:28,750 --> 00:04:29,360
+with my thing
+用我的东西
+
+111
+00:04:29,360 --> 00:04:30,949
+which doesn't make no sense so these
+这些没有任何意义
+
+112
+00:04:30,949 --> 00:04:33,439
+guys are the images these are what we
+伙计们这些是我们 的形象
+
+113
+00:04:33,439 --> 00:04:35,750
+what we can see and then what we do is
+我们能看到什么，然后我们做什么
+
+114
+00:04:35,750 --> 00:04:38,269
+we do in coatings and we take things and
+ 我们做涂料，我们采取的东西和
+
+115
+00:04:38,269 --> 00:04:41,269
+and we learn about the nose and you know
+我们了解鼻子，你知道
+
+116
+00:04:41,269 --> 00:04:44,019
+the ears and whatever and this is what
+耳朵和其他什么，这是什么
+
+117
+00:04:44,019 --> 00:04:47,538
+the algorithm your your your computer
+算法是您的计算机
+
+118
+00:04:47,538 --> 00:04:49,310
+their little machine learning guy he's
+ 他们的小机器学习家伙
+
+119
+00:04:49,310 --> 00:04:51,079
+like hey what do i what do I even look
+喜欢嘿， 我甚至看到了什么
+
+120
+00:04:51,079 --> 00:04:53,598
+at this is what it looks at so we do
+ 这就是它所看到的，所以我们这样做
+
+121
+00:04:53,598 --> 00:04:55,610
+this thought all this stuff and in the
+这个想法所有这些东西和在
+
+122
+00:04:55,610 --> 00:04:57,680
+end we have these two things we have
+最后我们有这两件事
+
+123
+00:04:57,680 --> 00:05:00,860
+what we know you know somehow someway
+我们知道你知道好歹不知何故
+
+124
+00:05:00,860 --> 00:05:04,250
+it's another topic we have gone through
+这是我们经历的另一个话题
+
+125
+00:05:04,250 --> 00:05:08,418
+and learned the face of for instance the
+ 并学会了面对的例子
+
+126
+00:05:08,418 --> 00:05:10,009
+one here is Joe Biden but it can be
+一个是乔拜登，但它可以
+
+127
+00:05:10,009 --> 00:05:12,319
+anyone there's so many just amazing
+ 任何人都有这么多令人惊讶的
+
+128
+00:05:12,319 --> 00:05:14,658
+people out there let's say your mom okay
+ 那里的人让我们说你的妈妈没事
+
+129
+00:05:14,658 --> 00:05:16,430
+you know the face of your mom and then
+你知道你妈妈的脸然后
+
+130
+00:05:16,430 --> 00:05:17,959
+you get it you get a new picture someone
+ 你得到它，你会得到一个新的图片有人
+
+131
+00:05:17,959 --> 00:05:19,250
+who sends you a picture in like dude I
+谁给你发了一张像我这样的照片
+
+132
+00:05:19,250 --> 00:05:21,379
+saw your model the supermarket and she's
+看到你的模特超市和她
+
+133
+00:05:21,379 --> 00:05:23,149
+awesome or whatever she bought you
+真棒或者她给你买的任何东西
+
+134
+00:05:23,149 --> 00:05:26,329
+Donuts get excited you can look at that
+ 甜甜圈很兴奋，你可以看看
+
+135
+00:05:26,329 --> 00:05:28,550
+you do all these fancy math things and
+ 你做了所有这些花哨的数学事情
+
+136
+00:05:28,550 --> 00:05:30,439
+then what you end up with is this this
+那么你最终得到的就是这个
+
+137
+00:05:30,439 --> 00:05:33,288
+encoding this you know extracted feature
+编码你知道提取的功能
+
+138
+00:05:33,288 --> 00:05:36,800
+layer all these fancy words you know her
+将所有这些花哨的词语分层， 你认识她
+
+139
+00:05:36,800 --> 00:05:39,079
+particular nose and a particular you
+特别是鼻子，特别是你
+
+140
+00:05:39,079 --> 00:05:40,699
+know freckles and you're like oh she has
+知道雀斑， 你就像她一样
+
+141
+00:05:40,699 --> 00:05:42,528
+a scar right there I know that's my
+疤痕就在那里，我知道这是我的
+
+142
+00:05:42,528 --> 00:05:43,728
+mother that's her
+妈妈，是她
+
+143
+00:05:43,728 --> 00:05:45,468
+so you compare those two and if they
+所以你比较那两个，如果他们
+
+144
+00:05:45,468 --> 00:05:48,918
+match mama dearest how arc that doing my
+匹配妈妈亲爱的怎么做我的
+
+145
+00:05:48,918 --> 00:05:51,228
+mom's awesome so plug for Deborah's type
+妈妈很棒，所以插入Deborah的类型
+
+146
+00:05:51,228 --> 00:05:54,288
+out there and if they don't match me
+在那里，如果他们不匹配我
+
+147
+00:05:54,288 --> 00:05:56,149
+like dude that's just to look like she's
+就像老兄那样看起来像是她
+
+148
+00:05:56,149 --> 00:05:57,168
+not as awesome but I'm sure she's
+不是很棒，但我确定她是
+
+149
+00:05:57,168 --> 00:05:57,620
+awesome
+真棒
+
+150
+00:05:57,620 --> 00:06:01,009
+so yeah that's gonna short ish gist of
+所以是的，这将是短暂的主旨
+
+151
+00:06:01,009 --> 00:06:04,519
+facial recognition and all its glory so
+面部识别及其所有荣耀都是如此
+
+152
+00:06:04,519 --> 00:06:07,598
+thank you I hope you learn something and
+谢谢你，我希望你学习的东西，
+
+153
+00:06:07,598 --> 00:06:09,218
+have a good
+ 有良好的
+
