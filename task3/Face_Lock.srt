@@ -1,0 +1,1275 @@
+﻿1
+00:00:00,000 --> 00:00:01,770
+hello ladies and gentlemen and welcome
+你好，女士们，先生们，欢迎你
+
+2
+00:00:01,770 --> 00:00:04,110
+my name is Walker Skype with palo alto
+ 我的名字是Walker Skype和palo alto
+
+3
+00:00:04,110 --> 00:00:06,690
+education and today but we got a treat
+ 教育和今天，但我们得到了一个享受
+
+4
+00:00:06,690 --> 00:00:09,058
+for you we are gonna be recognizing
+为了你我们将会认识到
+
+5
+00:00:09,058 --> 00:00:12,900
+faces yeah we're gonna be looking at
+面对是的我们会看着
+
+6
+00:00:12,900 --> 00:00:14,400
+faces and we're gonna be determining
+面孔，我们将决定
+
+7
+00:00:14,400 --> 00:00:16,829
+whether or not it's you yeah that's
+不管你是 不是 那样的
+
+8
+00:00:16,829 --> 00:00:19,410
+right so for instance iPhone their new
+ 因此，例如iPhone他们的新
+
+9
+00:00:19,410 --> 00:00:23,399
+fancy dancy gadget gizmo the iPhone X or
+ 花哨的dancy小工具GizmoiPhone X或
+
+10
+00:00:23,399 --> 00:00:26,099
+whatever one it is kind of like the
+ 不管它有什么样的
+
+11
+00:00:26,099 --> 00:00:27,839
+poster child of facial recognition right
+ 面部识别权的 海报儿童
+
+12
+00:00:27,839 --> 00:00:29,730
+now could look at your face and tell if
+现在可以看看你的脸，并告诉你是否
+
+13
+00:00:29,730 --> 00:00:31,829
+it's you or not so we are gonna create a
+是你还是不是，所以我们要创造一个
+
+14
+00:00:31,829 --> 00:00:34,020
+little project that does the very same
+ 做同样事情的小项目
+
+15
+00:00:34,020 --> 00:00:37,500
+thing so step one we want to go into our
+所以我们想要进入我们的第一步
+
+16
+00:00:37,500 --> 00:00:39,359
+internet browser and hop on over to
+互联网浏览器并跳转到
+
+17
+00:00:39,359 --> 00:00:41,128
+machine learning for kids dot code dot
+机器学习为孩子点代码点
+
+18
+00:00:41,128 --> 00:00:43,890
+uk' other symbols and it's it's this guy
+英国的其他符号就是这个人
+
+19
+00:00:43,890 --> 00:00:44,340
+right here
+ 在这里
+
+20
+00:00:44,340 --> 00:00:46,009
+want to go to machine learning for kids
+ 想为孩子们去机器学习
+
+21
+00:00:46,009 --> 00:00:48,869
+website make sure you sign in once you
+ 网站确保您登录后
+
+22
+00:00:48,869 --> 00:00:50,899
+do so you're gonna go over to the
+这样你就要去了
+
+23
+00:00:50,899 --> 00:00:53,429
+worksheets just where we are here then
+工作表就在我们所在的地方
+
+24
+00:00:53,429 --> 00:00:55,649
+we're doing face lock face lock we're
+我们正在做面锁锁我们
+
+25
+00:00:55,649 --> 00:00:58,829
+gonna be locking faces click that boom
+ 将锁定面孔点击该繁荣
+
+26
+00:00:58,829 --> 00:01:01,558
+click that once you click that whoa
+ 点击那个whoa后点击一下
+
+27
+00:01:01,558 --> 00:01:04,409
+amazing we're over here now
+ 令人惊讶我们在这里，现在
+
+28
+00:01:04,409 --> 00:01:08,819
+we want to scroll down hop him hop on
+ 我们想向下滚动跳跃他
+
+29
+00:01:08,819 --> 00:01:11,790
+over words to a different website which
+在一个不同的网站上的文字
+
+30
+00:01:11,790 --> 00:01:15,950
+could perhaps look a lot like this one
+也许可以期待有很多像这样的
+
+31
+00:01:15,950 --> 00:01:18,109
+basically we're going to go to our
+ 基本上我们打算去我们
+
+32
+00:01:18,109 --> 00:01:21,750
+projects what you don't have any yet or
+预测你还没有的东西或
+
+33
+00:01:21,750 --> 00:01:23,009
+perhaps you do but regardless we're
+或许你这样做但不管我们是谁
+
+34
+00:01:23,009 --> 00:01:24,810
+going to make a new one that's right
+打算做一个合适的新人
+
+35
+00:01:24,810 --> 00:01:25,978
+ladies net we're gonna make a new one
+女士网我们要做一个新的
+
+36
+00:01:25,978 --> 00:01:29,938
+we're gonna call it face lock and yes we
+ 我们会把它称为面锁，是的我们
+
+37
+00:01:29,938 --> 00:01:32,459
+get a better visual aid here so we're
+ 在这里获得更好的视觉辅助，所以我们
+
+38
+00:01:32,459 --> 00:01:33,569
+gonna add a new project we're gonna name
+要添加一个我们要命名的新项目
+
+39
+00:01:33,569 --> 00:01:36,750
+it face lock recognizing images boom
+面对锁识别图像热潮
+
+40
+00:01:36,750 --> 00:01:39,209
+that's what we're looking for once we
+这就是我们要找的，一旦我们
+
+41
+00:01:39,209 --> 00:01:41,629
+see this project in our list of projects
+ 在我们的项目列表中查看此项目
+
+42
+00:01:41,629 --> 00:01:45,000
+we're gonna click on it and then we see
+ 我们要点击它然后我们看到
+
+43
+00:01:45,000 --> 00:01:47,879
+this page what we're gonna do after this
+ 这个页面我们将在此之后做些什么
+
+44
+00:01:47,879 --> 00:01:50,430
+point is we're gonna we're gonna create
+重点是我们要创造
+
+45
+00:01:50,430 --> 00:01:52,170
+our two little boxes or we're gonna put
+我们的两个小盒子或者我们要放的
+
+46
+00:01:52,170 --> 00:01:54,149
+our or data in which we're can collect
+我们或我们可以收集的数据
+
+47
+00:01:54,149 --> 00:01:55,649
+in a moment but for now we're just
+在片刻但是现在我们只是
+
+48
+00:01:55,649 --> 00:01:58,319
+creating the boxes so recall what we're
+ 创造盒子让我们回忆起我们的想法
+
+49
+00:01:58,319 --> 00:02:01,349
+doing is we're trying to not just oh
+我们正在努力做到的不仅仅是哦
+
+50
+00:02:01,349 --> 00:02:03,090
+that's a face it kind of put a box
+这是一个有点放盒子的脸
+
+51
+00:02:03,090 --> 00:02:05,280
+around it um we're trying to determine
+ 周围嗯，我们正在试图确定
+
+52
+00:02:05,280 --> 00:02:07,828
+is this you is this is this the owner of
+ 这是你这是这个的主人
+
+53
+00:02:07,828 --> 00:02:09,628
+some device that we want to you know
+ 我们想要你知道的一些设备
+
+54
+00:02:09,628 --> 00:02:12,599
+keep all sorts of secret and safe
+保持各种秘密和安全
+
+55
+00:02:12,599 --> 00:02:14,699
+to Harry Potter reference if you caught
+ 如果你抓到哈利波特参考
+
+56
+00:02:14,699 --> 00:02:16,919
+that Chum wearing a hair powder shirt
+ 那个密友穿着发粉衬衫
+
+57
+00:02:16,919 --> 00:02:19,800
+we're wrapping it real good yes we're
+我们正在包装它真的很好， 我们是
+
+58
+00:02:19,800 --> 00:02:20,879
+gonna add the two labels woman's gonna
+要添加两个标签， 女人会
+
+59
+00:02:20,879 --> 00:02:22,139
+be granted and that's where we will put
+被授予， 这就是我们要放的地方
+
+60
+00:02:22,139 --> 00:02:25,949
+your face or just some consistent face
+ 你的脸或只是一些一致的脸
+
+61
+00:02:25,949 --> 00:02:27,750
+if you have had some actor or scientist
+如果你有一些演员或科学家
+
+62
+00:02:27,750 --> 00:02:30,030
+you think is just super cool you should
+你认为应该是非常酷的
+
+63
+00:02:30,030 --> 00:02:31,620
+get a bunch of faces of them and put it
+ 让一群 人 脸 ，并把它
+
+64
+00:02:31,620 --> 00:02:33,259
+there but we'll get there in a moment
+在那里，我们马上到达那里
+
+65
+00:02:33,259 --> 00:02:35,879
+and actually this is that moment I just
+ 而其实这是那一刻我只是
+
+66
+00:02:35,879 --> 00:02:37,740
+realized so we're gonna click the webcam
+ 意识到我们要点击网络摄像头
+
+67
+00:02:37,740 --> 00:02:39,419
+if you don't have a webcam if you've
+如果你没有网络摄像头的话
+
+68
+00:02:39,419 --> 00:02:41,189
+access to some sort of cellular device
+获得某种蜂窝设备
+
+69
+00:02:41,189 --> 00:02:43,159
+that has a camera attached to it
+有一个相机连接到它
+
+70
+00:02:43,159 --> 00:02:45,599
+basically gets to get some photos wanna
+ 基本上得到一些照片想要
+
+71
+00:02:45,599 --> 00:02:47,699
+hop on a Facebook whatever get some
+跳上Facebook无论得到什么
+
+72
+00:02:47,699 --> 00:02:50,550
+pictures I get base and if whatever
+ 图片我得到了基础，如果有的话
+
+73
+00:02:50,550 --> 00:02:53,340
+reason your face is unavailable then
+因为你的脸不可用的原因
+
+74
+00:02:53,340 --> 00:02:55,050
+someone else's face just make sure you
+别人的脸只是确保你
+
+75
+00:02:55,050 --> 00:02:56,639
+use the same face fun fact you don't
+ 使用相同的面部有趣的事实，你没有
+
+76
+00:02:56,639 --> 00:02:58,650
+have to use a human face so you just
+ 所以你 必须使用人脸
+
+77
+00:02:58,650 --> 00:03:00,389
+love your dog a little kitty cat your
+爱你的狗一只小猫咪你的
+
+78
+00:03:00,389 --> 00:03:03,689
+fish whichever that is another option
+鱼，无论哪个都是另一种选择
+
+79
+00:03:03,689 --> 00:03:06,000
+so whichever face you decide on just to
+ 故取其面对你的决定 只是为了
+
+80
+00:03:06,000 --> 00:03:07,620
+make sure that you have at least ten of
+ 确保你至少有十个
+
+81
+00:03:07,620 --> 00:03:10,650
+them any less and not only will your
+ 他们更少，不仅是你的
+
+82
+00:03:10,650 --> 00:03:12,689
+machine learning not to work very well
+机器学习不能很好地工作
+
+83
+00:03:12,689 --> 00:03:14,099
+but it actually won't work at all
+但它实际上不会在所有的工作
+
+84
+00:03:14,099 --> 00:03:15,479
+because there's a minimum a minimum
+因为至少有一个最低限度
+
+85
+00:03:15,479 --> 00:03:18,180
+requirement of ten so get you ten images
+ 要求十，所以得到十个图像
+
+86
+00:03:18,180 --> 00:03:21,030
+and then move on to people or whatever
+ 然后转向人或其他什么
+
+87
+00:03:21,030 --> 00:03:23,580
+alien thing you want that isn't you
+ 你想要的外星人不是你
+
+88
+00:03:23,580 --> 00:03:26,509
+could be pictures of boxes of trees of
+可能是一箱树的照片
+
+89
+00:03:26,509 --> 00:03:29,129
+literally anything that isn't you which
+字面上任何不是你的东西
+
+90
+00:03:29,129 --> 00:03:32,250
+is everything else which is funny unless
+是一切这是有趣的，除非
+
+91
+00:03:32,250 --> 00:03:34,139
+you have an identical twin don't don't
+你有一个完全相同的双胞胎，不要
+
+92
+00:03:34,139 --> 00:03:36,750
+you cheat don't you dare alright so once
+你作弊， 你不敢这么一次
+
+93
+00:03:36,750 --> 00:03:38,879
+we do this we're gonna go back to the
+我们这样做，我们马上去回
+
+94
+00:03:38,879 --> 00:03:41,129
+project and we're going to the learn and
+项目，我们要去学习和
+
+95
+00:03:41,129 --> 00:03:43,740
+test portion this is the part where the
+测试部分这是其中的一部分
+
+96
+00:03:43,740 --> 00:03:46,110
+magic happens for the amazing machine
+神奇的机器会发生魔力
+
+97
+00:03:46,110 --> 00:03:49,439
+learning happens over at IBM there very
+学习在IBM恰好那边很
+
+98
+00:03:49,439 --> 00:03:51,840
+cool company who does awesome stuff like
+很棒的公司谁做的很棒的东西
+
+99
+00:03:51,840 --> 00:03:54,270
+so many awesome stuff but that is not
+这么多很棒的东西，但事实并非如此
+
+100
+00:03:54,270 --> 00:03:55,770
+the point of this topic now so you're
+ 这个话题现在 所以你点
+
+101
+00:03:55,770 --> 00:03:57,270
+gonna click a little button as shown
+要点击一个小按钮，如图所示
+
+102
+00:03:57,270 --> 00:04:00,569
+here and it will take some time the
+ 在这里，它会需要一些时间
+
+103
+00:04:00,569 --> 00:04:01,860
+image ones typically take a little bit
+图像通常需要一点点
+
+104
+00:04:01,860 --> 00:04:04,289
+longer so get yourself a nice cup of
+ 更长的时间让自己好一杯
+
+105
+00:04:04,289 --> 00:04:07,740
+coffee over a donut or some way to pass
+咖啡在甜甜圈或某种方式通过
+
+106
+00:04:07,740 --> 00:04:11,460
+the time and once it completes it will
+ 时间一旦完成就会
+
+107
+00:04:11,460 --> 00:04:13,289
+let you know and we shall move on to the
+让你知道，我们将继续前进
+
+108
+00:04:13,289 --> 00:04:15,599
+next section we arrive at the next step
+下一节我们到达下一步
+
+109
+00:04:15,599 --> 00:04:18,029
+and this is where we do coding by
+这就是我们编码的地方
+
+110
+00:04:18,029 --> 00:04:20,279
+dragging and dropping so what we do is
+ 拖放所以我们要做的就是
+
+111
+00:04:20,279 --> 00:04:22,410
+we click the back to project links we're
+我们点击后面的项目链接
+
+112
+00:04:22,410 --> 00:04:24,480
+gonna go back to that
+要回到那个
+
+113
+00:04:24,480 --> 00:04:27,399
+this good old page we're gonna go into
+这种良好的旧页我们要去进入
+
+114
+00:04:27,399 --> 00:04:28,269
+scratch
+ 刮
+
+115
+00:04:28,269 --> 00:04:31,709
+alright so we're gonna go in here and
+ 好吧所以我们要去这里和
+
+116
+00:04:31,709 --> 00:04:34,089
+actually just briefly it will be like
+ 实际上只是简单地说就像
+
+117
+00:04:34,089 --> 00:04:35,649
+opening scratch
+ 开口划伤
+
+118
+00:04:35,649 --> 00:04:38,709
+I forget okay if you haven't yeah are
+ 如果你没有，我会忘记好的
+
+119
+00:04:38,709 --> 00:04:42,160
+you sure you're sure home so once we do
+ 一旦我们做到了你确定你肯定回家了
+
+120
+00:04:42,160 --> 00:04:44,050
+that all right now I have too many too
+ 所有现在我有太多太多
+
+121
+00:04:44,050 --> 00:04:46,949
+many scratches open but effectively we
+许多划痕打开但有效我们
+
+122
+00:04:46,949 --> 00:04:50,589
+shall peruse an empty screen you don't
+应仔细阅读一个空的屏幕上，你不
+
+123
+00:04:50,589 --> 00:04:52,660
+want an empty screen what we want is the
+想要一个空屏我们想要的是什么
+
+124
+00:04:52,660 --> 00:04:54,610
+face lock template so you're gonna go
+面锁模板，所以你要去
+
+125
+00:04:54,610 --> 00:04:56,680
+over to your templates your project
+ 你的项目模板
+
+126
+00:04:56,680 --> 00:04:58,720
+templates and you're gonna snatch up
+模板，你会抢夺
+
+127
+00:04:58,720 --> 00:05:01,959
+that good old fashioned face lock all
+ 好老式 的脸全部锁定
+
+128
+00:05:01,959 --> 00:05:06,040
+right we now have our template but we do
+ 我们现在有了我们的模板，但我们做到了
+
+129
+00:05:06,040 --> 00:05:08,740
+not have our script aka our logic where
+没有我们的脚本又名我们的逻辑在哪里
+
+130
+00:05:08,740 --> 00:05:10,120
+things are gonna they're gonna happen
+ 他们会发生什么事情
+
+131
+00:05:10,120 --> 00:05:12,790
+things are gonna be happening I don't
+ 事情会发生我不会
+
+132
+00:05:12,790 --> 00:05:13,899
+know I don't have any other way to say
+ 知道我没有任何其他办法可以说
+
+133
+00:05:13,899 --> 00:05:18,480
+it so we're gonna create this script
+它所以我们要创建这个脚本
+
+134
+00:05:18,480 --> 00:05:24,089
+exactly as it is as you know they are I
+ 就像你知道他们是我一样
+
+135
+00:05:24,089 --> 00:05:28,480
+guess I'm the wrong yeah boom so we have
+我想我是错的， 所以我们有
+
+136
+00:05:28,480 --> 00:05:31,149
+these guys here just drag just drop you
+这些家伙只是拖着你
+
+137
+00:05:31,149 --> 00:05:34,360
+got this I'm suppose we do so and this
+得到这个我假设我们这样做，这
+
+138
+00:05:34,360 --> 00:05:36,430
+is something that I would like to impart
+ 是我想要传达的东西
+
+139
+00:05:36,430 --> 00:05:39,100
+wisdom to you about when I first
+ 我第一次见到你的智慧
+
+140
+00:05:39,100 --> 00:05:41,079
+attempted this I did this in the wrong
+ 试图这样做我做错了
+
+141
+00:05:41,079 --> 00:05:43,930
+order I tried to go and scratch before
+为了我尝试过去从头开始
+
+142
+00:05:43,930 --> 00:05:45,279
+I'd done anything else I'll just make it
+我做了别的事情，我只会做到
+
+143
+00:05:45,279 --> 00:05:47,290
+right now which is another way of saying
+ 现在这是另一种说法
+
+144
+00:05:47,290 --> 00:05:48,490
+when it was like hey click on the
+当它像嘿点击
+
+145
+00:05:48,490 --> 00:05:52,240
+costumes tab I didn't have one and I got
+服装选项卡我没有一个，我得到了
+
+146
+00:05:52,240 --> 00:05:53,829
+really frustrated because I couldn't
+真的很沮丧，因为我做不到
+
+147
+00:05:53,829 --> 00:05:56,439
+find it but if you cope in the order
+找到它，但如果你在为了 应对
+
+148
+00:05:56,439 --> 00:05:58,449
+that we're describing here you should
+ 我们在这里描述你应该
+
+149
+00:05:58,449 --> 00:06:00,550
+have a costumes tab somewhere in there
+ 在那里的某处有一个服装标签
+
+150
+00:06:00,550 --> 00:06:04,209
+so highly recommend going order because
+ 所以强烈推荐下订单，因为
+
+151
+00:06:04,209 --> 00:06:06,300
+otherwise you're looking for things that
+否则，你要寻找的东西，
+
+152
+00:06:06,300 --> 00:06:09,970
+what they they don't exist so once we do
+ 什么他们不存在所以一旦我们这样做
+
+153
+00:06:09,970 --> 00:06:12,519
+so we'd like to use your webcam to take
+所以我们想用网络摄像头拍摄
+
+154
+00:06:12,519 --> 00:06:14,139
+a picture of either your face or your
+ 你的脸或你的脸的照片
+
+155
+00:06:14,139 --> 00:06:16,149
+dog's face whichever face you are trying
+狗的脸无论你正在尝试什么样的脸
+
+156
+00:06:16,149 --> 00:06:19,000
+to detect correct all right good moving
+ 检测到正确的好运动
+
+157
+00:06:19,000 --> 00:06:23,259
+on next I want to take a picture but not
+接下来我想拍照但不是
+
+158
+00:06:23,259 --> 00:06:26,050
+none of you not your dog perhaps of some
+ 你们没有也许有些不是你的狗
+
+159
+00:06:26,050 --> 00:06:28,089
+squirrel you know maybe your dog has
+ 松鼠你知道也许你的狗有
+
+160
+00:06:28,089 --> 00:06:31,060
+some arch-nemesis squirrel and that is
+一些拱克星松鼠，这是
+
+161
+00:06:31,060 --> 00:06:32,980
+the photo that you are going to detect
+ 你要检测的照片
+
+162
+00:06:32,980 --> 00:06:35,589
+is not being your dog because your dog
+ 因为你的狗不是你的狗
+
+163
+00:06:35,589 --> 00:06:37,990
+of course has some secret layer that is
+当然有一些秘密层 是
+
+164
+00:06:37,990 --> 00:06:40,750
+you know locked out it locks out all
+ 你知道锁定它会锁定所有
+
+165
+00:06:40,750 --> 00:06:44,470
+others who do not have your dog's face
+其他没有你狗的脸
+
+166
+00:06:44,470 --> 00:06:48,100
+such as this this horrible evil squirrel
+ 比如这个可怕的邪恶的松鼠
+
+167
+00:06:48,100 --> 00:06:50,949
+wants to come in and steal all the your
+我想进来偷你所有的
+
+168
+00:06:50,949 --> 00:06:53,168
+dog's bones I don't know you you get it
+狗的骨头我不知道你得到了它
+
+169
+00:06:53,168 --> 00:06:55,449
+just pick a face and take a picture so
+随便挑了个鬼脸，拍照等等
+
+170
+00:06:55,449 --> 00:06:57,639
+now go ahead and click on the stage
+ 现在继续前进，点击舞台
+
+171
+00:06:57,639 --> 00:07:01,209
+which is right there if you can't see it
+ 如果你看不到它就在那里
+
+172
+00:07:01,209 --> 00:07:02,709
+we will make it even more clear this
+我们会更清楚这一点
+
+173
+00:07:02,709 --> 00:07:06,040
+this that's this is the stage it's right
+这就是这是正确的舞台
+
+174
+00:07:06,040 --> 00:07:08,230
+there click on that guy might looks a
+点击那个家伙可能看起来像
+
+175
+00:07:08,230 --> 00:07:09,490
+little different don't worry about it
+有点不同，不用担心
+
+176
+00:07:09,490 --> 00:07:10,990
+we're just at a different different
+ 我们只是在另一个不同的地方
+
+177
+00:07:10,990 --> 00:07:14,290
+stage of life as we as they say you can
+ 正如我们所说，你可以做到的生活阶段
+
+178
+00:07:14,290 --> 00:07:16,029
+do that and then you're gonna create the
+那样做， 然后你就要创造了
+
+179
+00:07:16,029 --> 00:07:18,910
+following scripts these guys right here
+以下脚本这些人就在这里
+
+180
+00:07:18,910 --> 00:07:21,370
+but when I receive these different
+ 但是当我收到这些不同的
+
+181
+00:07:21,370 --> 00:07:21,668
+things
+ 事
+
+182
+00:07:21,668 --> 00:07:24,160
+switch backdrop to these different
+ 切换背景到这些不同
+
+183
+00:07:24,160 --> 00:07:25,990
+things such as scanning basically like
+ 像扫描这样的东西基本上就像
+
+184
+00:07:25,990 --> 00:07:27,430
+I'm looking at it I'm looking at it and
+我在看它，我正在看着它
+
+185
+00:07:27,430 --> 00:07:31,629
+then they grant it welcome welcome to
+然后他们欢迎欢迎
+
+186
+00:07:31,629 --> 00:07:34,899
+your dog's secret hideout I'm sticking
+你的狗的秘密藏身之处我坚持
+
+187
+00:07:34,899 --> 00:07:36,519
+yeah your dog is the secret hideout and
+是的，你的狗是隐秘的秘密
+
+188
+00:07:36,519 --> 00:07:38,800
+it's awesome so does your cat everyone
+这真棒也是如此你的猫大家
+
+189
+00:07:38,800 --> 00:07:41,110
+has a secret hideout even you
+ 即使你有秘密藏身之处
+
+190
+00:07:41,110 --> 00:07:43,959
+I love making forts as a kid I hid
+我喜欢在小时候制作堡垒
+
+191
+00:07:43,959 --> 00:07:46,540
+secret hideouts I hope you do too
+秘密藏身处我希望你也这样做
+
+192
+00:07:46,540 --> 00:07:48,790
+back to the to the scratch stuff it's
+它回到了划痕的东西
+
+193
+00:07:48,790 --> 00:07:50,680
+time to test now you're gonna click that
+ 现在是时候测试一下你会点击那个
+
+194
+00:07:50,680 --> 00:07:53,620
+green flag and we're gonna see if it
+ 绿旗，我们会看看它
+
+195
+00:07:53,620 --> 00:07:56,829
+works so here we are it is time ladies
+ 在这里工作，我们是时间女士们
+
+196
+00:07:56,829 --> 00:07:59,769
+and gentlemen for the moment of truth we
+ 在我们这个真理的时刻，先生们
+
+197
+00:07:59,769 --> 00:08:02,649
+are going to determine if fancy-pantsy
+ 将确定是否花哨的裤子
+
+198
+00:08:02,649 --> 00:08:05,230
+little face lock can lock out those
+ 小脸锁可以锁定那些
+
+199
+00:08:05,230 --> 00:08:08,350
+squirrels from our puppy dog hideouts
+ 我们的小狗藏身处的松鼠
+
+200
+00:08:08,350 --> 00:08:11,079
+you betcha all right so we have taken
+没错，别再怀疑没事 ，所以我们采取了
+
+201
+00:08:11,079 --> 00:08:13,329
+picture of my face this is a different
+我脸上的照片与众不同
+
+202
+00:08:13,329 --> 00:08:14,620
+picture from the pictures that we
+ 从照片 的画面 ，我们
+
+203
+00:08:14,620 --> 00:08:16,990
+trained on so this computer has never
+训练有素，所以这台电脑永远不会
+
+204
+00:08:16,990 --> 00:08:20,290
+before seen this particular face of mine
+ 之前看过我的这张特别的脸
+
+205
+00:08:20,290 --> 00:08:24,819
+so we're gonna ask it to let me in let
+ 所以我们要让它让我进去
+
+206
+00:08:24,819 --> 00:08:28,779
+me in to the secret hideout and it's
+我进入了秘密的藏身处，而且它是
+
+207
+00:08:28,779 --> 00:08:30,850
+still scanning it is still and ladies
+仍在扫描它仍然和女士们
+
+208
+00:08:30,850 --> 00:08:32,620
+and gentlemen welcome to the hideout
+ 先生们欢迎来到这里
+
+209
+00:08:32,620 --> 00:08:35,529
+boom were in alright alright sweet let's
+ 繁荣好吧，好吧，甜蜜的
+
+210
+00:08:35,529 --> 00:08:39,519
+make sure though that random people this
+尽管这个随机的人确定
+
+211
+00:08:39,519 --> 00:08:41,799
+is literally the face that comes up this
+从字面上， 来了这个脸
+
+212
+00:08:41,799 --> 00:08:43,208
+is the first face if you type in with
+ 是第一面，如果你在输入
+
+213
+00:08:43,208 --> 00:08:43,669
+ran
+ 跑
+
+214
+00:08:43,669 --> 00:08:46,070
+person into Google this is the man
+人到谷歌这样的男人
+
+215
+00:08:46,070 --> 00:08:48,200
+firmly he's the most random man which
+ 他是最随机的人
+
+216
+00:08:48,200 --> 00:08:49,789
+makes it less random not the point
+使它不那么随意而不是重点
+
+217
+00:08:49,789 --> 00:08:51,320
+this is some guy we don't know who it is
+这是一些我们不知道是谁的人
+
+218
+00:08:51,320 --> 00:08:53,360
+but it ain't me he can't get into the
+ 但是我不能进入他
+
+219
+00:08:53,360 --> 00:08:58,850
+hideout nor can he or can he or can he
+藏身之处也不能，他还是可以的，他或者他可以
+
+220
+00:08:58,850 --> 00:09:03,470
+or can he can't no no he can't get out
+或者他不能不，不，他不能出去
+
+221
+00:09:03,470 --> 00:09:05,950
+of here Rando dude
+ 在这里Rando老兄
+
+222
+00:09:05,950 --> 00:09:08,899
+yeah it works
+是的，它的工作原理
+
+223
+00:09:08,899 --> 00:09:12,379
+whoo so ladies and gentlemen what have
+ 女士们，先生们，有什么
+
+224
+00:09:12,379 --> 00:09:14,450
+we done here today well we have
+我们今天在这里做得很好
+
+225
+00:09:14,450 --> 00:09:17,600
+constructed an algorithm all fancy words
+ 构造了一个算法所有花哨的单词
+
+226
+00:09:17,600 --> 00:09:20,269
+but we made a way for our computer to
+ 但我们为我们的计算机做了一个方法
+
+227
+00:09:20,269 --> 00:09:21,919
+learn our face took a bunch of pictures
+ 学习我们的脸上拍了一堆照片
+
+228
+00:09:21,919 --> 00:09:23,690
+of our face or your dog or your cat
+ 我们的脸或你的狗或你的猫
+
+229
+00:09:23,690 --> 00:09:27,019
+whichever the hideout is is up to you
+ 藏身之处取决于你
+
+230
+00:09:27,019 --> 00:09:29,330
+it's your part and we retrain it to
+这是你的一部分，我们重新培训
+
+231
+00:09:29,330 --> 00:09:31,580
+recognize you and then we gave it some
+ 认识你，然后我们给了它一些
+
+232
+00:09:31,580 --> 00:09:33,559
+other pictures of things and or people
+ 事物和/或人的其他照片
+
+233
+00:09:33,559 --> 00:09:35,659
+or whatever that aren't you you were
+或者你不是的任何人
+
+234
+00:09:35,659 --> 00:09:38,029
+like hey this isn't me or my dog or my
+ 嘿，这不是我或我的狗或我的
+
+235
+00:09:38,029 --> 00:09:40,759
+cat whatever have you trained some
+猫什么你训练了一些
+
+236
+00:09:40,759 --> 00:09:42,740
+machine learning things on that and we
+机器学习的东西和我们
+
+237
+00:09:42,740 --> 00:09:44,690
+found out that it could actually do a
+发现它实际上可以做到
+
+238
+00:09:44,690 --> 00:09:47,090
+pretty good job that you could use this
+ 你可以用这个很好的工作
+
+239
+00:09:47,090 --> 00:09:50,299
+to I don't know have your phone you know
+ 我不知道你有你的手机
+
+240
+00:09:50,299 --> 00:09:52,549
+like that or a secret hideout or I'm
+ 像那个或秘密的藏身之处或我
+
+241
+00:09:52,549 --> 00:09:53,899
+just all about that secret hideout right
+ 关于那个秘密藏身之处的所有权利
+
+242
+00:09:53,899 --> 00:09:57,470
+now yeah so pretty cool pretty pretty
+现在是的，非常酷很漂亮
+
+243
+00:09:57,470 --> 00:09:58,940
+cool by the way this is neo from the
+很酷的是这是新的
+
+244
+00:09:58,940 --> 00:10:02,440
+matrix they actually used a sequence
+矩阵他们实际上使用了序列
+
+245
+00:10:02,440 --> 00:10:05,330
+sequence up a part of the movie to do
+排序电影的一部分
+
+246
+00:10:05,330 --> 00:10:06,950
+some like crazy cool research when all
+有些人喜欢疯狂的酷研究
+
+247
+00:10:06,950 --> 00:10:08,440
+this stuff was kind of just coming out
+这东西是那种刚刚走出
+
+248
+00:10:08,440 --> 00:10:10,970
+you can find that on YouTube if you so
+ 你可以在YouTube上找到它
+
+249
+00:10:10,970 --> 00:10:12,889
+desire it's like facial recognition
+ 渴望就像面部识别一样
+
+250
+00:10:12,889 --> 00:10:17,690
+matrix which is such a good movie yeah
+矩阵这是一部好电影是的
+
+251
+00:10:17,690 --> 00:10:19,570
+so that's a this is facial recognition
+ 所以这就是面部识别
+
+252
+00:10:19,570 --> 00:10:22,519
+go to a face lock machine learning duck
+ 去学习鸭子的脸锁机器
+
+253
+00:10:22,519 --> 00:10:26,450
+UK for kids and once again my name is
+英国的孩子， 我的名字再一次
+
+254
+00:10:26,450 --> 00:10:28,519
+Walker Skype with Palo Alto education
+ Walker Skype与Palo Alto 教育
+
+255
+00:10:28,519 --> 00:10:30,704
+thank you and you have a wonderful day
+谢谢你，祝你有美好的一天
+

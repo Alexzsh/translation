@@ -1,0 +1,1626 @@
+﻿1
+00:00:00,299 --> 00:00:03,200
+hello ladies and gentlemen and welcome
+同学们 大家好 欢迎你们
+
+2
+00:00:03,200 --> 00:00:05,320
+my name is Walker Stipe and I'm with the
+我是沃克老师
+
+3
+00:00:05,320 --> 00:00:07,640
+Palo Alto education today 
+来自Palo Alto教育 今天
+
+4
+00:00:07,640 --> 00:00:11,520
+we will be discussing some very exciting science stuff
+我们将会一起讨论非常有趣的话题
+
+5
+00:00:11,520 --> 00:00:14,000
+what exactly would be discussing
+究竟今天要讨论什么呢
+
+6
+00:00:14,000 --> 00:00:16,480
+well first let's start with a question
+首先先问你们一个问题
+
+7
+00:00:16,480 --> 00:00:18,278
+am i happy today 
+今天我高兴吗 
+
+8
+00:00:18,278 --> 00:00:21,500
+hmm maybe I am maybe I'm not
+可能高兴 可能不高兴
+
+9
+00:00:21,500 --> 00:00:23,730
+maybe I'm having a bummer of a day that's okay
+可能今天有件事情让我很生气
+
+10
+00:00:23,730 --> 00:00:26,278
+but can you tell just by
+但是你能够通过观察我
+
+11
+00:00:26,278 --> 00:00:28,080
+looking at me and the way I'm talking
+或者是观察我说话的方式之类的
+
+12
+00:00:28,080 --> 00:00:30,800
+and stuff like that if I'm happy
+知道我开心与否吗
+
+13
+00:00:30,800 --> 00:00:34,350
+perhaps you can perhaps you can not
+可能你可以 可能不行
+
+14
+00:00:34,350 --> 00:00:37,000
+in either case we have a fun project ahead of us
+不管怎么样 我们今天都有一个非常有趣的任务
+
+15
+00:00:37,000 --> 00:00:38,340
+ladies and gentlemen we are going to
+各位同学们
+
+16
+00:00:38,340 --> 00:00:40,890
+teach a computer to determine whether or
+今天我们要教计算机
+
+17
+00:00:40,890 --> 00:00:44,909
+not someone is happy amazing
+判断一个人是否开心 酷啊
+
+18
+00:00:44,909 --> 00:00:47,308
+how can this be done this sounds too difficult 
+这听起来也太难了 怎么做到的
+
+19
+00:00:47,308 --> 00:00:48,689
+I could never do such a things
+我永远都做不到的
+
+20
+00:00:48,689 --> 00:00:51,628
+Oh contraire you're gonna do it
+恰恰相反 你可以做到的
+
+21
+00:00:51,628 --> 00:00:53,640
+we're gonna do it we got this 
+我们都会做到的 没问题的
+
+22
+00:00:53,640 --> 00:00:55,799
+so we're gonna hop in do a little smash into the keyboard
+我们只要进入程序 敲敲键盘
+
+23
+00:00:55,799 --> 00:00:57,899
+a little bit of coding up some stuff
+做点代码编程
+
+24
+00:00:57,899 --> 00:00:59,159
+we're gonna 
+我们就可以做到
+
+25
+00:00:59,159 --> 00:01:01,500
+make a computer that can recognize
+我们可以教会计算机
+
+26
+00:01:01,500 --> 00:01:03,000
+whether or not someone is happy or not
+识别一个人是否开心
+
+27
+00:01:03,000 --> 00:01:05,688
+so let's hop in
+让我们开始吧
+
+28
+00:01:05,688 --> 00:01:08,519
+already we are hopping in 
+第一件事
+
+29
+00:01:08,519 --> 00:01:10,019
+first thing we want to do so want to go to this website
+我们要去这样一个网站
+
+30
+00:01:10,019 --> 00:01:14,040
+as you can see the URL is at the top 
+正如你在屏幕上方看到的
+
+31
+00:01:14,040 --> 00:01:18,320
+you can copy this exactly as it is into your web browser
+你可以把网址直接复制到浏览器
+
+32
+00:01:18,320 --> 00:01:20,500
+or you can just go to machinelearningforkids 
+或者直接搜索 machinelearningforkids
+
+34
+00:01:20,500 --> 00:01:25,049
+just type that into Google the first thing 
+直接谷歌搜索就可以 第一个链接就是
+
+35
+00:01:25,049 --> 00:01:26,640
+then what you want to do is we go to worksheets
+然后我们要去工作区
+
+36
+00:01:26,640 --> 00:01:28,080
+just where we are now
+就是我们现在在的地方
+
+37
+00:01:28,080 --> 00:01:31,200
+you want to get this little guy right here 
+下载这个文件
+
+38
+00:01:31,200 --> 00:01:34,950
+or downloadthe  project worksheet kids is our 
+选择下载project worksheet(工程工作表)
+
+39
+00:01:34,950 --> 00:01:37,978
+step by step how to get to our goal 
+它能一步步带领我们实现目标
+
+40
+00:01:37,978 --> 00:01:40,170
+so that is what I have done and when I do
+这就是我们需要做的 然后
+
+41
+00:01:40,170 --> 00:01:45,440
+that we get to this which is a wonderful guide
+我们就会得到这个超级棒的任务指南
+
+42
+00:01:45,440 --> 00:01:48,000
+to the project we are going to create
+它将指导我们接下来的任务
+
+43
+00:01:48,000 --> 00:01:50,188
+so as we see this is kind of what
+正如我们所看到的
+
+44
+00:01:50,188 --> 00:01:51,810
+our finished product will look like 
+这就是我们成品的样子
+
+45
+00:01:51,810 --> 00:01:53,600
+my art if you can believe 
+这是一件艺术品 
+
+46
+00:01:53,600 --> 00:01:56,280
+it is it's not it's not great 
+也不算是一件艺术品
+
+47
+00:01:56,280 --> 00:01:59,069
+you'll see it in the moment it's not 
+你很快就能亲眼见证 
+
+48
+00:01:59,069 --> 00:02:02,000
+I'm not going to school to be an artist let's just say that
+我不会去学校做一个美术课老师 我开玩笑的
+
+49
+00:02:02,000 --> 00:02:06,478
+so now we're here we have this file
+所以我们现在有这个文件了
+
+50
+00:02:06,478 --> 00:02:09,899
+we're looking at it what's next 
+下一步要做什么呢
+
+51
+00:02:09,899 --> 00:02:11,000
+well we want to get ready we want to login 
+我们要登陆网站
+
+52
+00:02:11,000 --> 00:02:12,959
+If you don't have log in
+如果你登陆出现了问题
+
+53
+00:02:12,959 --> 00:02:14,789
+I'm sure your teacher can help you
+你的老师可以帮助你
+
+54
+00:02:14,789 --> 00:02:16,919
+so now you're logged in what do we do
+所以现在我们已经登陆了 我们要做什么
+
+55
+00:02:16,919 --> 00:02:20,460
+now well as we see we click on projects
+点击项目这个选项
+
+56
+00:02:20,460 --> 00:02:22,289
+where is projects projects is right
+项目就在这里
+
+57
+00:02:22,289 --> 00:02:25,860
+there so you go to that guy and then
+点击它 然后
+
+59
+00:02:25,860 --> 00:02:29,460
+make a new project 
+我们要创建一个新项目
+
+61
+00:02:29,460 --> 00:02:33,479
+it's your project boom done what do we want
+这是你的项目 好啦完成
+
+62
+00:02:33,479 --> 00:02:35,189
+to name this project well 
+给它取什么名字
+
+63
+00:02:35,189 --> 00:02:36,780
+what we're doing is we're trying to make 
+我们正努力教会计算机
+
+64
+00:02:36,780 --> 00:02:39,389
+our computer happy trying to determine 
+识别一个人是否开心
+
+65
+00:02:39,389 --> 00:02:41,939
+these things so you can name it make me happy
+所以我们可以叫它 让我开心
+
+66
+00:02:41,939 --> 00:02:43,080
+that's what I did
+像我一样
+
+67
+00:02:43,080 --> 00:02:45,180
+what is it recognizing
+所以计算机究竟要识别什么
+
+68
+00:02:45,180 --> 00:02:46,650
+what's it trying to learn 
+计算机要学习什么
+
+69
+00:02:46,650 --> 00:02:49,560
+well it's trying to learn text make a letters
+计算机要学习打字 
+
+70
+00:02:49,560 --> 00:02:52,409
+for instance words we're talking to it right 
+这就是我们接下来要做的
+
+71
+00:02:52,409 --> 00:02:55,000
+so we do that and then create boom 
+我们有了项目
+
+72
+00:02:55,000 --> 00:02:58,000
+so now we should see that we have the 
+页面上已经有我们的项目了
+
+73
+00:02:58,000 --> 00:03:01,439
+make me happy project exists now it's empty
+但是 它里面空空如也
+
+74
+00:03:01,439 --> 00:03:03,689
+we ddin't do anything else 
+我们现在什么都没做呢
+
+75
+00:03:03,689 --> 00:03:06,550
+so here's we change that a lot
+这是我们做完之后得到样子
+
+76
+00:03:06,550 --> 00:03:08,639
+we have that now
+它变了许多
+
+77
+00:03:08,639 --> 00:03:10,590
+what are these for these what are these
+我们接下来究竟
+
+78
+00:03:10,590 --> 00:03:13,039
+next three steps do we want to to follow
+要遵循哪三个步骤呢
+
+79
+00:03:13,039 --> 00:03:15,090
+well of course we want to go to scratch
+首先我们肯定要进入脚本
+
+80
+00:03:15,090 --> 00:03:17,150
+because we're making it from scratch 
+因为我们是从零开始做的
+
+81
+00:03:17,150 --> 00:03:20,219
+so click the scratch next little box will
+点击进入脚本
+
+82
+00:03:20,219 --> 00:03:22,709
+come up and you will click the scratch by itself
+然后脚本窗口会弹出
+
+83
+00:03:22,709 --> 00:03:26,009
+but to get to this screen right here now
+但是要做成这个样子
+
+84
+00:03:26,009 --> 00:03:29,129
+with the magic of video editing
+多亏了视频剪辑
+
+85
+00:03:29,129 --> 00:03:32,250
+I already have done this part
+我已经做好了
+
+86
+00:03:32,250 --> 00:03:34,909
+now I guarantee you it's rather simple
+我向你保证这很简单
+
+87
+00:03:34,909 --> 00:03:37,680
+for all the different little guys you need
+小编程家 你们需要
+
+88
+00:03:37,680 --> 00:03:39,360
+click on these they're color coded all
+点击这些不同的颜色的区域
+
+89
+00:03:39,360 --> 00:03:43,319
+admit that helps me a whole lot and
+我们必须承认它们用处很大
+
+90
+00:03:43,319 --> 00:03:47,500
+in our healthy little guide right here
+在我们的小指南里面有一个艺术品 
+
+91
+00:03:47,500 --> 00:03:49,469
+it has artwork make your own artwork
+你也可以做
+
+92
+00:03:49,469 --> 00:03:52,879
+have some fun with that why not right
+玩的开心就好
+
+93
+00:03:52,879 --> 00:03:56,000
+actually this is something that I would
+实际上我要强烈推荐你们
+
+94
+00:03:56,000 --> 00:03:57,500
+highly recommend is the duplicate function
+这个复制功能
+
+95
+00:03:57,500 --> 00:03:59,879
+all right so we have our photo
+我们有图片
+
+96
+00:03:59,879 --> 00:04:03,120
+dude right but how do i duplicate it is
+但是如何复制它呢
+
+97
+00:04:03,120 --> 00:04:05,219
+is there a duplicate button No 
+有没有复制按钮 并没有
+
+98
+00:04:05,219 --> 00:04:09,419
+so on your mouse this guy 
+我们要用到鼠标
+
+99
+00:04:09,419 --> 00:04:11,400
+you want to look at this guy right here 
+然后我们的对象是这幅图片
+
+100
+00:04:11,400 --> 00:04:14,729
+and click the right mouse key oh who is this 
+点击鼠标右键 哇 这是什么
+
+101
+00:04:14,729 --> 00:04:16,290
+this is your duplicate friend boom 
+这是复制功能呀
+
+102
+00:04:16,290 --> 00:04:19,529
+you're welcome there you go all right 
+不用感谢我
+
+103
+00:04:19,529 --> 00:04:21,488
+so you're gonna do that and you can make three
+然后你要做的就是复制三份
+
+104
+00:04:21,488 --> 00:04:24,100
+copies and then you're gonna add some smile
+然后加上 微笑
+
+105
+00:04:24,100 --> 00:04:25,850
+have some funs
+随便你加
+
+106
+00:04:25,850 --> 00:04:29,509
+let's peruse mine shall we
+让我们好好看看我的作品
+
+107
+00:04:29,509 --> 00:04:33,500
+yeah well we'll get to that all right
+我们等会儿再来看 好吧
+
+108 
+00:04:33,500 --> 00:04:36,319
+so this is what we want to create so I have done so
+这是我们要达到的效果 我已经做了
+
+109
+00:04:36,319 --> 00:04:39,230
+it can be done I guarantee 
+我保证能做出来的
+
+110
+00:04:39,230 --> 00:04:40,279
+it's just this and they're all just
+很简单 只需要你
+
+111
+00:04:40,279 --> 00:04:41,629
+drag-and-drop and sometimes
+拖——放——   拖——放——
+
+112
+00:04:41,629 --> 00:04:44,879
+you got a finite little bit wiggle all around
+然后再做出一些细微的调整就可以了
+
+113
+00:04:44,879 --> 00:04:47,839
+it'll pop in so once we have done so 
+做完了这一步之后
+
+114
+00:04:47,839 --> 00:04:50,689
+we move on to saving it 
+请保存文件
+
+115
+00:04:50,689 --> 00:04:51,860
+you know we're gonna hold these 
+我们要保存
+
+116
+00:04:51,860 --> 00:04:53,899
+changes we've made so we do that 
+做出的一些调整 
+
+117
+00:04:53,899 --> 00:04:57,230
+and now what we can do we can run it 
+我们现在就可以运行它了
+
+118
+00:04:57,230 --> 00:05:03,350
+so what we can do here is type things
+我们在这里打字
+
+119
+00:05:03,350 --> 00:05:04,819
+we can type things what things shall we
+打什么内容呢
+
+120
+00:05:04,819 --> 00:05:08,810
+type well we have trained our little
+我们已经训练了机器
+
+121
+00:05:08,810 --> 00:05:11,420
+little guy to look to be happy when
+当别人说你真棒的时候
+
+122
+00:05:11,420 --> 00:05:14,449
+someone says I think you're awesome 
+做出开心的表情
+
+123
+00:05:14,449 --> 00:05:17,160
+and that alone if I say I think you're the
+最好不要说 “你是世界上最好的人”
+
+124
+00:05:17,160 --> 00:05:18,740
+best ever you've never heard of that before
+因为它没听过
+
+125
+00:05:18,740 --> 00:05:22,220
+so let's talk to our computer
+让我们试着和电脑交谈吧
+
+126
+00:05:22,220 --> 00:05:24,500
+let's talk to our computer it sounds a
+和电脑交谈
+
+127
+00:05:24,500 --> 00:05:25,819
+little weird but we're gonna do it 
+听起来有点怪异，但这正是我们要做的
+
+128
+00:05:25,819 --> 00:05:26,990
+so we're gonna say I think you're awesome
+我们说 我觉得你非常棒
+
+129
+00:05:26,990 --> 00:05:30,589
+and makes the computer so happy 
+电脑非常开心
+
+130
+00:05:30,589 --> 00:05:33,290
+look at that artwork oh my oh my goodness
+快看这件艺术品 我的天哪
+
+131
+00:05:33,290 --> 00:05:36,470
+I know I'm a Picasso or one of those guys
+我知道我是毕加索之类的画家
+
+132
+00:05:36,470 --> 00:05:44,589
+so I'd say I think you're the best ever
+现在我要说  我觉得你是最最好的
+
+134
+00:05:44,589 --> 00:05:48,490
+excellent three exclamation marks
+再加三个感叹号
+
+135
+00:05:48,490 --> 00:05:50,839
+well he doesn't know what to do with that
+他不知道该怎么做
+
+136
+00:05:50,839 --> 00:05:53,769
+he's never he's never heardthese things before
+因为他从来没有听过这些话
+
+137
+00:05:53,769 --> 00:05:57,430
+we're gonna learn how to do better than this
+我们马上就能改善这个缺点
+
+138
+00:05:57,430 --> 00:05:59,930
+so this is a way that we can't do things
+毕竟这样子行不通
+
+140
+00:05:59,930 --> 00:06:02,000
+you don't tell them exactly look for this
+我们不能只说他们知道的词
+
+141
+00:06:02,000 --> 00:06:04,220
+if someone says I think you're awesome
+如果有人说我认为你太棒了
+
+143
+00:06:04,220 --> 00:06:05,959
+then they'll get excited 
+它会兴奋
+
+144
+00:06:05,959 --> 00:06:08,689
+but if I think you're great wonderful stupendous superb
+但如果改成我认为你 贼棒 特别棒 棒呆了
+
+145
+00:06:08,689 --> 00:06:12,259
+I don't know what that means 
+他就不知道该如何反应了
+
+146
+00:06:12,259 --> 00:06:17,649
+so let's move on alrighty so we can see this now
+所以我们要继续学习
+
+147
+00:06:17,649 --> 00:06:20,750
+you can move on from that window 
+可以往下移了
+
+148
+00:06:20,750 --> 00:06:23,389
+the next step we're gonna train
+下一步我们要训练计算机
+
+149
+00:06:23,389 --> 00:06:26,629
+train our little dude to do better 
+让它做的更好
+
+150
+00:06:26,629 --> 00:06:27,680
+we're gonna train him to do better 
+要训​​练它做得更好 
+
+151
+00:06:27,680 --> 00:06:30,319
+so we're gonna press the train button hop on that train
+点击训练按钮（train）然后进入页面
+
+152
+00:06:30,319 --> 00:06:33,800
+then we're gonna create a dataset
+然后我们要创建一个数据集
+
+153
+00:06:33,800 --> 00:06:36,649
+ooh dataset who's so fancy 
+这花哨的名字是个什么东西
+
+154
+00:06:36,649 --> 00:06:41,389
+what adataset is it's stuff in this instance 
+数据集 在这个例子中
+
+155
+00:06:41,389 --> 00:06:44,000
+it is things that you would hear 
+就是你听到之后
+
+156
+00:06:44,000 --> 00:06:45,000
+that would make you happy or sad
+会变得开心或者难过的话的集合
+
+157
+00:06:45,000 --> 00:06:47,509
+and we will place them in two boxes
+我们把它们 分别装在两个集合里
+
+158
+00:06:47,509 --> 00:06:49,500
+boxes I like hearing that
+比如说我喜欢的话
+
+159
+00:06:49,500 --> 00:06:52,098
+that brightens my day 
+应该能照亮我的一天
+
+160
+00:06:52,098 --> 00:06:54,449
+and sad ouch that might be true maybe I got to work on
+让我难过的话 可能是指出我的毛病 
+
+161
+00:06:54,449 --> 00:06:57,408
+that wasn't something that made me feel very warm inside
+并不让我觉得温暖
+
+163
+00:06:57,408 --> 00:07:02,418
+so the kind things surprise put the kind things 
+所以我们把好的话放在这个集合里
+
+165
+00:07:02,418 --> 00:07:04,680
+and the mean things to put are those things 
+把那些尖酸刻薄的话 比如让我生气的话
+
+166
+00:07:04,680 --> 00:07:06,468
+that are just well a bit of a bummer 
+放入这个集合里
+
+167
+00:07:06,468 --> 00:07:09,168
+all right so we do that and this is important
+还有一件非常重要的事情
+
+168
+00:07:09,168 --> 00:07:11,908
+this is important I ran up against this mild erro 
+我犯过这个小错误
+
+169
+00:07:11,908 --> 00:07:15,800
+make sure you have at least 10 in each box 
+请确保每个集合里至少有10句话
+
+170
+00:07:15,800 --> 00:07:17,528
+because if you have less
+如果少了的话
+
+171
+00:07:17,528 --> 00:07:19,908
+well it it won't work
+程序就会出错 
+
+172
+00:07:19,908 --> 00:07:21,769
+you'll be like you need more 
+你需要更多的句子
+
+173
+00:07:21,769 --> 00:07:23,149
+and so I'll just tell you right at front you need at least ten
+每个集合至少需要10句话
+
+174
+00:07:23,149 --> 00:07:25,370
+they're gonna be short words that's what I did
+你也可以加一些短词 我就是这么做的
+
+176
+00:07:25,370 --> 00:07:29,959
+cool nice hard-working that's two words
+酷 好 认真 认真有两个字了
+
+177
+00:07:29,959 --> 00:07:33,829
+but you get the gist to do that 
+反正你知道我的意思
+
+178
+00:07:33,829 --> 00:07:36,079
+and then hit the learn and test button 
+然后点击 学习&测试 按钮
+
+179
+00:07:36,079 --> 00:07:38,899
+which I believe looks like this one 
+它长这个样子
+
+180
+00:07:38,899 --> 00:07:41,810
+it looks like this wants to press that one 
+然后你点击这个按钮
+
+181
+00:07:41,810 --> 00:07:45,478
+and it should go to a page read wait a little bit
+它会跳到一个界面 上面写着请稍等
+
+182
+00:07:45,478 --> 00:07:47,870
+you're like is anything happening
+发生了什么
+
+183
+00:07:47,870 --> 00:07:51,468
+yes yes it is amazing machine learning
+是的 机器正在学习
+
+184
+00:07:51,468 --> 00:07:54,019
+things are happening at IBM Watson ooh
+就像IMB的电脑 沃森在学习一样
+
+185
+00:07:54,019 --> 00:07:57,259
+that scientists things 
+让科学界为之振奋
+
+186
+00:07:57,259 --> 00:07:59,509
+next thing you know you have your trained model 
+之后你就可以得到你的训练模型了
+
+187
+00:07:59,509 --> 00:08:01,978
+and this is where the really cool stuff starts happening
+在这里 真正酷炫的事情即将发生
+
+188
+00:08:01,978 --> 00:08:03,860
+so we do that and all of a sudden
+我们这样做后 忽然
+
+189
+00:08:03,860 --> 00:08:07,728
+we have this thing all of a sudden
+我们就有了模型 忽然之间
+
+190
+00:08:07,728 --> 00:08:12,028
+we can talk to our computer
+我们就可以以一种更智能的方式
+
+191
+00:08:12,028 --> 00:08:13,500
+in a much more intelligent way
+和我们的电脑交谈了
+
+192
+00:08:13,500 --> 00:08:20,418
+so we're gonna go back for a project
+所以我们回到项目
+
+194
+00:08:20,418 --> 00:08:22,259
+and we're gonna skip over some of the stuff here
+我们要跳过一些东西
+
+195
+00:08:22,259 --> 00:08:24,810
+but that's what you're gonna do
+但是你要做
+
+196
+00:08:24,810 --> 00:08:26,800
+but it's just simple
+它很简单
+
+197
+00:08:26,800 --> 00:08:27,408
+follow the steps 
+照做就好
+
+198
+00:08:27,408 --> 00:08:31,490
+you've already made the code segment here 
+这里你已经做好了代码
+
+199
+00:08:31,490 --> 00:08:33,828
+you have already made a code segment 
+你已经创建好了代码
+
+200
+00:08:33,828 --> 00:08:36,259
+now you're going to change this code stuff
+现在你要把这些代码
+
+201
+00:08:36,259 --> 00:08:39,408
+here into this stuff right here 
+变成这个样子
+
+202
+00:08:39,408 --> 00:08:42,259
+now I just kept this around because 
+我把这个先放在这里
+
+203
+00:08:42,259 --> 00:08:44,549
+this is something that I didn't really notice 
+有些东西我可能没调整
+
+204
+00:08:44,549 --> 00:08:46,919
+we needed to change until I was having some odd issues
+所以先把它放在这
+
+205
+00:08:46,919 --> 00:08:50,009
+so this is an if-else statement
+这是一个if else语句
+
+206
+00:08:50,009 --> 00:08:52,009
+if there's chocolate sauce
+如果有巧克力酱
+
+207
+00:08:52,009 --> 00:08:54,820
+I will put it on my ice cream 
+我会把它加在我的冰淇淋上
+
+208
+00:08:54,820 --> 00:08:56,649
+if there's chocolate sauce 
+如果有巧克力酱
+
+209
+00:08:56,649 --> 00:08:58,400
+then I'll put it on my ice cream 
+然后我会把它加在我的冰淇淋上
+
+210
+00:08:58,400 --> 00:09:02,620
+otherwise I'll have a brownie
+不然我就会吃一个布朗尼
+
+210
+00:09:02,620 --> 00:09:05,839
+sure but these are different
+当然他们不太一样
+
+211
+00:09:05,839 --> 00:09:08,360
+basically this is if then if then
+这个是如果 然后 如果 然后
+
+212
+00:09:08,360 --> 00:09:10,759
+this is if else this is one thing 
+这个是如果 不然 这是一件事
+
+213
+00:09:10,759 --> 00:09:13,799
+so just note that make sure you don't mix that as I did
+注意 不要像我一样混淆它们
+
+214
+00:09:13,799 --> 00:09:18,889
+alright so and then I believe we get so from more blocks 
+好的 然后我们打开“more blocks”
+
+216
+00:09:18,889 --> 00:09:21,169
+we get this is basically 
+这里是机器学习
+
+217
+00:09:21,169 --> 00:09:23,360
+what we just made with all our machine learning
+利用我们之前的数据库
+
+218
+00:09:23,360 --> 00:09:25,519
+from our training data set that we made 
+所产生的
+
+219
+00:09:25,519 --> 00:09:28,120
+so we put that in here and then
+我们把这个放到这里来
+
+220
+00:09:28,120 --> 00:09:30,379
+this is where the amazing things happen
+神奇的事就要发生了
+
+221
+00:09:30,379 --> 00:09:35,778
+let's say let's recall it over here we said
+我记得我们之间说的是
+
+223
+00:09:35,778 --> 00:09:39,740
+exactly I think you're awesome 
+你真的很棒
+
+224
+00:09:39,740 --> 00:09:41,539
+well do we still think does
+现在这句话能不能
+
+225
+00:09:41,539 --> 00:09:44,000
+that still like me feel good well yes
+让计算机开心呢 可以
+
+226
+00:09:44,000 --> 00:09:46,690
+it does okay good nice 
+可以 很好
+
+227
+00:09:46,690 --> 00:09:55,190
+and I start what about you are great 
+让我们输入 “你简直伟大” 试试看
+
+228
+00:09:55,190 --> 00:09:59,750
+well it didn't work now that's interesting
+不行 这很有趣
+
+229
+00:09:59,750 --> 00:10:02,870
+what about just great
+那如果只是输入 “伟大”
+
+230
+00:10:02,870 --> 00:10:05,179
+maybe it caught on my my bad spelling 
+或许我刚刚拼写有误
+
+231
+00:10:05,179 --> 00:10:06,039
+if you caught that 
+可能你也发现了 
+
+232
+00:10:06,039 --> 00:10:08,039
+now it's an important note
+友情提醒
+
+232
+00:10:08,039 --> 00:10:10,528
+okay you think oh we're using machine learning
+你可能觉得 我们在用机器学习
+
+233
+00:10:10,528 --> 00:10:12,389
+it's got science it's foolproof 
+很科学 它万无一失
+
+234
+00:10:12,389 --> 00:10:14,028
+it's amazing look at it goes
+看起来很神奇
+
+235
+00:10:14,028 --> 00:10:16,509
+it's perfect  
+简直完美
+
+236
+00:10:16,509 --> 00:10:20,419
+actually this is probably the one area of science
+这可能是科学无法声称
+
+237
+00:10:20,419 --> 00:10:23,360
+that makes no claim on being perfect 
+自己完美的一个领域
+
+238
+00:10:23,360 --> 00:10:25,759
+you know he's the popular kid
+比如说他是一个受人欢迎的人
+
+239
+00:10:25,759 --> 00:10:28,399
+he's the fastest guy on the track team 
+田径队里他跑的最快
+
+240
+00:10:28,399 --> 00:10:29,570
+he's shooting rooting those straight A's and
+他可能每门课都得A
+
+241
+00:10:29,570 --> 00:10:31,909
+yet he's not perfect he makes mistakes
+但是他也并不完美 他也会犯错
+
+242
+00:10:31,909 --> 00:10:33,470
+you know he's not seen everything 
+他不是所以东西都见过
+
+243
+00:10:33,470 --> 00:10:35,958
+he's only seen ten compliments
+他只见过10句赞美的话
+
+244
+00:10:35,958 --> 00:10:38,629
+he's been told he's wonderful in ten ways 
+人们只用10种方式夸奖过他
+
+245
+00:10:38,629 --> 00:10:40,820
+and not sogreat in ten other ways 
+还有10种方式批评他
+
+246
+00:10:40,820 --> 00:10:44,778
+well apparently your great misspelled
+很明显 你把伟大拼错了
+
+247
+00:10:44,778 --> 00:10:47,570
+for in his mind made him feel bad 
+这让他感觉不太好
+
+248
+00:10:47,570 --> 00:10:49,669
+maybe he just really likes spelling
+因为他可能喜欢拼写
+
+249
+00:10:49,669 --> 00:10:52,669
+but if we just say great as we showed a moment ago 
+但是如果我们正确拼写的话
+
+250
+00:10:52,669 --> 00:10:53,690
+well that just makes his day 
+他会很开心 
+
+251
+00:10:53,690 --> 00:10:55,690
+so what things can we say
+我们还可以说什么
+
+251
+00:10:55,690 --> 00:11:01,309
+so cool makes him feel great 
+如此酷 这让他感觉很棒
+
+252
+00:11:01,309 --> 00:11:03,948
+and you can try a bunch of things 
+你可以多多尝试
+
+253
+00:11:03,948 --> 00:11:05,490
+and for the most part it should work
+大部分情况下 应该它都是有反应的
+
+254
+00:11:05,490 --> 00:11:07,230
+it's not gonna work perfectly
+它不会一点错都不出
+
+255
+00:11:07,230 --> 00:11:09,480
+don't don't expect that and
+不要指望它完全不犯错误
+
+256
+00:11:09,480 --> 00:11:11,330
+that's okay that's machine learning 
+犯错没关系 这就是机器学习
+
+257
+00:11:11,330 --> 00:11:13,850
+in general it is non-deterministic 
+一般来说 它是非确定性的
+
+258
+00:11:13,850 --> 00:11:15,809
+is the fancy word for that
+这是花哨一点的表达
+
+259
+00:11:15,809 --> 00:11:18,000
+all right so let's see how it does on
+好的，让我们看看它对于不好的评价
+
+260
+00:11:18,000 --> 00:11:19,610
+the not-so-great things 
+是如何反应的
+
+261
+00:11:19,610 --> 00:11:23,778
+well let's say you are just so tired today 
+输入 你今天太累了
+
+262
+00:11:23,778 --> 00:11:25,639
+he's tired it's okay to be tired you know you need sleep
+他很累 不过很正常 所以我们才需要睡眠
+
+263
+00:11:25,639 --> 00:11:27,080
+and sometimes you just don't get enough
+有时候你没办法得到充足的睡眠
+
+264
+00:11:27,080 --> 00:11:29,000
+it's good to try to get that
+尝试多睡挺好
+
+265
+00:11:29,000 --> 00:11:30,850
+but sometimes it just can't 
+但是有时候你没时间睡觉
+
+266
+00:11:30,850 --> 00:11:33,799
+what about hungry just labeling things 
+输入饿的话会怎么样呢
+
+267
+00:11:33,799 --> 00:11:35,470
+I am a little bit right now
+我现在的确有点饿
+
+268
+00:11:35,470 --> 00:11:39,589
+mm-hmm-hmm what about nasty
+输入令人讨厌的呢
+
+269
+00:11:39,589 --> 00:11:41,629
+let's just say he got to take a shower 
+比如说他忘记洗澡了
+
+270
+00:11:41,629 --> 00:11:42,320
+forgot to brush his teeth just one of those days
+忘记刷牙了
+
+271
+00:11:42,320 --> 00:11:46,159
+so we see on the whole
+我们可以看到 总的来说
+
+272
+00:11:46,159 --> 00:11:48,919
+it has learned other things than
+除了我们告诉它的东西之外
+
+273
+00:11:48,919 --> 00:11:51,980
+just exactly what we told it to memorize
+他已经学会对其他东西反应
+
+274
+00:11:51,980 --> 00:11:53,870
+that kind of makes sense 
+这是可行的
+
+275
+00:11:53,870 --> 00:11:56,450
+it's the difference between understanding
+他们的区别就好像理解
+
+276
+00:11:56,450 --> 00:11:59,240
+ and Iliterally just memorized what was on the
+和机械记住考试内容
+
+277
+00:11:59,240 --> 00:12:02,480
+test or what my friends like exactly
+或者我朋友喜欢什么
+
+278
+00:12:02,480 --> 00:12:04,250
+and then if there's anything a little bit
+如果有一些有点不一样的
+
+279
+00:12:04,250 --> 00:12:07,339
+different they don't know what it is 
+他们不知道的事情
+
+280
+00:12:07,339 --> 00:12:11,328
+so that is what we are going on here 
+所以这就是我们要继续做下去的事情
+
+281
+00:12:11,328 --> 00:12:14,509
+all right Walker I've heard I've heard you
+好了我们已经讲完了
+
+282
+00:12:14,509 --> 00:12:16,250
+about we've run through the programming
+并且也自己亲身经历一番了
+
+283
+00:12:16,250 --> 00:12:18,230
+we got it to work 
+我们让计算机运行了
+
+284
+00:12:18,230 --> 00:12:18,828
+maybe we didn't that's okay
+失败也没有关系
+
+285
+00:12:18,828 --> 00:12:23,750
+that's okay happiness sadness that's it
+只有幸福和悲伤这两种表情嘛
+
+286
+00:12:23,750 --> 00:12:26,600
+what about you know look at Darth Vader
+看看达斯维达
+ 
+287
+00:12:26,600 --> 00:12:29,570
+look at his face look at it he's feeling
+ 看着他的脸
+
+288
+00:12:29,570 --> 00:12:31,789
+he's feeling so much so much more than
+他的表情可远比
+
+289
+00:12:31,789 --> 00:12:33,620
+just happy and sad life is so much more
+快乐和悲伤来的多
+
+290
+00:12:33,620 --> 00:12:36,649
+exciting than just happy and sad 
+生活里面的情绪也远远比快乐悲伤要多
+
+291
+00:12:36,649 --> 00:12:38,000
+when you've only mentioned happy and sad
+当你只提到快乐和悲伤
+
+292
+00:12:38,000 --> 00:12:39,289
+what's up with that come on that's just
+其他情绪怎么办 这样不行
+
+293
+00:12:39,289 --> 00:12:43,129
+wrong you're right it is wrong 
+没错 这样不行
+
+294
+00:12:43,129 --> 00:12:45,200
+it's too simple but it's something we can do 
+它太简单了 但是在有限时间的课程内
+
+295
+00:12:45,200 --> 00:12:47,149
+in a short little video 
+我们也只能先学习简单的了
+
+296
+00:12:47,149 --> 00:12:48,570
+so there's that for you
+先消化今天的内容吧
+
+297
+00:12:48,570 --> 00:12:50,789
+so moving on what's what's the next step
+所以下一步我们可以怎么做呢
+
+298
+00:12:50,789 --> 00:12:52,799
+what are some things that we could try and do
+我们可以尝试什么
+
+299
+00:12:52,799 --> 00:12:54,299
+we could try and recognize well
+我们可以尝试让计算机识别
+
+300
+00:12:54,299 --> 00:12:56,429
+are they are they angry how angry are they
+他们生气吗 他们又是有多生气
+
+301
+00:12:56,429 --> 00:12:58,759
+are they angry and sad 
+他们既悲伤又生气吗
+
+302
+00:12:58,759 --> 00:13:00,470
+so this is actually very much an open research question
+这其实是个开放性的问题
+
+303
+00:13:00,470 --> 00:13:02,000
+which is another way of saying
+换一种说法
+
+304
+00:13:02,000 --> 00:13:04,669
+it's really difficult like really difficult
+它真的很难 真的真的很难
+
+305
+00:13:04,669 --> 00:13:07,370
+and the kind of fun part about it
+而它有趣的部分就在于
+
+306
+00:13:07,370 --> 00:13:08,958
+and this is most machine learning projects
+大多数机器学习也是一样
+
+307
+00:13:08,958 --> 00:13:13,948
+ are they're never 100 percent right
+它们不会百分之百正确
+
+308
+00:13:13,948 --> 00:13:15,519
+they're never like
+它们不会说
+
+309
+00:13:15,519 --> 00:13:18,169
+ oh this is a fact this is a hundred percent true
+这绝对是事实 它绝对正确
+
+310
+00:13:18,169 --> 00:13:20,089
+no one can disagree 
+大家都认为如此
+
+311
+00:13:20,089 --> 00:13:22,190
+cuz think about emotions you know 
+不信想想情绪
+
+312
+00:13:22,190 --> 00:13:23,990
+you think about yourself right 
+想想你自己
+
+313
+00:13:23,990 --> 00:13:25,909
+now how are you feeling 
+你现在感觉怎么样
+
+314
+00:13:25,909 --> 00:13:28,909
+you might feel pretty good or a pretty bad
+你感觉还不错 或者感觉不好
+
+315
+00:13:28,909 --> 00:13:30,828
+ but if you were to try to give a number to that
+你要为你的情绪打个分
+
+316
+00:13:30,828 --> 00:13:35,799
+I'm feeling like nine point nine out of ten awesome right now
+我现在的好心情有9.9分 满分10分的话
+
+317
+00:13:35,799 --> 00:13:37,948
+but exactly nine point nine 
+但是真的正好是9.9吗
+
+318
+00:13:37,948 --> 00:13:39,110
+what if it is nine point nine nine
+有没有可能是9.99
+
+319
+00:13:39,110 --> 00:13:41,649
+what if it's nine point nine o
+有没有可能是9.90
+
+320
+00:13:41,649 --> 00:13:44,379
+well gets a little silly 
+有点傻
+
+321
+00:13:44,379 --> 00:13:48,350
+and to ever really definitively say 
+通常说  这是解决问题唯一的方法
+
+322
+00:13:48,350 --> 00:13:51,318
+this is the only way might not ever happen
+是不可能的
+
+323
+00:13:51,318 --> 00:13:52,800
+but that's okay in this field 
+但是在这里是可以的
+
+324
+00:13:52,800 --> 00:13:55,100
+in this machinelearning stuff 
+在机器学习这个领域是可以的
+
+325
+00:13:55,100 --> 00:13:57,500
+because if you can get close 
+因为你已经很靠近正确答案了
+
+326
+00:13:57,500 --> 00:13:58,669
+you know they're mad you know 
+你知道他们生气了
+
+326
+00:13:58,669 --> 00:14:00,470
+just kind of like say that and you guess 
+你已经猜到
+
+327
+00:14:00,470 --> 00:14:01,500
+they just get acrossed 
+他们生气了
+
+328
+00:14:01,500 --> 00:14:03,769
+you know we should be a little careful around this person
+所以你知道和他相处的时候得小心一点
+
+329
+00:14:03,769 --> 00:14:06,480
+because they're having an extremely bad day
+因为他今天的心情非常糟糕
+
+330
+00:14:06,480 --> 00:14:08,850
+or this person is having an awesome day
+或者他今天心情超好
+
+331
+00:14:08,850 --> 00:14:10,289
+ I'm gonna hang around with them
+那我就会和他玩
+
+332
+00:14:10,289 --> 00:14:12,789
+because I would also like to have an awesome day
+ 因为我也想要度过开心的一天
+
+333
+00:14:12,789 --> 00:14:14,609
+so that's kind of a fun of machine learning
+这就是机器学习的乐趣
+
+

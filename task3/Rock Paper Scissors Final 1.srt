@@ -1,0 +1,1708 @@
+﻿1
+00:00:00,000 --> 00:00:01,609
+hi there I'm Luis Gomez with Palo Alto Education
+你好  我是来自Palo Alto Education 的路易斯·戈麦斯
+
+2
+00:00:01,609 --> 00:00:04,100
+and i'd like to teach you 
+我想教你
+
+3
+00:00:04,100 --> 00:00:07,129
+how to make your very own
+如何做你自己的
+
+4
+00:00:07,129 --> 00:00:11,500
+rock-paper-scissors plain program using machine learning
+剪刀石头布平面程序  通过使用机器学习
+
+5
+00:00:11,500 --> 00:00:12,940
+so this is gonna be a very fun project
+所以这将是一个非常有趣的项目
+
+6
+00:00:12,940 --> 00:00:15,240
+and we're gonna learn a ton
+我们将学习许多
+
+7
+00:00:15,240 --> 00:00:17,429
+about the fundamentals of machine learning 
+关于机器学习的基本原理
+
+8
+00:00:17,429 --> 00:00:20,339
+so why rock-paper-scissors
+所以我们为什么会选择剪刀石头布呢？
+
+9
+00:00:20,339 --> 00:00:23,870
+well humans aren't that great at it
+其实人们并不是很擅长这个游戏
+
+10
+00:00:23,870 --> 00:00:26,890
+I mean seriously 
+我可没开玩笑
+
+11
+00:00:26,890 --> 00:00:28,609
+so what I'm envisioning is 
+所以我所设想的是
+
+12
+00:00:28,609 --> 00:00:32,219
+a program that can do a little bit better than this
+一个擅长这个游戏的项目
+
+13
+00:00:32,219 --> 00:00:35,340
+so something more along these lines
+所以是与一想法相关的一些事儿
+
+14
+00:00:35,340 --> 00:00:36,840
+that's what I'm talking about you know
+这就是我所说的  你知道的
+
+15
+00:00:36,840 --> 00:00:40,149
+bring on anybody bring on the rock paper scissors world champion 
+让所有人 让石头剪刀布的世界冠军 来和他比赛
+
+16
+00:00:40,149 --> 00:00:41,729
+we can take him on
+我们可以带他去
+
+17
+00:00:41,729 --> 00:00:45,488
+no problem with this program that we're gonna build
+我们设计的程序无懈可击
+
+18
+00:00:45,488 --> 00:00:47,549
+so how do we do this
+所以我们如何做到这一点呢？
+
+19
+00:00:47,549 --> 00:00:49,320
+well let's let's think a little bit
+让我们 让我们想一想
+
+20
+00:00:49,320 --> 00:00:50,549
+let's start breaking it down a little bit
+让我们开始想想如何拆分步骤
+
+21
+00:00:50,549 --> 00:00:53,100
+thinking about what our goals for this program should be 
+想想我们这个程序的目标是什么
+
+22
+00:00:53,100 --> 00:00:53,460
+
+
+23
+00:00:53,460 --> 00:01:01,000
+so obviously someone cuz I know someone's going to come up to the computer show Rock 
+我知道的  一定会有人来到电脑面前  出石头
+
+24
+00:01:01,000 --> 00:01:01,079
+
+25
+00:01:01,079 --> 00:01:04,290
+the computer is going to return paper
+电脑则会出布
+
+26
+00:01:04,290 --> 00:01:08,830
+somebody's going to come up to the computer show the paper shape 
+也会有人对着电脑出布
+
+27
+00:01:08,830 --> 00:01:11,170
+and the computer is going to return scissors 
+电脑会则会出剪刀
+
+28
+00:01:11,170 --> 00:01:11,990
+you get the idea 
+你应该明白了吧 就是这样
+
+29
+00:01:11,990 --> 00:01:14,610
+but the biggest problem here is 
+但最大的问题是
+
+30
+00:01:14,610 --> 00:01:17,380
+get the computer to recognize images
+让计算机识别图像
+
+31
+00:01:17,380 --> 00:01:20,159
+how how can we do that you know
+我们应该怎么做到呢？
+
+32
+00:01:20,159 --> 00:01:24,420
+how can we teach a computer to recognize shapes and images 
+我们怎样才能教会电脑识别形状和图像呢？
+
+33
+00:01:24,420 --> 00:01:28,509
+how can we how can we do that
+我们怎样才能做到这样呢？
+
+34
+00:01:28,509 --> 00:01:29,000
+how was it possible 
+这可能吗？
+
+35
+00:01:29,000 --> 00:01:31,519
+how can a computer understand something 
+电脑怎么可能会理解这些呢？
+
+36
+00:01:31,519 --> 00:01:36,030
+how can it get the idea of something 
+电脑又怎么能接受这些想法呢？
+
+37
+00:01:36,030 --> 00:01:38,219
+so we're gonna use a very common thing 
+所以我们使用了一个非常常见的工具
+
+38
+00:01:38,219 --> 00:01:39,828
+that we use in machine learning called training data
+那就是我们经常在机器学习中使用的训练数据
+
+39
+00:01:39,828 --> 00:01:43,939
+so this is a super key concept for machine learning 
+这是机器学习中至关重要的概念
+
+40
+00:01:43,939 --> 00:01:45,890
+it's having a lot of training data 
+机器学习中有大量的训练数据
+
+41
+00:01:45,890 --> 00:01:47,250
+today we're gonna be using images
+今天我们将使用图像
+
+42
+00:01:47,250 --> 00:01:52,049
+because rock paper scissors is obviously an image based a visual based game
+因为很明显剪刀石头布是一个基于图像与视觉的游戏
+
+43
+00:01:52,049 --> 00:01:53,000
+
+
+
+44
+00:01:53,000 --> 00:01:56,218
+so for example one piece of training data
+例如一条训练数据
+
+45
+00:01:56,218 --> 00:01:59,649
+we might have is a picture of somebody doing the rock symbol
+可能是某人在做石头手势的照片
+
+46
+00:01:59,649 --> 00:02:03,859
+and a label this is very important with training data
+以及它的标签  对于训练数据来说这非常重要
+
+47
+00:02:03,859 --> 00:02:04,290
+
+
+
+48
+00:02:04,290 --> 00:02:08,000
+each piece of data also has to come with its own label
+每一条数据中必须包含它自己的标签
+
+49
+00:02:08,000 --> 00:02:09,990
+so we take this image of rock
+所以对于石头的这个图像
+
+50
+00:02:09,990 --> 00:02:13,020
+we take our label that says rock
+我们给它的标签就为石头
+
+51
+00:02:13,020 --> 00:02:13,759
+literally
+按照字面
+
+52
+00:02:13,759 --> 00:02:14,260
+just the word rock 
+就是石头的意思
+
+53
+00:02:14,260 --> 00:02:18,759
+and we're gonna pass this into our machine learning model
+我们会把这个置入我们机器学习的模型中
+
+54
+00:02:18,759 --> 00:02:21,110
+and we want to get a bunch of these okay
+并且我们需要得到大量的这些数据 
+
+55
+00:02:21,110 --> 00:02:22,938
+we want one for each label 
+我们想要一个我们将拥有的每个标签
+
+56
+00:02:22,938 --> 00:02:23,348
+we're gonna have three labels 
+我们需要三个标签
+
+57
+00:02:23,348 --> 00:02:26,870
+because there's three possible outcomes in rock-paper-scissors
+因为在这一游戏中  有三种可能产生的结果
+
+58
+00:02:26,870 --> 00:02:29,969
+well three possible moves I should say in rock-paper-scissors
+或者说在石头剪刀布中  有三个可能的动作
+
+59
+00:02:29,969 --> 00:02:31,229
+you've got rock paper scissors
+你可能得到石头 剪刀 或布
+
+60
+00:02:31,229 --> 00:02:31,340
+
+
+61
+00:02:31,340 --> 00:02:33,829
+so we want to make sure 
+所以我们要确保
+
+62
+00:02:33,829 --> 00:02:36,699
+we get plenty of images for each of these three labels
+对于这三个中的每一个标签  我们都得到了足够多的图像
+
+63
+00:02:36,699 --> 00:02:39,469
+so image of paper make sure we label it paper 
+所以如果是布的图像  记得标记为布
+
+64
+00:02:39,469 --> 00:02:41,769
+hand it off to the computer
+同样再把它录入电脑
+
+65
+00:02:41,769 --> 00:02:45,150
+another image of rock label at rock 
+若是石头的图像  那么标签就为石头
+
+66
+00:02:45,150 --> 00:02:47,780
+hand it off to the computer 
+然后录入电脑 
+
+67
+00:02:47,780 --> 00:02:49,899
+image of scissors label at scissors 
+剪刀的图像就标记为剪刀
+
+68
+00:02:49,899 --> 00:02:50,650
+pass it off to the computer 
+然后录入电脑
+
+69
+00:02:52,250 --> 00:02:53,568
+and so on so we're gonna keep doing this over and over and over again
+就这样一遍遍地重复
+
+70
+00:02:53,568 --> 00:02:55,699
+and the more training data we get and
+以及我们得到的训练数据越多
+
+71
+00:02:55,699 --> 00:02:57,000
+the more varied it looks 
+看起来越多样
+
+72
+00:02:57,000 --> 00:03:02,039
+the better our model is going to perform in an actual game of rock-paper-scissors 
+我们的模型在实际的游戏中也会表现得更好
+
+73
+00:03:02,039 --> 00:03:03,109
+
+74
+00:03:03,109 --> 00:03:04,158
+and we'll talk a little bit more about that later
+我们稍后会再细谈
+
+75
+00:03:04,158 --> 00:03:06,750
+but let's start getting into this project and setting everything up 
+现在让我们进入这个项目 开始设置吧
+
+76
+00:03:06,750 --> 00:03:07,759
+
+77
+00:03:07,759 --> 00:03:10,179
+so we can right away just start writing down some code
+所以我们可以马上写代码啦
+
+78
+00:03:10,179 --> 00:03:12,259
+so let's get started
+让我们开始吧
+
+79
+00:03:12,259 --> 00:03:13,639
+we're gonna open up a new browser tab and
+打开一个新的浏览器选项卡和
+
+80
+00:03:13,639 --> 00:03:19,809
+we're gonna go to machinelearningforkids.co.UK
+然后进入“machinelearningforkids.co.UK”（为孩子设计的机器学习）这个网址
+
+81
+00:03:19,809 --> 00:03:23,519
+you can just search machine learning for kids into Google 
+你也可以在google页面中输入“machinelearningforkids”，
+
+82
+00:03:23,519 --> 00:03:23,810
+
+
+83
+00:03:23,810 --> 00:03:26,590
+or whatever and the website will come up so
+或者无论什么浏览器  然后网页就会出来啦
+
+84
+00:03:26,590 --> 00:03:30,639
+we're gonna click on worksheets here and
+我们要点击这里的工作表
+
+85
+00:03:30,639 --> 00:03:33,920
+we're gonna scroll down till we see our project
+然后向下滚动  直到看到我们的项目
+
+86
+00:03:33,920 --> 00:03:35,628
+should be right here rock paper scissors
+应在就在这个位置 剪刀石头布
+
+87
+00:03:35,628 --> 00:03:39,378
+and click on download
+然后点击“download”（下载）
+
+88
+00:03:39,378 --> 00:03:41,810
+where a student so we're gonna click download project worksheet
+在“student”（学生）这一栏下  我们要点击“download project worksheet”（下载项目工作表）
+
+89
+00:03:41,810 --> 00:03:44,870
+let that download
+让它下载吧
+
+90
+00:03:44,870 --> 00:03:47,449
+and while that's happening we're gonna go over here 
+这种情况经常会发生  然后我们来到这儿
+
+91
+00:03:47,449 --> 00:03:50,289
+click log in okay
+点击“log in”（登录）还好现在我已经
+
+92
+00:03:50,289 --> 00:03:53,229
+now I've got the worksheet pulled up already and
+我现在已经得到了工作啦  
+
+93
+00:03:53,229 --> 00:03:55,609
+this is exactly what the worksheet says to do
+我们刚刚做的  正是工作表告诉我们要做的步骤
+
+94
+00:03:55,609 --> 00:03:58,169
+so I'm just walking you through this worksheet already 
+所以我只是带你看一遍这个工作表
+
+95
+00:03:58,169 --> 00:03:58,878
+
+
+96
+00:03:58,878 --> 00:04:00,549
+if you want to pull it up and follow along 
+可能你会需要放大页面  然后跟着指示走
+
+97
+00:04:01,549 --> 00:04:05,329
+we're just gonna be walking through this 
+但我们现在只是快速过一遍
+
+98
+00:04:05,329 --> 00:04:11,530
+so click on log in I'm gonna log in real quick and
+点击“log in”（登录）  我会快速登录
+
+99
+00:04:11,530 --> 00:04:15,298
+we're gonna go to your projects 
+然后我们点击“go to your projects”（你的项目）
+
+100
+00:04:15,298 --> 00:04:18,598
+so let's add a new project 
+点击“add a new project”（添加新项目）的按钮
+
+101
+00:04:18,598 --> 00:04:21,629
+and we're gonna title it
+然后给它命名
+
+102
+00:04:21,629 --> 00:04:22,620
+rock paper scissors 
+石头 剪刀 布
+
+103
+00:04:22,620 --> 00:04:27,759
+and recognizing like we said the type of data we're going to be using is images 
+还记得吗 我们说过 我们将会使用的数据类型 是图像
+
+104
+00:04:27,759 --> 00:04:29,769
+so make sure to click images right here
+所以一定要点击“image”（图像）
+
+105
+00:04:29,769 --> 00:04:31,949
+and click create
+然后单击“create”（创建）
+
+106
+00:04:31,949 --> 00:04:35,609
+and there's our project so they're gonna open that up
+这就是我们的项目啦  如果要打开它
+
+107
+00:04:35,609 --> 00:04:36,399
+just click on that 
+只需要点击它
+
+108
+00:04:38,399 --> 00:04:40,889
+go to train click this little train button right here
+找到“train”（训练）  点击这里的训练按钮
+
+109
+00:04:40,889 --> 00:04:42,660
+so right here see this button
+看到这个按钮所要求的了吗
+
+110
+00:04:42,660 --> 00:04:43,459
+where it says add me a new label 
+它在说  请给我添加新标签
+
+111
+00:04:43,459 --> 00:04:47,750
+like we said earlier we're gonna want three labels
+正如我们之前说过  我们需要三个标签
+
+112
+00:04:47,750 --> 00:04:49,049
+rock paper scissors
+石头 剪刀 布 
+
+113
+00:04:49,049 --> 00:04:51,600
+we'll just start off with one so let's click add new label
+我们就先从其中一个开始  点击“add new label”（增加新标签）
+
+114
+00:04:51,600 --> 00:05:00,870
+and we're gonna write Rock and add 
+然后我们要写下“rock”石头  并点击“add”添加
+
+115
+00:05:00,870 --> 00:05:04,709
+so there's that and since we want to 
+就是这样  因为我们想要
+
+116
+00:05:04,709 --> 00:05:06,500
+you know we want it to play against real humans
+你懂的  我们希望它能与真人对抗
+
+117
+00:05:06,500 --> 00:05:10,249
+okay we want to get somebody sitting next to us to play against our program 
+我们希望坐在我们旁边的人  能与我们的程序对抗
+
+118
+00:05:10,249 --> 00:05:10,439
+
+119
+00:05:10,439 --> 00:05:12,060
+and have our program kick their butt
+并让我们的程序打他个落花流水
+
+120
+00:05:12,060 --> 00:05:17,869
+so we want to take pictures ourselves of rock paper scissors 
+所以我们需要摆出石头剪刀布的手势  并拍照
+
+121
+00:05:17,869 --> 00:05:18,209
+
+
+122
+00:05:18,209 --> 00:05:19,540
+so we're gonna click on webcam
+所以我们要点击网络摄像头
+
+123
+00:05:19,540 --> 00:05:22,550
+you might get something up here 
+你可能会看到一个对话框跳出  访问摄像头的许可询问
+
+124
+00:05:22,550 --> 00:05:25,610
+asking you to allow access to your webcam just click allow
+只需点击“allow”（允许）即可
+
+125
+00:05:25,610 --> 00:05:30,840
+and because I'm recording my screen right now 
+因为我正在用摄像头录制我的屏幕
+
+126
+00:05:30,840 --> 00:05:32,569
+I'm not able to use my webcam 
+所以我无法使用我的网络摄像头
+
+127
+00:05:32,569 --> 00:05:34,470
+but you will be able to just
+但你可以只用
+
+128
+00:05:34,470 --> 00:05:37,029
+follow along with this worksheet 
+跟随这个工作表上的步骤
+
+129
+00:05:37,029 --> 00:05:43,829
+right here click webcam click allow
+像这里说明的  点击“webcam”（网络摄像头） 点击“allow”（允许）
+
+130
+00:05:43,829 --> 00:05:47,019
+we just did that and now you're gonna click this add button right here
+我们已经完成了  现在你只要点击这个“add”（添加）的按钮
+
+131
+00:05:47,019 --> 00:05:50,610
+ok and you know
+以及 你知道的
+
+132
+00:05:50,610 --> 00:05:53,800
+make your make your hand into a fist shape for Rock
+让你的手握成拳头的形状
+
+133
+00:05:53,800 --> 00:05:58,629
+and click Add and just fill this up 
+单击“add”（添加）  然后只需把这一块空白填满
+
+134
+00:05:58,629 --> 00:05:59,810
+take like ten pictures of rock 
+拍摄10张照片左右
+
+135
+00:05:59,810 --> 00:06:03,389
+and I'm gonna go do that real quick
+我接下来就要去快速完成做这件事
+
+136
+00:06:03,389 --> 00:06:05,510
+and I'll be right back alright 
+我会马上回来的  好吧
+
+137
+00:06:05,510 --> 00:06:07,699
+so hopefully you've got all your rock images
+所以希望你也已经得到了你的石头的图像啦
+
+138
+00:06:07,699 --> 00:06:12,029
+let's add a new label now of paper
+现在让我们添加一个新的标签 —— 布
+
+139
+00:06:12,029 --> 00:06:16,949
+I'm gonna click add and click on webcam over here 
+点击“add”（添加） 然后点击这里的“webcam”（网络摄像头）
+
+140
+00:06:16,949 --> 00:06:21,829
+and ah there I am so
+啊... 看到我啦！
+
+141
+00:06:21,829 --> 00:06:24,420
+you know what to do you know what to do
+你知道该做了  对吧 
+
+142
+00:06:24,420 --> 00:06:28,420
+make the paper symbol hold it up to your webcam at different angles
+摆好布的手势  然后以不同的角度伸向摄像头
+
+143
+00:06:28,420 --> 00:06:32,190
+use a different hand you know
+然后用另一只手重复之前的动作
+
+144
+00:06:32,190 --> 00:06:36,500
+yeah so we're gonna take ten pictures of the paper symbol
+然后我们再拍10张布的手势照片
+
+145
+00:06:36,500 --> 00:06:36,689
+
+
+146
+00:06:36,689 --> 00:06:38,029
+and we're gonna come back
+我们还会再回到这一步
+
+147
+00:06:38,029 --> 00:06:41,829
+we're gonna do the same exact thing with the scissors
+我们摆出剪刀的手势  做同样的事情
+
+148
+00:06:41,829 --> 00:06:44,310
+but so let's get let's get ten pictures of paper
+所以让我们一起先得到10张布的手势照片吧
+
+149
+00:06:44,310 --> 00:06:45,620
+great
+完成啦
+
+150
+00:06:45,620 --> 00:06:48,800
+so you've got your ten images of rock 
+所以你有10张石头的图像了可能
+
+151
+00:06:48,800 --> 00:06:51,279
+maybe you've got more if you do that's awesome
+可能你拍了更多  如果是的话  那简直太棒了
+
+152
+00:06:51,279 --> 00:06:55,129
+at least ten images of paper and 
+至少十张布的图像
+
+153
+00:06:55,129 --> 00:06:57,589
+we're gonna add a new label here
+点击这里的“add a new lable”（增添新标签）按钮
+
+154
+00:06:57,589 --> 00:07:02,839
+type in scissors and if you spell it wrong 
+输入剪刀  如果你拼写错了
+
+155
+00:07:02,839 --> 00:07:06,500
+you can just come up here delete it 
+可以点击这里  删除它
+
+156
+00:07:06,500 --> 00:07:13,100
+click yes try again so we're gonna add a new label of scissors
+点击  再试一次  所以我们要添加一个新的剪刀标签
+
+157
+00:07:13,100 --> 00:07:13,180
+
+
+158
+00:07:13,180 --> 00:07:20,000
+boom add boom click on webcam boom
+点击“add”（增加）  点击“webcam”（网络摄像头）
+
+159
+00:07:20,000 --> 00:07:21,110
+you know what to do 
+你知道接下来要做什么 对吧 
+
+160
+00:07:21,110 --> 00:07:29,519
+scissors from different angles different hands different rotations 
+不同角度的剪刀的手势  左右手都要 旋转变换
+
+161
+00:07:29,519 --> 00:07:31,350
+so if we take a picture of some things face
+所以当我们在拍脸的照片时
+
+162
+00:07:31,350 --> 00:07:32,750
+or like a desk 
+或是向桌子一样的东西 
+
+163
+00:07:32,750 --> 00:07:34,010
+or a crayon or something I don't know 
+或是蜡笔  或一些我不知道的东西
+
+164
+00:07:34,010 --> 00:07:35,290
+and we label it as scissors 
+然后我们将其标记为剪刀
+
+165
+00:07:35,290 --> 00:07:38,209
+our computer is gonna think that's what scissors look like
+我们的电脑会认为剪刀就长这个样子
+
+166
+00:07:38,209 --> 00:07:40,699
+and we don't want that 
+我们不希望如此
+
+167
+00:07:40,699 --> 00:07:42,899
+so if you take a picture of something other than scissors on accident
+所以如果你不小心拍了一张不是剪刀的照片
+
+168
+00:07:42,899 --> 00:07:44,550
+click that little red X there
+点击那个红色的X
+
+169
+00:07:44,550 --> 00:07:47,810
+get rid of it and that takes care of that
+删除它  所以我们要细心一些
+
+170
+00:07:47,810 --> 00:07:53,319
+so yeah I'll just get ten at least ten of scissors 
+是的  我会拍10张  至少10张剪刀的照片
+
+171
+00:07:53,319 --> 00:07:54,079
+and different rotations 
+不同的旋转角度  
+
+172
+00:07:54,079 --> 00:07:56,870
+get that done 
+完成后 
+
+173
+00:07:56,870 --> 00:07:57,649
+and we'll be right back
+我们马上回来
+
+174
+00:07:57,649 --> 00:08:00,870
+great so we've got all the images that we need now
+太棒了  所以我们已经得到了所有需要的图像
+
+175
+00:08:00,870 --> 00:08:02,809
+all we're gonna do is back out of here 
+我们现在需要做的就返回  离开这个页面
+
+176
+00:08:02,809 --> 00:08:06,149
+click on back to project 
+点击“back to project"（返回项目）
+
+177
+00:08:06,149 --> 00:08:08,170
+go to learn and test 
+点击“learn and test”（学习和测试）的按钮  
+
+178
+00:08:08,170 --> 00:08:11,839
+so this is going to be where we actually feed all of the images and labels
+所以我们的图片与标签会全部存储到这块区域
+
+179
+00:08:11,839 --> 00:08:15,209
+that we created into our machine learning model
+而这些图片与标签  就是我们为机器学习的模型所创建的
+
+180
+00:08:15,209 --> 00:08:16,000
+so it can start learning 
+然后电脑就可以开始学习
+
+181
+00:08:16,000 --> 00:08:21,439
+and getting an idea of what rock paper and scissors all mean 
+并了解石头 剪刀 布 分别是什么意思
+
+182
+00:08:21,439 --> 00:08:21,470
+
+
+183
+00:08:21,470 --> 00:08:23,660
+so to do that we're just gonna click this one symbol button here
+那样做我们只是点击这个按钮
+
+184
+00:08:24,660 --> 00:08:27,730
+train your machine learning model 
+即“train your machine learning model”（训练你的机器学习模型）
+
+185
+00:08:27,730 --> 00:08:31,540
+and there we go so
+我们继续往下看
+
+186
+00:08:31,540 --> 00:08:33,179
+training will take awhile 
+培训需要一段时间
+
+187
+00:08:33,179 --> 00:08:37,679
+and even though we've only got around 30 pictures or so
+即使我们只有大约30张左右的照片
+
+188
+00:08:37,679 --> 00:08:38,140
+it'll still take a while 
+它还是会需要一段时间
+
+189
+00:08:38,140 --> 00:08:42,399
+because there's a lot of complicated math happening in the background right now
+因为后台正在进行有很多复杂的计算
+
+190
+00:08:41,399 --> 00:08:41,860
+
+
+191
+00:08:42,860 --> 00:08:45,720
+the math and algorithms behind what we're doing right now
+里面蕴含的数学和算法
+
+192
+00:08:45,720 --> 00:08:46,570
+aren't so important 
+其实并不是那么重要
+
+193
+00:08:46,570 --> 00:08:48,929
+as the high-level ideas
+重要的是高层次的理念
+
+194
+00:08:48,929 --> 00:08:50,610
+the idea of having training data
+也就是训练数据的理念
+
+195
+00:08:50,610 --> 00:08:54,159
+associated with labels and passing this off to a model
+详细点说就是  设计标签并传递此信息给模型
+
+196
+00:08:54,159 --> 00:08:57,769
+and letting it do all of the complicated math for us 
+并让它完成所有复杂的计算工作
+
+197
+00:08:57,769 --> 00:08:59,000
+and getting an idea of 
+并且取得理解
+
+198
+00:08:59,000 --> 00:09:01,440
+what each of our labels means
+每一个标签分别表示的是什么
+
+199
+00:09:01,440 --> 00:09:04,190
+or in this case what each of our labels will look like
+在这次的学习中  即每个标签指代的是什么形状
+
+200
+00:09:04,190 --> 00:09:05,399
+oh great
+太棒了
+
+201
+00:09:05,399 --> 00:09:06,929
+looks like our model is done training
+看起来我们的模型已经完成了训练
+
+202
+00:09:06,929 --> 00:09:10,649
+cool so our model is ready to test 
+所以我们的模型已经做好准备  可以测试了
+
+203
+00:09:10,649 --> 00:09:12,570
+oh man this is exciting isn't it 
+乡亲父老们  这是多么令人兴奋的时刻啊
+
+204
+00:09:12,570 --> 00:09:15,299
+I'm excited I actually haven't tested it yet
+太激动了  实际上我之前还没有测试过它
+
+205
+00:09:15,299 --> 00:09:17,370
+so this is gonna be my first time seeing it too
+所以这也会是我第一次看到它运行
+
+206
+00:09:17,370 --> 00:09:21,339
+pop up in the webcam 
+弹出网络摄像头的窗口吧 
+
+207
+00:09:21,339 --> 00:09:29,240
+oh let's see   
+让我们看一下  
+
+208
+00:09:29,240 --> 00:09:34,528
+Wow~~~  with only 10 I'm actually astounded by that
+哇塞~~~ 尽管只用了10张图片  我真的很震惊
+
+209
+00:09:34,528 --> 00:09:39,720
+76% is good now that our models in training
+76% 的确认率 已经非常棒了  
+
+210
+00:09:39,720 --> 00:09:41,220
+let's continue with this worksheet
+让我们继续这个工作表
+
+211
+00:09:41,220 --> 00:09:43,019
+great so we've now got our trained model 
+太棒了  所以我们已经得到了我们的训练模型
+
+212
+00:09:43,019 --> 00:09:50,440
+we're gonna make the final logic for our rock-paper-scissors robot
+我们将要为我们的“石头剪刀布”机器人做最后的逻辑训练
+
+214
+00:09:50,440 --> 00:09:52,620
+to beat any human 
+这样就可以打败人类了
+
+215
+00:09:52,620 --> 00:09:54,039
+even the rock-paper-scissors world champ
+甚至是我们的石头剪刀布的世界冠军
+
+216
+00:09:54,039 --> 00:09:58,120
+we're gonna do that right now so let's scroll up right here 
+现在就这样做吧  把滚动条往上拉到这儿
+
+217
+00:09:58,120 --> 00:10:00,028
+click back to project and
+点击“back to project”（返回项目）
+
+218
+00:10:00,028 --> 00:10:02,570
+we are gonna open scratch
+然后打开“scratch”
+
+219
+00:10:02,570 --> 00:10:09,140
+I'm gonna click this open in scratch button
+点击这个“open in scratch”按钮
+
+220
+00:10:09,140 --> 00:10:12,629
+oh I need flash you might need to enable this as well
+我需要flash运行  你可能也需要开启它
+
+221
+00:10:12,629 --> 00:10:16,549
+give this one second to load
+等一秒钟加载
+
+222
+00:10:16,549 --> 00:10:19,019
+cool so now that we've got scratch open
+现在我们的“scratch”页面已经打开了
+
+223
+00:10:19,019 --> 00:10:21,458
+we're just gonna follow along with this worksheet
+我们接下来只需要按照这个工作表执行
+
+224
+00:10:21,458 --> 00:10:23,059
+make sure we've got some blocks right here 
+确保这里有一些小方块
+
+225
+00:10:23,059 --> 00:10:29,000
+which we do if we've got rock paper scissors and recognized image
+如果已经获得了石头剪刀布 以及识别过图像 那么这里就会出现小方块
+
+226
+00:10:29,000 --> 00:10:29,160
+
+
+
+227
+00:10:29,160 --> 00:10:31,559
+cool so if you've got some extra blocks there 
+所以如果你有一些额外小方块
+
+228
+00:10:31,559 --> 00:10:32,500
+don't worry about it
+也不用担心
+
+229
+00:10:32,500 --> 00:10:35,129
+it's not going to be an issue as long as we've got rock paper scissors 
+这没什么关系  只要其中有石头 剪刀 布
+
+230
+00:10:35,129 --> 00:10:40,258
+and recognized image label blocks
+以及“recognized image”（已识别图像）的标签
+
+231
+00:10:40,258 --> 00:10:44,129
+we'll be good
+那就很棒啦
+
+232
+00:10:44,129 --> 00:10:45,089
+so go over here to project templates 
+然后来到这个“project templates”（项目模板）
+
+233
+00:10:45,089 --> 00:10:53,578
+and look for rock paper scissors sweet alright so now
+寻找石头剪刀布  太好了
+
+234
+00:10:53,578 --> 00:10:55,620
+that we've got scratch open 
+我们已经打开“scratch”页面了
+
+235
+00:10:55,620 --> 00:10:57,240
+we're just gonna follow the instructions on the worksheet
+我们只需要遵循工作表的指令
+
+236
+00:10:57,240 --> 00:11:00,200
+nice and simple
+很棒  并且挺简单的
+
+237
+00:11:00,200 --> 00:11:03,250
+so pay mention to what the blocks are doing
+所以请注意  小方块代表的动作含义
+
+238
+00:11:03,250 --> 00:11:03,419
+
+
+239
+00:11:03,419 --> 00:11:05,100
+think through as you're reading the worksheet
+当你在阅读工作表时，请仔细思考
+
+240
+00:11:05,100 --> 00:11:08,870
+what... each block you're putting down is is happy is doing 
+我们正在把这些小方块放在这个位子  开心吧
+
+241
+00:11:08,870 --> 00:11:09,029
+so we're gonna code this up real quick
+我们会快速编码
+
+242
+00:11:09,029 --> 00:11:13,629
+so I'll code this up
+所以我会编码
+
+243
+00:11:13,629 --> 00:11:14,730
+I won't show you step by step how to do it
+我不会一步一步教你怎么做
+
+244
+00:11:14,730 --> 00:11:17,350
+I'll leave some of that exploration to you 
+我会留下一些给你自己探索的空间
+
+245
+00:11:17,350 --> 00:11:18,779
+a little out of focus
+镜头有点失焦
+
+246
+00:11:18,779 --> 00:11:19,830
+there there we go
+好啦
+
+247
+00:11:19,830 --> 00:11:23,580
+and yeah just to get you started 
+只是教你们如何开始
+
+248
+00:11:23,580 --> 00:11:25,679
+you're gonna want to go over to the result sprite 
+跳转至“result” 角色
+
+249
+00:11:25,679 --> 00:11:29,970
+just like it says right here so
+按这儿的指示
+
+250
+00:11:29,970 --> 00:11:33,809
+you're gonna click on result 
+点击“result”（结果）
+
+251
+00:11:33,809 --> 00:11:37,019
+go up here to events to find this color of block
+往上移  来到“events”（事件）栏这儿  找到这种颜色的小方块
+
+252
+00:11:37,019 --> 00:11:42,550
+that says when I receive and just drop it in right here
+按它所说的  当我收到时  只需要把它放在这儿
+
+253
+00:11:42,550 --> 00:11:42,809
+
+
+
+254
+00:11:42,809 --> 00:11:45,220
+let's full screen this so you can see better 
+放大全屏  这样你们就可以看得更清楚些
+
+255
+00:11:45,220 --> 00:11:48,880
+when I receive you're gonna click this drop-down 
+当我收到时  你要点击这个下拉列表
+
+256
+00:11:48,880 --> 00:11:50,350
+click score 
+点击“score”（分数）
+
+257
+00:11:50,350 --> 00:11:54,000
+and that's how you get that block 
+就这样你就可以得到
+
+258
+00:11:54,000 --> 00:11:55,590
+that's the basic idea of scratch
+这是scratch中最基本的观念
+
+259
+00:11:55,590 --> 00:11:57,509
+so yeah just match up the colors 
+是的  只需要匹配这些颜色
+
+260
+00:11:57,509 --> 00:11:58,029
+match up the different blocks 
+匹配不同颜色的方块  如果你需要的话
+
+261
+00:11:58,029 --> 00:12:01,769
+and if you need help with the colors ask a friend 
+如果你不擅长于辨认颜色  你也可以问下朋友
+
+262
+00:12:01,769 --> 00:12:06,269
+or ask your teacher but yeah I'll let you code this up 
+或者你的老师  不过 当然 我会让你编码的
+
+263
+00:12:06,269 --> 00:12:08,460
+and I'll be right back with all of the code complete 
+我会带着所有完整的编码 马上回来
+
+264
+00:12:08,460 --> 00:12:13,779
+alright so hopefully you've got all that code down
+好啦  希望你们把所有的代码都记下来啦
+
+265
+00:12:13,779 --> 00:12:13,970
+
+
+
+266
+00:12:13,970 --> 00:12:18,000
+we're gonna continue following along with the worksheet
+我们要继续跟进这个工作表
+
+267
+00:12:18,000 --> 00:12:23,019
+and click on the you sprite which is down here 
+并单击这里“Sprite”栏目下的“you” 按钮
+
+268
+00:12:23,019 --> 00:12:25,350
+click on you
+点击“you”
+
+269
+00:12:25,350 --> 00:12:29,279
+and just check real quick yeah 
+只是快速检查下
+
+270
+00:12:29,279 --> 00:12:35,299
+we're gonna click on the costumes tab and
+要点击“costume”（服装）的标签
+
+271
+00:12:35,299 --> 00:12:38,339
+let's do a new costume and 
+让我们做一个新的服装
+
+272
+00:12:38,339 --> 00:12:42,480
+we're gonna do new costume from camera and 
+点击相机图表  做新的服装
+
+273
+00:12:42,480 --> 00:12:47,360
+this is let's click allow' on this allow again
+让我们点击“allow”（允许） 再次点击“allow”（允许）
+
+274
+00:12:47,360 --> 00:12:50,460
+and this is going to be the move that 
+进过这一步之后
+
+275
+00:12:50,460 --> 00:12:55,299
+we present the our AI with our machine learning robot with 
+我们同意展示我们AI（人工智能） 和会机器学习的机器人
+
+276
+00:12:55,299 --> 00:12:57,000
+so let's take a picture of 
+让我们拍一张照片
+
+277
+00:12:57,000 --> 00:13:02,200
+I'll do scissors it doesn't matter 
+我做剪刀的手势  不过这没关系
+
+278
+00:13:02,200 --> 00:13:02,940
+do whatever move you want
+你可以做任何你想要的动作
+
+279
+00:13:02,940 --> 00:13:05,669
+whatever you think you can you can win with
+只要是你觉得你会赢的招式
+
+280
+00:13:05,669 --> 00:13:09,850
+all right let's take this scissors picture
+好吧  让我们出剪刀的图片
+
+
+281
+00:13:08,850 --> 00:13:14,149
+
+
+282
+00:13:14,149 --> 00:13:17,960
+all right so I got my scissors picture
+我已经得到了我的剪刀图片
+
+283
+00:13:17,960 --> 00:13:21,160
+we're gonna keep following along
+我们会继续跟进
+
+284
+00:13:21,160 --> 00:13:24,059
+to do click on the scripts tab and 
+点击“script”（脚本）标签
+
+285
+00:13:24,059 --> 00:13:27,890
+we're gonna finish up some final code blocks here
+在这里完成一些最终的代码块
+
+286
+00:13:27,890 --> 00:13:31,009
+and we'll be ready to go up against our
+我们将准备去对付我们那
+
+287
+00:13:31,009 --> 00:13:34,870
+super smart trained machine learning model 
+经过智能训练过的超级机器学习模型
+
+288
+00:13:34,870 --> 00:13:39,090
+right here Oh back to the scripts tab
+就在这里 哦 回到“script”（脚本）选项卡
+
+289
+00:13:39,090 --> 00:13:46,179
+and we are just going to add the following script blocks 
+我们接下来要添加以下脚本块
+
+290
+00:13:46,179 --> 00:13:50,549
+so I'm gonna add some code blocks in real quick
+我要快速添加一些代码块
+
+291
+00:13:50,549 --> 00:13:54,620
+I'll let you do that at your own pace 
+你可以按照自己的节奏慢慢来
+
+292
+00:13:54,620 --> 00:13:56,009
+I'm gonna pause the video real quick 
+我会快速暂停
+
+293
+00:13:56,009 --> 00:13:56,279
+and do that 
+并执行此操作
+
+294
+00:13:56,279 --> 00:14:03,370
+and I'll be right back
+我会马上回来
+
+295
+00:14:03,370 --> 00:14:07,100
+all right that one was much easier than the first set of code blocks 
+这一个比第一个系列的代码块容易得多
+
+296
+00:14:07,100 --> 00:14:07,899
+so we had to add
+所以我们需要添加
+
+297
+00:14:07,899 --> 00:14:09,339
+so now we're just going to make sure
+所以我们现在要确保
+
+298
+00:14:09,339 --> 00:14:12,159
+to save our project go to file save project
+保存我们的项目  进入“file”（文件）标签栏  点击“save project”（文件保存）
+ 
+299
+00:14:12,159 --> 00:14:16,409
+just save our project 
+只需要保存我们的项目
+
+300
+00:14:16,409 --> 00:14:19,200
+somewhere easy to reach like the Downloads folder
+至比较容易找到的地方  比如“Downloads folder”（下载文件夹）
+
+301
+00:14:19,200 --> 00:14:21,580
+call it rock-paper-scissors
+命名为石头剪刀布
+
+302
+00:14:21,580 --> 00:14:24,070
+a default name is fine cool 
+默认的名称也是不错的  太棒了 
+
+303
+00:14:24,070 --> 00:14:27,690
+so we've now saved our scratch file 
+所以我们已经保存了我们的“scrtach”文件
+
+304
+00:14:27,690 --> 00:14:29,860
+which is connected to our machine learning model
+它可以连接到我们的机器学习模型
+
+305
+00:14:29,860 --> 00:14:33,039
+and now it's time to test let's see
+现在是时候测试了  让我们看看
+
+306
+00:14:33,039 --> 00:14:35,559
+how well that our model can play against a real-life human
+看看我们的模型有多厉害  可以对抗真人
+
+307
+00:14:35,559 --> 00:14:40,100
+so all we're gonna do is click go 
+所以我们要做的就是点击“go”
+
+308
+00:14:40,100 --> 00:14:44,929
+and that's it this is gonna be this is the final test 
+对 就是点击他 这将会是终极测试
+
+309
+00:14:44,929 --> 00:14:45,219
+
+
+
+310
+00:14:45,219 --> 00:14:47,569
+let's see let's see how well our computer performs
+看看我们的电脑表现得如何
+
+311
+00:14:47,569 --> 00:15:02,578
+gets the real human being three two one
+与真人比赛会如何呢？ 三 二 一
+
+312
+00:15:02,578 --> 00:15:05,049
+he's cheating he's cheating
+他作弊  他在作弊！
+
+313
+00:15:05,049 --> 00:15:08,419
+he's definitely cheating I don't believe that for one second
+他绝对是作弊的   我脑子进水了才会相信他呢
+
+314
+00:15:08,419 --> 00:15:10,049
+
+
+315
+00:15:10,049 --> 00:15:20,820
+reset reset
+重来  重来
+
+316
+00:15:20,820 --> 00:15:23,569
+alright I'm just I'm just messing around now
+好吧  我刚刚是在戏弄它
+
+317
+00:15:23,569 --> 00:15:25,509
+but you can see it's recognizing scissors 
+但你可以看到它的已经识别出了剪刀
+
+318
+00:15:25,509 --> 00:15:27,820
+like we we confirmed that earlier 
+就像我们之前确认过的那样
+
+319
+00:15:27,820 --> 00:15:30,549
+that it was recognizing 
+它识别出了这一点
+
+320
+00:15:30,549 --> 00:15:32,230
+so when we did the little scissors test
+所以当我们做了剪刀的小测试时
+
+321
+00:15:32,230 --> 00:15:35,330
+so it's working you've got your rock paper scissors about here 
+所以他是成功识别的  你也获得了剪刀石头布的游戏程序啦
+
+322
+00:15:35,330 --> 00:15:38,429
+and if you want to change the computer settings 
+如果你想要改变电脑的设置
+
+323
+00:15:38,429 --> 00:15:43,339
+okay yeah it's actually picking 
+哇 对极了 它实际上是在挑选
+
+324
+00:15:43,339 --> 00:15:46,750
+so the codes actually picking random between rock paper and scissors 
+它实际上是在随机挑选石头 剪刀 布
+
+325
+00:15:46,750 --> 00:15:46,849
+
+
+326
+00:15:46,849 --> 00:15:50,159
+we can make it so that the computer wins every time
+电脑可以每次都赢  因为其实这是我们可以设计的
+
+327
+00:15:50,159 --> 00:15:50,769
+
+
+328
+00:15:50,769 --> 00:15:54,350
+but you know this is good enough to show us
+但是你知道这是一个很棒的展示形式
+
+329
+00:15:54,350 --> 00:15:56,440
+how the machine learning model works
+它告诉我们机器学习的模型是如何运作的
+
+330
+00:15:56,440 --> 00:15:58,869
+so remember the big idea behind all of these
+所以请记住所有背后的重要理念
+
+331
+00:15:58,869 --> 00:16:00,129
+pull the worksheet back up 
+把工作表拉回来
+
+332
+00:16:00,129 --> 00:16:08,080
+is we had training data with labels
+我们有带有标签的训练数据
+
+333
+00:16:08,080 --> 00:16:09,820
+we passed this training data and the labels into
+并将此训练数据和标签放入
+
+334
+00:16:09,820 --> 00:16:11,278
+our machine learning model 
+我们收集的机器学习模型
+
+335
+00:16:11,278 --> 00:16:15,159
+it gathered information about each piece of training data
+它会搜集所有有关的训练信息
+
+336
+00:16:15,159 --> 00:16:18,120
+so for all of the data that was labeled Rock 
+所有对于所有那些被标记为石头的数据
+
+337
+00:16:18,120 --> 00:16:21,589
+our model learned different curves
+我们的模型学到了不同曲线
+
+338
+00:16:21,589 --> 00:16:23,440
+different lines different colors
+不同线条  不同的颜色
+
+339
+00:16:23,440 --> 00:16:26,039
+different shapes for rock 
+以及不同石头手势的形状
+
+340
+00:16:26,039 --> 00:16:29,028
+did the same thing for paper and for scissors
+对于布和剪刀 也都是一样的原理
+
+341
+00:16:29,028 --> 00:16:35,139
+and now it's using that to recognize scissors
+现在要用它来识别剪刀
+
+342
+00:16:35,139 --> 00:16:40,528
+right here boom just pretty cool so
+你看这儿  酷毙了吧
+
+343
+00:16:40,528 --> 00:16:43,389
+that's the rock paper scissors project
+这就是石头剪刀布的项目
+
+344
+00:16:43,389 --> 00:16:47,470
+I hope you enjoyed it and 
+我希望你能喜欢它
+
+345
+00:16:47,470 --> 00:16:49,028
+I hope you keep reading and learning more about machine 
+我希望你保持阅读和学习更多关于机器学习的知识
+
+346
+00:16:49,028 --> 00:16:50,679
+and completing more of these projects 
+并能完成更多的此类项目
+
+347
+00:16:50,679 --> 00:16:52,429
+because they're super fun
+因为他们真的超级有趣
