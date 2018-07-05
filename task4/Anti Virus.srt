@@ -1,0 +1,2670 @@
+﻿1
+00:00:00,030 --> 00:00:01,800
+welcome to the machine learning for
+欢迎到机器学习
+
+2
+00:00:01,800 --> 00:00:03,959
+students series today's lessons on
+学生系列今天的课程
+
+3
+00:00:03,959 --> 00:00:04,980
+cybersecurity
+ 网络安全
+
+4
+00:00:04,980 --> 00:00:08,339
+I hope you're excited because I am let's
+ 我希望你很高兴，因为我让
+
+5
+00:00:08,339 --> 00:00:11,429
+go now good place to start when we talk
+现在去好地方，开始的时候我们聊
+
+6
+00:00:11,429 --> 00:00:13,650
+about cybersecurity is how they actually
+关于网络安全是他们的实际情况
+
+7
+00:00:13,650 --> 00:00:16,890
+work internally if you're as curious as
+ 如果你像你一样好奇，那就在内部工作
+
+8
+00:00:16,890 --> 00:00:19,109
+I am you can take a look at this video
+ 我是你可以看看这个视频
+
+9
+00:00:19,109 --> 00:00:23,429
+to find out antivirus software is like a
+ 找出杀毒软件就好了
+
+10
+00:00:23,429 --> 00:00:26,160
+doctor for your computer it can protect
+医生为您的计算机， 它可以保护
+
+11
+00:00:26,160 --> 00:00:29,518
+your computer from getting viruses or it
+ 您的计算机无法获取病毒或它
+
+12
+00:00:29,518 --> 00:00:31,260
+can help remove a virus once your
+可以帮助删除病毒，一旦你
+
+13
+00:00:31,260 --> 00:00:34,469
+computer's been infected new viruses are
+电脑被新病毒感染了
+
+14
+00:00:34,469 --> 00:00:36,679
+coming out all the time and it's the job
+出来所有的时间和它的工作
+
+15
+00:00:36,679 --> 00:00:39,329
+antivirus software to help keep us
+ 防病毒软件帮助我们
+
+16
+00:00:39,329 --> 00:00:42,119
+protected just like you go to the doctor
+ 保护就像你去看医生
+
+17
+00:00:42,119 --> 00:00:44,308
+every year your computer needs to be
+ 每年你的电脑都需要
+
+18
+00:00:44,308 --> 00:00:45,988
+checked by an anti-virus software
+ 由防病毒软件检查
+
+19
+00:00:45,988 --> 00:00:48,149
+regularly to make sure that it's healthy
+定期确保它健康
+
+20
+00:00:48,149 --> 00:00:51,628
+some of you might be wondering hmm where
+ 你们当中有些人可能想知道嗯在哪里
+
+21
+00:00:51,628 --> 00:00:54,299
+did antivirus really get started well
+杀毒软件确实很好用
+
+22
+00:00:54,299 --> 00:00:56,640
+I'm gonna let you know right now John
+我现在要告诉你约翰
+
+23
+00:00:56,640 --> 00:00:58,530
+McAfee was instrumental in
+迈克菲发挥了重要作用
+
+24
+00:00:58,530 --> 00:01:01,558
+commercializing antivirus software he
+ 他将防病毒软件商业化
+
+25
+00:01:01,558 --> 00:01:03,018
+founded the first software company
+成立了第一家软件公司
+
+26
+00:01:03,018 --> 00:01:06,118
+McAfee and associates in 1987 them
+ 迈克菲及其员工于1987年成立
+
+27
+00:01:06,118 --> 00:01:08,790
+specifically focused for commercializing
+专门用于商业化
+
+28
+00:01:08,790 --> 00:01:11,459
+antivirus software he really wanted to
+ 他真的想要的防病毒软件
+
+29
+00:01:11,459 --> 00:01:13,290
+make sure that everyone's computers were
+ 确保每个人的电脑是
+
+30
+00:01:13,290 --> 00:01:15,540
+able to get detected and protected
+能够被检测和保护
+
+31
+00:01:15,540 --> 00:01:17,670
+against all those threats that were
+反对所有那些威胁
+
+32
+00:01:17,670 --> 00:01:20,368
+coming out he was very important in
+ 出来他非常重要
+
+33
+00:01:20,368 --> 00:01:22,859
+making sure that your computers were
+ 确保你的电脑是
+
+34
+00:01:22,859 --> 00:01:25,890
+safe before we go ahead and get into
+安全之前，我们继续前进，进入
+
+35
+00:01:25,890 --> 00:01:28,438
+what antivirus does let's talk a little
+什么防病毒让我们谈谈了一点
+
+36
+00:01:28,438 --> 00:01:30,420
+bit about the different types of viruses
+ 有关不同类型的病毒位
+
+37
+00:01:30,420 --> 00:01:32,969
+that are out there now you can see some
+ 是在那里，现在你可以看到一些
+
+38
+00:01:32,969 --> 00:01:34,618
+of the pictures of those viruses behind
+ 那些病毒背后的照片
+
+39
+00:01:34,618 --> 00:01:38,549
+me Trojan horse viruses pretend to be
+我特洛伊木马病毒假装是
+
+40
+00:01:38,549 --> 00:01:40,680
+something to get into your computer
+ 什么东西进入你的电脑
+
+41
+00:01:40,680 --> 00:01:43,049
+there's also viruses out there that
+ 那里还有病毒
+
+42
+00:01:43,049 --> 00:01:44,969
+actually pretend to be antivirus
+实际上假装是防病毒软件
+
+43
+00:01:44,969 --> 00:01:47,670
+software and pretend to protect you
+软件并假装保护你
+
+44
+00:01:47,670 --> 00:01:48,840
+against them but they're actually
+ 反对他们，但他们实际上
+
+45
+00:01:48,840 --> 00:01:51,629
+viruses once you click on them then we
+病毒一旦你点击它们然后我们
+
+46
+00:01:51,629 --> 00:01:54,180
+have malware malware gets into your
+有恶意软件恶意软件进入您的
+
+47
+00:01:54,180 --> 00:01:56,310
+computer and tries to just damage or
+计算机并试图只损坏或
+
+48
+00:01:56,310 --> 00:01:58,920
+disable your computer we have worm
+禁用你的电脑，我们有蠕虫
+
+49
+00:01:58,920 --> 00:02:01,379
+attacks which replicate themselves and
+复制自己的攻击
+
+50
+00:02:01,379 --> 00:02:03,149
+attack other computers once they've
+ 他们一旦攻击其他计算机
+
+51
+00:02:03,149 --> 00:02:06,090
+gotten into your own theirs boot viruses
+ 进入你自己的引导病毒
+
+52
+00:02:06,090 --> 00:02:08,368
+that go after the Master Boot Record of
+ 该走 的主引导记录后
+
+53
+00:02:08,368 --> 00:02:10,068
+your computer hard drive
+您的计算机硬盘驱动器
+
+54
+00:02:10,068 --> 00:02:12,139
+there's android-specific malware out
+有特定于Android的恶意软件
+
+55
+00:02:12,139 --> 00:02:14,568
+there that goes right after Android
+那是Android之后的事情
+
+56
+00:02:14,568 --> 00:02:16,759
+operating systems now it might seem like
+操作系统现在看起来像
+
+57
+00:02:16,759 --> 00:02:18,799
+there's a lot of viruses but this is
+有很多病毒，但这是
+
+58
+00:02:18,799 --> 00:02:21,318
+actually only just a few of them you'll
+ 实际上只有少数几个你会
+
+59
+00:02:21,318 --> 00:02:23,359
+find out later how many viruses are out
+稍后会发现有多少病毒出来了
+
+60
+00:02:23,359 --> 00:02:25,430
+there and how quickly they keep coming
+那里以及它们如何快速地继续前进
+
+61
+00:02:25,430 --> 00:02:27,199
+out don't worry though
+出来不要担心
+
+62
+00:02:27,199 --> 00:02:29,568
+antivirus is right on the case of making
+杀毒软件是正确的制作的情况下，
+
+63
+00:02:29,568 --> 00:02:32,718
+sure that you're protected so let's go
+ 确定你受到保护所以我们走了
+
+64
+00:02:32,718 --> 00:02:34,968
+into a little bit more detail about the
+ 到关于多一 点点的细节
+
+65
+00:02:34,968 --> 00:02:37,128
+specific types of viruses out there
+ 特定类型的病毒在那里
+
+66
+00:02:37,128 --> 00:02:39,318
+let's start with the worm if you might
+ 如果可能的话，让我们从蠕虫开始吧
+
+67
+00:02:39,318 --> 00:02:40,878
+think ORMs are what you use to catch
+认为ORM是您用来捕获的
+
+68
+00:02:40,878 --> 00:02:42,979
+fish but actually in the world of
+ 鱼，但实际上在世界上
+
+69
+00:02:42,979 --> 00:02:46,489
+viruses they're very serious a worm is a
+病毒是非常严重的蠕虫病毒
+
+70
+00:02:46,489 --> 00:02:47,900
+type of virus that infects other
+ 感染其他病毒的病毒类型
+
+71
+00:02:47,900 --> 00:02:49,699
+computers across the network by
+ 通过网络的计算机
+
+72
+00:02:49,699 --> 00:02:51,318
+exploring vulnerabilities
+ 探索漏洞
+
+73
+00:02:51,318 --> 00:02:54,289
+like weak passwords to get in if they've
+比如弱密码就可以进入
+
+74
+00:02:54,289 --> 00:02:56,329
+been successful at getting into the
+ 成功进入了
+
+75
+00:02:56,329 --> 00:02:59,389
+computer it allows remote access and
+它允许远程访问和计算机
+
+76
+00:02:59,389 --> 00:03:02,000
+code execution while Fired file sharing
+代码执行，同时被解雇的文件共享
+
+77
+00:03:02,000 --> 00:03:02,930
+is enabled
+已启用
+
+78
+00:03:02,930 --> 00:03:06,919
+it might even also spread via removable
+它甚至可能通过可移动传播
+
+79
+00:03:06,919 --> 00:03:09,438
+devices and weak administrator passwords
+设备和弱管理员密码
+
+80
+00:03:09,438 --> 00:03:12,530
+now worms are really bad what they do is
+现在蠕虫真的很糟糕他们做的是什么
+
+81
+00:03:12,530 --> 00:03:14,780
+disable important system services and
+禁用重要的系统服务和
+
+82
+00:03:14,780 --> 00:03:17,150
+security protocols you don't want a
+ 你不想要的安全协议
+
+83
+00:03:17,150 --> 00:03:18,620
+bunch of worms crawling around your
+一群蠕虫在你身边爬行
+
+84
+00:03:18,620 --> 00:03:21,560
+computer that's for sure the next type
+ 计算机肯定是下一个类型
+
+85
+00:03:21,560 --> 00:03:23,239
+of virus that we're going to be talking
+ 我们要谈论的病毒
+
+86
+00:03:23,239 --> 00:03:26,209
+about is a polymorphic virus sounds cool
+关于多态病毒听起来很酷
+
+87
+00:03:26,209 --> 00:03:29,479
+right it's definitely not a polymorphic
+对， 它绝对不是多态的
+
+88
+00:03:29,479 --> 00:03:32,359
+virus is kind of like a worm except that
+病毒是一种像除了蠕虫
+
+89
+00:03:32,359 --> 00:03:34,789
+it's encrypted and the reason why it's
+它是加密的，原因是它的原因
+
+90
+00:03:34,789 --> 00:03:36,919
+encrypted because of polymorphic virus
+ 由于多态病毒加密
+
+91
+00:03:36,919 --> 00:03:39,229
+attempts to avoid being scanned or
+试图避免被扫描或
+
+92
+00:03:39,229 --> 00:03:41,719
+detected now once your computer is
+ 现在，一旦你的电脑被检测到
+
+93
+00:03:41,719 --> 00:03:43,609
+infected by polymorphic Fire's
+ 感染多态Fire
+
+94
+00:03:43,609 --> 00:03:46,008
+it duplicates itself by creating it
+它通过创建它来复制自己
+
+95
+00:03:46,008 --> 00:03:48,500
+usable but slightly different modified
+可用但略有不同的修改
+
+96
+00:03:48,500 --> 00:03:51,318
+copies and then performs all the same
+复制然后执行所有相同的操作
+
+97
+00:03:51,318 --> 00:03:53,000
+malicious things that a worm would have
+蠕虫可能拥有的恶意内容
+
+98
+00:03:53,000 --> 00:03:55,519
+to your computer the next type of virus
+到您的计算机下一种类型的病毒
+
+99
+00:03:55,519 --> 00:03:57,289
+we're going to talk about is Android
+我们要谈的是Android
+
+100
+00:03:57,289 --> 00:03:59,568
+malware it's malware specifically
+恶意软件具体是恶意软件
+
+101
+00:03:59,568 --> 00:04:02,019
+designed for Android operating systems
+专为Android操作系统而设计
+
+102
+00:04:02,019 --> 00:04:05,870
+this type of malware is able to do
+ 这种恶意软件是可以做到的
+
+103
+00:04:05,870 --> 00:04:08,389
+things on your mobile phone without you
+ 没有你的手机上的东西
+
+104
+00:04:08,389 --> 00:04:10,818
+knowing about it so imagine there could
+知道它， 所以想象有可能
+
+105
+00:04:10,818 --> 00:04:13,250
+be a virus on your mobile phone on your
+ 是病毒 在 您的 手机 上你
+
+106
+00:04:13,250 --> 00:04:15,859
+cell phone without you knowing and it
+ 没有你知道的手机和它
+
+107
+00:04:15,859 --> 00:04:18,199
+could be sharing information without
+可以共享信息，而不
+
+108
+00:04:18,199 --> 00:04:18,949
+your knowledge
+ 你的知识
+
+109
+00:04:18,949 --> 00:04:21,230
+these types of viruses have you
+ 这些类型的病毒有你
+
+110
+00:04:21,230 --> 00:04:23,420
+more difficult to deal with because
+ 更难处理，因为
+
+111
+00:04:23,420 --> 00:04:25,550
+wireless phones and Pediatrics have
+无线电话和儿科有
+
+112
+00:04:25,550 --> 00:04:27,680
+become more common and they've grown in
+变得越来越普遍， 他们已经长大
+
+113
+00:04:27,680 --> 00:04:30,079
+complexity the viruses out there that
+复杂的病毒那里
+
+114
+00:04:30,079 --> 00:04:32,209
+are designed for Android systems are
+是专为Android系统而设计的
+
+115
+00:04:32,209 --> 00:04:35,120
+evolving at a quick pace the next buyers
+ 快速发展下一批买家
+
+116
+00:04:35,120 --> 00:04:36,709
+we're going to talk about is actually
+ 实际上，我们要谈的是
+
+117
+00:04:36,709 --> 00:04:38,689
+going to take us back a little bit one
+ 要带我们回去一点点
+
+118
+00:04:38,689 --> 00:04:40,790
+step before the Android bomber and
+在Android轰炸机之前迈出一步
+
+119
+00:04:40,790 --> 00:04:43,790
+that's the regular malware virus some of
+这是常规的恶意软件病毒的一些
+
+120
+00:04:43,790 --> 00:04:44,839
+you might have been wondering at this
+你可能一直在想这个
+
+121
+00:04:44,839 --> 00:04:47,990
+point what is malware actually mean well
+ 指出什么是恶意软件实际上意味着好
+
+122
+00:04:47,990 --> 00:04:50,779
+mad letter means malicious software and
+ 疯狂的信件意味着恶意软件和
+
+123
+00:04:50,779 --> 00:04:52,970
+it's any programmer file that's harmful
+这是任何有害的程序员文件
+
+124
+00:04:52,970 --> 00:04:55,370
+to a computer user now that seems like a
+ 到计算机用户，现在似乎是一个
+
+125
+00:04:55,370 --> 00:04:58,310
+very broad definition but the different
+ 非常广泛的定义但不同
+
+126
+00:04:58,310 --> 00:05:00,230
+types of malware actually narrow it down
+恶意软件的类型实际上缩小了它
+
+127
+00:05:00,230 --> 00:05:02,689
+so the Android malware that we just
+ 所以我们只是Android恶意软件
+
+128
+00:05:02,689 --> 00:05:04,819
+talked about is a subset of a malware
+谈到的是恶意软件的一个子集
+
+129
+00:05:04,819 --> 00:05:08,089
+virus now once my layer is installed
+ 我的图层安装完成后就会出现病毒
+
+130
+00:05:08,089 --> 00:05:10,819
+under computer it performs unwanted
+在计算机下它执行不需要的
+
+131
+00:05:10,819 --> 00:05:14,300
+tasks malware itself is actually mainly
+任务恶意软件本身实际上主要是
+
+132
+00:05:14,300 --> 00:05:16,250
+designed to transmit information about
+旨在传递有关的信息
+
+133
+00:05:16,250 --> 00:05:18,050
+your web ik web activity to a third
+你的web ik网络活动到了第三个
+
+134
+00:05:18,050 --> 00:05:20,449
+party so people who want to snoop around
+ 派对所以想要窥探的人
+
+135
+00:05:20,449 --> 00:05:23,300
+and find out what you're doing typically
+并找出你通常做的事情
+
+136
+00:05:23,300 --> 00:05:24,980
+want to use malware to infect your
+想用恶意软件来感染你的恶意软件
+
+137
+00:05:24,980 --> 00:05:26,810
+computer to get that information from
+计算机从中获取信息
+
+138
+00:05:26,810 --> 00:05:29,930
+you next we're going to talk about the
+你接下来我们要谈
+
+139
+00:05:29,930 --> 00:05:32,540
+technical stages of malware I bet some
+ 恶意软件的技术阶段我敢打赌
+
+140
+00:05:32,540 --> 00:05:34,160
+of you were wondering well how does it
+ 你想知道好怎么做的
+
+141
+00:05:34,160 --> 00:05:36,740
+actually work now we're going to get
+ 实际上我们现在正在努力
+
+142
+00:05:36,740 --> 00:05:38,540
+into some details here that might seem a
+ 到这里一些细节 似乎是一个
+
+143
+00:05:38,540 --> 00:05:40,639
+little confusing so if you have to go
+ 如果你不得不去，那就太容易混淆了
+
+144
+00:05:40,639 --> 00:05:44,149
+ahead and rewind that's okay now what
+提前和倒带现在好了什么
+
+145
+00:05:44,149 --> 00:05:46,550
+you see here behind me is a diagram of
+你在我身后看到的 是一张图
+
+146
+00:05:46,550 --> 00:05:48,290
+how malware works
+ 恶意软件是如何工作的
+
+147
+00:05:48,290 --> 00:05:49,850
+malware can get into your computer
+恶意软件可以进入您的计算机
+
+148
+00:05:49,850 --> 00:05:53,810
+through say a weak password once it's in
+ 一旦它进入，就说出一个弱密码
+
+149
+00:05:53,810 --> 00:05:55,970
+it performs a statistical analysis on
+它执行统计分析
+
+150
+00:05:55,970 --> 00:05:58,310
+your system to see if it's interested in
+ 你的系统，看看它是否感兴趣
+
+151
+00:05:58,310 --> 00:06:00,949
+taking a closer look at a target file
+ 仔细看看目标文件
+
+152
+00:06:00,949 --> 00:06:03,769
+now if it's found that file that it
+ 现在如果找到该文件，它
+
+153
+00:06:03,769 --> 00:06:05,990
+mounts to take a closer look at it then
+然后坐下来仔细看看它
+
+154
+00:06:05,990 --> 00:06:08,329
+performs a dynamic analysis on it and
+对它进行动态分析
+
+155
+00:06:08,329 --> 00:06:10,730
+what it's doing is examining Ecstatic
+它正在做的是检查Ecstatic
+
+156
+00:06:10,730 --> 00:06:12,740
+properties so those things about the
+属性所以那些事情
+
+157
+00:06:12,740 --> 00:06:15,709
+file that don't necessarily move after
+不一定要移动的文件
+
+158
+00:06:15,709 --> 00:06:18,079
+that it performs an analysis on the
+ 它执行分析
+
+159
+00:06:18,079 --> 00:06:19,759
+memory of the file and how the files
+ 文件的内存以及文件的方式
+
+160
+00:06:19,759 --> 00:06:22,759
+being used or how you're dialing on your
+正在使用或如何拨打你的电话
+
+161
+00:06:22,759 --> 00:06:24,680
+phone or who you're sending text
+电话或您发送文本的人
+
+162
+00:06:24,680 --> 00:06:27,560
+messages to once it's collected all that
+一旦收集了所有这些消息
+
+163
+00:06:27,560 --> 00:06:28,870
+memory analysis
+记忆分析
+
+164
+00:06:28,870 --> 00:06:30,668
+and then sends it back to the person
+然后将其发回给该人
+
+165
+00:06:30,668 --> 00:06:31,990
+that sent the Malheur to you in the
+这让Malheur送给你了
+
+166
+00:06:31,990 --> 00:06:34,360
+first place and they not have access to
+ 第一名，他们无法访问
+
+167
+00:06:34,360 --> 00:06:36,579
+that data and information and can use it
+ 那些数据和信息可以使用它
+
+168
+00:06:36,579 --> 00:06:39,610
+against you if at this point you think
+ 如果此时你认为对你不利
+
+169
+00:06:39,610 --> 00:06:42,579
+oh man there are so many viruses and
+ 哦，男人有这么多的病毒和
+
+170
+00:06:42,579 --> 00:06:44,560
+they can really get me how am I gonna
+他们真的可以告诉我我将如何
+
+171
+00:06:44,560 --> 00:06:47,290
+help myself well don't worry
+帮助自己好不要担心
+
+172
+00:06:47,290 --> 00:06:49,329
+your computers and your phones and your
+你的电脑， 电话和电话
+
+173
+00:06:49,329 --> 00:06:52,180
+PDAs they're all safe there are many
+ 他们都很安全的PDA很多
+
+174
+00:06:52,180 --> 00:06:54,160
+different companies out there like the
+不同的公司在那里像
+
+175
+00:06:54,160 --> 00:06:56,259
+ones that we see here behind me that
+ 我们在这背后看到的那些
+
+176
+00:06:56,259 --> 00:06:58,329
+have developed software using machine
+ 用机器开发软件
+
+177
+00:06:58,329 --> 00:07:01,060
+learning to help protect you and if you
+学会帮助保护你和你
+
+178
+00:07:01,060 --> 00:07:03,519
+remember our friend McAfee right here
+ 记住我们的朋友McAfee就在这里
+
+179
+00:07:03,519 --> 00:07:05,620
+their company's still around too and
+ 他们的公司仍然过于四周，
+
+180
+00:07:05,620 --> 00:07:08,410
+they can help you out so let's talk a
+ 他们可以帮助你，让我们来谈谈
+
+181
+00:07:08,410 --> 00:07:10,360
+little bit about why dynamic malware
+ 为什么动态恶意软件点点
+
+182
+00:07:10,360 --> 00:07:13,060
+analysis is mainly used or what it is in
+主要使用分析或它是什么
+
+183
+00:07:13,060 --> 00:07:13,990
+the first place
+第一名
+
+184
+00:07:13,990 --> 00:07:16,089
+this may all start something a little
+这可能都是一点点开始
+
+185
+00:07:16,089 --> 00:07:17,889
+bit confusing to you right well don't
+有点混乱给你的权利以及不
+
+186
+00:07:17,889 --> 00:07:19,959
+worry about it we're gonna break it down
+担心它我们会打破它
+
+187
+00:07:19,959 --> 00:07:22,810
+so dynamic or behavior analysis is
+所以动态或行为分析是
+
+188
+00:07:22,810 --> 00:07:24,699
+performed by observing the behavior of a
+ 通过观察a的行为来执行
+
+189
+00:07:24,699 --> 00:07:27,009
+malware while actually running on a host
+ 实际在主机上运行时的恶意软件
+
+190
+00:07:27,009 --> 00:07:28,779
+system all right so what does that even
+系统中所有的权利那么，是什么，即使是
+
+191
+00:07:28,779 --> 00:07:32,259
+mean let's break it down first think
+意思是让我们首先想一想
+
+192
+00:07:32,259 --> 00:07:34,449
+about it like this if you play sports
+ 它喜欢这个，如果你玩运动
+
+193
+00:07:34,449 --> 00:07:36,100
+you practice right
+ 你练习得对
+
+194
+00:07:36,100 --> 00:07:38,019
+you might even scrimmage against your
+你甚至可能在对抗你的比赛
+
+195
+00:07:38,019 --> 00:07:39,699
+own teammates to see how you would
+拥有队友，看看你会怎样
+
+196
+00:07:39,699 --> 00:07:42,129
+perform during an actual game well
+ 在实际游戏中表现良好
+
+197
+00:07:42,129 --> 00:07:43,660
+that's what we're doing here when we're
+这就是我们在这里做的事情
+
+198
+00:07:43,660 --> 00:07:45,189
+trying to learn about how malware
+ 试图了解恶意软件的方式
+
+199
+00:07:45,189 --> 00:07:47,470
+affects the computer we're practicing
+影响我们正在练习的电脑
+
+200
+00:07:47,470 --> 00:07:49,629
+and we're practicing against ourselves
+ 我们正在反对自己
+
+201
+00:07:49,629 --> 00:07:51,910
+what we do is we practice and we
+ 我们做的是我们的实践和我们
+
+202
+00:07:51,910 --> 00:07:54,639
+practice on a non labeled data set and
+ 练习非标签数据集和
+
+203
+00:07:54,639 --> 00:07:57,189
+when we figure out how we think it works
+当我们弄清楚我们认为它是如何工作的时候
+
+204
+00:07:57,189 --> 00:07:59,410
+you go ahead and label it and then use
+你继续标记然后使用
+
+205
+00:07:59,410 --> 00:08:01,120
+that label data to help protect
+ 标签数据有助于保护
+
+206
+00:08:01,120 --> 00:08:04,060
+ourselves against real attacks just like
+ 我们自己反对真正的攻击就像
+
+207
+00:08:04,060 --> 00:08:05,860
+that scrimmage against your own team
+ 那场对阵你自己球队的比赛
+
+208
+00:08:05,860 --> 00:08:07,259
+helps you prepare for the big game
+ 帮助你为大型比赛做准备
+
+209
+00:08:07,259 --> 00:08:10,538
+dynamic malware analysis is used to help
+ 动态恶意软件分析用于帮助
+
+210
+00:08:10,538 --> 00:08:13,449
+prepare antivirus against protecting you
+准备防病毒以防止你
+
+211
+00:08:13,449 --> 00:08:16,329
+against the real thing now that you know
+ 现在你知道了真实的东西
+
+212
+00:08:16,329 --> 00:08:18,668
+a little bit about how anti viruses work
+ 如何防病毒工作一点点
+
+213
+00:08:18,668 --> 00:08:20,978
+a little bit about the viruses
+ 关于病毒的一点点
+
+214
+00:08:20,978 --> 00:08:22,810
+themselves what are some real-world
+他们自己是什么样的现实世界
+
+215
+00:08:22,810 --> 00:08:26,288
+examples of malware attacks we're going
+ 我们要进行的恶意软件攻击示例
+
+216
+00:08:26,288 --> 00:08:28,360
+to go over three here to help give you
+在这里过三点来帮助你
+
+217
+00:08:28,360 --> 00:08:30,668
+an idea of how they've actually been
+ 了解他们实际上是如何做到的
+
+218
+00:08:30,668 --> 00:08:32,979
+used the first one we're going to talk
+使用我们要谈的第一个
+
+219
+00:08:32,979 --> 00:08:36,129
+about is one called wanna cry it was
+关于是一个叫做想哭的人
+
+220
+00:08:36,129 --> 00:08:38,450
+dumped the biggest malware attack in
+倾销了最大的恶意软件攻击
+
+221
+00:08:38,450 --> 00:08:41,029
+history now wanna cry wasn't talking
+历史现在想哭也不说话
+
+222
+00:08:41,029 --> 00:08:43,129
+about physically crying off of some
+关于一些人的身体哭泣
+
+223
+00:08:43,129 --> 00:08:44,450
+people who weren't affected by it
+谁没有受到它的人
+
+224
+00:08:44,450 --> 00:08:47,960
+certainly wanted to what did was in fact
+当然想要做的事实
+
+225
+00:08:47,960 --> 00:08:50,990
+almost a quarter million computers
+ 差不多有25万台电脑
+
+226
+00:08:50,990 --> 00:08:54,110
+across 150 different countries when it
+来自150个不同的国家，当它
+
+227
+00:08:54,110 --> 00:08:57,080
+was unleashed in May of 2012 that's a
+ 在2012年5月被释放出来 了
+
+228
+00:08:57,080 --> 00:08:59,659
+big attack now the next one we're going
+ 现在是 我们要去 的下一个大攻击
+
+229
+00:08:59,659 --> 00:09:01,759
+to talk about is a little bit older it
+ 谈论的是它有点老了
+
+230
+00:09:01,759 --> 00:09:04,879
+was called Stuxnet Stuxnet was deployed
+ 被称为StuxnetStuxnet的部署
+
+231
+00:09:04,879 --> 00:09:07,429
+through USB flash drive infecting
+通过USB 闪存驱动器感染
+
+232
+00:09:07,429 --> 00:09:09,889
+software controlling centrifuges and a
+软件控制离心机和
+
+233
+00:09:09,889 --> 00:09:12,980
+nuclear facility in Iran that's really
+ 伊朗核设施真的如此
+
+234
+00:09:12,980 --> 00:09:14,960
+serious and had the potential to be
+严重并有潜力成为
+
+235
+00:09:14,960 --> 00:09:17,090
+really dangerous the last one we're
+ 我们最后一个真的很危险
+
+236
+00:09:17,090 --> 00:09:18,620
+going to talk about is mine doom and
+ 要谈的是我的悲观和
+
+237
+00:09:18,620 --> 00:09:20,210
+it's the oldest one we're talking about
+这是我们谈论的最古老的一个
+
+238
+00:09:20,210 --> 00:09:23,990
+say two it came out in 2004 and it
+ 说它 在2004年出现了它
+
+239
+00:09:23,990 --> 00:09:25,850
+earned the title of the fastest
+获得最快的标题
+
+240
+00:09:25,850 --> 00:09:29,179
+spreading malware in history using email
+ 使用电子邮件在历史中传播恶意软件
+
+241
+00:09:29,179 --> 00:09:31,460
+subject lines like error and mail
+主题行如错误和邮件
+
+242
+00:09:31,460 --> 00:09:33,710
+delivery system because those were ones
+交付系统， 因为那些是
+
+243
+00:09:33,710 --> 00:09:35,690
+that were likely to be clicked on and
+ 很可能被点击了
+
+244
+00:09:35,690 --> 00:09:38,320
+once people clicked on those emails
+一旦人们点击这些电子邮件
+
+245
+00:09:38,320 --> 00:09:41,450
+enticed users to open it and pinballed
+ 诱使用户打开它并拼凑出来
+
+246
+00:09:41,450 --> 00:09:43,279
+across the web at speeds reportedly
+据报道，在网速上
+
+247
+00:09:43,279 --> 00:09:47,330
+affecting 16 to 25 percent of all emails
+ 影响所有电子邮件的16％到25％
+
+248
+00:09:47,330 --> 00:09:50,179
+at the time that means someone on your
+ 在那个意味着你的人
+
+249
+00:09:50,179 --> 00:09:51,620
+street someone in your neighborhood at
+街头有人在你家附近的
+
+250
+00:09:51,620 --> 00:09:55,039
+some point 2004 likely was affected by
+ 2004年可能会受到影响
+
+251
+00:09:55,039 --> 00:09:58,279
+my do now that you have some real-world
+我现在做的是你有一些现实世界
+
+252
+00:09:58,279 --> 00:10:00,350
+examples of malware attacks under your
+ 根据恶意软件攻击 的例子
+
+253
+00:10:00,350 --> 00:10:02,570
+belt we're gonna move on and get deeper
+腰带， 我们要继续前进，深入了解
+
+254
+00:10:02,570 --> 00:10:05,779
+into what viruses really are let's talk
+ 什么病毒真的让我们谈谈
+
+255
+00:10:05,779 --> 00:10:08,210
+a little bit about how fast new malware
+ 如何快速的新恶意软件一点点
+
+256
+00:10:08,210 --> 00:10:10,970
+viruses are coming out there's an
+ 病毒出现了
+
+257
+00:10:10,970 --> 00:10:13,129
+institute called the AV test Institute
+学院称为AV测试研究所
+
+258
+00:10:13,129 --> 00:10:15,470
+what they do is they register new
+ 他们做的是他们注册新的
+
+259
+00:10:15,470 --> 00:10:17,690
+malicious programs every day they
+他们每天都有恶意程序
+
+260
+00:10:17,690 --> 00:10:19,490
+estimate that there's about a quarter
+估计大约有四分之一
+
+261
+00:10:19,490 --> 00:10:22,789
+million new malware Meyers programs
+ 百万新的恶意软件迈耶斯计划
+
+262
+00:10:22,789 --> 00:10:26,059
+being released every single day now they
+ 现在他们每天都被释放
+
+263
+00:10:26,059 --> 00:10:28,610
+go ahead and analyze these viruses using
+继续使用，分析这些病毒
+
+264
+00:10:28,610 --> 00:10:31,610
+tools like sunshine and V test and the
+ 阳光和V测试等工具
+
+265
+00:10:31,610 --> 00:10:33,470
+new viruses are classified according to
+新病毒根据分类
+
+266
+00:10:33,470 --> 00:10:35,149
+their characteristics and then they're
+ 他们的特点，然后他们
+
+267
+00:10:35,149 --> 00:10:37,940
+logged it's just like when scientists
+记录它就像科学家一样
+
+268
+00:10:37,940 --> 00:10:40,399
+find out a new version of the flu they
+找出他们的流感的新版本
+
+269
+00:10:40,399 --> 00:10:42,139
+want to go ahead and save that so that
+要继续前进，保存 ，使
+
+270
+00:10:42,139 --> 00:10:43,990
+they can understand it for the future
+他们可以理解未来
+
+271
+00:10:43,990 --> 00:10:47,269
+now part of the esra program and mine
+ 现在是esra计划和我的一部分
+
+272
+00:10:47,269 --> 00:10:48,110
+cast
+ 投
+
+273
+00:10:48,110 --> 00:10:50,778
+that analyzed more than 55 million
+ 分析了超过5500万
+
+274
+00:10:50,778 --> 00:10:54,440
+emails and they found that over 9,000
+电子邮件，他们发现超过9,000
+
+275
+00:10:54,440 --> 00:10:56,839
+contain dangerous file types and of
+包含危险的文件类型和
+
+276
+00:10:56,839 --> 00:10:59,480
+those 9,000 about 1,800 of those were
+那些9,000个，其中约1,800个
+
+277
+00:10:59,480 --> 00:11:02,539
+known viruses and about 700 were unknown
+已知的病毒和大约700个未知
+
+278
+00:11:02,539 --> 00:11:04,759
+and they contained malware attachments
+它们包含恶意软件附件
+
+279
+00:11:04,759 --> 00:11:07,278
+that's pretty big considering how many
+ 考虑到有多少，这是相当大的
+
+280
+00:11:07,278 --> 00:11:09,828
+emails are sent every minute of every
+ 电子邮件每分钟发送一次
+
+281
+00:11:09,828 --> 00:11:12,919
+day we've spent a lot of time talking
+那天我们花了很多时间说话
+
+282
+00:11:12,919 --> 00:11:15,230
+about what malware is a little bit about
+关于什么是恶意软件
+
+283
+00:11:15,230 --> 00:11:17,750
+how it works and gave you some real
+它是如何工作的， 并给你一些真实的
+
+284
+00:11:17,750 --> 00:11:21,139
+examples of what viruses have done but
+ 病毒已经完成的例子
+
+285
+00:11:21,139 --> 00:11:22,370
+what is a cyberattack
+ 什么是网络攻击
+
+286
+00:11:22,370 --> 00:11:25,070
+anyways well let's break it down for you
+无论如何，让我们为你分解
+
+287
+00:11:25,070 --> 00:11:28,220
+a cyber attacks attack that is launched
+ 发起的网络攻击攻击
+
+288
+00:11:28,220 --> 00:11:30,589
+from one computer or more computers
+从一台计算机或更多计算机
+
+289
+00:11:30,589 --> 00:11:32,539
+against another computer or multiple
+对另一台计算机或多台
+
+290
+00:11:32,539 --> 00:11:33,799
+computers or networks
+计算机或网络
+
+291
+00:11:33,799 --> 00:11:36,350
+just like our friend here there's
+就像我们这里的朋友有
+
+292
+00:11:36,350 --> 00:11:37,809
+someone sitting behind the computer
+有人坐在电脑后面
+
+293
+00:11:37,809 --> 00:11:40,669
+sending out a malware virus with the
+发出与恶意软件病毒
+
+294
+00:11:40,669 --> 00:11:42,828
+intent to do some harm to someone else's
+意图对别人做一些伤害
+
+295
+00:11:42,828 --> 00:11:45,589
+network or computer now cyber attacks
+ 网络或计算机现在进行网络攻击
+
+296
+00:11:45,589 --> 00:11:48,070
+can be broken down into two broad types
+可以分为两大类
+
+297
+00:11:48,070 --> 00:11:50,990
+where the goals are to disable a target
+ 目标是禁用目标
+
+298
+00:11:50,990 --> 00:11:52,850
+computer are knocking off line or
+电脑正在敲线或
+
+299
+00:11:52,850 --> 00:11:55,339
+attacks where the goal is to get access
+目标是获取访问权限的攻击
+
+300
+00:11:55,339 --> 00:11:57,379
+to the target computers data and perhaps
+ 到目标计算机数据，也许
+
+301
+00:11:57,379 --> 00:12:00,289
+gain administrative privileges to it so
+获得管理权限它， 因此
+
+302
+00:12:00,289 --> 00:12:02,328
+you can think about it like this they
+你可以考虑一下这样他们
+
+303
+00:12:02,328 --> 00:12:03,889
+want to break down your computer so that
+要打破你的计算机，以便
+
+304
+00:12:03,889 --> 00:12:05,659
+you can't use it or they want to take
+ 你不能使用它或他们想要采取
+
+305
+00:12:05,659 --> 00:12:07,909
+information from the computer so that
+ 来自计算机的信息
+
+306
+00:12:07,909 --> 00:12:09,708
+they can use it for their own purposes
+他们可以将它用于自己的目的
+
+307
+00:12:09,708 --> 00:12:13,669
+that's what a cyberattack is now we just
+这是一个网络攻击就是现在我们只
+
+308
+00:12:13,669 --> 00:12:15,500
+finished talking about when a cyber
+ 说完网络时说完了
+
+309
+00:12:15,500 --> 00:12:17,750
+attack is and what we're gonna do now is
+ 攻击是，我们现在要做的是
+
+310
+00:12:17,750 --> 00:12:20,360
+get into some details on a specific kind
+ 了解特定类型的一些细节
+
+311
+00:12:20,360 --> 00:12:24,139
+the botnet now what does the word botnet
+僵尸网络现在是什么做的话僵尸网络
+
+312
+00:12:24,139 --> 00:12:27,139
+actually mean well the word itself comes
+实际上意思是这个词本身来了
+
+313
+00:12:27,139 --> 00:12:29,179
+from two different words robot and
+ 来自两个不同的词机器人和
+
+314
+00:12:29,179 --> 00:12:32,629
+network now cyber criminals use special
+网络现在网络罪犯使用特殊
+
+315
+00:12:32,629 --> 00:12:34,669
+Trojan viruses to breach the security
+ 木马病毒破坏了安全性
+
+316
+00:12:34,669 --> 00:12:37,639
+several users computers once they've
+ 他们曾经使用过多台用户计算机
+
+317
+00:12:37,639 --> 00:12:39,679
+done this they take over the computers
+ 这样做他们接管了计算机
+
+318
+00:12:39,679 --> 00:12:41,958
+and organize all of the infected
+并组织所有的感染者
+
+319
+00:12:41,958 --> 00:12:44,750
+machines into a network of bots that the
+ 机器进入机器人网络了
+
+320
+00:12:44,750 --> 00:12:47,000
+criminals can remotely manage it's
+犯罪分子可以远程管理它
+
+321
+00:12:47,000 --> 00:12:49,399
+basically sleeving out all the different
+基本上可以解决所有不同的问题
+
+322
+00:12:49,399 --> 00:12:52,278
+machines and using that as a one hosted
+ 机器并将其作为一个主机使用
+
+323
+00:12:52,278 --> 00:12:54,669
+network for their own malicious purposes
+ 网络为了自己的恶意目的
+
+324
+00:12:54,669 --> 00:12:56,809
+now we're going to talk about another
+ 现在我们要谈另一个
+
+325
+00:12:56,809 --> 00:12:59,899
+type of attack of ransomware attack I'll
+ 勒索软件攻击的类型我会
+
+326
+00:12:59,899 --> 00:13:01,399
+write somewhere it's actually
+ 在某处写它实际上
+
+327
+00:13:01,399 --> 00:13:04,009
+like it sounds it holds your computer
+ 就像它听起来它拥有你的电脑
+
+328
+00:13:04,009 --> 00:13:07,279
+for Ransa what happens is once the virus
+对于Ransa来说，一旦病毒发生了什么
+
+329
+00:13:07,279 --> 00:13:09,200
+gets into your computer it locks you out
+进入你的电脑它锁定了你
+
+330
+00:13:09,200 --> 00:13:12,080
+from your own data and information it
+从你自己的数据和信息来看
+
+331
+00:13:12,080 --> 00:13:14,269
+tells you that in order to get access
+告诉你，为了获得访问权限
+
+332
+00:13:14,269 --> 00:13:15,889
+back to your data and back to your
+回到你的数据并回到你的数据
+
+333
+00:13:15,889 --> 00:13:18,049
+information that you have to pay it a
+ 你有信息要它
+
+334
+00:13:18,049 --> 00:13:21,110
+ransom usually it requests these ransoms
+赎金通常要求这些赎金
+
+335
+00:13:21,110 --> 00:13:23,179
+back from you in the form of a crypto
+ 以加密的形式从你身边回来
+
+336
+00:13:23,179 --> 00:13:26,720
+currency like Bitcoin even after you've
+货币就像你即使比特币
+
+337
+00:13:26,720 --> 00:13:29,960
+paid the cybercriminal they may not give
+支付他们可能不给的网络犯罪分子
+
+338
+00:13:29,960 --> 00:13:32,450
+you access to your data back ransomware
+您可以访问您的数据返回勒索软件
+
+339
+00:13:32,450 --> 00:13:36,919
+attacks are no fun to deal with oK we've
+攻击是没有乐趣，处理好我们
+
+340
+00:13:36,919 --> 00:13:38,990
+spent a lot of time talking about
+ 花了很多时间谈论
+
+341
+00:13:38,990 --> 00:13:41,269
+viruses and we've spent some time
+ 病毒，我们花了一些时间
+
+342
+00:13:41,269 --> 00:13:43,759
+talking about what antivirus is now
+谈论现在的防病毒软件
+
+343
+00:13:43,759 --> 00:13:45,320
+where does machine learning come into
+ 机器学习在哪里进入
+
+344
+00:13:45,320 --> 00:13:45,769
+play
+玩
+
+345
+00:13:45,769 --> 00:13:47,539
+well machine learning actually helps us
+好机器学习实际上有助于我们
+
+346
+00:13:47,539 --> 00:13:49,850
+put the fight back against the virus and
+把反击病毒和反击
+
+347
+00:13:49,850 --> 00:13:51,110
+how does it do this
+ 它是如何做到的
+
+348
+00:13:51,110 --> 00:13:53,389
+well machine learning techniques are
+ 良好的机器学习技术
+
+349
+00:13:53,389 --> 00:13:56,629
+used to detect odd behavior and prevent
+用来检测奇怪的行为并防止
+
+350
+00:13:56,629 --> 00:13:59,419
+further spread of viruses artificial
+进一步传播病毒人工
+
+351
+00:13:59,419 --> 00:14:01,309
+intelligence is involved and tries to
+ 情报涉及并试图
+
+352
+00:14:01,309 --> 00:14:02,899
+make decisions about whether or not
+做出是否决定
+
+353
+00:14:02,899 --> 00:14:06,049
+analyzed code is harmful based on a
+ 基于a分析代码是有害的
+
+354
+00:14:06,049 --> 00:14:08,629
+series of the traits of that code now
+ 现在该代码的一系列特征
+
+355
+00:14:08,629 --> 00:14:10,460
+some traits might rank higher than
+一些特质可能排名高于
+
+356
+00:14:10,460 --> 00:14:12,799
+others so the code that's determined to
+其他人如此决定的代码
+
+357
+00:14:12,799 --> 00:14:15,590
+be and I are good might have some traits
+是和我很好可能有一些特点
+
+358
+00:14:15,590 --> 00:14:16,940
+that the software considers to be
+ 该软件认为是
+
+359
+00:14:16,940 --> 00:14:19,100
+possible indications of malware but
+ 恶意软件的可能迹象但是
+
+360
+00:14:19,100 --> 00:14:20,899
+don't worry the artificial intelligence
+不用担心人工智能
+
+361
+00:14:20,899 --> 00:14:23,240
+tries really hard to make sure that it
+ 尝试真的很难确保它
+
+362
+00:14:23,240 --> 00:14:25,820
+only detects those viruses that are
+ 只检测那些病毒
+
+363
+00:14:25,820 --> 00:14:27,590
+going to be harmful into computer we're
+ 将是有害的成电脑我们
+
+364
+00:14:27,590 --> 00:14:29,240
+gonna get into the various techniques
+要进入各种技术
+
+365
+00:14:29,240 --> 00:14:31,519
+used by machine learning for antivirus
+机器学习用于防病毒
+
+366
+00:14:31,519 --> 00:14:33,679
+building and they've come into two major
+建筑，他们分为两大专业
+
+367
+00:14:33,679 --> 00:14:36,259
+categories on the one hand you have
+ 你有一方面类别
+
+368
+00:14:36,259 --> 00:14:38,779
+anomaly detection that's what we just
+ 异常检测，这就是我们刚刚
+
+369
+00:14:38,779 --> 00:14:40,429
+talked about a little earlier and then
+ 前面谈到的一点，然后
+
+370
+00:14:40,429 --> 00:14:42,259
+on the other hand you have Bayesian
+ 另一方面，你有贝叶斯
+
+371
+00:14:42,259 --> 00:14:44,240
+classification we're going to get into
+ 我们要进入的分类
+
+372
+00:14:44,240 --> 00:14:46,580
+detail on that one a little later so I
+ 稍后详细介绍那个，所以我
+
+373
+00:14:46,580 --> 00:14:48,409
+hope you're excited to figure out how
+希望你很高兴弄清楚如何
+
+374
+00:14:48,409 --> 00:14:50,659
+machine learning actually helps fight
+机器学习实际上有助于战斗
+
+375
+00:14:50,659 --> 00:14:53,269
+the virus how is the nomally detection
+ 病毒如何正常检测
+
+376
+00:14:53,269 --> 00:14:56,330
+used for virus detection well it scans
+用于病毒检测， 它扫描
+
+377
+00:14:56,330 --> 00:14:58,610
+code for unusual behavior and when it
+ 异常行为的代码及其时间
+
+378
+00:14:58,610 --> 00:15:00,889
+finds a piece of unusual behavior which
+发现一块异常行为，其
+
+379
+00:15:00,889 --> 00:15:03,590
+we call an outlier it flags it as a
+我们称它为异常值， 它将其标记为
+
+380
+00:15:03,590 --> 00:15:06,200
+potential virus and what it tries to do
+潜在的病毒以及它试图做的事情
+
+381
+00:15:06,200 --> 00:15:08,389
+is identify patterns that don't conform
+ 识别不符合的模式
+
+382
+00:15:08,389 --> 00:15:10,879
+to expected behavior people who make
+ 制作人的预期行为
+
+383
+00:15:10,879 --> 00:15:12,620
+anomaly detection software actually
+ 实际上是异常检测软件
+
+384
+00:15:12,620 --> 00:15:13,889
+admit that
+ 承认这一点
+
+385
+00:15:13,889 --> 00:15:16,350
+tax that they allowed to go through on a
+ 他们允许通过的税收
+
+386
+00:15:16,350 --> 00:15:18,389
+network because they can't get
+网络， 因为他们无法得到
+
+387
+00:15:18,389 --> 00:15:21,568
+everything now this means that hundreds
+ 现在一切都意味着数以百计
+
+388
+00:15:21,568 --> 00:15:23,759
+of machines are being compromised before
+ 机器之前正在受到损害
+
+389
+00:15:23,759 --> 00:15:26,399
+an attack is detected once it's detected
+ 一旦检测到攻击就会被检测到
+
+390
+00:15:26,399 --> 00:15:28,798
+it's isolated and your system is
+ 它是孤立的，你的系统是
+
+391
+00:15:28,798 --> 00:15:32,159
+protected from it okay now we've gone
+ 保护它好了现在我们走了
+
+392
+00:15:32,159 --> 00:15:34,109
+through an Amelie detection the next
+ 通过天使爱美丽检测到下一个
+
+393
+00:15:34,109 --> 00:15:36,149
+major category if you remember with
+如果你记得的主要类别
+
+394
+00:15:36,149 --> 00:15:38,938
+Bayesian classifiers that there's a lot
+贝叶斯分类器有很多
+
+395
+00:15:38,938 --> 00:15:40,678
+of math coming up in these next two
+ 数学将在接下来的两年中出现
+
+396
+00:15:40,678 --> 00:15:42,928
+slides so you have to rewind and
+ 幻灯片，所以你必须倒带
+
+397
+00:15:42,928 --> 00:15:45,958
+re-watch that's okay I'm actually going
+ 重新观察那我没事
+
+398
+00:15:45,958 --> 00:15:47,730
+to take a step out of the screen for a
+ 从屏幕上迈出一步
+
+399
+00:15:47,730 --> 00:15:49,918
+minute so that you can see everything as
+分钟， 这样你就可以看到一切
+
+400
+00:15:49,918 --> 00:15:52,589
+I go through this first let's talk about
+我首先谈谈这个问题
+
+401
+00:15:52,589 --> 00:15:55,409
+what a Bayesian classifier is a Bayesian
+什么贝叶斯分类器是贝叶斯分类器
+
+402
+00:15:55,409 --> 00:15:58,168
+classifier calculates probabilities for
+分类器计算概率
+
+403
+00:15:58,168 --> 00:16:01,019
+every different event here in the
+ 这里的每一个不同的事件
+
+404
+00:16:01,019 --> 00:16:02,489
+example that we're going to be using in
+ 例如，我们正在将要使用在
+
+405
+00:16:02,489 --> 00:16:04,708
+these next two slides we're really going
+ 接下来的两张幻灯片我们真的要去了
+
+406
+00:16:04,708 --> 00:16:07,708
+to be talking about two things smoke and
+ 谈论烟雾和烟雾的两件事
+
+407
+00:16:07,708 --> 00:16:12,149
+fire what we do is we figure out the
+火我们所做的就是我们弄清楚
+
+408
+00:16:12,149 --> 00:16:15,119
+probability of smoke given that there's
+ 有烟雾的概率
+
+409
+00:16:15,119 --> 00:16:17,369
+fire that's that first bullet there
+ 那是那里的第一颗子弹
+
+410
+00:16:17,369 --> 00:16:20,009
+where you see the P with a bar then a B
+ 在这里你看到在P与酒吧则A B
+
+411
+00:16:20,009 --> 00:16:23,100
+that's the probability of a given the
+这是给定的 概率
+
+412
+00:16:23,100 --> 00:16:25,708
+probability of B now when we talk about
+ 我们谈论时B的概率
+
+413
+00:16:25,708 --> 00:16:28,350
+a what we really need is fire so if you
+ 我们真正需要的是火，如果你
+
+414
+00:16:28,350 --> 00:16:29,999
+want in your head and you want to put in
+想要在你的头脑中，你想要投入
+
+415
+00:16:29,999 --> 00:16:32,220
+fire for a you're more than welcome to
+为你欢火
+
+416
+00:16:32,220 --> 00:16:35,009
+do that the example that we have here is
+这样做我们这里的例子 是
+
+417
+00:16:35,009 --> 00:16:36,629
+we're going to try and find out the
+我们将尝试找出
+
+418
+00:16:36,629 --> 00:16:39,808
+probability of fire given that we see
+我们看到的火灾概率
+
+419
+00:16:39,808 --> 00:16:43,558
+smoke and we find this out by knowing
+吸烟，我们知道这一点
+
+420
+00:16:43,558 --> 00:16:45,119
+what the probabilities of smoke and fire
+什么是烟和火的概率
+
+421
+00:16:45,119 --> 00:16:47,399
+are and then doing a little bit of math
+ 是，然后做一点数学
+
+422
+00:16:47,399 --> 00:16:49,499
+to figure out the probability of fire
+ 找出火灾的概率
+
+423
+00:16:49,499 --> 00:16:53,668
+given that me see smoke okay so these
+鉴于我看到烟好，所以这些
+
+424
+00:16:53,668 --> 00:16:55,379
+are the basic things that we're looking
+是我们正在寻找的基本事物
+
+425
+00:16:55,379 --> 00:16:57,089
+at but I want the tape have me take a
+ 在但我想要磁带让我拿一个
+
+426
+00:16:57,089 --> 00:16:59,730
+moment to observe this slide read it
+观察这张幻灯片的时刻看了它
+
+427
+00:16:59,730 --> 00:17:02,068
+through and think about it on the next
+通过并考虑下一个
+
+428
+00:17:02,068 --> 00:17:03,568
+slide we're actually going to go through
+ 幻灯片，我们实际上将要通过
+
+429
+00:17:03,568 --> 00:17:06,148
+a step by step example using our smoke
+ 使用我们的烟雾的一步一步的例子
+
+430
+00:17:06,148 --> 00:17:08,548
+and fire so that you really understand
+和火，以便你真正理解
+
+431
+00:17:08,548 --> 00:17:10,888
+what a Bayesian classifier is I'm here
+什么是贝叶斯分类器我就在这里
+
+432
+00:17:10,888 --> 00:17:12,778
+even though you can't see me now I'm
+ 即使你现在看不到我，我也是
+
+433
+00:17:12,778 --> 00:17:15,388
+gonna walk you through this step by step
+ 一步一步地带你走过这条路
+
+434
+00:17:15,388 --> 00:17:19,109
+question is when I see smoke what's the
+ 问题是当我看到烟雾是什么时候
+
+435
+00:17:19,109 --> 00:17:20,548
+chance that there's also going to be
+也有机会
+
+436
+00:17:20,548 --> 00:17:23,369
+fire I'm going to break it down for you
+火我要为你分解它
+
+437
+00:17:23,369 --> 00:17:25,588
+first let's talk about the top half of
+首先让我们来谈谈的上半部分
+
+438
+00:17:25,588 --> 00:17:26,630
+the screen
+ 屏幕
+
+439
+00:17:26,630 --> 00:17:27,588
+then we're going to talk about the
+然后我们要谈谈
+
+440
+00:17:27,588 --> 00:17:29,960
+bottom half the top half of the screen
+ 屏幕上半部分的下半部分
+
+441
+00:17:29,960 --> 00:17:32,319
+gives us information that we know about
+向我们提供我们了解的信息
+
+442
+00:17:32,319 --> 00:17:34,910
+so let's talk about the probability of
+ 所以我们来谈谈概率
+
+443
+00:17:34,910 --> 00:17:37,819
+fire given that there's smoke we know
+ 因为 我们知道有烟
+
+444
+00:17:37,819 --> 00:17:40,640
+that there's a 90% chance that fire can
+ 火灾的可能性有90％
+
+445
+00:17:40,640 --> 00:17:44,059
+create smoke we also know that there's a
+创造烟雾我们也知道有一个
+
+446
+00:17:44,059 --> 00:17:46,549
+10% chance of there just being fire
+ 只有 10％的几率 发生火灾
+
+447
+00:17:46,549 --> 00:17:50,420
+without smoke and a 1% chance that you
+没有烟，你有1％的几率
+
+448
+00:17:50,420 --> 00:17:53,630
+can create smoke without fire knowing
+没有火就知道会产生烟雾
+
+449
+00:17:53,630 --> 00:17:56,390
+those three things we can find out the
+这三样东西，我们可以找出
+
+450
+00:17:56,390 --> 00:17:59,059
+probability of there being smoke given
+ 有烟的可能性
+
+451
+00:17:59,059 --> 00:18:01,549
+that we see a fire but what we're gonna
+我们看到了火， 但我们将要发生什么
+
+452
+00:18:01,549 --> 00:18:05,089
+do is we're gonna say P of smoke with
+我们会说P烟
+
+453
+00:18:05,089 --> 00:18:08,450
+the bar fire which basically means the
+ 酒吧火灾基本上意味着
+
+454
+00:18:08,450 --> 00:18:10,849
+probability of smoke given that there's
+ 烟雾的概率考虑到有
+
+455
+00:18:10,849 --> 00:18:13,819
+a fire is gonna be 1% that's our chance
+火灾将是1％，这是我们的机会
+
+456
+00:18:13,819 --> 00:18:17,809
+of just smoke multiplied by 90% which is
+只是烟雾乘以90％即是
+
+457
+00:18:17,809 --> 00:18:20,210
+our chance that there's fire given that
+我们的机会，有消防鉴于
+
+458
+00:18:20,210 --> 00:18:23,240
+their smoke over 10% which is our chance
+ 他们的烟雾超过10％，这是我们的机会
+
+459
+00:18:23,240 --> 00:18:25,910
+of they're just being fire now if we do
+ 如果我们这样做 ，他们现在只是在开火
+
+460
+00:18:25,910 --> 00:18:28,940
+the math what we come up with is a 9%
+我们拿出数学是9％
+
+461
+00:18:28,940 --> 00:18:31,490
+chance of there being smoke when there's
+ 有吸烟的可能性
+
+462
+00:18:31,490 --> 00:18:34,579
+fire now like I said if you have to
+ 如果你不得不像我说的那样开火
+
+463
+00:18:34,579 --> 00:18:36,859
+rewind and go over this again until you
+倒回并重新审视这个直到你
+
+464
+00:18:36,859 --> 00:18:39,650
+understand it that's okay I know that we
+明白没关系 ，我知道，我们
+
+465
+00:18:39,650 --> 00:18:41,349
+just went over something pretty tough
+刚刚走过去的东西非常艰难
+
+466
+00:18:41,349 --> 00:18:43,940
+great job everyone going over how
+ 伟大的工作每个人都在如何
+
+467
+00:18:43,940 --> 00:18:46,460
+Bayesian classifiers work I think I'm
+贝叶斯分类器工作我想我是
+
+468
+00:18:46,460 --> 00:18:48,410
+about time for me to hop back on screen
+关于我跳回屏幕的时间
+
+469
+00:18:48,410 --> 00:18:50,779
+and give you some real-world examples of
+并给你一些真实世界的例子
+
+470
+00:18:50,779 --> 00:18:53,779
+Bayesian classifiers and everyone did
+贝叶斯分类器和每个人都做到了
+
+471
+00:18:53,779 --> 00:18:57,019
+you miss me all right so let's talk
+ 你很想我，所以让我们谈谈吧
+
+472
+00:18:57,019 --> 00:18:58,430
+about our first example
+ 我们的第一个例子
+
+473
+00:18:58,430 --> 00:19:00,829
+and that's spam Bayesian classifiers are
+ 这就是垃圾邮件贝叶斯分类是
+
+474
+00:19:00,829 --> 00:19:02,869
+used to figure out whether or not email
+用来弄清楚是否有电子邮件
+
+475
+00:19:02,869 --> 00:19:04,759
+that you've received is spam or not
+您收到的是垃圾邮件
+
+476
+00:19:04,759 --> 00:19:07,339
+they're also used to classify whether or
+它们也用于分类是否或
+
+477
+00:19:07,339 --> 00:19:09,440
+not your computer is affected or safe
+不是您的计算机受到影响或安全
+
+478
+00:19:09,440 --> 00:19:12,109
+they do this using probabilities of
+ 他们使用概率来做到这一点
+
+479
+00:19:12,109 --> 00:19:14,150
+things that they know and then they go
+他们知道的事情，然后他们去
+
+480
+00:19:14,150 --> 00:19:15,859
+through the Bayesian classifier to
+通过贝叶斯分类器来
+
+481
+00:19:15,859 --> 00:19:17,509
+figure out whether or not you've been
+弄清楚你是否曾经去过
+
+482
+00:19:17,509 --> 00:19:20,779
+infected by a virus how cool is that
+ 感染病毒有多酷
+
+483
+00:19:20,779 --> 00:19:23,119
+all right everyone you've gone through
+ 好的，你经历过的每一个人
+
+484
+00:19:23,119 --> 00:19:25,190
+Bayesian classifiers you understand them
+ 您了解它们的贝叶斯分类器
+
+485
+00:19:25,190 --> 00:19:26,210
+inside and out
+从内到外
+
+486
+00:19:26,210 --> 00:19:28,279
+you've also seen some great real-world
+你也看过一些伟大的现实世界
+
+487
+00:19:28,279 --> 00:19:31,400
+examples of how they're used if you want
+ 如果你想要它们如何被使用的例子
+
+488
+00:19:31,400 --> 00:19:32,960
+to know more and you want to see it in
+了解更多，你想看到它
+
+489
+00:19:32,960 --> 00:19:36,500
+action take a look at this video I hope
+动作看看这个视频我希望
+
+490
+00:19:36,500 --> 00:19:37,930
+all of you have gotten
+你们所有人都得到了
+
+491
+00:19:37,930 --> 00:19:40,359
+really interested in anti-viruses how
+真的对抗病毒感兴趣如何
+
+492
+00:19:40,359 --> 00:19:42,400
+they work and how they can be used to
+他们的工作，他们可以如何 使用
+
+493
+00:19:42,400 --> 00:19:45,069
+help keep you safe if you want to know
+ 如果你想知道，帮助你保持安全
+
+494
+00:19:45,069 --> 00:19:47,380
+even more we've picked out some great
+甚至更多我们选择了一些伟大的
+
+495
+00:19:47,380 --> 00:19:49,869
+books for you to check out the first is
+你可以看看第一本书
+
+496
+00:19:49,869 --> 00:19:52,299
+antivirus hacker's handbook that's by
+反病毒黑客手册这是由
+
+497
+00:19:52,299 --> 00:19:55,000
+jokes in Corinth the next is Bayesian
+ 在科林斯的笑话，接下来就是贝叶斯
+
+498
+00:19:55,000 --> 00:19:56,980
+reasoning and machine learning by David
+ 大卫的推理和机器学习
+
+499
+00:19:56,980 --> 00:19:59,740
+barber and the last one is the malware
+理发师和最后一个是恶意软件
+
+500
+00:19:59,740 --> 00:20:02,470
+analyst cookbook and that's why Michael
+ 分析师食谱，这就是为什么迈克尔
+
+501
+00:20:02,470 --> 00:20:04,839
+Lee any one of these books will teach
+李这些书中的任何一本都会教
+
+502
+00:20:04,839 --> 00:20:07,900
+you so much more about anti viruses how
+你如何更多地了解抗病毒
+
+503
+00:20:07,900 --> 00:20:09,730
+they work and how they can be used to
+他们的工作以及他们如何习惯
+
+504
+00:20:09,730 --> 00:20:11,980
+protect us so I hope you take the time
+ 保护我们所以我希望你花时间
+
+505
+00:20:11,980 --> 00:20:13,119
+to read one of them
+ 读他们的一个
+
+506
+00:20:13,119 --> 00:20:14,740
+alright everyone I want to talk about
+ 好的，我想谈谈的每一个人
+
+507
+00:20:14,740 --> 00:20:16,390
+something really cool and that's the
+一些非常酷的东西，那就是
+
+508
+00:20:16,390 --> 00:20:16,960
+DARPA
+ DARPA
+
+509
+00:20:16,960 --> 00:20:20,349
+cyber grand challenge this is actually
+网络大挑战这实际上是
+
+510
+00:20:20,349 --> 00:20:23,559
+like sports and robots against each
+喜欢运动和机器人对抗每一个
+
+511
+00:20:23,559 --> 00:20:25,990
+other for antivirus software it's when
+其他用于防病毒软件的时间
+
+512
+00:20:25,990 --> 00:20:27,910
+artificial intelligence is pitted
+人工智能是有道理的
+
+513
+00:20:27,910 --> 00:20:29,829
+against artificial intelligence what
+反对人工智能是什么
+
+514
+00:20:29,829 --> 00:20:32,140
+they tried to do was hack each other's
+他们试图做的是破解对方 的
+
+515
+00:20:32,140 --> 00:20:34,420
+systems to see who was actually the most
+系统，看看谁是最实际的
+
+516
+00:20:34,420 --> 00:20:37,630
+effective at preventing attacks now why
+ 现在有效防止攻击的原因
+
+517
+00:20:37,630 --> 00:20:39,609
+is this important well in computer
+这在计算机上是非常重要的
+
+518
+00:20:39,609 --> 00:20:41,799
+security of revolution has started where
+ 革命的安全已经开始了
+
+519
+00:20:41,799 --> 00:20:43,779
+artificial intelligence is able to help
+人工智能能够提供帮助
+
+520
+00:20:43,779 --> 00:20:46,509
+keep us more secure than ever and this
+让我们比以往任何时候都更安全
+
+521
+00:20:46,509 --> 00:20:48,880
+competition really highlighted the
+比赛真的突出了
+
+522
+00:20:48,880 --> 00:20:51,220
+advances in machine learning space and
+机器学习领域的进步和发展
+
+523
+00:20:51,220 --> 00:20:53,440
+artificial intelligence space for anti
+反人工智能空间
+
+524
+00:20:53,440 --> 00:20:55,839
+viruses it proved that we have what it
+病毒它证明了我们拥有它
+
+525
+00:20:55,839 --> 00:20:58,029
+takes to keep ourselves safe and secure
+ 需要保持自己的安全
+
+526
+00:20:58,029 --> 00:20:59,710
+I want to take a moment to thank
+ 我想花一点时间来感谢
+
+527
+00:20:59,710 --> 00:21:01,660
+everyone for learning with me today I
+大家今天和我一起学习我
+
+528
+00:21:01,660 --> 00:21:03,490
+hope you enjoyed learning more about
+希望你喜欢学习更多关于
+
+529
+00:21:03,490 --> 00:21:06,579
+viruses and anti viruses I also want to
+ 病毒和抗病毒我也想
+
+530
+00:21:06,579 --> 00:21:08,200
+let you know that if you're passionate
+让你知道，如果你充满激情
+
+531
+00:21:08,200 --> 00:21:10,509
+about this you can help join that
+关于这一点，你可以帮忙加入
+
+532
+00:21:10,509 --> 00:21:13,119
+revolution of antivirus software and you
+反病毒软件和你的革命
+
+533
+00:21:13,119 --> 00:21:15,490
+can help keep us more safe and more
+ 可以帮助我们保持更安全和更多
+
+534
+00:21:15,490 --> 00:21:16,519
+secure
+安全
+
