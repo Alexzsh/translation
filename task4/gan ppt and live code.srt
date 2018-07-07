@@ -1,0 +1,3849 @@
+﻿1
+00:00:00,000 --> 00:00:02,440
+hi there I'm Luis Gomez with palo alto education 
+大家好 我是palo alto教育的Luis Gomez 
+
+2
+00:00:02,440 --> 00:00:04,049
+and i'd like to share with you
+我想和你分享
+
+3
+00:00:04,049 --> 00:00:06,330
+an awesome application of machine
+一个有关机器学习和
+
+4
+00:00:06,330 --> 00:00:07,730
+learning and neural networks
+神经网络的应用 真的超棒的
+
+5
+00:00:07,730 --> 00:00:12,000
+this topic is called style transfer and what this
+这个主题是风格转移 它能够
+
+6
+00:00:12,000 --> 00:00:14,789
+allows us to do is transfer the style of
+将一个图片的风格
+
+7
+00:00:14,789 --> 00:00:17,430
+one image onto another image 
+转移到另一个图像上
+
+8
+00:00:17,430 --> 00:00:20,760
+here you see this really cool gif of an image
+屏幕上这张非常酷的动图 
+
+9
+00:00:20,760 --> 00:00:23,070
+changing in real time and as that image
+我们可以看到这张图
+
+10
+00:00:23,070 --> 00:00:26,010
+changes its style is being applied to
+风格正在被应用到
+
+11
+00:00:26,010 --> 00:00:28,829
+the style of the man who's drawing so
+那个画画的男人的图片上
+
+12
+00:00:28,829 --> 00:00:30,300
+that's a really cool gif right there
+很酷吧 而且它也让我们直观地
+
+13
+00:00:30,300 --> 00:00:32,279
+and gives you an idea of what we can do
+看到我们通过风格转移能够
+
+14
+00:00:32,279 --> 00:00:35,179
+with style transfer technology 
+做些什么
+
+15
+00:00:35,179 --> 00:00:38,100
+here are the major contributors to this tech
+这里就是这项技术的几位主要贡献者啦
+
+16
+00:00:38,100 --> 00:00:41,308
+we've got Leon Alexander and Mattias who
+Leon Alexander和Matthias
+
+17
+00:00:41,308 --> 00:00:43,530
+all published this paper jointly called
+他们联合发表了一篇研究 名为
+
+18
+00:00:43,530 --> 00:00:46,799
+a neural algorithm of artistic style
+a neural algorithm of artistic style（艺术风格的神经算法）
+
+19
+00:00:46,799 --> 00:00:49,710
+it's a little bit wordy and if you have
+文章有点长 所以如果你有
+
+20
+00:00:49,710 --> 00:00:51,750
+a few hours you should definitely chew
+好几个小时的空余时间的话 
+
+21
+00:00:51,750 --> 00:00:52,738
+through that because it's a super
+那你一定要读一下 因为这是一篇
+
+22
+00:00:52,738 --> 00:00:55,320
+interesting paper but you got to set
+非常有趣的论文 但你必须要
+
+23
+00:00:55,320 --> 00:00:57,619
+aside some time for that one 
+留出挺多的时间来读哦 
+
+24
+00:00:57,619 --> 00:01:01,689
+here we've got some pretty applications of style transfer
+这里呢我们有一些关于风格转移的应用
+
+25
+00:01:01,689 --> 00:01:03,539
+we've got the Prisma app which
+首先是Prisma
+
+26
+00:01:03,539 --> 00:01:05,640
+started to popularize this a lot more
+它使这个技术让更多的人知道了
+
+27
+00:01:05,640 --> 00:01:08,579
+and it's really cool as you've real-time
+当你实时地转动
+
+28
+00:01:08,579 --> 00:01:10,829
+rotate around with your selfie camera
+自拍相机
+
+29
+00:01:10,829 --> 00:01:13,290
+you've got the style of some piece of
+然后你就可以把艺术图片的风格
+
+30
+00:01:13,290 --> 00:01:16,650
+art applied to your video and we've got
+应用于你的视频上啦
+
+31
+00:01:16,650 --> 00:01:17,868
+a similar thing going on with that
+我们的技术也已经应用于
+
+32
+00:01:17,868 --> 00:01:21,810
+360 image art app and yeah
+360 Image to Art啦
+
+33
+00:01:21,810 --> 00:01:23,340
+style transfer is just awesome to look
+风格转移真是看看就觉得超棒了
+
+34
+00:01:23,340 --> 00:01:27,659
+at here I'm not gonna one run through
+在这里呢我就不把所有的
+
+35
+00:01:27,659 --> 00:01:28,618
+all these videos there's quite a few
+放一遍啦 因为视频真的是
+
+36
+00:01:28,618 --> 00:01:30,060
+videos in this presentation that you
+蛮多的 你可以
+ 
+37
+00:01:30,060 --> 00:01:31,228
+should watch on your own because they're
+自己看一下 因为它们真的
+
+38
+00:01:31,228 --> 00:01:33,599
+super entertaining but here we've got
+都非常有趣了 但屏幕上呢展示了
+
+39
+00:01:33,599 --> 00:01:37,319
+some oculus VR painting for you and yeah
+一些Oculus VR（虚拟现实）的图片
+
+40
+00:01:37,319 --> 00:01:39,359
+it's just pretty to look at man it's
+真是光看看
+
+41
+00:01:39,359 --> 00:01:41,450
+just just really cool to look at
+就觉得很酷
+
+42
+00:01:41,450 --> 00:01:43,920
+so how do we do this how do we accomplish this
+那么 我们这样做是如何做到这一点的
+
+43
+00:01:43,920 --> 00:01:46,228
+well we use something called a
+我们使用的东西叫做
+
+44
+00:01:46,228 --> 00:01:48,739
+generative adversarial neural network
+生成对抗神经网络
+
+45
+00:01:48,739 --> 00:01:51,518
+try and say that one 10 times fast I bet you can'take
+哈哈你试试能不能说的比我快十倍 肯定不能吧
+
+46
+00:01:51,518 --> 00:01:54,090
+okay this this is where it starts
+好啦 是不是看起来就好像
+
+47
+00:01:54,090 --> 00:01:57,328
+to get confusing so the idea behind it
+有点复杂呀 但是它背后隐含的
+
+48
+00:01:57,328 --> 00:01:58,890
+the basic idea behind it it's actually
+基本理念实际上并
+
+49
+00:01:58,890 --> 00:02:01,259
+not that difficult so we've got two
+没那么难  这里呢有两个
+
+50
+00:02:01,259 --> 00:02:03,149
+neural networks if you've seen any of my
+神经网络 如果你之前看过我的
+
+51
+00:02:03,149 --> 00:02:04,978
+previous videos on neural networks
+关于神经网络的视频
+
+52
+00:02:04,978 --> 00:02:07,259
+before then you have an idea of what
+那么你应该已经知道什么
+
+53
+00:02:07,259 --> 00:02:09,449
+we're gonna do here but if you haven't
+我们会做什么啦 但如果你没有看过
+
+54
+00:02:09,449 --> 00:02:10,500
+that's totally fine too we're gonna
+也完全没问题 因为我们都是要
+
+55
+00:02:10,500 --> 00:02:11,389
+learn regardless
+重新学习的
+
+56
+00:02:11,389 --> 00:02:13,870
+so we've got a generator neural network
+我们有生成神经网络
+
+57
+00:02:13,870 --> 00:02:16,269
+and a discriminator neural network now
+和判别神经网络
+
+58
+00:02:16,269 --> 00:02:18,068
+an analogy that's used a ton and is
+有一个大家都在用的比喻哦
+
+59
+00:02:18,068 --> 00:02:20,259
+super helpful for everyone in the
+对所有机器学习领域的人都
+
+60
+00:02:20,259 --> 00:02:22,598
+machine learning community is to think
+非常有用 那就是把
+
+61
+00:02:22,598 --> 00:02:24,729
+of the generator as like a counterfeiter
+生成网络想象成就像一个伪造者
+
+62
+00:02:24,729 --> 00:02:26,709
+and to think of the discriminator as
+然后把判别网络视为
+
+63
+00:02:26,709 --> 00:02:28,539
+like a bank official or something like
+银行工作人员之类的身份
+
+64
+00:02:28,539 --> 00:02:30,729
+that whose job it is to prove the
+他的工作就是要证明
+
+65
+00:02:30,729 --> 00:02:34,378
+counterfeiter is making fake images so
+伪造者伪造了图像
+
+66
+00:02:34,378 --> 00:02:36,990
+yeah these two are pitted against each
+是的 这两个之间是相互对抗的
+
+67
+00:02:36,990 --> 00:02:39,159
+and over time the discriminator
+随着时间的推移判别网络
+
+68
+00:02:39,159 --> 00:02:41,860
+learns more and more to distinguish a
+学会越来越多区分
+
+69
+00:02:41,860 --> 00:02:43,900
+fake image and the generator gets better
+假图像的方法 而生成网络就会变得越来越会
+
+70
+00:02:43,900 --> 00:02:46,360
+and better at tricking the discriminator
+骗过判别网络啦
+
+71
+00:02:46,360 --> 00:02:48,579
+so what is the generator how does the
+那生成网络到底是什么呢 它又是
+
+72
+00:02:48,579 --> 00:02:50,289
+generator work well I talked a little
+如何运作的呢  刚刚我已经说了一些
+
+73
+00:02:50,289 --> 00:02:51,939
+bit about neural networks just now well
+关于神经网络的的东西了 
+
+74
+00:02:51,939 --> 00:02:53,799
+a generator is just a neural network and
+它是一个神经网络 
+
+75
+00:02:53,799 --> 00:02:56,889
+you feed it just random just garbage
+你向它输入一些随机的东西 什么乱七八糟的东西啦
+
+76
+00:02:56,889 --> 00:03:01,500
+just noise and it will output an image
+噪音啦都可以 然后它就会输出一个图像
+
+77
+00:03:01,500 --> 00:03:04,299
+now this image that it generates is
+现在它生成的这个图像
+
+78
+00:03:04,299 --> 00:03:06,969
+counterfeit it is the generated image
+是假的 是一张生成的图片
+
+79
+00:03:06,969 --> 00:03:10,060
+and let me talk a little bit about what
+现在让我们来看一下
+
+80
+00:03:10,060 --> 00:03:13,568
+this latent sample is so if you've never
+图像的隐式表示 如果你之前没有
+
+81
+00:03:13,568 --> 00:03:15,489
+seen this representation of a number
+看过类似这样的数字化表示
+
+82
+00:03:15,489 --> 00:03:17,769
+before that's totally fine it's really
+这很正常啦
+
+83
+00:03:17,769 --> 00:03:20,199
+rare to see outside of you know out of
+因为除了在机器学习里 是很少能在
+
+84
+00:03:20,199 --> 00:03:22,430
+machine learning so here is what that
+其他地方看到这个的
+
+85
+00:03:22,430 --> 00:03:26,500
+so here is what that image is trying to show so we've got a
+这里有一个图像 我们来看看图像传递了什么意思吧
+
+86
+00:03:26,500 --> 00:03:29,348
+number 1 drawn here and you can see
+在这里是数字“1”
+
+87
+00:03:29,348 --> 00:03:32,900 
+here is like a number and array representation 
+边上呢这个数字“1”的
+
+88
+00:03:32,900 --> 00:03:35,560
+of this number so all
+二维数组显示
+
+89
+00:03:35,560 --> 00:03:37,689
+these zeros correspond to all the white
+右边这些零对应于左边空白
+
+90
+00:03:37,689 --> 00:03:41,799
+pixels in this image and these dark gray
+的部分 右边这些深色的也就是
+
+91
+00:03:41,799 --> 00:03:45,039
+and all these values that are above zero
+这些数值是大于0
+
+92
+00:03:45,039 --> 00:03:47,680
+but lower than one these represent the
+小于1的代表左边
+
+93
+00:03:47,680 --> 00:03:53,030
+gray and black pixels in this image so
+图像中灰色和黑色像素的部分
+
+94
+00:03:53,430 --> 00:03:56,799
+this number eight right here could be
+所以啦这个数字”8“也可以
+
+95
+00:03:56,799 --> 00:04:00,340
+represented in a similar way as that
+以类似的方法显示出来（被老师挡住啦）
+
+96
+00:04:00,340 --> 00:04:03,310
+number one we just saw using a big array
+就像刚刚的”1“一样啦用
+
+97
+00:04:03,310 --> 00:04:05,000
+of numbers between 0 and 1 
+0到1之间数组来显示 
+
+98
+00:04:05,000 --> 00:04:10,239
+so what we do is we pass the generator just these
+我们做的呢就是向生成网络输入这些
+
+99
+00:04:10,239 --> 00:04:13,719
+random noise values and we want it to
+随机的噪声值 然后希望生成网络来
+
+100
+00:04:13,719 --> 00:04:17,228
+generate some image like that number 1
+产生像刚刚数字”1“一样的图像
+
+101
+00:04:17,228 --> 00:04:19,870
+and it does that just by picking values
+它选择
+
+102
+00:04:19,870 --> 00:04:22,000
+between 0 and 1 and placing them in the
+0到1之间的数值 并将数值放入
+
+103
+00:04:22,000 --> 00:04:24,279
+right spots so that's how it would work
+相应正确的位置 所以它就是通过使用数值来
+
+104
+00:04:24,279 --> 00:04:25,870
+with numbers and a similar way would
+运作的 而通过使用图像也是
+
+105
+00:04:25,870 --> 00:04:27,348
+work with images
+类似的
+
+106
+00:04:27,348 --> 00:04:31,279
+so that's the generator the counterfeiter
+这就是生成网络为什么在我们的比喻里被称为
+
+107
+00:04:31,279 --> 00:04:33,918
+going back to that analogy and now we
+伪造者啦 我们接下来再来看看
+
+108
+00:04:33,918 --> 00:04:35,870
+go to the bank official or the
+去银行工作人员这个比喻吧
+
+109
+00:04:35,870 --> 00:04:37,939
+discriminator the one whose job it is to
+也就是判别网络啦 它的工作就是
+
+110
+00:04:37,939 --> 00:04:40,668
+tell that those images pass to it are
+判断所传递的图片是真的
+
+111
+00:04:40,668 --> 00:04:43,908
+fake or real so the way the
+还是假的 所以
+
+112
+00:04:43,908 --> 00:04:45,408
+discriminator works well it's just a
+判别网络的运作就是一个
+
+113
+00:04:45,408 --> 00:04:47,158
+basic classifier neural network 
+基本的分类器神经网络
+
+114
+00:04:47,158 --> 00:04:51,978
+I say basic but it's not that basic but we're
+虽然我说它是基本的 但它也不是那么基本啦 但我们
+
+115
+00:04:51,978 --> 00:04:53,509
+gonna gloss over that for now because we
+现在就不去深究啦 因为我们
+
+116
+00:04:53,509 --> 00:04:55,699
+just want to get the ideas of machine
+只是想要了解机器
+
+117
+00:04:55,699 --> 00:04:56,689
+learning right we want those
+学习的理念 我们只需要那些
+
+118
+00:04:56,689 --> 00:04:59,028
+fundamentals because the lines of code
+基础知识  因为代码
+
+119
+00:04:59,028 --> 00:05:00,528
+will change the tools that people will
+是一直在改变的 人们使用的工具
+
+120
+00:05:00,528 --> 00:05:02,959
+use will change over time but these
+也会随着时间而改变 但是这些
+
+121
+00:05:02,959 --> 00:05:05,718
+ideas ok these are super important ideas
+想法和理念才是非常重要的
+
+122
+00:05:05,718 --> 00:05:07,278
+that are helping a lot of people in the
+因为此时此刻 它们正在帮助世界上的
+
+123
+00:05:07,278 --> 00:05:09,008
+world right the second 
+很多人
+
+124
+00:05:09,008 --> 00:05:11,269
+so the discriminator is a basic classifier
+所以判别网络是一个基本的
+
+125
+00:05:11,269 --> 00:05:15,610
+neural network model and all it does is
+神经网络分类模型 它所做的就是
+
+126
+00:05:15,610 --> 00:05:18,559
+just try to tell if an image is real or fake
+试着判断图像是真的还是真的
+
+127
+00:05:18,559 --> 00:05:20,689
+so if you've seen any of my
+如果你看过任何一个我
+
+128
+00:05:20,689 --> 00:05:22,579
+previous videos we've talked a little
+以前的视频 我们已经谈了一点
+
+129
+00:05:22,579 --> 00:05:24,649
+bit about neural networks trying to tell
+关于神经网络的知识了 我们聊过关于区分
+
+130
+00:05:24,649 --> 00:05:27,740
+like a dog and a cow apart trying to
+狗和牛了 就是通过传递图像
+
+131
+00:05:27,740 --> 00:05:29,569
+identify them when passed an image and
+来识别它们
+
+132
+00:05:29,569 --> 00:05:32,209
+the way it does that is you pass it a
+区别的方式就是 你要输入
+
+133
+00:05:32,209 --> 00:05:33,740
+bunch of images and they have to be
+一堆它们图像 并将它们
+
+134
+00:05:33,740 --> 00:05:35,629
+labeled so you're throwing a bunch of
+标记 也就说你要向
+
+135
+00:05:35,629 --> 00:05:37,759
+images at the neural network and you're
+神经网络输入大量的图像
+
+136
+00:05:37,759 --> 00:05:39,680
+labeling them so like throw an image of
+然后标记它们 比如说你输入了很多
+
+137
+00:05:39,680 --> 00:05:41,329
+dog and make sure it comes with the
+狗的图像 然后标记它们为
+
+138
+00:05:41,329 --> 00:05:43,728
+label of dog throw an image of cow make
+”狗“ 然后输入大量牛的图像
+
+139
+00:05:43,728 --> 00:05:45,228
+sure it comes with the label of cow and
+标记为”牛“
+
+140
+00:05:45,228 --> 00:05:47,209
+you're throwing these labeled images
+你把这些标记好的图像
+
+141
+00:05:47,209 --> 00:05:48,889
+into the neural network feeding it over
+输入到神经网络里
+
+142
+00:05:48,889 --> 00:05:51,088
+and over and over again and over time
+逐渐地
+
+143
+00:05:51,088 --> 00:05:53,990
+it learns to extract features like curves
+它学会提取特征 比如边缘曲线啦
+
+144
+00:05:53,990 --> 00:05:57,288
+and lines and like distances between
+线条啦 眼睛之间的距离啦
+
+145
+00:05:57,288 --> 00:05:59,959
+eyes and lengths of face and things like
+脸的长度啦 或者其他类似的东西
+
+146
+00:05:59,959 --> 00:06:03,168
+that and over time it gets really smart
+随着时间的推移 它变得非常聪明
+
+147
+00:06:03,168 --> 00:06:06,459
+and it learns what in images 
+它现在可以学习图像中的内容
+
+148
+00:06:06,459 --> 00:06:10,069
+now instead of having two classes or instead of
+而这次呢不像以往的神经网络
+
+149
+00:06:10,069 --> 00:06:12,860
+having classes like animals like dogs
+我们并不设置像”动物“或者”狗“
+
+150
+00:06:12,860 --> 00:06:15,259
+and cats and cows like we might have
+ 或者”猫“这样的分类 
+
+151
+00:06:15,259 --> 00:06:17,088
+seen before with neural networks we're
+这样的分类我们之前可能已经见过了
+
+152
+00:06:17,088 --> 00:06:19,519
+only gonna have two classes okay this is
+这次呢我们只有两个分类
+
+153
+00:06:19,519 --> 00:06:22,550
+also called a binary classifier because
+也称为二元分类器因为
+
+154
+00:06:22,550 --> 00:06:26,240
+we've only got two options here and the
+我们只有两个选择
+
+155
+00:06:26,240 --> 00:06:29,418
+two options are real and fake so
+分别是”真“和”假“
+
+156
+00:06:29,418 --> 00:06:31,908
+obviously it wants to be able to tell
+显然 我们希望它能够判断出
+
+157
+00:06:31,908 --> 00:06:34,098
+that the generated images are fake and
+生成的图像是假的
+
+158
+00:06:34,098 --> 00:06:36,899
+that the training data that we pass it are real
+传递的训练数据是真的
+
+159
+00:06:36,899 --> 00:06:40,999
+so let's put this all together
+好了 现在让我们来看一下宏观
+
+160
+00:06:40,999 --> 00:06:43,129
+with this really nice imagery right here
+的图吧
+
+161
+00:06:43,129 --> 00:06:47,809
+so we've got our pull that pointer up
+等我把鼠标调出来一下
+
+162
+00:06:47,809 --> 00:06:49,728
+we've got our latent sample right here
+我们的潜在样本在这里
+
+163
+00:06:49,728 --> 00:06:52,038
+just random noise being fed into the
+是一些随机的杂声 然后把它们输入 
+
+164
+00:06:52,038 --> 00:06:54,499
+generator the generator does some neural
+生成网络里 然后生成网络做了一些神经
+
+165
+00:06:54,499 --> 00:06:56,778
+network stuff on it and spits out a new
+网络的工作 并输出一个新的
+
+166
+00:06:56,778 --> 00:07:00,110
+image this is a really stupid neural
+图像 好吧它确实还是一个很笨的神经
+
+167
+00:07:00,110 --> 00:07:01,819
+network okay it's really dumb right now
+网络 真是太笨啦
+
+168
+00:07:01,819 --> 00:07:04,009
+because it hasn't had a lot of training
+因为现在它还没有经过很多训练
+
+169
+00:07:04,009 --> 00:07:07,399
+to go off and this discriminator right
+好啦 再来看这个判别网络 
+
+170
+00:07:07,399 --> 00:07:09,168
+now is also pretty dumb this is the
+现在它也还是相当愚蠢的 现在呢还处于
+
+171
+00:07:09,168 --> 00:07:10,968
+beginning stages so it might not even be
+开始阶段 所以它甚至不能
+
+172
+00:07:10,968 --> 00:07:13,428
+able to tell the difference between this
+区分这个
+
+173
+00:07:13,428 --> 00:07:16,968
+and this image so as this generator is
+和这个啦  一方面呢 生成器不断地
+
+174
+00:07:16,968 --> 00:07:18,769
+generating images and passing it into
+生成图像并将其传递给
+
+175
+00:07:18,769 --> 00:07:21,978
+the discriminator we got training data
+判别网络  另一方面呢我们有训练数据
+
+176
+00:07:21,978 --> 00:07:23,838
+over here and we're pooling samples out
+并从中汇集样本
+
+177
+00:07:23,838 --> 00:07:25,548
+of it and also passing that to the
+并将样本传递给
+
+178
+00:07:25,548 --> 00:07:27,978
+discriminator so over time it's getting
+判别网络 所以随着时间的推移 它会接收到更多的
+
+179
+00:07:27,978 --> 00:07:30,408
+trained on real data fake data it's
+真假数据的训练 它会接收到
+
+180
+00:07:30,408 --> 00:07:32,298
+getting real data and then fake data and
+真实数据和伪造的数据
+
+181
+00:07:32,298 --> 00:07:35,119
+it's trying to distinguish which one is
+在这个过程中 它试图区分哪个是
+
+182
+00:07:35,119 --> 00:07:37,369
+real which one is fake and over time it
+真的哪一个是假的 随着时间的推移呢
+
+183
+00:07:37,369 --> 00:07:39,439
+learns the difference and as the
+它逐渐了解到两者的区别
+
+184
+00:07:39,439 --> 00:07:41,928
+discriminator gets smarter the generator
+判别网络变得越来越聪明 生成网络
+
+185
+00:07:41,928 --> 00:07:44,149
+starts making better and better images
+也能制作出更具有
+
+186
+00:07:44,149 --> 00:07:45,968
+which are more likely to fool a discriminator 
+欺骗性的图像了
+
+187
+00:07:45,968 --> 00:07:47,809
+here's a cool little video
+这里有一个很酷的小视频关于
+
+188
+00:07:47,809 --> 00:07:50,509
+of the discriminator and generator being
+判别网络和生成网络
+
+189
+00:07:50,509 --> 00:07:53,588
+trained and you can see that their
+的训练 你可以看到它们的
+
+190
+00:07:53,588 --> 00:07:56,060
+curves are getting super close generated
+曲线越来越接近 
+
+191
+00:07:56,060 --> 00:07:58,788
+generated data is starting to get super close to
+生成的数据开始越来越接近
+
+192
+00:07:58,788 --> 00:08:01,079
+that real data right there and
+真正的数据 
+
+193
+00:08:01,079 --> 00:08:02,959
+as it gets closer and closer that
+当两者越来越近
+
+194
+00:08:02,959 --> 00:08:04,579
+discriminator is going to get fooled
+这意味着判别网络越来越容易被
+
+195
+00:08:04,579 --> 00:08:07,069
+more often which means the generator is
+欺骗 也就意味着生成网络
+
+196
+00:08:07,069 --> 00:08:08,449
+going to be putting out better and
+生成的图像越来越接近
+
+197
+00:08:08,449 --> 00:08:12,559
+better more real looking images so
+真实的图像
+
+198
+00:08:12,559 --> 00:08:14,629
+here's an example of style transfer
+这里有一个风格转移
+
+199
+00:08:14,629 --> 00:08:15,439
+being used
+被应用的例子
+
+200
+00:08:15,439 --> 00:08:17,988
+we've got just random noise right here
+这里有一些随即噪声
+
+201
+00:08:17,988 --> 00:08:21,468
+and we're applying the style of this
+我们正在将使用
+
+202
+00:08:21,468 --> 00:08:24,379
+beautiful classic van Gogh starry night
+梵高经典之作”星夜“的风格
+
+203
+00:08:24,379 --> 00:08:27,408
+and here's an example of what the image
+这是图像在经过
+
+204
+00:08:27,408 --> 00:08:29,988
+might look like after one layer of the
+一层
+
+205
+00:08:29,988 --> 00:08:32,909
+neural network of the generator neural network
+神经网络生成网络之后的样子
+
+206
+00:08:32,909 --> 00:08:34,578
+here's an example of the next
+这是下一层的样子
+
+207
+00:08:34,578 --> 00:08:37,099
+layer the next layer and at this final
+然后再往下一层 在最后
+
+208
+00:08:37,099 --> 00:08:38,509
+layer you can see it's starting to
+一层的时候 你可以看到它
+
+209
+00:08:38,509 --> 00:08:40,938
+really have the similar have a similar
+变得非常非常像
+
+210
+00:08:40,938 --> 00:08:46,068
+vibe to this starry night image and on
+”星夜“的风格了
+
+211
+00:08:46,068 --> 00:08:47,899
+the bottom here we get a similar type of
+往下看哟 在底部我们有一个相似的
+
+212
+00:08:47,899 --> 00:08:50,089
+thing where instead of a picture of
+的东西 这不是
+
+213
+00:08:50,089 --> 00:08:51,948
+starry night we've got this picture of a
+星夜啦 这里是一张
+
+214
+00:08:51,948 --> 00:08:54,740
+house and we start to see it get wrapped
+房子的图片 我们可以看到慢慢的
+
+215
+00:08:54,740 --> 00:08:56,979
+as the style is transferred on to that image
+这个照片变得很像星夜的风格
+
+216
+00:08:56,979 --> 00:09:01,429
+so here's some must-reads in
+这是一些有关计算机视觉的
+
+217
+00:09:01,429 --> 00:09:03,769
+computer vision so computer vision is
+必读书目 计算机视觉是
+
+218
+00:09:03,769 --> 00:09:07,370
+the topic of all kinds of all kinds of
+所有机器学习任务的关键
+
+219
+00:09:07,370 --> 00:09:09,409
+machine learning tasks and trying to get
+它能够让
+
+220
+00:09:09,409 --> 00:09:12,019
+computers to play around with images so
+计算机进行很多有关图像的操作
+
+221
+00:09:12,019 --> 00:09:13,940
+yeah these are some good books on the
+这里呢 都是一些这个主题的
+
+222
+00:09:13,940 --> 00:09:16,429
+topic and will help you understand much
+好书 会帮助大家了解更多
+
+223
+00:09:16,429 --> 00:09:19,279
+more of the context behind generative
+有关于
+
+224
+00:09:19,279 --> 00:09:23,990
+additive behind generative adversarial neural networks
+生成对抗神经网络的知识
+
+225
+00:09:23,990 --> 00:09:26,720
+here's a really cool
+这是一个超酷
+
+226
+00:09:26,720 --> 00:09:29,090
+really entertaining video on AI and art
+的有关人工智能和艺术的视频
+
+227
+00:09:29,090 --> 00:09:40,490
+I approve of the music I'll let you
+这个音乐我超喜欢的 但是这个视频呢
+
+228
+00:09:40,490 --> 00:09:42,050
+watch that on your own time 
+大家在空余时间自己看吧
+
+229
+00:09:42,050 --> 00:09:43,669
+super entertaining really short - it's only
+真的很有趣 也很短
+
+230
+00:09:43,669 --> 00:09:46,659
+like five minute video and 
+大概只有五分钟吧 
+
+231
+00:09:46,659 --> 00:09:50,360
+here is more of a keynote type of speech about this
+这里还有一个有关风格转移技术
+
+232
+00:09:50,360 --> 00:09:52,970
+the style transfer technology so if
+的主题演讲 如果
+
+233
+00:09:52,970 --> 00:09:54,169
+you're super interested in you want to
+你对这个超级感兴趣
+
+234
+00:09:54,169 --> 00:09:56,090
+dive even deeper into this I would
+你想要学到更深入的东西 那么我
+
+235
+00:09:56,090 --> 00:10:00,460
+highly recommend watching this talk and
+强烈推荐你看一下这个演讲
+
+236
+00:10:00,460 --> 00:10:03,529
+finally here's some more applications of
+最后这里是一些关于
+
+237
+00:10:03,529 --> 00:10:05,870
+style transfer it's not just used to
+风格转移的应用 它不仅仅只是应用于
+
+238
+00:10:05,870 --> 00:10:08,120
+transfer like famous paintings on to
+将名画风格转移到
+
+239
+00:10:08,120 --> 00:10:10,700
+some regular image it can also be used
+一些常规图像上 它也可以
+
+240
+00:10:10,700 --> 00:10:12,799
+to enhance regular old photography so
+使一些老照片重焕生机
+
+241
+00:10:12,799 --> 00:10:15,889
+here we've got this sunken Solon field
+这里有一张沉没的Solon领土的照片
+
+242
+00:10:15,889 --> 00:10:17,750
+right here and here we've got this
+在边上呢 是一张
+
+243
+00:10:17,750 --> 00:10:20,659
+beautiful rich vibrant field with a nice
+美丽富饶充满活力的田野的图片 中间还有
+
+244
+00:10:20,659 --> 00:10:23,120
+big red log cabin in the middle and by
+红色小木屋呢
+
+245
+00:10:23,120 --> 00:10:25,429
+using style transfer we can brighten up
+在使用风格转移之后呢 我们可以把
+
+246
+00:10:25,429 --> 00:10:27,409
+this image make that grass look more
+第一张图片整个变得明亮啦 草看起来
+
+247
+00:10:27,409 --> 00:10:30,259
+lively and give that sky a really nice
+更加鲜艳 天空也变成非常好看的
+
+248
+00:10:30,259 --> 00:10:33,919
+deep blue color and we can also do
+深蓝色  同样地
+
+249
+00:10:33,919 --> 00:10:36,289
+something like this where we have a
+这里还有一张比较淡的
+
+250
+00:10:36,289 --> 00:10:39,259
+light image and we apply to it a
+图像 我们要用旁边这张
+
+251
+00:10:39,259 --> 00:10:42,590
+beautiful sunset landscape with deep
+美丽的日落景观图片里的
+
+252
+00:10:42,590 --> 00:10:45,230
+reds and deep purples and apply that
+深红色和深紫色 然后将图片风格应用在
+
+253
+00:10:45,230 --> 00:10:48,860
+style to the image to make it look like
+上面 看到了吗 这张图片现在看起来
+
+254
+00:10:48,860 --> 00:10:50,889
+it was taken at night in this
+是在晚上拍的 充满了
+
+255
+00:10:50,889 --> 00:10:54,039
+otherworldly magical location yeah 
+神奇的魔幻色彩吧
+
+256
+00:10:54,039 --> 00:10:55,080
+I thought this was pretty funny 
+真真是有趣极了
+
+257
+00:10:55,080 --> 00:10:57,019
+style transfer can also be used to transform
+风格转移也可以用来改造
+
+258
+00:10:57,019 --> 00:10:59,960
+furniture designs maybe IKEA is already
+家具设计 哈哈说不定宜家早已经
+
+259
+00:10:59,960 --> 00:11:01,820
+on the neural network hype I don't know
+涉足神经网络领域了呢 
+
+260
+00:11:01,820 --> 00:11:04,190
+so those are a lot of really cool
+所以刚刚那些呢都是很酷的
+
+261
+00:11:04,190 --> 00:11:06,510
+applications of style transfer and 
+风格转移的应用
+
+262
+00:11:06,510 --> 00:11:08,730
+I think it'd be really great if we
+要是我们自己能训练自己的
+
+263
+00:11:08,730 --> 00:11:11,698
+make our own right now if we could train
+风格转移神经网络的话 
+
+264
+00:11:11,698 --> 00:11:14,659
+our own style transfer neural networks
+不就更酷了吗
+
+265
+00:11:14,659 --> 00:11:17,039
+so we're gonna use this thing called
+所以我们要用这个叫做
+
+266
+00:11:17,039 --> 00:11:20,159
+DiscoGan now this is a pretty recent
+“DiscoGan”的东西 它是最近新出的 
+
+267
+00:11:20,159 --> 00:11:21,659
+one so it should give us some really
+所以应该可以给我们
+
+268
+00:11:21,659 --> 00:11:24,208
+cool looking results and here's a
+很酷的结果 这里一个
+
+269
+00:11:24,208 --> 00:11:25,539
+flowchart of the basic process 
+我们基本流程的流程图
+
+270
+00:11:25,539 --> 00:11:28,230
+we're going to go through so I'll let you look
+大家看一下 
+
+271
+00:11:28,230 --> 00:11:29,759
+over that and start thinking about how
+然后我们开始考虑接下去
+
+272
+00:11:29,759 --> 00:11:31,500
+we're gonna do this and I'm gonna pull
+要怎么做  现在呢我要打开
+
+273
+00:11:31,500 --> 00:11:33,480
+my environment up and we're gonna run
+我的电脑 我们来打一些
+
+274
+00:11:33,480 --> 00:11:34,850
+through some code live
+代码吧 
+
+275
+00:11:34,850 --> 00:12:27,649
+（此处无内容 请直接快进至12m27s处）
+
+276
+00:12:27,649 --> 00:12:29,269
+all right so let's get into this live
+好的 现在让我们一起
+
+277
+00:12:29,269 --> 00:12:31,698
+coding to do some style transfer using
+编码来用神经网络完成
+
+278
+00:12:31,698 --> 00:12:34,068
+neural networks so we're not gonna do
+风格转移吧 但是今天呢我们不会
+
+279
+00:12:34,068 --> 00:12:36,769
+Gans today just because the code is
+来做Gans 因为这个的代码真的
+
+280
+00:12:36,769 --> 00:12:39,679
+super crazy to look at and to think
+是超级难
+
+281
+00:12:39,679 --> 00:12:41,749
+about so instead of training two neural
+所以我们并不是学习如何训练两个神经
+
+282
+00:12:41,749 --> 00:12:43,039
+networks to fight against each other
+网络互相敌对
+
+283
+00:12:43,039 --> 00:12:45,019
+like we talked about earlier what we're
+就像我们前面谈到的我们
+
+284
+00:12:45,019 --> 00:12:46,458
+gonna do is we're gonna use one neural
+要做的是我们是用一个神经
+
+285
+00:12:46,458 --> 00:12:50,058
+network to mix together two images this
+网络将这两个图像混合在一起
+
+286
+00:12:50,058 --> 00:12:51,619
+is gonna be great for you guys and
+这个就已经很棒了
+
+287
+00:12:51,619 --> 00:12:53,360
+you'll be able to still see some real
+你还是能够看到
+
+288
+00:12:53,360 --> 00:12:55,339
+examples of styles transfer happening
+当你运行这个代码 风格转移在
+
+289
+00:12:55,339 --> 00:12:57,958
+right under your fingertips as we run this code 
+你的指尖下发生 
+
+290
+00:12:57,958 --> 00:12:58,759
+holding shift and hitting
+按住“shift”然后点击
+
+291
+00:12:58,759 --> 00:13:01,278
+enter allow you to run a cell here so
+“enter”来运行一个代码块
+
+292
+00:13:01,278 --> 00:13:03,470
+just make sure you hit shift enter and
+好啦大家按了“shift“&“enter”
+
+293
+00:13:03,470 --> 00:13:06,259
+that'll take you through each cell so
+之后呢就能看到这里啦
+
+294
+00:13:06,259 --> 00:13:07,639
+let's start off with cell one right here
+我们先从这第一个看起
+
+295
+00:13:07,639 --> 00:13:11,448
+and we run this and we see it shows us
+在运行之后呢 我们可以看到
+
+296
+00:13:11,448 --> 00:13:14,448
+this nice big image of content style and
+三张图片 分别是“内容” “风格”和
+
+297
+00:13:14,448 --> 00:13:17,419
+mixed images so this is a super helpful
+“混合图像” 这是一个非常有帮助的
+
+298
+00:13:17,419 --> 00:13:18,980
+graphic to refer to and gives you a
+例子来大家一个
+
+299
+00:13:18,980 --> 00:13:20,849
+really good idea of what we're gonna be doing today 
+直观的感受有关于我们今天要完成的东西
+
+300
+00:13:20,849 --> 00:13:22,188
+so we've got our content
+我们有内容
+
+301
+00:13:22,188 --> 00:13:24,919
+image and our style image and these are
+图像和风格图像 将它们
+
+302
+00:13:24,919 --> 00:13:27,019
+both being fed into the neural network
+都输入到神经网络
+
+303
+00:13:27,019 --> 00:13:28,850
+so the neural network is going to be
+神经网络会从
+
+304
+00:13:28,850 --> 00:13:32,158
+extracting lines and curves from our content image
+内容图像中提取线条和曲线
+
+305
+00:13:32,158 --> 00:13:33,078
+and it's going to be
+然后从
+
+306
+00:13:33,078 --> 00:13:35,749
+extracting textures and colors from our
+风格图像中提取纹理和颜色
+
+307
+00:13:35,749 --> 00:13:38,600
+style image and it's going to be running
+纹理和颜色 随后
+
+308
+00:13:38,600 --> 00:13:40,039
+these through neural network extracting
+神经网络处理这些
+
+309
+00:13:40,039 --> 00:13:43,789
+features and it's going to be adding the
+特征并将
+
+310
+00:13:43,789 --> 00:13:46,100
+the features that it extracts it's going
+对提取到的特征
+
+311
+00:13:46,100 --> 00:13:48,419
+to do something called calculate a gradient 
+进行梯度计算
+
+312
+00:13:48,419 --> 00:13:50,628
+and it's going to use these gradients 
+利用这些计算后的梯度
+
+313
+00:13:50,628 --> 00:13:52,938
+that it finds to update this
+下方这张
+
+314
+00:13:52,938 --> 00:13:56,688
+blank image which will slowly over time
+空白图像会慢慢地
+
+315
+00:13:56,688 --> 00:13:59,928
+turn into a mixed image containing the
+显示出一张新图片 图片的线条来自与
+
+316
+00:13:59,928 --> 00:14:02,120
+lines from this content image and the
+内容图片 
+
+317
+00:14:02,120 --> 00:14:03,620
+textures and colors from the style image
+而纹理和颜色则来自于风格图片
+
+318
+00:14:03,620 --> 00:14:08,089
+so here we've got our imports very
+这里我们要输入一些东西啦
+
+319
+00:14:08,089 --> 00:14:11,028
+important so we've got to import this
+首先非常重要的就是
+
+320
+00:14:11,028 --> 00:14:13,399
+right here matplotlib inline this just
+在这里输入”%matplotlib inline”
+
+321
+00:14:13,399 --> 00:14:15,048
+allows us to display images like this
+有了这个我们就可以在这个窗口
+
+322
+00:14:15,048 --> 00:14:17,899
+one in this notebook instead of popping
+直接显示图像而不是弹出
+
+323
+00:14:17,899 --> 00:14:20,320
+out a separate window so that's all that does 
+单独的窗口
+
+324
+00:14:20,320 --> 00:14:23,419
+import matplotlib this is allows us
+导入“matplotlib” 库 它让我们能
+
+325
+00:14:23,419 --> 00:14:27,078
+to do graphing and displaying images
+在这个窗口里 图形和显示图像
+
+326
+00:14:27,078 --> 00:14:28,698
+like I said within this notebook that
+做图形和显示图像
+
+327
+00:14:28,698 --> 00:14:31,308
+we're in here tensorflow is a library by
+再下一行是 “tensorflow”是谷歌的
+
+328
+00:14:31,308 --> 00:14:33,589
+Google which allows us to do a lot of
+一个软件库 它使得我们做很多
+
+329
+00:14:33,589 --> 00:14:35,808
+common neural network tasks super easily
+常见的神经网络任务变得非常容易
+
+330
+00:14:35,808 --> 00:14:37,480
+so that's gonna save us a lot of work
+这会为我们节省了大量的工作
+
+331
+00:14:37,480 --> 00:14:41,220
+numpy allows us to do matrix math
+“numpy”能让我们做矩阵数学
+
+332
+00:14:41,220 --> 00:14:43,710
+and that's just complex number
+这是一个复杂的数字
+
+333
+00:14:43,710 --> 00:14:47,159
+operations which we have like squares and
+操作 比如有数字平方
+
+334
+00:14:47,159 --> 00:14:48,750
+blocks of numbers instead of just like
+数字块 不是像
+
+335
+00:14:48,750 --> 00:14:51,040
+one number times one number so this
+一个数字乘以一个数字这样简单
+
+336
+00:14:51,040 --> 00:14:53,970
+so this allows us to do those matrix matrix operations 
+允许我们做矩阵运算
+
+337
+00:14:53,970 --> 00:14:57,360
+and pillow which we import as
+然后就是“pillow”但我们输入的时候
+
+338
+00:14:57,360 --> 00:15:00,809
+PIL.Image is just a library which
+是输入“PIL.Image” 
+
+339
+00:15:00,809 --> 00:15:03,480
+allows us to do common image tasks in
+它能帮助我们Python里完成 
+
+340
+00:15:03,480 --> 00:15:07,779
+Python and vgg 16 which is our final import
+常见的图像任务 最后是 “vgg16”
+
+341
+00:15:07,779 --> 00:15:08,909
+here is something that the author
+“vgg16”是作者为我们
+
+342
+00:15:08,909 --> 00:15:11,399
+has created for us and it is a wrapper
+创造的 它是一个包装
+
+343
+00:15:11,399 --> 00:15:12,210
+oops
+哎呀 卡了
+
+344
+00:15:12,210 --> 00:15:17,570
+it is a wrapper not like M&M it is a
+哈哈哈它不是MM豆的包装啦 它是
+
+345
+00:15:17,570 --> 00:15:21,330
+it's a it's a simplification that allows
+它是一个简化装置 使得
+
+346
+00:15:21,330 --> 00:15:24,090
+us to create this vgg 16 neural network
+创建这个vgg16神经网络这个过程变得
+
+347
+00:15:24,090 --> 00:15:26,549
+super easily and what this is is just
+超级容易 它就像是
+
+348
+00:15:26,549 --> 00:15:28,679
+like a it's just a type of neural
+一种神经
+
+349
+00:15:28,679 --> 00:15:30,360
+network and is used commonly when
+网络 经常被用于
+
+350
+00:15:30,360 --> 00:15:32,490
+working with images so the author created
+与图像相关的工作 所以作者
+
+351
+00:15:32,490 --> 00:15:34,679
+of this of these files created us a nice
+给我们创建了一个很好的
+
+352
+00:15:34,679 --> 00:15:38,879
+vgg 16 module that we import here that
+vgg 16模块 我们在这里要导入它
+
+353
+00:15:38,879 --> 00:15:41,639
+allows us to create a big neural network
+它会帮助我们创建一个大的神经网络
+
+354
+00:15:41,639 --> 00:15:43,860
+used for working on images super easily
+用于更好更轻松地处理图像
+
+355
+00:15:43,860 --> 00:15:45,620
+so that's what vgg 16 does
+这就是vgg 16的功能啦
+
+356
+00:15:45,620 --> 00:15:48,179
+so now we're going to get into like the appetizer
+接下去呢我们要来完成一些前期的小代码 就像开胃菜一样
+
+357
+00:15:48,179 --> 00:15:49,950
+code alright this is gonna be all the
+这些代码
+
+358
+00:15:49,950 --> 00:15:51,809
+helper functions that are gonna let us
+的功能就是帮助我们
+
+359
+00:15:51,809 --> 00:15:53,700
+feed our neural network in a super
+以始终一致的方法来
+
+360
+00:15:53,700 --> 00:15:54,509
+consistent way
+训练我们的神经网络
+
+361
+00:15:54,509 --> 00:15:58,950
+so load image uses our our image library
+用我们的图像库“Pillow”加载图像
+
+362
+00:15:58,950 --> 00:16:01,559
+our pillow this PIL.Image library that
+就是这个“PIL.Image”
+
+363
+00:16:01,559 --> 00:16:03,960
+I talked about and what it's gonna do is
+它能够
+
+364
+00:16:03,960 --> 00:16:07,379
+load images in a very specific way it's
+以非常特定的方式加载图像
+
+365
+00:16:07,379 --> 00:16:09,000
+going to load an image it's going to
+它会把要加载的图片
+
+366
+00:16:09,000 --> 00:16:11,309
+resize it to the proper size and shape
+调整到适当的大小和形状
+
+367
+00:16:11,309 --> 00:16:14,250
+and it's going to allow us to have all
+这使得我们的图片
+
+368
+00:16:14,250 --> 00:16:17,399
+of these images in the same exact format
+有相同的格式
+
+369
+00:16:17,399 --> 00:16:18,659
+this is super important when working
+这在神经网络运作中式非常重要的
+
+370
+00:16:18,659 --> 00:16:21,029
+with neural networks any data you feed
+任何输入的数据
+
+371
+00:16:21,029 --> 00:16:23,009
+into it you typically want it to all be
+都需要有
+
+372
+00:16:23,009 --> 00:16:27,149
+the same type of format so same shape
+相同格式 相同形状
+
+373
+00:16:27,149 --> 00:16:29,100
+same file extension
+有同一文件扩展名
+
+374
+00:16:29,100 --> 00:16:32,440
+all that good stuff so that's what load image does
+这就是“load image”（加载图片）所做的事情
+
+375
+00:16:32,440 --> 00:16:34,350
+save image gets us the file
+然后是“save image”（保存图片） 这一步骤使得图片的
+
+376
+00:16:34,350 --> 00:16:36,210
+extension of JPEG and makes sure that
+文件扩展名是“JPEG” 并确保
+
+377
+00:16:36,210 --> 00:16:38,789
+all the images have the same color
+所有图像都具有
+
+378
+00:16:38,789 --> 00:16:40,769
+values all the same range of color
+相同范围的颜色值
+
+379
+00:16:40,769 --> 00:16:43,049
+values so that we've got the same exact
+所以所有被输入到神经网络中的
+
+380
+00:16:43,049 --> 00:16:44,910
+type of images being fed into the neural network 
+图片都是同一个类型的
+
+381
+00:16:44,910 --> 00:16:47,429
+plot image big just allows us to
+“plot image big”能够让我们
+
+382
+00:16:47,429 --> 00:16:49,440
+plot a big image inside of this notebook
+在计算机中绘制一张大图
+
+383
+00:16:49,440 --> 00:16:51,299
+and this is what we're going to use to
+这是我们用来
+
+384
+00:16:51,299 --> 00:16:53,789
+display our final mixed image with the
+显示最终风格转移后
+
+385
+00:16:53,789 --> 00:16:54,009
+style transfer to it 
+的混合图像
+
+386
+00:16:54,009 --> 00:16:56,970
+plot images this is just to
+“plot images”是为了
+
+387
+00:16:56,970 --> 00:16:59,009
+display images nicely at the very end so
+显示最终图像
+
+388
+00:16:59,009 --> 00:17:02,669
+now we get into the meat of the neural
+好了现在让我们开始正餐啦
+
+389
+00:17:02,669 --> 00:17:05,519
+network code here so loss functions are
+首先我们要来看一下“loss function”损失函数
+
+390
+00:17:05,519 --> 00:17:07,559
+a super important topic to learn about
+这是一个值得学习的重要主题
+
+391
+00:17:07,559 --> 00:17:09,720
+and we're not going to go into all the
+而我们不会学习所有的
+
+392
+00:17:09,720 --> 00:17:10,920
+math but I'm going to give you a good
+数学 但我会好好介绍一下
+
+393
+00:17:10,920 --> 00:17:13,349
+idea of what loss functions are and why
+损失函数是什么以及为什么
+
+394
+00:17:13,349 --> 00:17:16,380
+they're used so we give our computer a
+我们要用到它  我们给我们的电脑一个
+
+395
+00:17:16,380 --> 00:17:18,509
+general direction and using a loss
+总体方向 而机器学习算法能够
+
+396
+00:17:18,509 --> 00:17:20,640
+function machine learning algorithms are
+通过损失函数来
+
+397
+00:17:20,640 --> 00:17:23,039
+able to to get closer and closer and
+越来越接近
+
+398
+00:17:23,039 --> 00:17:25,920
+closer to that goal over time so the
+我们设定的目标
+
+399
+00:17:25,920 --> 00:17:27,240
+loss function we're gonna be using here
+我们在这里将使用的损失函数
+
+400
+00:17:27,240 --> 00:17:30,060
+is mean squared error alright 
+是均方误差
+
+401
+00:17:30,060 --> 00:17:32,490
+so let's get into the real meat of all this
+现在让我们来深入了解一下
+
+402
+00:17:32,490 --> 00:17:35,069
+neural network style transfer code
+神经网络风格转换代码
+
+403
+00:17:35,069 --> 00:17:36,990
+so this create content loss function is
+这个创建内容损失函数
+
+404
+00:17:36,990 --> 00:17:38,160
+pretty important so we're gonna walk
+非常重要 所以我们要
+
+405
+00:17:38,160 --> 00:17:40,230
+through it pretty much line by line so
+一行一行地来学习
+
+406
+00:17:40,230 --> 00:17:41,460
+you already know by the name of the
+通过的名字我们已经大概知道
+
+407
+00:17:41,460 --> 00:17:43,019
+function that it's going to have
+它与
+
+408
+00:17:43,019 --> 00:17:44,279
+something to do with a loss function
+损失函数有关 它将会被用于
+
+409
+00:17:44,279 --> 00:17:47,339
+which is used to optimize in neural
+优化神经系统
+
+410
+00:17:47,339 --> 00:17:49,799
+networks and it's also going to have to
+网络 它也与
+
+411
+00:17:49,799 --> 00:17:51,869
+do with our content image specifically
+我们输入的内容图片
+
+412
+00:17:51,869 --> 00:17:54,359
+and the content image remember is the
+大家还记得吗 我们将从内容图片上
+
+413
+00:17:54,359 --> 00:17:55,920
+image that we're gonna get the curves
+提取要得到曲线和线条
+
+414
+00:17:55,920 --> 00:17:58,619
+and lines from in our final style
+来体现在最终风格
+
+415
+00:17:58,619 --> 00:18:00,210
+transferred image just by the name of
+转移后的图像上 所以光是看名字我们
+
+416
+00:18:00,210 --> 00:18:01,500
+this function we already know a lot
+就能大概知道它的
+
+417
+00:18:01,500 --> 00:18:03,089
+about what it's going to do but let's
+功能了 但是让我们
+
+418
+00:18:03,089 --> 00:18:04,410
+dive deeper into the code and see
+来更深入地学习一下代码
+
+419
+00:18:04,410 --> 00:18:06,039
+exactly what's happening here 
+看看到底它能做什么
+
+420
+00:18:06,039 --> 00:18:09,359
+so this feed dict line what this is doing is
+我们先看到“feed dict”这一行代码
+
+421
+00:18:09,359 --> 00:18:12,990
+it's telling the neural network very
+这一行的功能是告诉神经网络
+
+422
+00:18:12,990 --> 00:18:15,179
+explicitly hey we're going to feed you
+嘿 我们要输入图片啦
+
+423
+00:18:15,179 --> 00:18:16,589
+an image and the image we're going to
+这个图片就是
+
+424
+00:18:16,589 --> 00:18:18,629
+feed you is this content image right here 
+内容图片哦
+
+425
+00:18:18,629 --> 00:18:19,890
+and if you're wondering where that
+如果你想知道内容图片
+
+426
+00:18:19,890 --> 00:18:21,450
+content image is coming through well
+在哪里 
+
+427
+00:18:21,450 --> 00:18:23,819
+it's right up here it's going to get
+看 就在这里 
+
+428
+00:18:23,819 --> 00:18:26,400
+passed into this function as we call it
+我们要把它输入到这个函数
+
+429
+00:18:26,400 --> 00:18:30,420
+so layers this line right here is going
+所以“layers”这一行
+
+430
+00:18:30,420 --> 00:18:34,440
+to get the the layers that the fed image
+会告诉你图像在神经网络中 
+
+431
+00:18:34,440 --> 00:18:37,250
+is moving through in the neural network
+所在的层
+
+432
+00:18:37,250 --> 00:18:40,950
+so here we tell the model hey this is
+所以在上面呢是模型里
+
+433
+00:18:40,950 --> 00:18:42,480
+the image we want to feed to you and
+输入的图片
+
+434
+00:18:42,480 --> 00:18:45,450
+this line is saying hey give me all the
+下面这行呢是反馈出来的
+
+435
+00:18:45,450 --> 00:18:47,460
+layers that this image is going to move through 
+图片所在的层
+
+436
+00:18:47,460 --> 00:18:51,059
+now we're going to calculate the
+现在 我们要
+
+437
+00:18:51,059 --> 00:18:55,890
+actual values that the image now we're
+计算一下
+
+438
+00:18:55,890 --> 00:18:57,630
+going to calculate the actual values
+图片在通过神经网络
+
+439
+00:18:57,630 --> 00:18:59,640
+that the neural network calculates when
+各层时的
+
+440
+00:18:59,640 --> 00:19:01,920
+we move the image through the layers of
+实际值
+
+441
+00:19:01,920 --> 00:19:03,709
+the neural network which we received here 
+我们将在“layers”里拿到数据
+
+442
+00:19:03,709 --> 00:19:06,900
+so the way we do that is using this
+那要怎么来完成呢
+
+443
+00:19:06,900 --> 00:19:08,868
+super nice tensorflow
+我们要用到 “tensorflow”
+
+444
+00:19:08,868 --> 00:19:12,629
+function just called session.run and 
+函数“session.run”
+
+445
+00:19:12,629 --> 00:19:14,999
+all we do is we give it layers and we give
+我们要做的就是给它层和
+
+446
+00:19:14,999 --> 00:19:17,848
+it an image the results of running that
+图像 然后图像
+
+447
+00:19:17,848 --> 00:19:19,348
+image through all those layers that
+需要通过的层
+
+448
+00:19:19,348 --> 00:19:21,269
+needs to go through will be now stored
+就会被存储
+
+449
+00:19:21,269 --> 00:19:24,388
+in the values variable so what this is
+在这个变量值里面啦 所以它的功能就是
+
+450
+00:19:24,388 --> 00:19:26,429
+doing is just making a big placeholder
+创建一个大占位符 用来储存
+
+451
+00:19:26,429 --> 00:19:28,969
+for all the losses we're about to be computing 
+所有要被计算的损失
+
+452
+00:19:28,969 --> 00:19:31,259
+and this for loop right here
+这里有一个for循环
+
+453
+00:19:31,259 --> 00:19:33,659
+so remember value is all the values
+我们要记住“value”是指
+
+454
+00:19:33,659 --> 00:19:35,219
+after the image has been passed through
+图像通过
+
+455
+00:19:35,219 --> 00:19:38,009
+all the layers and layer is all of the
+所有的层之后的数值 而层是
+
+456
+00:19:38,009 --> 00:19:39,778
+layers of the neural network that the
+指图像要通过的神经网络中的
+
+457
+00:19:39,778 --> 00:19:41,548
+image is going to be passed through so
+所有层
+
+458
+00:19:41,548 --> 00:19:43,679
+we're going to move through all of these
+现在我们要移动
+
+459
+00:19:43,679 --> 00:19:45,239
+values and layers and we're going to
+所有的值和层 我们将
+
+460
+00:19:45,239 --> 00:19:48,269
+apply a loss function to each layer and
+把一个损失函数应用于
+
+461
+00:19:48,269 --> 00:19:52,319
+each value so we apply that loss
+每一个层和值  
+
+462
+00:19:52,319 --> 00:19:54,118
+function store it in this lost variable
+然后把这个损失函数储存在损失变量中
+
+463
+00:19:54,118 --> 00:19:56,729
+and then we toss that into our big
+然后我们把它存入我们的
+
+464
+00:19:56,729 --> 00:19:59,088
+placeholder layer losses
+占位符“layer losses”里
+
+465
+00:19:59,088 --> 00:20:02,308
+so this is actually not going to hold any values
+所以现在 它其实没有储存任何数值
+
+466
+00:20:02,308 --> 00:20:04,499
+for now this is just going to hold loss
+它现在只是储存了损失
+
+467
+00:20:04,499 --> 00:20:06,659
+functions so we're gonna store the
+函数 
+
+468
+00:20:06,659 --> 00:20:08,489
+functions that we want to run later in
+所以我们现在只是把之后会用到的损失函数
+
+469
+00:20:08,489 --> 00:20:12,058
+this array and total loss once we've
+放进这个数组里 然后看到“total loss”
+
+470
+00:20:12,058 --> 00:20:13,950
+stored all of those loss functions in
+当我们存储了所有这些损失函数
+
+471
+00:20:13,950 --> 00:20:16,440
+the array and we exit this loop we're
+到数组里之后 我们就退出这个“for”循环
+
+472
+00:20:16,440 --> 00:20:18,358
+gonna hop back out of there and we're
+我们只需要
+
+473
+00:20:18,358 --> 00:20:20,489
+going to just take the average of all
+取所有计算出来的
+
+474
+00:20:20,489 --> 00:20:21,929
+those loss functions and what they
+损失函数的平均值
+
+475
+00:20:21,929 --> 00:20:25,269
+computed and we're going to return this total loss 
+然后我们要输出这个“total loss”
+
+476
+00:20:25,269 --> 00:20:26,788
+higher level idea of what this
+这个功能更深一点的解释就是
+
+477
+00:20:26,788 --> 00:20:29,608
+function is doing is it's feeding the
+我们把内容图像输入到
+
+478
+00:20:29,608 --> 00:20:32,368
+neural network our content image which
+神经网络中 然后通过它来找到
+
+479
+00:20:32,368 --> 00:20:34,469
+we want to find lines and shapes of 
+我们想找到线条和形状的这
+
+480
+00:20:34,469 --> 00:20:36,148
+it's feeding our neural network with that image
+我们把图形输入到神经网络中并使其
+
+481
+00:20:36,148 --> 00:20:38,069
+through some very specific layers and
+通过一些非常具体的层
+
+482
+00:20:38,069 --> 00:20:40,319
+then it's using something called a loss
+然后使用损失
+
+483
+00:20:40,319 --> 00:20:44,138
+function to calculate an optimization 
+函数计算使其优化
+
+484
+00:20:44,138 --> 00:20:45,690
+I don't know how you're going to extract
+我不知道它具体是如何提出
+
+485
+00:20:45,690 --> 00:20:48,169
+features but use this loss function and
+特征 但一定要使用这个损失函数
+
+486
+00:20:48,169 --> 00:20:50,399
+that's your direction all right
+这就是你现在的方向和目标啦
+
+487
+00:20:50,399 --> 00:20:52,528
+so now we're gonna do something similar with
+现在呢我们将对风格图像做
+
+488
+00:20:52,528 --> 00:20:54,838
+the style image so what we're gonna do
+类似的操作了 我们要用到的是
+
+489
+00:20:54,838 --> 00:20:56,548
+is use this thing called a gram matrix
+“gram matrix”（格拉姆矩阵）
+
+490
+00:20:56,548 --> 00:20:59,249
+and we don't need to know exactly what a
+ 我们不需要确切地知道
+
+491
+00:20:59,249 --> 00:21:00,898
+gram matrix is because that's a big
+格拉姆矩阵是什么 是因为这是很难的
+
+492
+00:21:00,898 --> 00:21:04,019
+linear algebra thing so we're just gonna
+线性代数问题 我们要做的就是记住
+
+493
+00:21:04,019 --> 00:21:06,749
+keep in mind that this whole purpose of
+格拉姆矩阵的目的是
+
+494
+00:21:06,749 --> 00:21:09,989
+the gram matrix is to figure out which
+让我们知道当我们输入风格图像的时候
+
+495
+00:21:09,989 --> 00:21:12,959
+features in the style layers of the
+神经网络风格层中的哪一个特征
+
+496
+00:21:12,959 --> 00:21:15,989
+neural network will activate when we
+会被激活
+
+497
+00:21:15,989 --> 00:21:18,808
+pass it in the style image and then when
+所以当我们知道在输入风格图像后
+
+498
+00:21:18,808 --> 00:21:21,298
+we find out what parts of the style
+神经网络
+
+499
+00:21:21,298 --> 00:21:22,349
+layers in the neural net
+风格层中的哪一个部分
+
+500
+00:21:22,349 --> 00:21:24,119
+are activating when we pass it the style
+会被激活
+
+501
+00:21:24,119 --> 00:21:26,880
+image we're going to copy this into our
+我们就可以把这个特征复制到
+
+502
+00:21:26,880 --> 00:21:29,369
+mixed image and what that does is
+混合图像里 总的来说它的功能就是
+
+503
+00:21:29,369 --> 00:21:31,528
+basically extract all the colors and
+从风格图像里提取所有的颜色和
+
+504
+00:21:31,528 --> 00:21:33,869
+textures from our style image paste that
+纹理 并将其
+
+505
+00:21:33,869 --> 00:21:36,929
+into the mixed image so just like up
+应用到混合图像里 就像上面我们看过的
+
+506
+00:21:36,929 --> 00:21:40,079
+here with the content loss where we're
+“content loss”（内容损失）我们在那里
+
+507
+00:21:40,079 --> 00:21:42,509
+extracting all the contours all the
+提取内容图片的轮廓和
+
+508
+00:21:42,509 --> 00:21:44,970
+lines all the shapes out of our content
+线条
+
+509
+00:21:44,970 --> 00:21:47,669
+image and pasting that into the mixed image 
+并将其粘贴到混合图像里
+
+510
+00:21:47,669 --> 00:21:51,450
+here is where this Gram matrix
+所以这个格拉姆矩阵
+
+511
+00:21:51,450 --> 00:21:53,369
+function and this create style loss is
+和“style loss”（风格损失）帮助我们
+
+512
+00:21:53,369 --> 00:21:56,429
+what's going to allow us to copy and
+从风格图像中复制
+
+513
+00:21:56,429 --> 00:21:59,369
+paste the colors and textures from our
+颜色和纹理然后粘贴到
+
+514
+00:21:59,369 --> 00:22:02,540
+style image into the mixed image
+混合图像中
+
+515
+00:22:02,540 --> 00:22:05,759
+all right so this create denoise loss this
+我们继续看 这里有“create denoise loss”
+
+516
+00:22:05,759 --> 00:22:08,069
+is yet another loss function but we're
+它也是一个损失函数 但我们
+
+517
+00:22:08,069 --> 00:22:09,419
+not going to talk about this one because
+不打算谈这个  因为它
+
+518
+00:22:09,419 --> 00:22:10,769
+it's not as important as the other two
+没有其他两个那么重要
+
+519
+00:22:10,769 --> 00:22:13,769
+all that this one does is make the image
+它所做的就是使图像
+
+520
+00:22:13,769 --> 00:22:16,169
+a little bit clearer so we're not going
+更清楚一点 所以我们就不
+
+521
+00:22:16,169 --> 00:22:17,579
+to talk about that for now but make sure
+细说了 但是还是要确保我们
+
+522
+00:22:17,579 --> 00:22:19,819
+to run it again with shift-enter and
+用“shift-enter”运行它了
+
+523
+00:22:19,819 --> 00:22:22,619
+here is where we actually do the style
+接下来就是我们实际进行风格
+
+524
+00:22:22,619 --> 00:22:24,210
+transferring this is what's going to run
+转移的地方啦 在这里我们要运行
+
+525
+00:22:24,210 --> 00:22:25,648
+both of those loss functions that we
+我们刚刚创立的两个
+
+526
+00:22:25,648 --> 00:22:28,230
+created earlier and actually combine
+损失函数 我们要将两者结合
+
+527
+00:22:28,230 --> 00:22:30,148
+them and paste them into our mixed image
+并把它们粘贴到我们的混合图像中去
+
+528
+00:22:30,148 --> 00:22:31,798
+so we're going to use something called
+我们要用
+
+529
+00:22:31,798 --> 00:22:34,679
+gradient descent now gradient descent is
+“gradient descent”梯度下降
+
+530
+00:22:34,679 --> 00:22:39,028
+a way of finding the local minimum and
+它能帮我们找到局部最小值
+
+531
+00:22:39,028 --> 00:22:40,950
+we want to find the local minimum
+我们希望通过找到局部最小值来使得
+
+532
+00:22:40,950 --> 00:22:43,349
+because we want our loss to be as small
+我们的损失达到
+
+533
+00:22:43,349 --> 00:22:45,690
+as possible because when our loss is as
+最小 因为当我们的损失达到
+
+534
+00:22:45,690 --> 00:22:47,819
+small as possible our mixed image will
+最小 我们的混合图像会尽可能拥有和内容
+
+535
+00:22:47,819 --> 00:22:49,648
+have the most of the contours that it
+图像相似
+
+536
+00:22:49,648 --> 00:22:52,288
+can get from our content image and the
+的轮廓 以及和
+
+537
+00:22:52,288 --> 00:22:55,679
+most possible amount of colors and
+风格图像尽可能相近的颜色和
+
+538
+00:22:55,679 --> 00:22:58,889
+textures as it can have from our style image 
+纹理 
+
+539
+00:22:58,889 --> 00:23:00,599
+so our goal right here is to
+所以我们的目标就是
+
+540
+00:23:00,599 --> 00:23:02,250
+minimize both of those loss functions
+尽可能的减少两种损失函数
+
+541
+00:23:02,250 --> 00:23:03,929
+that we created earlier and the way we
+带来的损失 
+
+542
+00:23:03,929 --> 00:23:05,369
+do that is this technique called
+我们达成这个目的用到的方法就是
+
+543
+00:23:05,369 --> 00:23:07,619
+gradient descent so the idea behind
+梯度下降了 梯度下降就像是
+
+544
+00:23:07,619 --> 00:23:10,169
+gradient descent is like if you think of
+一个
+
+545
+00:23:10,169 --> 00:23:13,349
+of like a ball rolling down a hill the
+滚下山坡的球
+
+546
+00:23:13,349 --> 00:23:15,179
+way that a ball rolls down a hill it
+球滚下山的方式
+
+547
+00:23:15,179 --> 00:23:18,000
+doesn't go from like here all the way to
+不是直接从山顶
+
+548
+00:23:18,000 --> 00:23:20,359
+the bottom of the hill right a ball
+到达山脚 它是
+
+549
+00:23:20,359 --> 00:23:24,359
+incrementally rolls down the hill and if
+逐渐滚下山坡的 
+
+550
+00:23:24,359 --> 00:23:25,859
+there are like some curves in the
+如果山坡上有很多起伏的话
+
+551
+00:23:25,859 --> 00:23:27,750
+hillside the ball might have to take a
+球可能需要通过一条更蜿蜒曲折的
+
+552
+00:23:27,750 --> 00:23:30,589
+bit of a winding path to get to the bottom
+小路才能到山脚
+
+553
+00:23:30,589 --> 00:23:32,028
+gradient descent is the same idea
+梯度下降其实和这个差不多
+
+554
+00:23:32,028 --> 00:23:36,160
+so except instead of walking down
+这里当然不是指滚下山坡而是
+
+555
+00:23:36,160 --> 00:23:39,369
+Hill we're walking down a like 50
+走过五十个
+
+556
+00:23:39,369 --> 00:23:40,930
+dimensional who knows how many
+维度 或者更多个
+
+557
+00:23:40,930 --> 00:23:43,480
+dimensions to get to the bottom of that
+维度来到达
+
+558
+00:23:43,480 --> 00:23:45,190
+loss function space
+损失函数空间的底部(最小损失)
+
+559
+00:23:45,190 --> 00:23:49,480
+so yeah that's what gradient descent so
+没错了 这就是梯度下降了
+
+560
+00:23:49,480 --> 00:23:52,299
+we're gonna use gradient descent to get
+所以呢我们就是梯度下降来
+
+561
+00:23:52,299 --> 00:23:54,970
+our loss as small as possible to make
+尽可能小的损失
+
+562
+00:23:54,970 --> 00:23:56,980
+sure we can pull as many features as
+确保可以从内容图片
+
+563
+00:23:56,980 --> 00:23:59,319
+possible out of our content image and
+和风格图片中提取和提取
+
+564
+00:23:59,319 --> 00:24:01,329
+our style image to combine them into our
+尽可能多来融合到
+
+565
+00:24:01,329 --> 00:24:05,410
+mixed image so yeah that's the big idea
+混合图像里 没错 这就是我们希望通过
+
+566
+00:24:05,410 --> 00:24:08,309
+with this style transfer function and
+风格转移做到的事咯
+
+567
+00:24:08,309 --> 00:24:12,239
+here you see we're doing our nice tensorflow
+接着往下 我们可以看到“tensorflow”
+
+568
+00:24:12,239 --> 00:24:14,259
+stuff we're going to get the layers
+还有“get layers”
+
+569
+00:24:14,259 --> 00:24:16,180
+of the neural network we want to use
+是神经网络中的层啦 
+
+570
+00:24:16,180 --> 00:24:18,670
+which is our we're getting different
+我们要从这里得到神经网络中
+
+571
+00:24:18,670 --> 00:24:20,410
+layers out of the neural network we want
+不同的层
+
+572
+00:24:20,410 --> 00:24:23,380
+to use here and here and these are
+这里和这里都有（看老师鼠标）
+
+573
+00:24:23,380 --> 00:24:25,630
+content layers and our style layers so
+这是内容层 还有风格层
+
+574
+00:24:25,630 --> 00:24:27,279
+we're going to be using different layers
+所以内容图像和风格图像
+
+575
+00:24:27,279 --> 00:24:29,360
+for the content image and the style image
+是有不同的层的 
+
+576
+00:24:29,360 --> 00:24:33,130
+and here we make that loss
+接下里看到的就是损失
+
+577
+00:24:33,130 --> 00:24:35,950
+function using those those methods that
+函数啦 用到的使我们
+
+578
+00:24:35,950 --> 00:24:37,380
+we defined above
+之前说过的方法
+
+579
+00:24:37,380 --> 00:24:40,000
+so we've got loss for our content image
+所以我们有对我们的内容图片和
+
+580
+00:24:40,000 --> 00:24:44,289
+loss for our style image and again loss
+风格图片都进行了损失函数的操作
+
+581
+00:24:44,289 --> 00:24:46,180
+for the denoise but we don't want to
+当然还有降噪 但是这个
+
+582
+00:24:46,180 --> 00:24:47,829
+focus on this right now all this does is
+就不细说了 因为它唯一功能就是
+
+583
+00:24:47,829 --> 00:24:49,690
+help the image be a little bit less noisy 
+帮助图像降噪
+
+584
+00:24:49,690 --> 00:24:55,509
+so yeah now we're getting the
+现在我们
+
+585
+00:24:55,509 --> 00:24:58,269
+actual variables and in tensorflow what
+实际变量 在 “tensorflow”里
+
+586
+00:24:58,269 --> 00:25:01,480
+a variable is is some value that we want
+变量是我们想要
+
+587
+00:25:01,480 --> 00:25:04,509
+to change so telling tensorflow that
+改变的值 所以如果你在tensorflow中
+
+588
+00:25:04,509 --> 00:25:06,250
+you're making a new variable is telling
+设置了一个新的变量
+
+589
+00:25:06,250 --> 00:25:09,160
+it hey make sure after every iteration
+这就意味着告诉它在每一次的
+
+590
+00:25:09,160 --> 00:25:11,319
+of running those loss functions make
+运行损失函数后
+
+591
+00:25:11,319 --> 00:25:14,289
+sure you update the variables so the
+都一定要更新那些变量 所以在这里呢
+
+592
+00:25:14,289 --> 00:25:16,450
+variables we want to update are the
+我们想要更新的变量是
+
+593
+00:25:16,450 --> 00:25:18,430
+content variables and the style
+内容变量和风格
+
+594
+00:25:18,430 --> 00:25:20,559
+variables because over time we want to
+变量 因为我们希望随着时间的推移
+
+595
+00:25:20,559 --> 00:25:21,640
+be able to pull more and more
+我们能够从图像中
+
+596
+00:25:21,640 --> 00:25:24,730
+information out of these images and we
+获取更多的信息
+
+597
+00:25:24,730 --> 00:25:26,440
+also make a variable for the denoise
+当然我们也为降噪设置了变量
+
+598
+00:25:26,440 --> 00:25:28,029
+just like we did earlier but we're gonna
+就像我们之前说过的 我们不会去仔细探究
+
+599
+00:25:28,029 --> 00:25:29,470
+continue glossing over this because
+降噪 因为
+
+600
+00:25:29,470 --> 00:25:31,750
+remember anytime you see denoise in this
+降噪在文件中的
+
+601
+00:25:31,750 --> 00:25:33,849
+file all it's doing is helping to make
+唯一作用就是
+
+602
+00:25:33,849 --> 00:25:36,360
+the image a little bit clearer and less noisy 
+使图像更清晰
+
+603
+00:25:36,360 --> 00:25:39,849
+so now we're going to make a new
+所以现在我们要使用“session.run”创建一个新的
+
+604
+00:25:39,849 --> 00:25:43,370
+tensorflow session using this session.run
+tensorflow session
+
+605
+00:25:43,370 --> 00:25:46,690
+call and all that does is allows
+这一步的作用是让
+
+606
+00:25:46,690 --> 00:25:49,750
+tensorflow to build this big graph of
+tensorflow构建
+
+607
+00:25:49,750 --> 00:25:51,400
+all the mathematical stuff that it needs
+它需要做的所有数学问题
+
+608
+00:25:51,400 --> 00:25:55,390
+to do and we get to do that just one
+的一个大型计算图 我们只需要打一行字
+
+609
+00:25:55,390 --> 00:25:57,910
+line using session.run and passing
+就是“session.run” 然后把传入我们要
+
+610
+00:25:57,910 --> 00:25:59,740
+it the things that we wanted to do
+计算的东西 这样就好了
+
+611
+00:25:59,740 --> 00:26:01,869
+computations on so that's really cool
+是不是很酷呢
+
+612
+00:26:01,869 --> 00:26:03,519
+tensorflow is a real game changer when
+所以tensorflow一问世就
+
+613
+00:26:03,519 --> 00:26:05,910
+it came out so here is where we actually
+彻底改变了现状
+
+614
+00:26:05,910 --> 00:26:10,839
+tell tensorflow how to update those so
+好啦 我们继续往下看啦
+
+615
+00:26:10,839 --> 00:26:13,390
+here is where we're writing the code
+这里就是我们编写代码来告诉
+
+616
+00:26:13,390 --> 00:26:16,240
+that tells tensorflow how much to
+tensorflow我们每次
+
+617
+00:26:16,240 --> 00:26:19,150
+update our variables by and make sure
+更新变量的程度 一定要确保是
+
+618
+00:26:19,150 --> 00:26:21,309
+that it's just the tiniest incremental
+最微小的
+
+619
+00:26:21,309 --> 00:26:23,470
+improvement because we want to descend
+改变  因为我们想要慢慢地
+
+620
+00:26:23,470 --> 00:26:27,400
+slowly okay the big thing with using
+下降 在我们使用
+
+621
+00:26:27,400 --> 00:26:29,740
+gradient descent is if you imagine that
+梯度下降的时候还有一件事要注意
+
+622
+00:26:29,740 --> 00:26:32,049
+if you imagine that ball rolling down a
+你想象一颗球滚下
+
+623
+00:26:32,049 --> 00:26:35,349
+hill example a ball can roll down a hill
+山坡的那个例子 这颗球滚下来可能会过头一点点
+
+624
+00:26:35,349 --> 00:26:40,210
+and then roll back and forth right we
+然后又滚回来了 这样反复震荡
+
+625
+00:26:40,210 --> 00:26:43,119
+don't want that so we want our ball to
+但是我们不希望这样的情况发生 我们希望
+
+626
+00:26:43,119 --> 00:26:45,359
+move a little slower we want it to move
+这颗球移动速度慢一点 
+
+627
+00:26:45,359 --> 00:26:48,339
+we want it to move down in tiny little steps 
+一步步地往下移动
+
+628
+00:26:48,339 --> 00:26:50,829
+so that it doesn't overshoot and
+这样它就不会滑过头
+
+629
+00:26:50,829 --> 00:26:52,420
+come up the start coming up the other
+又从山坡
+
+630
+00:26:52,420 --> 00:26:55,240
+side of the hill
+的另一头开始往下了 
+
+631
+00:26:55,240 --> 00:26:58,210
+here is the part where we're
+这里就是我们
+
+632
+00:26:58,210 --> 00:27:00,269
+going to actually combine those losses
+将这些“损失”结合起来的地方了
+
+633
+00:27:00,269 --> 00:27:03,009
+get that gradient that we calculated up
+我们拿到了已经计算好的
+
+634
+00:27:03,009 --> 00:27:04,960
+here getting all of those tensors
+“gradient（梯度）” 、张量
+
+635
+00:27:04,960 --> 00:27:08,440
+getting all those big big squares of
+以及需要
+
+636
+00:27:08,440 --> 00:27:09,730
+numbers that we want to start updating
+更新的大量数字
+
+637
+00:27:09,730 --> 00:27:11,799
+and store them in this run list variable
+并将它们存储“run list”变量里
+
+638
+00:27:11,799 --> 00:27:14,109
+and mixed image here's where we
+接下来 我们看到“mixed image”
+
+639
+00:27:14,109 --> 00:27:16,000
+initialize our mixed image so all we're
+这里呢我们会初始化混合图像 我们做的就是
+
+640
+00:27:16,000 --> 00:27:19,599
+gonna do with this is make a new big
+创建一个新的
+
+641
+00:27:19,599 --> 00:27:21,490
+block of pixels which will represent a
+像素块 代表着
+
+642
+00:27:21,490 --> 00:27:24,339
+new image and just fill it with random
+新图像 并用一些随机的
+
+643
+00:27:24,339 --> 00:27:26,589
+noise that's all that the mix image is
+噪音填充它 这就是混合图像
+
+644
+00:27:26,589 --> 00:27:28,140
+going to start out as and 
+开始的地方咯
+
+645
+00:27:28,140 --> 00:27:30,759
+now we feed our mixed image into the neural network
+现在呢 我们把混合图像输入到神经网络中
+
+646
+00:27:30,759 --> 00:27:32,529
+so that it can start getting all those
+它就可以开始获取
+
+647
+00:27:32,529 --> 00:27:34,599
+features out of our content and style
+内容图像和风格图像中
+
+648
+00:27:34,599 --> 00:27:38,049
+image and yeah and that that's pretty
+的特征啦 这就是剩下的
+
+649
+00:27:38,049 --> 00:27:39,540
+much what the rest of this code does 
+的代码的功能了
+
+650
+00:27:39,540 --> 00:27:41,380
+is it feeds the mixed image into the neural
+它将混合图像输入到神经
+
+651
+00:27:41,380 --> 00:27:44,019
+network at the same time as the content
+网络 同时内容图像
+
+652
+00:27:44,019 --> 00:27:45,880
+and style images are going in to
+风格图像的
+
+653
+00:27:45,880 --> 00:27:47,290
+extract their features and 
+特征被提取
+
+654
+00:27:47,290 --> 00:27:49,809
+the mixed image is going in right along with them
+混合图像与这两个图像一起在程序内
+
+655
+00:27:49,809 --> 00:27:51,940
+so that it can get applied all of the
+这样它就可以将
+
+656
+00:27:51,940 --> 00:27:53,140
+features that the neural network is
+神经网络的提取到的特征
+
+657
+00:27:53,140 --> 00:27:56,609
+extracting on our other two images and
+应用到自己身上
+
+658
+00:27:56,609 --> 00:27:59,470
+yeah that's it that's all the neural
+没错了 这就是所有神经
+
+659
+00:27:59,470 --> 00:28:01,799
+network code alright cool
+网络代码 酷极了
+
+660
+00:28:02,799 --> 00:28:03,308
+so let's run this
+让我们赶紧来运行一下吧
+
+661
+00:28:03,308 --> 00:28:06,460
+shift-enter so it's okay if you didn't
+shift-enter（按住shift 然后点击enter）如果你没有
+
+662
+00:28:06,460 --> 00:28:10,089
+understand most or any of that really
+明白大多数甚至所有的东西也没关系
+
+663
+00:28:10,089 --> 00:28:11,378
+what I want you to get out of that is
+我们想要学习的是
+
+664
+00:28:11,378 --> 00:28:14,679
+the high-level idea of being able to
+一些更高层次的东西 比如说
+
+665
+00:28:14,679 --> 00:28:18,048
+feed images into a neural network 
+输入图像到神经网络
+
+666
+00:28:18,048 --> 00:28:20,829
+trying to think about loss functions and
+损失函数
+
+667
+00:28:20,829 --> 00:28:22,808
+gradient descent and just so you can see
+梯度下降等等 而且我们也希望直观展示一下
+
+668
+00:28:22,808 --> 00:28:24,460
+some of the real-life code that we use
+我们在机器学习中用的那些
+
+669
+00:28:24,460 --> 00:28:26,829
+in machine learning and the real actual
+真实的代码和
+
+670
+00:28:26,829 --> 00:28:28,929
+tools that we use 
+工具
+
+671
+00:28:28,929 --> 00:28:32,079
+so and yeah I just want you to expose you to those concepts
+所以呢我们是希望向大家展示这些概念
+
+672
+00:28:32,079 --> 00:28:34,450
+and show you how we use them in real
+并告诉大家我们是如何
+
+673
+00:28:34,450 --> 00:28:37,990
+life code so don't worry if you didn't
+编写代码的 所以如果你没有
+
+674
+00:28:37,990 --> 00:28:39,698
+understand most of that it's totally fine 
+理解大部分内容的话 也没有关系
+
+675
+00:28:39,698 --> 00:28:41,259
+it'll take you a while to
+要学会这些
+
+676
+00:28:41,259 --> 00:28:43,659
+understand all this stuff it took me it
+还需要很长的时间 我花了
+
+677
+00:28:43,659 --> 00:28:45,339
+took me along a long time and I'm still
+非常非常长的一段时间才学会而且我现在
+
+678
+00:28:45,339 --> 00:28:47,819
+learning new stuff about this every day pretty much
+每天都还在学习新的东西
+
+679
+00:28:47,819 --> 00:28:49,509
+so here's an example of how
+这里呢我将举例给大家看看怎么
+
+680
+00:28:49,509 --> 00:28:51,308
+to take all that code that we just wrote
+用这些我们刚写好的代码
+
+681
+00:28:51,308 --> 00:28:54,700
+and how to actually run our images right
+以及如何正确运行图像
+
+682
+00:28:54,700 --> 00:28:57,159
+because we never specified like hey take
+因为我们其实并没有指定计算机
+
+683
+00:28:57,159 --> 00:28:58,678
+this style image and take
+提取风格图像
+
+684
+00:28:58,678 --> 00:28:59,859
+this content image
+或者内容图像
+
+685
+00:28:59,859 --> 00:29:01,298
+well this code is going to show you how
+那么这段代码将告诉你如何
+
+686
+00:29:01,298 --> 00:29:03,069
+to actually feed the images that you
+输入你想要进入神经网络的
+
+687
+00:29:03,069 --> 00:29:05,769
+want into that neural network and do all
+图片 然后进行
+
+688
+00:29:05,769 --> 00:29:07,720
+of that style transferring stuff so
+风格转移
+
+689
+00:29:07,720 --> 00:29:09,700
+here's an example we're gonna load this
+这里有一个具体的例子 我们会把一张
+
+690
+00:29:09,700 --> 00:29:11,459
+willy wonka old image and 
+威利旺卡老年图片上传 
+
+691
+00:29:11,459 --> 00:29:15,640
+that's just stored in this images folder
+图片是存储在这个图像文件夹里 
+
+692
+00:29:15,640 --> 00:29:16,450
+and it's called
+图片的名字就是
+
+693
+00:29:16,450 --> 00:29:20,440
+willy wonka old so you can see it's just
+“willy wonka old”   我们可以看到我们只要
+
+694
+00:29:20,440 --> 00:29:23,169
+getting going into that images directory
+进入该图像目录
+
+695
+00:29:23,169 --> 00:29:25,089
+and getting that oops images directory
+然后通过图片上传功能
+
+696
+00:29:25,089 --> 00:29:27,629
+and getting that willy wonka old.jpg image 
+来上传“willy wonka old.jpg”
+
+697
+00:29:27,629 --> 00:29:29,919
+using that load image function
+“willy wonka old.jpg”
+
+698
+00:29:29,919 --> 00:29:32,230
+we talked about way back up here to just
+这个功能我们在很早之前就说过啦
+
+699
+00:29:32,230 --> 00:29:34,118
+load that image in a very specific way
+我们就是以特定的方式加载该图像
+
+700
+00:29:34,118 --> 00:29:36,330
+and we do the same thing for our
+接下来 我们用同样的方法来上传
+
+701
+00:29:36,330 --> 00:29:39,190
+style image and this is located in the same
+风格图像 风格图像储存在
+
+702
+00:29:39,190 --> 00:29:42,000
+folder right here and it's just called
+相同的文件夹里 名为“style 7”
+
+703
+00:29:42,000 --> 00:29:45,999
+so let's hit shift enter to load these 
+所以让我们按住shift点击enter来上传图片吧
+
+704
+00:29:45,999 --> 00:29:48,909
+we're going to use only the fourth
+我们这里只用“vgg 16”神经网络中的
+
+705
+00:29:48,909 --> 00:29:52,269
+layer of our vgg 16 neural network to
+第四层来
+
+706
+00:29:52,269 --> 00:29:55,628
+get the contours and the lines out of
+从内容图像中得到轮廓和线条
+
+707
+00:29:55,628 --> 00:29:58,329
+our content image this is just like an
+这个其实是一个
+
+708
+00:29:58,329 --> 00:30:00,099
+experimentation thing the author just
+实验后的结果 作者呢已经试了
+
+709
+00:30:00,099 --> 00:30:02,048
+tried a bunch of different layers to see
+很多不同的层来看用哪一层
+
+710
+00:30:02,048 --> 00:30:04,298
+which one was getting the best lines out
+能从内容图片中得到
+
+711
+00:30:04,298 --> 00:30:06,519
+of the content image and it just turned
+最好的线条 实验结果显示
+
+712
+00:30:06,519 --> 00:30:08,829
+out that 4 was the best layer of the
+神经网络中的第四层
+
+713
+00:30:08,829 --> 00:30:10,838
+neural network to extract lines and contours
+提取线和轮廓的效果最好
+
+714
+00:30:10,838 --> 00:30:12,999
+so we're using that fourth layer
+所以现在呢我们就用第四层
+
+715
+00:30:12,999 --> 00:30:17,940
+and now we're getting all of the layers 
+现在我们看到了所有层
+
+716
+00:30:17,940 --> 00:30:21,320
+the vgg 16 model has 13 layers 
+vgg 16模型有13层
+
+717
+00:30:21,320 --> 00:30:23,170
+and here we're just getting all
+我们将把我们的
+
+718
+00:30:23,170 --> 00:30:25,420
+13 of those layers to run our style
+风格图像输入进来并
+
+719
+00:30:25,420 --> 00:30:29,049
+image through and now we've run our
+通过所有的层 现在就要来我们运行
+
+720
+00:30:29,049 --> 00:30:32,259
+style transfer function and train our
+风格转移功能 训练
+
+721
+00:30:32,259 --> 00:30:34,599
+neural network to transfer the style of
+神经网络来进行
+
+722
+00:30:34,599 --> 00:30:38,170
+one image and to combine the textures
+风格转移 它将把一个图像的纹理
+
+723
+00:30:38,170 --> 00:30:40,480
+and colors from one image and the lines
+颜色与另一个图像的线条
+
+724
+00:30:40,480 --> 00:30:42,609
+and shapes from another image into a
+形状相结合 然后将其应用于一张新的
+
+725
+00:30:42,609 --> 00:30:45,730
+mixed image to create our final style
+混合图像来得到我们最终风格转移
+
+726
+00:30:45,730 --> 00:30:49,599
+transfer result and yeah just run that
+之后的图片 赶紧运行吧
+
+727
+00:30:49,599 --> 00:30:51,460
+and thankfully I have a pretty fast
+谢天谢地 我的电脑
+
+728
+00:30:51,460 --> 00:30:52,839
+computer so I'll just show you the
+速度很快 所以我们可以在屏幕上
+
+729
+00:30:52,839 --> 00:30:55,750
+training right here and yeah we'll see
+看一下如何训练 看一下
+
+730
+00:30:55,750 --> 00:30:58,109
+how all these images are printed out and
+如何将所有这些图像显示出来
+
+731
+00:30:58,109 --> 00:31:00,490
+yeah we'll just watch this train for a
+那现在我们就看着屏幕
+
+732
+00:31:00,490 --> 00:31:01,890
+few minutes
+等一会儿吧
+
+733
+00:31:10,890 --> 00:31:13,839
+all right neural network's done training
+好啦 神经网络完成训练啦
+
+734
+00:31:13,839 --> 00:31:17,299
+and we've got our mixed image 
+这里就是我们的混合图像
+
+735
+00:31:17,299 --> 00:31:23,289
+only took me cool final image wow that looks
+只花了一点点时间 可是这个图像吧...
+
+736
+00:31:23,289 --> 00:31:25,259
+really gross
+看起来有点恶心
+
+737
+00:31:25,259 --> 00:31:28,180
+took me three minutes and 52 seconds to
+整个过程花了3分52秒
+
+738
+00:31:28,180 --> 00:31:31,119
+get to this final image 
+我们得到了这张最终图片
+
+739
+00:31:31,119 --> 00:31:39,849
+here there you go there's there is chlorophyll infested
+惊呆了 这是一个满脸叶绿色的
+
+740
+00:31:39,849 --> 00:31:45,339
+willy wonka so he took the lines and
+willy wonka  所以这张图片的线条和
+
+741
+00:31:45,339 --> 00:31:47,999
+contours of this image pasted them into here 
+轮廓被提取然后黏贴到中间的图像上
+
+742
+00:31:47,999 --> 00:31:50,170
+the colors and textures of this
+这张照片的颜色和纹理被提取出
+
+743
+00:31:50,170 --> 00:31:52,660
+image pasted them into here and we got
+粘贴到这里 最后我们通过神经网络的
+
+744
+00:31:52,660 --> 00:31:57,579
+this really gross looking willy wonka
+风格转移得到一张 
+
+745
+00:31:57,579 --> 00:32:00,579
+mixed image using style transfer with a
+看着挺恶心的willy wonka
+
+746
+00:32:00,579 --> 00:32:02,619
+neural network from lines
+混合图像
+
+747
+00:32:02,619 --> 00:32:06,039
+so I want to hammer these ideas into your head of
+有一些概念我希望大家要牢牢记住
+
+748
+00:32:06,039 --> 00:32:09,069
+gradient descent loss functions 
+梯度下降和损失函数
+
+749
+00:32:09,069 --> 00:32:10,630
+and I want you to read about them on your own
+我希望大家可以自己再去了解它们
+
+750
+00:32:10,630 --> 00:32:11,859
+because they're super interesting and
+因为它们不仅非常有趣 
+
+751
+00:32:11,859 --> 00:32:13,510
+really key to understanding neural networks 
+也是神经网络的关键
+
+752
+00:32:13,510 --> 00:32:15,579
+and finally this idea of
+最后
+
+753
+00:32:15,579 --> 00:32:19,569
+packages of help of using code that
+软件包 我们用了一些其他
+
+754
+00:32:19,569 --> 00:32:21,099
+other programmers have written and
+程序员写的代码
+
+755
+00:32:21,099 --> 00:32:24,910
+taking it to help ourselves and you know
+来帮助自己
+
+756
+00:32:24,910 --> 00:32:26,619
+hopefully down the line as we become
+希望有一天我们也能变成
+
+757
+00:32:26,619 --> 00:32:28,420
+better and better programmers we're able
+更好的程序员 能够写出
+
+758
+00:32:28,420 --> 00:32:30,460
+to make our own code our own packages
+自己的代码和软件包
+
+759
+00:32:30,460 --> 00:32:32,680
+that we can share with other programmers
+将之分享给其他的程序员
+
+760
+00:32:32,680 --> 00:32:35,829
+so I want you to take those three things
+所以我希望大家能够记住这三件事
+
+761
+00:32:35,829 --> 00:32:38,759
+gradient descent loss functions and
+梯度下降 损失函数和
+
+762
+00:32:38,759 --> 00:32:40,750
+packages to help the world of
+能够让所有人受益
+
+763
+00:32:40,750 --> 00:32:42,910
+programming get better and I want you to
+软件包 我希望大家能
+
+764
+00:32:42,910 --> 00:32:45,250
+take those ideas and think about them
+接受这些想法并认真思考
+
+765
+00:32:45,250 --> 00:32:46,930
+read more about them on your own time
+在自己的空余时间更广泛地阅读
+
+766
+00:32:46,930 --> 00:32:50,890
+and yeah I hope you enjoyed this live
+最后 希望大家能够喜欢这个
+
+767
+00:32:50,890 --> 00:32:53,500
+coding portion of the style transfer presentation 
+关于风格专业代码的视频
+
+768
+00:32:53,500 --> 00:32:56,049
+I am Louis Gomez thank you
+我是Louis Gomez 感谢大家
+
+769
+00:32:56,049 --> 00:32:58,299
+for your time and I'll see you guys
+花时间看完了 下次再见吧
+
+770
+00:32:58,299 --> 00:32:59,585
+later bye
+拜拜
+
