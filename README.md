@@ -33,6 +33,10 @@ id|task|password|amount
 **dont translate the website**
 'machinelearningforkids'-->'machinelearningforkids'
 
+> 
+**dont translate the variable**
+variable 'run list'-->变量'run list'
+
 
 
 ### Computer jargon
@@ -54,3 +58,10 @@ recognize image|图像识别
 flash|flash不译 动画软件
 training data|训练数据
 training set |训练集
+generator|生成网络
+discriminator|判别网络
+import sth|导入bala库
+train|训练(非培训)
+the local minimum|局部最小值
+extract feature|提取特征
+bala function|‘bala’函数
