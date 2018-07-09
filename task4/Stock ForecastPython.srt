@@ -1,822 +1,766 @@
 ﻿1
-00:00:00,030 --> 00:00:02,388
-well this is Tomac from Palo Alto
- 这是Palo Alto的Tomac
+00:00:00,030 --> 00:00:03,688
+hello everyone this is Tomac from Palo Alto education
+大家好 我是来自palo alto教育的Tomac
 
 2
-00:00:02,388 --> 00:00:04,679
-education this is the machine learning
- 教育这是机器学习
+00:00:03,688 --> 00:00:05,679
+this is the machine learning
+欢迎来到我们的机器学习教程
 
 3
-00:00:04,679 --> 00:00:06,839
+00:00:05,679 --> 00:00:07,839
 for students series and today we're
- 对于学生系列，今天我们是
+今天我们将要
 
 4
-00:00:06,839 --> 00:00:09,500
-gonna be talking about stop forecasts
-会谈论停止预测
+00:00:07,839 --> 00:00:09,500
+gonna be talking about stock forecasts
+讲讲股票预测
 
 5
-00:00:09,500 --> 00:00:12,029
-we're going to begin today's lesson with
-我们要开始今天的课程有
+00:00:09,500 --> 00:00:12,929
+we're going to begin today's lesson with a question
+上课前 我们首先要问大家一个问题
 
 6
-00:00:12,029 --> 00:00:13,919
-a question when did artificial
-什么时候做人工的问题
+00:00:12,969 --> 00:00:14,919
+when did artificial
+什么时候人工智能
 
 7
-00:00:13,919 --> 00:00:15,779
+00:00:14,919 --> 00:00:16,779
 intelligence practices start in finance
- 情报实践从金融开始
+开始在金融领域被应用呢
 
 8
-00:00:15,779 --> 00:00:18,269
+00:00:16,779 --> 00:00:18,269
 well to answer this question we have to
- 很好地回答这个问题 ，我们必须
+为了回答这个问题 
 
 9
 00:00:18,269 --> 00:00:20,670
 take a step back before computers were
- 在电脑前退一步
+我们要后退一步
 
 10
 00:00:20,670 --> 00:00:24,268
-used to do these types of trades one of
- 曾经做过这些类型的交易之一
+used to do these types of trades 
+回到电脑在此领域应用之前
 
 11
-00:00:24,268 --> 00:00:26,219
-the first uses of financial technology
- 金融科技的第一次使用
+00:00:24,268 --> 00:00:26,500
+one of the first uses of financial technology
+电脑在金融领域最早的应用之一
 
 12
-00:00:26,219 --> 00:00:28,649
+00:00:26,500 --> 00:00:28,649
 was for arbitrage and what that did was
-是为了套利而做的是什么
+是为了套利 它的意思是
 
 13
 00:00:28,649 --> 00:00:30,570
 that a lot of investment bankers to take
- 很多投资银行家都要采取
+很多投资银行家利用
 
 14
 00:00:30,570 --> 00:00:32,368
 advantage of price mismatches at
- 价格不匹配的优势在于
+不同交易中价格不匹配
 
 15
-00:00:32,368 --> 00:00:34,530
-different exchanges to make an unnatural
-不同的交流使不自然
+00:00:32,368 --> 00:00:35,920
+different exchanges to make an unnatural profit
+赚取不当利润
 
 16
-00:00:34,530 --> 00:00:38,460
-profit the graph you see behind me is
-利润你在我身后看到的图表是
+00:00:35,920 --> 00:00:38,460
+the graph you see behind me is
+在我身后的图表表示
 
 17
 00:00:38,460 --> 00:00:41,070
 called a triangle trade and this is what
- 称三角贸易，这是什么
+三角贸易 交易者通过它
 
 18
-00:00:41,070 --> 00:00:47,219
-allowed traders to make that profit now
-允许交易者现在赚取利润
+00:00:41,070 --> 00:00:43,560
+allowed traders to make that profit 
+赚取不当利润
 
 19
-00:00:47,219 --> 00:00:49,200
-that we have artificial intelligence you
-我们有人工智能你
+00:00:43,560 --> 00:00:49,200
+now that we have artificial intelligence 
+我们有人工智能
 
 20
 00:00:49,200 --> 00:00:51,869
-might be wondering hmm how is it
- 可能想知道嗯它是怎么回事
+you might be wondering hmm how is it
+你可能会想知道
 
 21
-00:00:51,869 --> 00:00:54,509
-changing a finance industry well there's
- 很好地改变了金融业
+00:00:51,869 --> 00:00:53,509
+changing a finance industry 
+它是如何改变金融行业的
 
 22
-00:00:54,509 --> 00:00:56,878
-three major ways that artificial
-三种主要方法是人工
+00:00:53,509 --> 00:00:56,878
+well there's three major ways that 
+人工智能主要通过
 
 23
-00:00:56,878 --> 00:00:58,378
-intelligence is changing the finance
- 情报正在改变金融
+00:00:56,878 --> 00:01:00,210
+artificial intelligence is changing the finance industry
+三种方式改变金融业
 
-24
-00:00:58,378 --> 00:01:00,210
-industry and this is through banking
-行业，这是通过银行业
 
 25
 00:01:00,210 --> 00:01:03,689
-chatbox that's the first one algorithmic
- 聊天框是第一个算法
+this is through banking chatbox that's the first one 
+第一种是银行聊天室
 
 26
 00:01:03,689 --> 00:01:06,629
-trading that's the second one and fraud
- 交易是第二个和欺诈
+algorithmic trading that's the second one 
+第二种叫做算法交易
 
 27
-00:01:06,629 --> 00:01:09,478
-detection now banking chatbots
-检测现在银行聊天机器人
+00:01:06,629 --> 00:01:07,478
+and fraud detection now banking chatbots
+第三种是欺诈侦测
 
 28
-00:01:09,478 --> 00:01:11,849
+00:01:07,478 --> 00:01:11,849
 are so powerful these days that they can
- 这些天他们可以如此强大
+如今 银行聊天室非常强大
 
 29
-00:01:11,849 --> 00:01:13,739
-generate data about previous stock
-生成有关以前库存的数据
+00:01:11,849 --> 00:01:14,000
+generate data about previous stock prices
+它们能生成之前股票价格的数据
 
 30
-00:01:13,739 --> 00:01:15,930
-prices as well as purchase stocks for
-价格以及购买股票
+00:01:14,000 --> 00:01:16,000
+as well as purchase stocks for you
+也可以为你购买股票
 
 31
-00:01:15,930 --> 00:01:18,688
-you that's another way in which AI is
-你是AI的另一种方式
+00:01:16,000 --> 00:01:18,688
+that's another way in which AI is
+这是人工智能
 
 32
 00:01:18,688 --> 00:01:20,819
 making an impact in the financial sector
- 对金融业产生影响
+影响金融领域的一种方式
 
 33
 00:01:20,819 --> 00:01:23,688
 and also through algorithmic trading
-并通过算法交易
+算法交易也是一种
 
 34
 00:01:23,688 --> 00:01:26,849
 algorithms are so powerful today which
- 今天的算法是如此强大，其
+如今算法是如此强大
 
 35
-00:01:26,849 --> 00:01:28,409
+00:01:26,849 --> 00:01:29,000
 we're able to predict future stock
-我们能够预测未来的库存
+它能帮助我们预测未来股票价格
 
 36
-00:01:28,409 --> 00:01:32,188
-prices with an accuracy over 50% fraud
-价格超过50％的欺诈行为
+00:01:29,000 --> 00:01:32,188
+prices with an accuracy over 50% 
+并且其准确率超过50%
 
 37
 00:01:32,188 --> 00:01:34,379
-detection in the transactions can also
-在交易中检测也可以
+fraud detection in the transactions can also
+交易过程中的欺诈检测
 
 38
-00:01:34,379 --> 00:01:35,849
-be detected through artificial
-通过人工检测
+00:01:34,379 --> 00:01:36,849
+be detected through artificial intelligence
+可是通过人工智能完成的
 
 39
-00:01:35,849 --> 00:01:37,978
-intelligence we're going to get into all
- 我们将全面了解情报
+00:01:36,849 --> 00:01:39,240
+we're going to get into all these a little later
+我们稍后会深入了解这些
 
 40
-00:01:37,978 --> 00:01:40,890
-these a little later let's take a moment
- 稍后我们花一点时间
+00:01:39,240 --> 00:01:40,890
+let's take a moment to talk about 
+让我们先花点时间
 
 41
-00:01:40,890 --> 00:01:42,390
-to talk about where finance and
- 谈地方金融和
+00:01:40,890 --> 00:01:45,090
+where finance and artificial intelligence is today
+讨论今天金融以及人工智能的发展如何
 
-42
-00:01:42,390 --> 00:01:45,090
-artificial intelligence is today there's
- 今天有人工智能
 
 43
 00:01:45,090 --> 00:01:47,819
-almost zero technical limitations for
-几乎没有技术限制
+there's almost zero technical limitations 
+如今自动交易几乎没有
 
 44
 00:01:47,819 --> 00:01:51,149
-automated trading almost all trading
-自动交易几乎所有交易
+for automated trading almost all trading
+任何技术障碍  几乎今天所有的证券交易
 
 45
-00:01:51,149 --> 00:01:52,649
-that's done on the stock exchange today
-这对今天的证券交易所进行
+00:01:51,149 --> 00:01:54,649
+that's done on the stock exchange today is done by computers
+都是通过电脑完成的
 
 46
-00:01:52,649 --> 00:01:55,709
-is dumped by computers only in the bond
- 被计算机仅在债券中 倾销
+00:01:54,649 --> 00:01:56,709
+only in the bond market 
+只有在一些国债市场
 
 47
-00:01:55,709 --> 00:01:57,269
-market our treats still done by people
- 推销我们的款待仍由人做
+00:01:56,709 --> 00:01:58,269
+are trade still done by people
+交易仍然有人来操作
 
 48
-00:01:57,269 --> 00:02:01,409
-and that's changing rapidly millions and
- 而这正在迅速改变数百万人
+00:01:58,269 --> 00:02:00,409
+and that's changing rapidly 
+但这也在迅速的改变
 
 49
-00:02:01,409 --> 00:02:03,090
-millions of dollars are spent today
- 今天花了 数百万美元
+00:02:00,409 --> 00:02:03,090
+millions and millions of dollars are spent today
+今天 数百万美元被花费在
 
 50
-00:02:03,090 --> 00:02:05,218
+00:02:03,090 --> 00:02:06,218
 trying to get computerized advantages
-试图获得计算机化的优势
+计算化上取得优势
 
 51
-00:02:05,218 --> 00:02:07,978
-against other competitors new companies
-与其他竞争对手新公司对抗
+00:02:06,218 --> 00:02:07,978
+against other competitors
+比其他公司要好
 
 52
-00:02:07,978 --> 00:02:08,340
-are
- 是
+00:02:07,978 --> 00:02:09,340
+new companies are trying 
+ 新公司正努力着
 
 53
-00:02:08,340 --> 00:02:10,500
+00:02:09,340 --> 00:02:11,500
 to take business from payment processors
- 从支付处理商处获取业务
+从支付处理器中 零售贷款
 
 54
-00:02:10,500 --> 00:02:13,110
-retail lending and many other fields
- 零售贷款和许多其他领域
+00:02:11,500 --> 00:02:13,110
+retail lending and many other fields that used to
+等其他领域获得业务
 
 55
-00:02:13,110 --> 00:02:15,598
-that used to exclusively belong to large
- 以前只属于大型
+00:02:13,110 --> 00:02:16,598
+exclusively belong to large banks in the past
+而这些业务 原先只属于大银行
 
 56
-00:02:15,598 --> 00:02:17,878
-banks in the past our official
-银行过去我们的官方
-
-57
-00:02:17,878 --> 00:02:19,949
-intelligence is revolutionising the
-情报正在彻底改变世界
+00:02:16,598 --> 00:02:19,949
+our artificial intelligence is revolutionising
+人工智能正在金融领域
 
 58
-00:02:19,949 --> 00:02:22,620
-financial space let's dive into
-金融空间让我们深入了解
+00:02:19,949 --> 00:02:22,000
+the financial space 
+掀起一场革命
 
 59
-00:02:22,620 --> 00:02:25,680
-arbitrage just a little bit more so you
-套利只是多一点，所以你
+00:02:22,000 --> 00:02:25,680
+let's dive into arbitrage just a little bit more
+让我们多了解一些套利
 
 60
-00:02:25,680 --> 00:02:27,269
-might be wondering what are its
-可能想知道它是什么
-
-61
-00:02:27,269 --> 00:02:28,318
-applications
-应用
+00:02:25,680 --> 00:02:28,318
+so you might be wondering what are its applications
+所以你可能想知道套利到底是干嘛的
 
 62
-00:02:28,318 --> 00:02:30,989
-well arbitrage itself is a very simple
-套利本身很简单
+00:02:28,318 --> 00:02:32,000
+well arbitrage itself is a very simple concept
+套利这个概念本身很简单
 
 63
-00:02:30,989 --> 00:02:33,689
-concept it's when you buy something for
-概念是当你买东西
+00:02:32,000 --> 00:02:34,689
+it's when you buy something for a low price
+就是你以低价购进一样东西
 
 64
-00:02:33,689 --> 00:02:35,400
-a low price and oneexchange
- 低廉的价格和一次交换
-
-65
-00:02:35,400 --> 00:02:37,229
-and sell it for a higher price at
-和出售以更高的 价格在
+00:02:34,689 --> 00:02:38,160
+and wanna exchange and sell it for a higher price at another exchange
+然后想要以高价交易卖出
 
 66
-00:02:37,229 --> 00:02:39,209
-another exchange you can actually
- 你可以实际的另一个交流
+00:02:38,160 --> 00:02:41,209
+you can actually perform arbitrage without
+你可以不需要任何数据
 
 67
-00:02:39,209 --> 00:02:41,699
-perform arbitrage without really using
- 没有真正使用就执行套利
+00:02:41,209 --> 00:02:43,000
+really using any data 
+实践套利
 
 68
-00:02:41,699 --> 00:02:44,549
-any data and a simple script could be
- 任何数据和简单的脚本都可以
+00:02:43,000 --> 00:02:45,549
+and a simple script could be developed
+你可以开发一个简单的脚本
 
 69
-00:02:44,549 --> 00:02:46,939
-developed to exploit price differences
-开发利用价格差异
+00:02:45,549 --> 00:02:47,200
+to exploit price differences
+用于挖掘价格差异
 
 70
-00:02:46,939 --> 00:02:48,900
-now this is where artificial
- 现在这是人为的
+00:02:47,200 --> 00:02:50,500
+now this is where artificial intelligence comes in 
+这就是为什么人工智能在此领域被应用
 
 71
-00:02:48,900 --> 00:02:51,449
-intelligence comes in someone with even
-情报来自有人甚至
+00:02:50,500 --> 00:02:53,449
+someone with even minimal coding experience
+甚至只会一点点编程的人
 
 72
-00:02:51,449 --> 00:02:53,489
-minimal coding experience could provide
- 最小的编码经验可以提供
+00:02:53,449 --> 00:02:55,489
+could provide something to detect and act
+都可以开发出检测程序
 
 73
-00:02:53,489 --> 00:02:56,189
-something to detect and act on operative
- 检测并采取行动的东西
-
-74
-00:02:56,189 --> 00:02:59,039
-opportunities like this now regular
-这样的机会现在经常发生
+00:02:55,489 --> 00:02:57,760
+on operative opportunities like this 
+用于抓住机会
 
 75
-00:02:59,039 --> 00:03:01,110
-people can't profit normally because
-人们不能正常获利，因为
+00:02:57,760 --> 00:03:01,110
+now regular people can't profit normally 
+但是正常人并不能从中获利
 
 76
-00:03:01,110 --> 00:03:03,209
-professional traders to detect an act of
- 专业交易员检测行为
+00:03:01,110 --> 00:03:03,500
+because professional traders can detect an act of
+因为专业交易员能够更有效
 
 77
-00:03:03,209 --> 00:03:06,530
+00:03:03,500 --> 00:03:06,000
 arbitrage opportunities more effectively
-套利机会更有效
+检测出套利机会
 
 78
-00:03:06,530 --> 00:03:09,659
+00:03:06,000 --> 00:03:09,659
 now artificial intelligence as it gets
-如今，人工智能，因为它得到
+如今人工智能正越来越强大
 
 79
 00:03:09,659 --> 00:03:11,699
-better and stronger are likely going to
-更好，更强很可能会
+better and stronger are likely to
+它们很有可能找到
 
 80
 00:03:11,699 --> 00:03:13,469
 find arbitrage opportunities that
- 找到套利机会
+被投资银行家忽视了的
 
 81
-00:03:13,469 --> 00:03:16,500
-investment bankers missed the reason why
-投资银行家错过了原因
+00:03:13,469 --> 00:03:15,500
+investment bankers missed 
+套利机会
 
 82
-00:03:16,500 --> 00:03:18,239
-is because everything that goes into
-是因为一切都进入了
+00:03:15,500 --> 00:03:18,239
+the reason why is because everything that goes into
+这是因为任何和套利交易有关的事情
 
 83
-00:03:18,239 --> 00:03:20,310
+00:03:18,239 --> 00:03:21,310
 arbitrage can be built into an equation
-套利可以建立在一个方程式中
+都可以被包括在一个算式之中
 
 84
-00:03:20,310 --> 00:03:22,709
-that artificial intelligence can act on
- 人工智能可以作用于
+00:03:21,310 --> 00:03:23,709
+that artificial intelligence can act on immediately
+人工智能可以通过算式 立刻采取行动
 
 85
-00:03:22,709 --> 00:03:25,829
-immediately what does the front lines
- 什么前线立即
+00:03:23,709 --> 00:03:25,829
+what does the front lines
+到底在金融行业
 
 86
 00:03:25,829 --> 00:03:27,959
-and the artificial intelligence when the
- 当人工智能时
+in the artificial intelligence when the
+人工智能的应用前线
 
 87
 00:03:27,959 --> 00:03:31,229
 finance sector look like well it's high
-金融业看起来很高
+是怎么样的呢  其实它是一场
 
 88
-00:03:31,229 --> 00:03:33,509
-frequency trading versus high frequency
-频率交易与高频率
+00:03:31,229 --> 00:03:34,509
+frequency training versus high frequency training
+高频训练与高频训练之间的竞争
 
 89
-00:03:33,509 --> 00:03:36,469
-training those people with scripts are
-用脚本训练那些人
+00:03:34,509 --> 00:03:38,469
+those people with scripts are optimizing arbitrage
+那些写脚本的人在不断优化套利
 
 90
-00:03:36,469 --> 00:03:38,699
-optimizing arbitrage and trying to
- 优化套利并尝试
-
-91
-00:03:38,699 --> 00:03:40,829
-exploit it faster than anyone else
-比其他人更快地利用它
+00:03:38,469 --> 00:03:41,270
+and trying to exploit it faster than anyone else
+并且在试图比其他人都快
 
 92
-00:03:40,829 --> 00:03:43,769
-there are huge returns to the fastest
-有最快的回报
+00:03:41,270 --> 00:03:44,769
+there are huge returns to the fastest person
+最快的人的回报是巨大的
 
 93
-00:03:43,769 --> 00:03:46,289
-person and anyone else who gets second
- 获得第二名的人和其他任何人
+00:03:44,769 --> 00:03:48,289
+and anyone else who gets second place is left behind
+而第二名及其他人  获得的报酬则远远落后
 
 94
-00:03:46,289 --> 00:03:49,318
-place is left behind firms hire
-地方留下了公司雇用
-
-95
-00:03:49,318 --> 00:03:51,509
-mathematicians and computer programmers
-数学家和计算机程序员
+00:03:48,289 --> 00:03:51,509
+firms hire mathematicians and computer programmers
+公司雇佣数学家 计算机程序员
 
 96
 00:03:51,509 --> 00:03:53,489
 and engineers to make sure everything is
- 和工程师确保一切都是
+以及工程师确保一切
 
 97
-00:03:53,489 --> 00:03:56,489
-running as fast as it can they even bid
- 尽可能快地跑，他们甚至出价
+00:03:53,489 --> 00:03:55,489
+running as fast as it can
+都是尽可能快的
 
 98
-00:03:56,489 --> 00:03:58,289
-for connections that are physically
-对于物理上的连接
+00:03:55,489 --> 00:03:58,289
+they even bid for connections that are physically
+甚至他们还会为最接近
 
 99
 00:03:58,289 --> 00:04:01,139
 closest to the exchange pricing on these
-最接近这些交易所的价格
+股票价格的模块投标
 
 100
-00:04:01,139 --> 00:04:02,759
+00:04:01,139 --> 00:04:03,759
 bids can go into the millions of dollars
- 出价可以达到数百万美元
+出价可以达到数百万美元
 
 101
-00:04:02,759 --> 00:04:05,789
+00:04:03,759 --> 00:04:05,789
 and really what they're paying for is a
- 真的什么他们支付的是一个
+这笔钱用于支付的模块
 
 102
 00:04:05,789 --> 00:04:07,650
 connection that might be inches closer
- 可能距离更近的连接
+可能只是比其他竞争对手
 
 103
 00:04:07,650 --> 00:04:09,479
-than their competitors that's how
-比他们的竞争对手更好
+than their competitors 
+优秀一点点
 
 104
 00:04:09,479 --> 00:04:11,789
-competitive this space really is and how
-竞争这个空间真的是和如何
+that's how competitive this space really is 
+这可说明  这个领域的竞争非常激烈
 
 105
-00:04:11,789 --> 00:04:13,500
-much they stand to gain for being that
-很多他们进账的在于
+00:04:11,789 --> 00:04:14,680
+and how much they stand to gain for being that much closer
+以及其利润之大 当预测数据相近的时候
 
-106
-00:04:13,500 --> 00:04:16,168
-much closer high frequency trading
-更接近高频交易
 
 107
-00:04:16,168 --> 00:04:16,810
-persist
-坚持
+00:04:14,680 --> 00:04:16,810
+high frequency training versus frequency training
+高频训练VS高频训练
 
 108
-00:04:16,810 --> 00:04:18,488
-frequency trading is really the front
-频率交易真的是前沿
+00:04:16,810 --> 00:04:18,960
+is really the front line
+这就是人工智能的前线
 
 109
-00:04:18,488 --> 00:04:20,529
-line and getting the most money out of
- 线并获得最 赚钱出
+00:04:18,960 --> 00:04:20,529
+and getting the most money out of
+以及通过人工智能
 
 110
-00:04:20,529 --> 00:04:22,329
-the financial sector using artificial
- 金融业使用人工
+00:04:20,529 --> 00:04:23,520
+the financial sector using artificial intelligence
+尽可能多的从金融领域中赚取钱财
 
 111
-00:04:22,329 --> 00:04:24,939
-intelligence generally speaking for most
- 一般来说，智力最多
+00:04:23,520 --> 00:04:25,939
+generally speaking for most normal people
+ 一般来说 人工智能
 
 112
-00:04:24,939 --> 00:04:27,220
-normal people the advice artificial
- 正常人的建议是人为的
+00:04:25,939 --> 00:04:28,220
+the advice artificial intelligence can give you
+能给一般人提出
 
 113
-00:04:27,220 --> 00:04:29,259
-intelligence can give you is just as
- 情报可以给你就是这样
+
+00:04:28,220 --> 00:04:31,259
+is just as good or better than someone
+和拥有MBA学位的人提出的
 
 114
-00:04:29,259 --> 00:04:31,720
-good or better than someone with an MBA
- 比拥有MBA学位的人好或好
+00:04:31,259 --> 00:04:34,360
+with an MBA degree or degree in finance
+一样好甚至更好的建议
 
 115
-00:04:31,720 --> 00:04:34,660
-degree or degree in finance it's
-在金融学士学位或学位是
+00:04:34,360 --> 00:04:36,660
+it's actually cheaper too 
+而且它还便宜
 
 116
-00:04:34,660 --> 00:04:37,810
-actually cheaper too this is huge for
-实际上更便宜，这是巨大的
+00:04:36,660 --> 00:04:39,810
+this is huge for financial technology
+这对于金融科技来讲意义非凡
 
 117
-00:04:37,810 --> 00:04:40,300
-financial technology researchers are
-金融技术研究人员
+00:04:39,810 --> 00:04:41,300
+researchers are trying to 
+研究人员们正在为投资者
 
 118
-00:04:40,300 --> 00:04:42,189
-trying to create the best investing
- 试图创造最好的投资
+00:04:41,300 --> 00:04:43,189
+create the best investing robot for someone
+创造最好的投资机器人 
 
 119
-00:04:42,189 --> 00:04:44,290
-robot for someone to invest their money
-机器人为某人投资他们的钱
+00:04:43,189 --> 00:04:45,290
+to invest their money through
+以便于他们投资
 
 120
-00:04:44,290 --> 00:04:46,300
-through and it's already been proven
-通过，它已经被证实
+00:04:45,290 --> 00:04:46,500
+and it's already been proven that
+并且 已经证实
 
 121
-00:04:46,300 --> 00:04:47,430
-that artificial intelligence
- 人工智能
-
-122
-00:04:47,430 --> 00:04:50,310
-consistently outperforms human investors
-始终优于人类投资者
+00:04:46,500 --> 00:04:50,310
+artificial intelligence consistently outperforms human investors
+人工智能比人类投资者做得更好
 
 123
 00:04:50,310 --> 00:04:53,050
 traders don't like to admit it but
- 交易者不喜欢承认这一点，但
+ 交易者不喜欢承认这一点
 
 124
 00:04:53,050 --> 00:04:55,540
 they've been beaten for years just like
-他们已经打了多年，就像
+但他们已经被打败了很多年
 
 125
 00:04:55,540 --> 00:04:57,399
 our friend here he's gotten a little
-我们的朋友在这里他得到了一点点
+就像我们的朋友 
 
 126
 00:04:57,399 --> 00:04:59,168
 frustrated that the computer can give
- 计算机可以给予沮丧
+ 他有点忧郁 
 
 127
-00:04:59,168 --> 00:05:02,529
-actual advice and give it better up to
-实际的建议，并让它更好
+00:04:59,168 --> 00:05:01,529
+actual advice and give it better 
+因为电脑给出的意见比他的更好
 
 128
-00:05:02,529 --> 00:05:04,990
-this point we've shown that artificial
-这一点我们已经证明了人为的
+00:05:01,529 --> 00:05:04,990
+up to this point we've shown that artificial
+目前为止 我们已经证明了
 
 129
 00:05:04,990 --> 00:05:07,478
 intelligence is really making strides in
-情报正在大踏步前进
+人工智能技术在金融领域
 
 130
 00:05:07,478 --> 00:05:09,939
 financial technology it's taking the
- 它采取的金融技术
+正突飞猛进 并且它正引领潮流
 
 131
 00:05:09,939 --> 00:05:11,709
 lead and it's replacing jobs and
-领导和它正在取代工作和
+取代人们的工作
 
 132
 00:05:11,709 --> 00:05:14,350
 outperforming human behavior so the
-超越人类行为所以
+比人类做得更好
 
 133
 00:05:14,350 --> 00:05:17,228
 natural question is can artificial
-自然的问题是可以人为的
+所以自然而然 有人就问了
 
 134
 00:05:17,228 --> 00:05:20,019
 intelligence algorithm fail well the
-智能算法失败了
+算法可能出错吗
 
 135
-00:05:20,019 --> 00:05:22,600
+00:05:20,019 --> 00:05:23,600
 answer is yes and it has before in the
-答案是肯定的，而且之前的答案是肯定的
+答案是肯定的 过去就发生过
 
 136
-00:05:22,600 --> 00:05:25,478
+00:05:23,600 --> 00:05:26,478
 past now the reason why these algorithms
-过去现在这些算法的原因
+算法出错的原因是
 
 137
-00:05:25,478 --> 00:05:28,029
+00:05:26,478 --> 00:05:28,500
 fail is because they are programmed by
- 失败是因为他们被编程了
+它们是人类经过数学计算
 
 138
-00:05:28,029 --> 00:05:30,819
+00:05:28,500 --> 00:05:31,819
 people using mathematics and they sent
-人们使用数学和他们发送
+所进行的编程 并且人类会为不同的行为
 
 139
-00:05:30,819 --> 00:05:32,350
-different thresholds for different
- 针对不同的不同的阈值
+00:05:31,819 --> 00:05:33,350
+different thresholds for different behaviors
+设定不同的阈值
 
 140
-00:05:32,350 --> 00:05:35,379
-behaviors as a matter of fact the stock
-行为事实上是股票
+00:05:33,350 --> 00:05:35,379
+ as a matter of fact the stock
+事实上在2010年
 
 141
 00:05:35,379 --> 00:05:38,228
 market lost trillions of dollars for 38
-市场损失了数万亿美元的38美元
+股票市场在38分钟内
 
 142
 00:05:38,228 --> 00:05:40,930
 minutes one day in 2010 because of
- 2010年的一天分钟因为
+损失了数万亿美元
 
 143
 00:05:40,930 --> 00:05:43,300
 trading like this all the algorithms
- 像这样交易所有的算法
+究其原因 是这些算法
 
 144
 00:05:43,300 --> 00:05:45,430
 were set to a similar threshold and when
- 被设置为类似的阈值，何时
+ 它们的阈值被设定的相似
 
 145
 00:05:45,430 --> 00:05:47,410
 stocks reached that threshold they
-股票达到了他们的门槛
+当股票达到了阈值
 
 146
 00:05:47,410 --> 00:05:50,139
 immediately sold off all their holdings
-立刻卖掉了他们所有的股份
+人们就会立刻卖掉了所有的股份
 
 147
 00:05:50,139 --> 00:05:53,079
 creating this flash crash we're gonna
- 创造这个闪光崩溃，我们将要
+然后就崩盘了 
 
 148
 00:05:53,079 --> 00:05:54,370
 start getting into some technical
-开始进入一些技术
+我们将要进一步了解
 
 149
 00:05:54,370 --> 00:05:56,560
 details about how these algorithms work
- 这些算法如何工作的详细信息
+这些算法的运作原理
 
 150
 00:05:56,560 --> 00:05:59,709
 in order to do that we need to take a
- 为了做到这一点，我们需要采取
+为了做到这一点 
 
 151
 00:05:59,709 --> 00:06:01,418
 step back and talk about what the
-退一步说说什么
+我们要退一步 
 
 152
-00:06:01,418 --> 00:06:03,430
-difference is between classification and
-差异在于分类和
+00:06:01,418 --> 00:06:04,910
+difference is between classification and regression
+讲讲分类和回归的区别
 
 153
-00:06:03,430 --> 00:06:06,399
-regression the main difference between
-回归主要区别
+00:06:04,910 --> 00:06:07,399
+the main difference between the two of them
+他们的主要区别
 
 154
-00:06:06,399 --> 00:06:08,410
-the two of them is the type of output
- 他们 两个的是 输出 的类型
+00:06:07,399 --> 00:06:10,000
+is the type of output that they give you
+是输出的类型
 
 155
-00:06:08,410 --> 00:06:10,839
-that they give you for classification
- 他们给你分类
-
-156
-00:06:10,839 --> 00:06:13,149
-problems and algorithm is designed to
- 问题和算法旨在
+00:06:10,000 --> 00:06:13,149
+for classification problems and algorithm 
+分类问题及其算法
 
 157
 00:06:13,149 --> 00:06:14,680
-give you an output that tells you a
-给你一个 告诉你 的输出
+is designed to give you an output 
+旨在告诉你
 
 158
-00:06:14,680 --> 00:06:17,709
-specific thing whether or not say for
-具体的事情是否说
+00:06:14,680 --> 00:06:16,709
+that tells you a specific thing whether or not 
+一件具体的事情
 
 159
-00:06:17,709 --> 00:06:20,350
-example something is a dog a fish or a
-例如某种东西是狗或鱼
+00:06:16,709 --> 00:06:21,350
+say for example something is a dog a fish or a cat
+例如某种东西是狗是鱼还是猫
 
 160
-00:06:20,350 --> 00:06:24,069
-cat with regression problems the output
-猫有回归问题的输出
+00:06:21,350 --> 00:06:23,069
+with regression problems the output that the algorithm 
+而对于回归问题
 
 161
-00:06:24,069 --> 00:06:25,959
-that the algorithm tries to give you is
- 该算法试图给你的是
+00:06:23,069 --> 00:06:28,160
+tries to give you is the value of some number 
+算法输出的是数值
 
 162
-00:06:25,959 --> 00:06:28,990
-the value of some number now when we're
- 我们现在的某个数字的价值
-
-163
-00:06:28,990 --> 00:06:30,249
-talking about financial
- 谈到金融
+00:06:28,160 --> 00:06:30,640
+now when we're talking about financial technology
+现在我们讲的是金融科技
 
 164
-00:06:30,249 --> 00:06:32,408
+00:06:30,640 --> 00:06:32,408
 the algorithms typically what we want to
-算法通常是我们想要的
+算法通常旨在
 
 165
 00:06:32,408 --> 00:06:34,358
@@ -824,124 +768,124 @@ find out are things like stock prices
 找出像股票价格这样的东西
 
 166
-00:06:34,358 --> 00:06:36,158
-we're going to get into regression a
- 我们要进入回归a
+00:06:34,358 --> 00:06:37,600
+we're going to get into regression a little more detail
+所以我们要具体讲讲回归
 
 167
-00:06:36,158 --> 00:06:38,528
-little more detail now what is linear
-更多细节现在什么是线性的
+00:06:37,600 --> 00:06:39,528
+now what is linear regression
+什么是线性回归
 
 168
-00:06:38,528 --> 00:06:40,658
-regression well it's actually fairly
- 很好地回归它实际上是公平的
+00:06:39,528 --> 00:06:41,658
+well it's actually fairly simple
+其实很简单
 
 169
-00:06:40,658 --> 00:06:43,569
-simple linear regression tries to find
- 简单的线性回归试图找到
+00:06:41,658 --> 00:06:43,569
+linear regression tries to find
+线性回归试图找到
 
 170
-00:06:43,569 --> 00:06:45,278
-the best straight line through data
- 通过数据的最佳直线
+00:06:43,569 --> 00:06:46,000
+the best straight line through data points
+通过数据点的最佳直线
 
 171
-00:06:45,278 --> 00:06:47,079
-points that's it
-这就是它
+00:06:46,000 --> 00:06:47,500
+that's it
+没了
 
 172
-00:06:47,079 --> 00:06:49,418
+00:06:47,500 --> 00:06:50,418
 and you can see behind me there's a red
-你可以看到我身后有一个红色
+你可以看到我身后有一条红色的线
 
 173
-00:06:49,418 --> 00:06:51,668
+00:06:50,418 --> 00:06:51,668
 line through all the data points that is
-通过所有数据点
+它穿过数据点
 
 174
 00:06:51,668 --> 00:06:53,619
 actually the line that has the least
-实际上是最少的线
+实际上是它是
 
 175
-00:06:53,619 --> 00:06:55,538
-amount of distance between all of those
- 所有这些之间的距离
+00:06:53,619 --> 00:06:56,538
+amount of distance between all of those points
+所有点之间距离最短的线
 
 176
-00:06:55,538 --> 00:06:59,379
-points and the line we use a model like
- 点，线，我们使用像模特
+00:06:56,538 --> 00:06:59,379
+ and the line we use a model likethis
+ 我们用这样的模型
 
 177
-00:06:59,379 --> 00:07:01,178
-this to help predict the outcome of
- 这有助于预测结果
+00:06:59,379 --> 00:07:02,700
+to help predict the outcome of different trends
+帮助我们预测不同趋势的结果
 
 178
-00:07:01,178 --> 00:07:04,629
-different trends in our case for any
- 在我们的案例中任何不同的趋势
+00:07:02,700 --> 00:07:04,629
+in our case for any
+在我们的案例中
 
 179
 00:07:04,629 --> 00:07:06,788
 additional day on the stock exchange we
- 我们在证券交易所上市的另一天
+任何一天我们都能在证券交易所
 
 180
 00:07:06,788 --> 00:07:08,499
 can check what the next day is going to
-可以检查第二天会发生什么
+查到第二天各股票的情况
 
 181
 00:07:08,499 --> 00:07:11,649
-be given its past performance what are
-得到它过去的表现是什么
+be given its past performance 
+基于它过去的表现
 
 182
 00:07:11,649 --> 00:07:14,228
-some other types of regression well of
- 一些其他类型的回归井
+what are some other types of regression 
+是否还有其他类型的回归呢
 
 183
 00:07:14,228 --> 00:07:16,389
-course there's nonlinear ways that you
-当然，你有非线性方式
+well of course there's nonlinear ways that 
+当然 还有非线性回归
 
 184
 00:07:16,389 --> 00:07:19,178
-can do regression on data one of those
-可以在这些数据的一个做回归
+you can do regression on data 
+你可以通过神经网络
 
 185
 00:07:19,178 --> 00:07:21,309
-ways is through a neural network now
-方法是通过神经网络现在
+one of those ways is through a neural network 
+对数据进行处理
 
 186
 00:07:21,309 --> 00:07:23,559
-these use nodes connections and weights
-这些使用节点连接和权重
+now these use nodes connections and weights
+它们在预测数结果之间
 
 187
 00:07:23,559 --> 00:07:25,389
-between the output of a predictive
-在预测的输出之间
+between the output of a predictive number
+使用节点连接和权重
 
 188
 00:07:25,389 --> 00:07:27,968
-number I made a simple truck for you
- 我为你做了一辆简单的卡车
+I made a simple trunk for you
+我为你做了一辆简单的图
 
 189
 00:07:27,968 --> 00:07:30,848
 behind me but the truth is is that a
- 在我身后，但事实是是，
+它在我身后 但事实是是
 
 190
 00:07:30,848 --> 00:07:32,858
@@ -951,22 +895,22 @@ neural network is more like a black box
 191
 00:07:32,858 --> 00:07:35,288
 where we can't really figure out how the
- 在哪里我们无法弄清楚如何
+我们无法弄清楚
 
 192
 00:07:35,288 --> 00:07:38,348
-mechanics inside really work we give it
- 里面的力学我们给它真正的工作
+mechanics inside really work 
+里面的程序如何运作
 
 193
 00:07:38,348 --> 00:07:40,119
-information and then it provides us with
- 然后将它提供给 我们的信息
+we give it information and then 
+我们给它提供信息
 
 194
 00:07:40,119 --> 00:07:41,639
-an answer
-一个答案
+it provides us with an answer
+它给我们一个答案
 
 195
 00:07:41,639 --> 00:07:45,119
@@ -975,693 +919,655 @@ another type of nonlinear regression is
 
 196
 00:07:45,119 --> 00:07:48,249
-a decision tree and a decision tree is a
- 决策树和决策树是
+a decision tree
+决策树  决策树是
 
 197
 00:07:48,249 --> 00:07:50,588
-computerized flowchart it just uses a
-计算机化的流程图它只使用了一个
+ and a decision tree is a computerized flowchart 
+计算机化的流程图
 
 198
 00:07:50,588 --> 00:07:53,199
-series of if-then statements and
-一系列if-then 语句和
+it just uses a series of if-then statements and
+它只使用了一系列if-then 语句
 
 199
 00:07:53,199 --> 00:07:55,418
 provides you with the graph of what your
-为您提供您的图表
+然后为你提供一个图表
 
 200
 00:07:55,418 --> 00:07:58,749
-expected Palpa would be another type of
-预计帕尔帕将是另一种类型
+expected output would be
+上面有预期输出
 
 201
 00:07:58,749 --> 00:08:00,939
-regressor would be the K nearest
- 回归量将是最近的K.
+another type of regressor would be the K nearest
+另一种算法是k近邻算法
 
 202
 00:08:00,939 --> 00:08:04,209
-neighbors or kN and model now this finds
- 邻居或kN和模型现在发现
+neighbors or kNN model now this finds
+也被叫做kNN模型  它会找寻
 
 203
 00:08:04,209 --> 00:08:06,610
-data that is similar to unknown data
- 与未知数据类似的数据
+data that is similar to unknown data points
+与未知数据类似的数据点
 
 204
 00:08:06,610 --> 00:08:08,978
-points and then averages the value of
-点然后平均值
+and then averages the value of
+求出输出平均值
 
 205
 00:08:08,978 --> 00:08:10,689
 the outcomes to give your prediction
- 给出预测的结果
+给出预测的结果
 
 206
 00:08:10,689 --> 00:08:13,658
 think about it like this if you're a
- 如果你是一个人，请考虑这样
+这样想  如果你是一个学生
 
 207
 00:08:13,658 --> 00:08:15,399
 student and you studied for three hours
-学生和你学习了三个小时
+你学习了三个小时
 
 208
 00:08:15,399 --> 00:08:18,488
-and got a B+ on a test and another
-并且在测试和另一个测试中获得了B +
+and got a B+ on a test and 
+并且在测试中获得了B +
 
 209
 00:08:18,488 --> 00:08:20,259
-student also studied for three hours
+another student also studied for three hours
 学生也学了三个小时
 
 210
 00:08:20,259 --> 00:08:22,658
-you'd expect that other student to also
- 你也希望其他学生也能参加
+you'd expect that other student to also get a B+
+你也希望他也得B+
 
 211
-00:08:22,658 --> 00:08:25,119
-get a B+ for those of you who are
- 为那些你的人获得B +
-
-212
-00:08:25,119 --> 00:08:27,459
-curious about neural networks I wanted
-对我想要的神经网络感到好奇
+00:08:22,658 --> 00:08:27,459
+for those of you who are curious about neural networks
+对于那些 对神经网络感兴趣的同学
 
 213
-00:08:27,459 --> 00:08:28,778
-to go into them in a little bit more
- 进入他们更多一点
+00:08:27,459 --> 00:08:30,000
+I wanted to go into them in a little bit more detail
+我想讲的再细致一些
 
 214
-00:08:28,778 --> 00:08:31,928
-detail now neural networks are extremely
-细节现在神经网络非常
+00:08:30,000 --> 00:08:32,928
+now neural networks are extremely complicated
+现在神经网络非常复杂
 
 215
-00:08:31,928 --> 00:08:33,698
-complicated and don't have good
-复杂而且没有好处
+00:08:32,928 --> 00:08:35,000
+and don't have good interpretations
+而且没人能很好解释它
 
 216
-00:08:33,698 --> 00:08:36,158
-interpretations remember we just said
-解释记得我们刚刚说过
+00:08:35,000 --> 00:08:36,500
+remember we just said that kind of
+记得我们刚刚说过
 
 217
-00:08:36,158 --> 00:08:36,679
-that
- 那
+00:08:36,500 --> 00:08:38,679
+like a black box
+它就像一个黑盒子
 
 218
-00:08:36,679 --> 00:08:39,349
-kind of like a back box now they take
- 现在他们就像一个后箱
+00:08:38,679 --> 00:08:41,349
+now they take inputs the data that we know
+现在输入已知数据
 
 219
-00:08:39,349 --> 00:08:41,690
-inputs the data that we know and send
-输入我们知道并发送的数据
-
-220
-00:08:41,690 --> 00:08:43,639
-them through a bunch of notes or neurons
-他们通过一堆笔记或神经元
+00:08:41,349 --> 00:08:44,639
+and send them through a bunch of notes or neurons
+把他们发送到节点和神经元中
 
 221
-00:08:43,639 --> 00:08:46,580
-then they give us an output these
- 然后他们给我们输出这些
+00:08:44,639 --> 00:08:46,580
+then they give us an output 
+然后它们便会给出结果
 
 222
-00:08:46,580 --> 00:08:48,200
-outputs are created using an
-输出是使用a创建的
+00:08:46,580 --> 00:08:50,200
+these outputs are created using an evolutionary procedure
+这些输出用到了一种革命性的步骤
 
 223
-00:08:48,200 --> 00:08:50,778
-evolutionary procedure so we start with
-进化程序，所以我们开始
+00:08:50,200 --> 00:08:52,778
+so we start with random waits for 
+所以一开始我们要等待
 
 224
-00:08:50,778 --> 00:08:52,669
-random waits for the connections between
-随机等待之间的联系
+00:08:52,778 --> 00:08:54,669
+the connections between the notes
+节点之间的联系
 
 225
-00:08:52,669 --> 00:08:55,669
-the notes and slowly randomly sometimes
-笔记， 有时慢慢随机
+00:08:54,669 --> 00:08:56,669
+and slowly randomly sometimes
+缓慢而随机
 
 226
-00:08:55,669 --> 00:08:57,830
+00:08:56,669 --> 00:08:58,830
 these weights are changed to find the
- 这些权重被改变以找到
+这些权重被改变
 
 227
-00:08:57,830 --> 00:09:00,080
+00:08:58,830 --> 00:09:00,080
 combination of weights that gives us the
- 赋予我们权重的组合
+它是所有权重的集合
 
 228
 00:09:00,080 --> 00:09:02,389
-network that most closely predicts the
- 最密切预测的网络
+network that most closely predicts 
+用于找出和训练数据
 
 229
 00:09:02,389 --> 00:09:04,639
-data that we trained on if this is
-我们接受过培训的数据
+the data that we trained on 
+最接近的数据
 
 230
 00:09:04,639 --> 00:09:07,789
-confusing to you don't worry that's okay
- 对你感到困惑并不担心这没关系
+if this is confusing to you don't worry that's okay
+如果你感到困惑  别担心 没关系
 
 231
 00:09:07,789 --> 00:09:09,649
 I just wanted to give you a little bit
- 我只是想给你一点点
+我只是想给你更多一点
 
 232
 00:09:09,649 --> 00:09:11,419
-more information on neural network since
- 有关神经网络的更多信息
+more information on neural network 
+有关神经网络的信息
 
 233
 00:09:11,419 --> 00:09:13,458
-it's such a hot topic in machine
-它是机器中如此热门的话题
+since it's such a hot topic in machine
+因为它是人工智能和机器学习中
 
 234
-00:09:13,458 --> 00:09:14,480
+00:09:13,458 --> 00:09:15,480
 learning and artificial intelligence
- 学习和人工智能
+非常热门的一个话题
 
 235
-00:09:14,480 --> 00:09:16,490
-right now we're going to get a little
-现在我们会得到一点点
+00:09:15,480 --> 00:09:18,490
+right now we're going to get a little bit into the finance world
+现在我们要稍微进入金融世界啦
 
 236
-00:09:16,490 --> 00:09:18,919
-bit into the finance world here we're
- 我们在这里进入金融世界
+00:09:18,490 --> 00:09:20,919
+here we're gonna ask ourselves a question
+在这里我们要问自己一个问题
 
 237
-00:09:18,919 --> 00:09:21,289
-gonna ask ourselves a question what are
-要问自己一个问题是什么
+00:09:20,919 --> 00:09:22,289
+what are the impacts of 
+主动被动投资的影响
 
 238
-00:09:21,289 --> 00:09:23,120
-the impacts of active and passive
-主动和被动的影响
+00:09:22,289 --> 00:09:24,640
+active and passive investing
+各是什么
 
 239
-00:09:23,120 --> 00:09:26,120
-investing well artificial intelligence
-投资良好的人工智能
+00:09:24,640 --> 00:09:27,120
+well artificial intelligence and financial technology
+人工智能 金融技术
 
 240
-00:09:26,120 --> 00:09:28,190
-and financial technology has to move
- 和金融技术必须移动
+00:09:27,120 --> 00:09:30,190
+has to move much of the heavy lifting
+已经把大部分繁重的工作
 
 241
-00:09:28,190 --> 00:09:30,649
-much of the heavy lifting to automated
-大部分繁重的自动化
+00:09:30,190 --> 00:09:32,649
+to automated investment models 
+变为自动化投资模型
 
 242
-00:09:30,649 --> 00:09:32,899
-investment models there's firms like
- 投资模式有公司喜欢
+00:09:32,649 --> 00:09:35,120
+there's firms like betterment and wealthfront
+像betterment和wealthfront这样的投顾公司
 
 243
-00:09:32,899 --> 00:09:35,089
-betterment and wealthfront that have
-改善和wealthfront有
+00:09:35,120 --> 00:09:36,500
+that have made investing about
+它们已经让投资
 
 244
-00:09:35,089 --> 00:09:37,190
-made investing about as passive as it
-投资就像它一样被动
+00:09:36,500 --> 00:09:38,500
+as passive as it could possibly get 
+变得尽可能被动了
 
 245
-00:09:37,190 --> 00:09:39,379
-could possibly get they both have
-可能会得到他们两个
-
-246
-00:09:39,379 --> 00:09:41,389
-automatic deposits into investment
-自动存入投资
+00:09:38,500 --> 00:09:42,389
+they both have automatic deposits into investment accounts
+它们两个都有自动投资存储服务
 
 247
-00:09:41,389 --> 00:09:43,429
-accounts and can run without any
-帐户，可以没有任何运行
+00:09:42,389 --> 00:09:45,429
+and can run without any supervision
+并且没有任何监督
 
 248
-00:09:43,429 --> 00:09:47,269
-supervision down this type of investment
-监督此类投资
+00:09:45,429 --> 00:09:47,269
+down this type of investment using
+像这类利用指数基金
 
 249
-00:09:47,269 --> 00:09:49,458
-using index funds and simple risk-based
- 使用指数基金和简单的基于风险的
+00:09:47,269 --> 00:09:50,458
+index funds and simple risk-based allocations
+和简单的基于风险分配的投资
 
 250
-00:09:49,458 --> 00:09:52,278
-allocations have pushed out a lot of the
-分配推出了很多
+00:09:50,458 --> 00:09:53,278
+have pushed out a lot of the active investing
+已经让很多从事与主动投资的人
 
 251
-00:09:52,278 --> 00:09:55,220
-active investing think about it machines
-积极投资考虑机器
-
-252
-00:09:55,220 --> 00:09:56,690
-have taken over a lot of the rules
-已经接管了很多规则
+00:09:53,278 --> 00:09:56,900
+think about it machines have taken over a lot of
+觉得机器已经接管了很多规则
 
 253
-00:09:56,690 --> 00:09:59,360
-already and now we've gone from active
-已经和现在我们已经离开了
+00:09:56,900 --> 00:09:59,360
+the rules already and now we've gone from 
+现在他们已经离开
 
 254
 00:09:59,360 --> 00:10:01,309
-investing where human beings were making
-投资于人类所在的地方
+active investing where human beings were 
+主动投资了 在这里
 
 255
 00:10:01,309 --> 00:10:03,649
-direct calls on stock prices to or
- 直接调用股票价格或
+making direct calls on stock prices to
+人类直接预测股票价格
 
 256
 00:10:03,649 --> 00:10:05,600
 passive investing where machines are
- 机器所在的被动投资
+而他们现在转向被动投资
 
 257
-00:10:05,600 --> 00:10:07,580
-making calls based on rules based
- 基于规则进行呼叫
+00:10:05,600 --> 00:10:09,000
+making calls based on rules based algorithms
+机器基于算法起主导作用
 
 258
-00:10:07,580 --> 00:10:10,370
-algorithms now the amount of money
-算法现在的金额
+00:10:09,000 --> 00:10:12,370
+now the amount of money invested in index funds
+现在投资于指数基金的钱飙升
 
 259
-00:10:10,370 --> 00:10:13,009
-invested in index funds right now which
- 现在投资于指数基金 ，其
-
-260
-00:10:13,009 --> 00:10:15,169
-track our stock market as a whole
-跟踪我们的股票市场整体
+00:10:12,370 --> 00:10:15,169
+right now which track our stock market as a whole
+它旨在跟踪我们的股票市场
 
 261
-00:10:15,169 --> 00:10:17,299
-rather than investing in a single stock
+00:10:15,169 --> 00:10:18,900
+rather than investing in a single stock has soared
 而不是投资单一股票
 
 262
-00:10:17,299 --> 00:10:20,120
-has soared people not believe that you
-飙升的人不相信你
+00:10:18,900 -->00:10:20,400
+people do not believe that you
+人们并不赞成
 
 263
-00:10:20,120 --> 00:10:21,740
-shouldn't bother trying to beat the
-不应该打扰试图击败
+00:10:20,400 --> 00:10:22,740
+shouldn't bother trying to beat the market
+你不用去打败市场 这个观点
 
 264
-00:10:21,740 --> 00:10:24,200
-market now there are some strength
-市场现在有一些实力
-
-265
-00:10:24,200 --> 00:10:26,360
-towards active investing and the
-积极投资和
+00:10:22,740 --> 00:10:26,360
+now there are some strength towards active investing
+现在有一些主动投资的优势
 
 266
 00:10:26,360 --> 00:10:27,889
-strengths of active investing is that
-积极投资的优势在于
+and the strengths of active investing is that
+主动投资的优势在于
 
 267
 00:10:27,889 --> 00:10:30,440
 it's flexible delivers higher returns
-它灵活， 提供更高的回报
+它灵活  提供更高的回报
 
 268
-00:10:30,440 --> 00:10:33,889
-and allows you to hedge now passive
- 并允许你对冲现在被动
+00:10:30,440 --> 00:10:32,889
+and allows you to hedge 
+并允许你对冲
 
 269
-00:10:33,889 --> 00:10:36,740
-investing offers low fees last decision
-投资提供低费用的最后决定
+00:10:32,889 --> 00:10:35,740
+now passive investing offers low fees
+被动投资 费用低
 
 270
-00:10:36,740 --> 00:10:40,070
-making and is tax efficient so there's
-制作并且税收效率如​​此之高
+00:10:35,740 --> 00:10:39,070
+last decision making and is tax efficient 
+不用过早做决定  税收效率如​​此之高
 
 271
-00:10:40,070 --> 00:10:43,100
-two sides to this active investment
- 这项积极投资的双方
+00:10:39,070 --> 00:10:41,500
+so there's two sides to this
+凡事都有两面
 
 272
-00:10:43,100 --> 00:10:46,009
-weakness is higher fees and higher taxes
- 弱点是更高的费用和更高的税收
+00:10:41,500 --> 00:10:44,009
+active investment weakness is 
+主动投资的弱点是  
 
 273
-00:10:46,009 --> 00:10:48,649
-and it's very susceptible to long term
- 而且它很容易受到长期影响
+00:10:44,009 --> 00:10:46,009
+higher fees and higher taxes
+更高的费用和更高的税收
 
-274
-00:10:48,649 --> 00:10:49,879
-volatility
-挥发性
+273
+00:10:46,009 --> 00:10:49,879
+and it's very susceptible to long term volatility
+而且它很容易受到长期不稳定影响
 
 275
-00:10:49,879 --> 00:10:52,190
-on the other hand weaknesses of passive
- 另一方面被动的弱点
+00:10:49,879 --> 00:10:53,190
+on the other hand weaknesses of passive investing 
+另一方面  被动投资的弱点
 
 276
-00:10:52,190 --> 00:10:54,799
-investing his long-term investments are
-投资他的长期投资是
+00:10:53,190 --> 00:10:56,799
+is long-term investments are unable to
+在于长期投资无法进入市场
 
 277
-00:10:54,799 --> 00:10:57,318
-unable to perform the market and then it
-无法进入市场然后它
+00:10:56,799 --> 00:10:58,318
+perform the market and then it is rigid 
+然后它很僵硬
 
 278
-00:10:57,318 --> 00:11:00,259
-is rigid so now that you have a better
-是僵硬的， 所以现在你有一个更好的
+00:10:58,318 --> 00:11:00,259
+so now that you have a better understanding
+所以你现在对于
 
 279
-00:11:00,259 --> 00:11:01,610
-understanding of the some of the
- 的一些理解
+00:11:00,259 --> 00:11:03,610
+of the some of the financial backgrounds
+主动和被动投资的金融背景
 
 280
-00:11:01,610 --> 00:11:04,009
-financial backgrounds between active and
- 活跃与积极的金融背景
+00:11:03,610 --> 00:11:05,009
+between active and passive investing
+有一定了解了
 
 281
-00:11:04,009 --> 00:11:06,169
-passive investing we're going to start
- 我们将开始被动投资
+00:11:05,009 --> 00:11:07,169
+we're going to start moving on
+我们将继续学习
 
 282
-00:11:06,169 --> 00:11:08,389
-moving on to some other topics for you
- 继续 为您介绍其他一些主题
+00:11:07,169 --> 00:11:09,389
+to some other topics for you to explore 
+一些其他主题 供你探索
 
 283
-00:11:08,389 --> 00:11:11,179
-to explore in this lesson we're going to
- 我们将在本课中探索
+00:11:09,389 --> 00:11:11,179
+in this lesson we're going to
+我们将在本课中探索
 
 284
-00:11:11,179 --> 00:11:12,879
-go over a time series forecasting
-查看时间序列预测
+00:11:11,179 --> 00:11:14,879
+go over a time series forecasting analysis
+时间序列预测分析
 
 285
-00:11:12,879 --> 00:11:16,190
-analysis using Apple's stock price
-使用Apple的股票价格进行分析
+00:11:14,879 --> 00:11:17,190
+using Apple's stock price
+我们将使用Apple的股票价格进行分析
 
 286
-00:11:16,190 --> 00:11:18,980
-before we get into that example I want
- 在我们进入我想要的那个例子 之前
+00:11:17,190 --> 00:11:18,980
+before we get into that example 
+在我们进入例子之前
 
 287
 00:11:18,980 --> 00:11:20,659
-to take a moment to show you what the
- 花点时间向你展示一下
+I want to take a moment to show you 
+我想花点时间向你展示一下
 
 288
-00:11:20,659 --> 00:11:23,240
-data looks like the chart behind me
- 数据看起来就像我背后的图表
+00:11:20,659 --> 00:11:22,240
+what the data looks like 
+数据什么样子   
 
 289
-00:11:23,240 --> 00:11:26,120
-shows four things of the stock it shows
- 显示它显示的股票的四件事
+00:11:22,240 --> 00:11:25,560
+the chart behind me shows four things of the stock 
+我背后的图表 显示了股票的四个要素
 
 290
-00:11:26,120 --> 00:11:29,000
-the opening price the high price of the
-开盘价高价格
+00:11:25,560 --> 00:11:29,000
+it shows the opening price the high price of the
+开盘价 一天中的最高价
 
 291
-00:11:29,000 --> 00:11:32,000
-day and the closing price along with the
-一天和收盘价一起
+00:11:29,000 --> 00:11:33,000
+day and the closing price along with the volume 
+收盘价以及股票的数量
 
 292
-00:11:32,000 --> 00:11:35,028
-volume using this information we're
- 我们使用这些信息
+00:11:33,000 --> 00:11:36,028
+using this information we're going to try and predict 
+我们将使用这些信息
 
 293
-00:11:35,028 --> 00:11:36,409
-going to try and predict what the future
- 要尝试预测 未来 是什么
+00:11:36,028 --> 00:11:38,409
+what the future price of the stock is going to be
+预测未来股票价格
 
 294
-00:11:36,409 --> 00:11:38,839
-price of the stock is going to be I hope
- 股票价格将是我希望
+00:11:38,409 --> 00:11:41,039
+I hope you're excited to go through this example
+我希望你很高兴 完成这件事
 
-295
-00:11:38,839 --> 00:11:40,039
-you're excited to go through this
-你很高兴能够完成这件事
 
 296
-00:11:40,039 --> 00:11:41,958
-example because I'm excited to show it
- 例如，因为我很高兴能够展示它
+00:11:41,039 --> 00:11:42,958
+because I'm excited to show it to you
+因为我很高兴能够展示它们
 
 297
-00:11:41,958 --> 00:11:44,028
-to you I just showed you the data that
-对你我只是向你展示了那些数据
+00:11:42,958 --> 00:11:44,028
+I just showed you the data that
+我向你展示了在例子中
 
 298
-00:11:44,028 --> 00:11:45,740
+00:11:44,028 --> 00:11:46,740
 we're going to be using in the example
- 我们将 要使用的例子
+我们将要使用的数据
 
 299
-00:11:45,740 --> 00:11:47,809
-for this lesson I wanted to give you an
-对于本课，我想给你一个
+00:11:46,740 --> 00:11:48,809
+for this lesson I wanted to give you an opportunity
+在本课，我想给你一个机会
 
 300
-00:11:47,809 --> 00:11:49,759
-opportunity to take a look at what it
- 机会来 看看它是什么
+00:11:48,809 --> 00:11:51,759
+to take a look at what it actually looks like
+来看看它什么样
 
 301
-00:11:49,759 --> 00:11:52,278
-actually looks like now you can see the
- 实际上看起来你现在可以看到了
+00:11:51,759 --> 00:11:53,278
+now you can see the data behind me here 
+你现在可以看到我身后的数据
 
 302
-00:11:52,278 --> 00:11:53,690
-data behind me here and a
- 我身后的数据和一个
+00:11:53,278 --> 00:11:55,690
+and a comma-separated file
+和一个逗号分隔文件
 
 303
-00:11:53,690 --> 00:11:56,539
-comma-separated file it gives us the
- 它给我们的逗号分隔文件
-
-304
-00:11:56,539 --> 00:11:59,028
-dates the opening price closing price
- 以开盘价收盘价为准
+00:11:55,690 -->  00:11:59,028
+it gives us the dates the opening price closing price
+它给了我们日期 开盘价 收盘价
 
 305
-00:11:59,028 --> 00:12:01,220
-and volume for the stocks that are
-和股票的数量
+00:11:59,028 --> 00:12:02,220
+and volume for the stocks that are traded for Apple
+和苹果交易的股票数量
 
 306
-00:12:01,220 --> 00:12:03,860
-traded for Apple I want to go over the
- 交易苹果我想过去
+00:12:02,220 --> 00:12:04,860
+I want to go over the code flow chart
+我想仔细讲解这些代码流程图
 
 307
-00:12:03,860 --> 00:12:05,509
-code flow chart that we're going to be
- 我们将要成为的代码流程图
+00:12:04,860 --> 00:12:05,509
+that we're going to be using
+ 我们即将用到它
 
 308
 00:12:05,509 --> 00:12:09,019
-using as a step by step approach to show
-使用如一步步的方法来显示
+ as a step by step approach to show
+一步步向你显示
 
 309
 00:12:09,019 --> 00:12:11,509
-you how to create your own model using
-你如何使用创建自己的模型
+you how to create your own model 
+如何利用财务数据
 
 310
-00:12:11,509 --> 00:12:14,028
-financial data I'm going to take a step
- 财务数据我要迈出一步
+00:12:11,509 --> 00:12:13,028
+using financial data 
+ 创建自己的模型
 
 311
-00:12:14,028 --> 00:12:15,528
-out of the screen and we're going to go
-离开屏幕，我们要走了
+00:12:13,028 --> 00:12:15,528
+I'm going to take a step out of the screen
+我要离开屏幕
 
 312
-00:12:15,528 --> 00:12:17,600
-over each step in our demonstration
- 在我们演示的每一步
+00:12:15,528 --> 00:12:18,600
+and we're going to go over each step in our demonstration
+我们将在演示中讲解每一步
 
 313
-00:12:17,600 --> 00:12:23,269
-today so let's take a look at this code
- 今天让我们来看看这段代码吧
+00:12:18,600 --> 00:12:24,269
+so let's take a look at this code flow chart
+让我们来看看这段代码流程图吧
 
 314
-00:12:23,269 --> 00:12:26,028
-flow chart the first step will be to
- 流程图的第一步骤将是
+00:12:24,269 --> 00:12:26,028
+ the first step will be to
+ 流程图的第一步骤是
 
 315
-00:12:26,028 --> 00:12:29,809
-import a bunch of Python packages the
-进口一堆Python包的
+00:12:26,028 --> 00:12:28,809
+import a bunch of Python packages
+加入一堆Python包
 
 316
-00:12:29,809 --> 00:12:31,370
-next thing that we're going to do is
+00:12:28,809 --> 00:12:31,370
+ the next thing that we're going to do is
 接下来我们要做的就是
 
 317
 00:12:31,370 --> 00:12:33,769
-load the data now you know what that
-加载数据现在你知道那是什么
+load the data now you know 
+加载数据  现在你知道
 
 318
 00:12:33,769 --> 00:12:35,299
-data looks like we've shown you the
-数据看起来像我们已经向您展示了
+what that data looks like
+数据看起来什么样了
 
 319
 00:12:35,299 --> 00:12:37,909
-charts and we've also physically shown
- 图表，我们也身体显示
+ we've shown you the charts 
+ 我们已经展示了图表
 
 320
-00:12:37,909 --> 00:12:40,789
-you the data in order to run the model
-您是数据以运行模型
+00:12:37,909 --> 00:12:38,789
+and we've also physically shown you the data
+我们也显示过数据了
 
 321
-00:12:40,789 --> 00:12:42,470
-you'll need to load it in and that's the
-你需要加载它，那就是
+00:12:38,789 --> 00:12:41,320
+in order to run the model
+为了运行模型
+
+
+321
+00:12:41,320 --> 00:12:43,470
+you'll need to load it in and that's the second step
+第二步骤就是加载它
 
 322
-00:12:42,470 --> 00:12:45,649
-second step the third step is going to
- 第三步骤是 要第二步骤
+00:12:43,470 --> 00:12:47,649
+the third step is going to be defining the model
+ 第三步骤是定义模型
 
 323
-00:12:45,649 --> 00:12:47,899
-be defining the model and then the
- 定义模型，然后是
+00:12:47,649 --> 00:12:49,500
+and then the fourth step is going to be
+ 然后是第四步是
 
 324
-00:12:47,899 --> 00:12:49,519
-fourth step is going to be plotting a
-第四步是策划一个
+00:12:49,500 --> 00:12:51,519
+plotting a graph of the output of the model
+想一个模型输出的图表
 
 325
-00:12:49,519 --> 00:12:52,370
-graph of the output of the model I'm
- 我是模型输出的图表
+00:12:51,519 --> 00:12:53,370
+ I'm going to go over each one of these
+ 我将要详细讲解
 
 326
-00:12:52,370 --> 00:12:54,379
-going to go over each one of these four
-要经历这四个中的每一个
+00:12:53,370 --> 00:12:56,379
+ four steps for you in detail and show you
+这四个步骤 并且向你展示
 
 327
-00:12:54,379 --> 00:12:56,929
-steps for you in detail and show you the
- 为您详细介绍并向您展示的步骤
-
-328
-00:12:56,929 --> 00:12:59,028
-code that's used to create the algorithm
- 用于创建算法的 代码
+00:12:56,379 --> 00:12:59,028
+ the code that's used to create the algorithm
+用于写算法的代码
 
 329
 00:12:59,028 --> 00:13:01,698
-are you ready let's go don't worry
-你准备好让我们 不用担心
+are you ready let's go
+准备好了吗 我们开始吧
 
 330
-00:13:01,698 --> 00:13:02,409
-everyone
- 大家
+00:13:01,698 --> 00:13:03,409
+don't worry everyone
+ 大家别担心
 
 331
-00:13:02,409 --> 00:13:04,929
-I'm still here what we're gonna be doing
- 我还在这里，我们将要做的事情
+00:13:03,409 --> 00:13:05,929
+I'm still here what we're gonna be doing now 
+ 我还在这里 我们现在要做的
 
 332
-00:13:04,929 --> 00:13:07,899
-now is go over the actual code used in
- 现在回顾一下实际使用的代码
+00:13:05,929 --> 00:13:08,899
+is go over the actual code used int he algorithm 
+ 就是回顾一下算法中实际使用的代码
 
 333
-00:13:07,899 --> 00:13:10,299
-the algorithm and remember we're trying
- 该算法并记住我们正在努力
+00:13:08,899 --> 00:13:10,299
+and remember we're trying
+ 记住我们正在努力
 
 334
 00:13:10,299 --> 00:13:12,278
@@ -1671,52 +1577,52 @@ to predict the price of Apple's stock
 335
 00:13:12,278 --> 00:13:15,159
 and I've already shown you the chart
-而且我已经向你展示了图表
+而且我已经向你展示了
 
 336
 00:13:15,159 --> 00:13:17,379
 that shows that stock prices the high
-这表明股价高涨
+股价价格 最高价 最低价 
 
 337
 00:13:17,379 --> 00:13:20,289
-the low the close and the volume we've
- 我们的收盘价和收盘价都很低
+the low the close and the volume
+收盘价和数量
 
 338
-00:13:20,289 --> 00:13:21,549
-taken a look at what the data actually
-看看实际数据是什么
+00:13:20,289 --> 00:13:22,800
+ we've taken a look at what the data 
+我们已经在一个逗号分隔的文件里
 
 339
-00:13:21,549 --> 00:13:24,458
-looks like in a comma separated file and
- 看起来像一个逗号分隔的文件和
+00:13:22,800 --> 00:13:24,458
+actually looks like in a comma separated file and
+看过实际数据了
 
 340
 00:13:24,458 --> 00:13:26,889
-we've gone over the code flow chart so
-我们已经查看了代码流程图
+we've gone over the code flow chart so that
+我们已经过了代码流程图
 
 341
-00:13:26,889 --> 00:13:28,448
-that you know the different steps in the
- 你知道在不同的步骤
+00:13:26,889 --> 00:13:29,448
+ you know the different steps in the algorithm
+所以你知道算法的步骤
 
 342
-00:13:28,448 --> 00:13:30,669
-algorithm we're going to start with our
-算法我们将从我们的开始
+00:13:29,448 --> 00:13:31,669
+ we're going to start with our first step
+我们将从第一步开始
 
 343
-00:13:30,669 --> 00:13:32,919
-first step and that's importing our
-第一步，那是导入我们的
+00:13:31,669 --> 00:13:34,330
+and that's importing our Python packages 
+那就是导入我们的Python包
 
 344
-00:13:32,919 --> 00:13:36,100
-Python packages as you can see here
- 你可以在这里看到 Python包
+00:13:34,440 --> 00:13:36,100
+as you can see here
+ 你可以看到 
 
 345
 00:13:36,100 --> 00:13:38,169
@@ -1724,507 +1630,473 @@ we're using several different packages
 我们正在使用几种不同的包
 
 346
-00:13:38,169 --> 00:13:40,629
-including our CSV package to loading the
-包括我们的CSV包加载
+00:13:38,169 --> 00:13:41,629
+including our CSV package to loading the data
+包括用来加载数据的CSV包 
 
 347
-00:13:40,629 --> 00:13:43,929
-data our numpy and sidekick passages
-数据我们的numpy和sidekick段落
+00:13:41,629 --> 00:13:43,929
+our numpy and sidekick passages packages 
+numpy和sidekick包
 
 348
 00:13:43,929 --> 00:13:46,269
-packages to do the data processing and
-包进行数据处理和
+to do the data processing and
+进行数据处理
 
 349
 00:13:46,269 --> 00:13:49,509
-our matplotlib package in order to graph
-我们的matplotlib包以便图表
+our matplotlib package in order to graph our results
+我们的matplotlib包 用于为结果画图
 
 350
-00:13:49,509 --> 00:13:52,899
-our results step two is where we load
- 我们的研究结果第二步是我们加载
+00:13:49,509 --> 00:13:53,899
+step two is where we load the data 
+第二步 我们加载数据
 
 351
-00:13:52,899 --> 00:13:55,240
-the data now we create two lists right
-数据现在我们创建了两个正确的列表
+00:13:53,899 --> 00:13:56,240
+now we create two lists right up front
+现在我们创建了两个列表
 
 352
-00:13:55,240 --> 00:13:58,208
-up front seats and prices and those
-前排座位和价格以及那些
+00:13:56,240 --> 00:13:58,208
+ dates and prices and those
+日期与价格
 
 353
 00:13:58,208 --> 00:14:00,458
 empty lists are going to be filled with
-空列表将要充满
+我们将用CSV文件中的数据
 
 354
-00:14:00,458 --> 00:14:03,429
-data from our CSV file now the next
- 我们的CSV文件中的数据现在是下一个
+00:14:00,458 --> 00:14:02,429
+data from our CSV file 
+填充空白列表 
 
 355
-00:14:03,429 --> 00:14:05,589
-thing that we do is define a function to
- 我们做的事情就是定义一个函数来
+00:14:02,429 --> 00:14:05,589
+now the next thing that we do is define a function to
+接下来  定义一个函数
 
 356
-00:14:05,589 --> 00:14:07,870
-go ahead and open up the file and get
-继续打开文件然后获取
+00:14:05,589 --> 00:14:07,500
+go ahead and open up the file 
+继续打开文件
 
 357
-00:14:07,870 --> 00:14:10,870
-the data out of it and then we go ahead
-数据出来， 然后我们继续前进
+00:14:07,500 --> 00:14:09,870
+and get the data out of it and then
+然后获取数据
 
 358
-00:14:10,870 --> 00:14:14,139
-and get our data using that function
- 并使用该函数获取我们的数据
-
+00:14:09,870 --> 00:14:13,139
+ we go ahead and get our data 
+ 然后我们继续
+ 
 359
-00:14:14,139 --> 00:14:17,708
-from our Apple dot CSV file alright
-从我们的Apple dot CSV文件好吧
+00:14:13,139 --> 00:14:17,708
+using that function from our Apple dot CSV file 
+并使用Apple.CSV中的函数获取我们的数据
+
 
 360
 00:14:17,708 --> 00:14:19,509
-everyone let's get into the next couple
- 每个人都让我们进入下一对夫妇
+alrighte everyone let's get into the next 
+让我们进入下一步算法吧
 
 361
-00:14:19,509 --> 00:14:21,759
-of steps of our algorithm step number
- 我们的算法步的步数
+00:14:19,509 --> 00:14:21,500
+couple of steps of our algorithm 
+ 让我们进入下一步算法吧
 
 362
-00:14:21,759 --> 00:14:24,159
-three is where we define the model now
- 三是我们 现在定义模型的地方
+00:14:21,500 --> 00:14:24,159
+step number three is where we define the model
+ 步骤三  我们要定义模型
 
 363
-00:14:24,159 --> 00:14:26,559
-we go ahead and define a predict price
- 我们继续并定义预测价格
+00:14:24,159 --> 00:14:27,559
+ now we go ahead and define a predict price
+ 我们继续并定义预测价格功能
 
 364
-00:14:26,559 --> 00:14:28,360
+00:14:27,559 --> 00:14:28,360
 function that's going to go ahead and
-这个功能将继续发展
+它将继续发展
 
 365
-00:14:28,360 --> 00:14:30,610
+00:14:28,360 --> 00:14:31,610
 give us the future prices of our stock
-给我们未来的股票价格
+鉴于我们给它的 历史价格和数据
 
 366
-00:14:30,610 --> 00:14:33,399
-given the historical prices and the data
-鉴于历史价格和数据
+00:14:31,610 --> 00:14:34,399
+given the historical prices and the data that we feed
+给我们未来股票价格
 
 367
 00:14:33,399 --> 00:14:36,039
-that we feed it the fourth step in the
- 我们喂它的第四步
+the fourth step in the
+ 第四步
 
 368
 00:14:36,039 --> 00:14:38,078
 algorithm is where we go ahead and
- 算法是我们继续前进，
+ 我们继续前进
 
 369
-00:14:38,078 --> 00:14:40,629
-create our plot graph that plots our
- 创建我们绘制的情节图
+00:14:38,078 --> 00:14:41,629
+create our plot graph that plots our output
+ 创建我们的情节图 预测输出
 
 370
-00:14:40,629 --> 00:14:43,870
-output in the fifth and final step is
-第五步也是最后一步的输出是
+00:14:41,629 --> 00:14:43,870
+ in the fifth and final step is
+第五步也是最后一步
 
 371
 00:14:43,870 --> 00:14:46,688
 where we use that defined model to
-我们在哪里使用定义的模型
+使用定义的模型
 
 372
 00:14:46,688 --> 00:14:49,058
 predict the prices our stock for the
-预测我们股票的价格
+预测接下来的29天股票的价格 
 
 373
-00:14:49,058 --> 00:14:52,808
-next 29 days and that's it wasn't it
-接下来的29天，那就不是了
+00:14:49,058 --> 00:14:53,808
+next 29 days and that's it wasn't it easy 
+用短短的几行代码写出来
 
 374
 00:14:52,808 --> 00:14:55,389
-easy in just a few lines of code we were
- 容易在短短的几行代码我们
+in just a few lines of code
+这不容易吗
 
 375
-00:14:55,389 --> 00:14:57,818
-able to take a dataset with historical
-能够采用历史数据集
+00:14:55,389 --> 00:14:58,818
+we were able to take a dataset with historical
+我们能够用股票历史价格
 
 376
-00:14:57,818 --> 00:14:59,860
-stock prices and predict future stock
- 股票价格和预测未来股票
+00:14:58,818 --> 00:15:00,860
+stock prices and predict future stock prices 
+ 预测未来股票价格
 
 377
-00:14:59,860 --> 00:15:03,278
-prices how cool is that you can go ahead
-价格是多么酷，你可以继续前进
+00:15:00,860 --> 00:15:03,278
+how cool is that you can go ahead
+多么酷 你可以继续前进
 
 378
 00:15:03,278 --> 00:15:05,198
-and repeat the example that we just went
- 并重复我们刚才去 的例子
+and repeat the example that we just went over
+用新数据重复我们刚才的例子
 
 379
 00:15:05,198 --> 00:15:08,019
-over on new data so a different stock if
- 如果是新的数据那么不同的股票
+ on new data so a different stock 
+或者是不同的股票
 
 380
 00:15:08,019 --> 00:15:11,198
-you want or on new models now here's a
-你想要或现在的新型号这里是一个
+if you want or on new models 
+你想要一个新模型
 
 381
-00:15:11,198 --> 00:15:11,710
-project
- 项目
+00:15:11,198 --> 00:15:12,710
+now here's a project can work on
+你可以做这个项目
 
 382
-00:15:11,710 --> 00:15:14,559
-can work on try to make your own model
-可以尝试制作自己的模型
+00:15:12,710 --> 00:15:15,559
+ try to make your own model
+尝试制作自己的模型
 
 383
-00:15:14,559 --> 00:15:17,289
-maybe add some extra data you can
- 也许可以添加一些额外的数据
+00:15:15,559 --> 00:15:16,289
+maybe add some extra data 
+ 也许添加一些额外的数据
 
 384
-00:15:17,289 --> 00:15:19,360
-predict Apple stock based on iPhone
-预测基于iPhone的Apple股票
+00:15:16,289 --> 00:15:20,360
+you can predict Apple stock based on iPhone sales 
+基于iPhone销量 预测Apple股票
 
 385
-00:15:19,360 --> 00:15:22,360
-sales or Amazon stock based on sales of
-基于销售额的销售额或亚马逊股票
+00:15:20,360 --> 00:15:23,360
+or Amazon stock based on sales of the echo 
+基于echo销量 预测亚马逊股票
 
 386
-00:15:22,360 --> 00:15:24,519
-the echo the model that we went over was
-回声我们过去的模型是
+00:15:23,360 --> 00:15:24,519
+the model that we went over was
+我们用的模型
 
 387
-00:15:24,519 --> 00:15:26,350
-actually pretty simple and was just
-实际上很简单而且只是
+00:15:24,519 --> 00:15:25,350
+actually pretty simple 
+实际上很简单 
 
 388
-00:15:26,350 --> 00:15:29,740
-based on time series data we can do even
-基于时间序列数据，我们甚至可以做到
+00:15:25,350 --> 00:15:28,740
+and was just based on time series data 
+基于时间序列数据，
 
 389
-00:15:29,740 --> 00:15:31,629
-better and become even more accurate
- 更好，变得更加准确
+00:15:28,740 --> 00:15:31,629
+we can do even better and become even 
+ 我们甚至可以做到更好，变得更加准确
 
 390
 00:15:31,629 --> 00:15:34,299
-with different data I challenge you to
- 我挑战你的不同数据
+more accurate with different data 
+ 我挑战你用不同数据
 
 391
-00:15:34,299 --> 00:15:37,240
-explore this further another exercise I
-再探讨这个另一个练习我
+00:15:34,299 --> 00:15:36,240
+I challenge you to explore this further 
+我挑战你继续深入探索这个话题
 
 392
-00:15:37,240 --> 00:15:39,250
-have for you has to deal with weather
-有你必须应对天气
+00:15:36,240 --> 00:15:39,800
+another exercise I have for you has to deal with weather
+另一个任务和天气有关
 
 393
-00:15:39,250 --> 00:15:41,289
-now this is a little bit harder of a
- 现在这有点难了
+00:15:39,800 --> 00:15:41,289
+now this is a little bit harder of a question
+ 这有点难了
 
 394
 00:15:41,289 --> 00:15:43,330
-question and it's meant to inspire you
-问题，这是为了激励你
+ and it's meant to inspire you
+这是为了激励你
 
 395
-00:15:43,330 --> 00:15:45,070
-make you think make you want to
-让你想到你想要的
+00:15:43,330 --> 00:15:46,070
+make you think make you want to experiment
+让你想 让你动手
 
 396
-00:15:45,070 --> 00:15:48,340
-experiment now it's a little similar to
-实验现在它有点类似于
+00:15:46,070 --> 00:15:49,340
+ now it's a little similar to predicting stock 
+它和预测股票有点类似
 
 397
-00:15:48,340 --> 00:15:51,039
-predicting stock in that they're very
-预测股票是非常的
+00:15:49,340 --> 00:15:52,039
+in that they're very different
+它们看上去很不一样
 
 398
-00:15:51,039 --> 00:15:53,049
-different but both have elements of
-不同， 但两者都有
+00:15:52,039 --> 00:15:54,049
+ but both have elements of randomness 
+但他们都有随机性
 
 399
-00:15:53,049 --> 00:15:55,059
-randomness and elements and allow them
-随机性和元素并允许它们
+00:15:54,049 --> 00:15:56,059
+and elements and allow them to be predicted
+和元素 且可以预测
 
 400
-00:15:55,059 --> 00:15:57,789
-to be predicted think about it we could
- 有待预测，我们可以考虑一下
+00:15:56,059 --> 00:15:57,789
+ think about it we could
+ 我们可以考虑一下
 
 401
 00:15:57,789 --> 00:15:59,620
 use things like yesterday's weather
- 使用昨天的天气
+ 利用昨天的天气
 
 402
-00:15:59,620 --> 00:16:02,169
+00:15:59,620 --> 00:16:03,169
 climate data or the weather in the next
-气候数据或下一天的天气
+气候数据 或下一个城市的天气
 
 403
-00:16:02,169 --> 00:16:06,100
-city over to predict our own weather try
- 城市过来预测我们自己的天气尝试
+00:16:03,169 --> 00:16:06,100
+city over to predict our own weather 
+ 预测我们自己这里的天气
 
 404
 00:16:06,100 --> 00:16:07,659
-to think about how predicting weather
+try to think about how predicting weather
 思考如何预测天气
 
 405
 00:16:07,659 --> 00:16:09,009
-it's different from predicting stock
+it's different from predicting stock prices 
 它与预测股票不同
 
 406
 00:16:09,009 --> 00:16:11,769
-prices but how we could use that towards
-价格，但我们如何使用 朝向
+but how we could use that towards our advantage
+我们如何使用利用它
 
 407
 00:16:11,769 --> 00:16:13,840
-our advantage in creating a model if
-我们在创造 ，如果模式的优势
+ in creating a model 
+帮助我们创造模型
 
 408
 00:16:13,840 --> 00:16:16,210
-you're curious about the chatbox
-你对聊天盒很好奇
+if you're curious about the chatbox
+如果你对聊天框很好奇
 
 409
 00:16:16,210 --> 00:16:18,039
 we've mentioned earlier in this lesson
- 我们 在本课程前面已经提到了
+ 我们在本课程前面已经提到了
 
 410
-00:16:18,039 --> 00:16:20,919
-take a look at the YouTube video behind
- 看看背后的YouTube视频
+00:16:18,039 --> 00:16:21,919
+take a look at the YouTube video behind me 
+ 看看我背后的YouTube视频
 
 411
-00:16:20,919 --> 00:16:24,100
-me on how kindnesses chatbox are making
-我对聊天盒的好意做出了什么
-
-412
-00:16:24,100 --> 00:16:25,570
-finance simpler
- 财务更简单
+00:16:21,919 --> 00:16:26,570
+on how kindnesses chatbox are making finance simpler
+内容是聊天框如何使财务更简单
 
 413
-00:16:25,570 --> 00:16:27,700
+00:16:26,570 --> 00:16:27,700
 I'm sure you'll really enjoy learning
-我相信你真的很喜欢学习
+我相信你会喜欢学习
 
 414
 00:16:27,700 --> 00:16:29,710
 about their chatbox and how it's making
-关于他们的聊天室以及它是如何制作的
+聊天框以及它是如何
 
 415
 00:16:29,710 --> 00:16:32,620
 finance even better if you want to get
- 如果你想获得，财务会更好
+ 使财务变得更好的
 
 416
 00:16:32,620 --> 00:16:34,629
 an even deeper understanding of
-更深刻的理解
+如果你想更深入理解
 
 417
 00:16:34,629 --> 00:16:37,000
-artificial intelligence and finance take
+artificial intelligence and finance 
 人工智能与金融
 
 418
-00:16:37,000 --> 00:16:38,320
-a look at this webinar on the
-看看这个网络研讨会
+00:16:37,000 --> 00:16:39,320
+take a look at this webinar on the applications of
+看看机器学习在金融领域的应用
 
 419
-00:16:38,320 --> 00:16:40,029
-applications of machine learning in the
- 机器学习在中国的应用
+00:16:39,320 --> 00:16:41,029
+ machine learning in thefinancial sector
+ 这个网络研讨会
 
 420
-00:16:40,029 --> 00:16:42,460
-financial sector you'll really get an
-金融部门， 你真的会得到一个
+00:16:41,029 --> 00:16:44,460
+ you'll really get an in-depth look
+你会深入知道
 
 421
-00:16:42,460 --> 00:16:44,919
-in-depth look at how artificial
-深入了解如何人工
+00:16:44,460 --> 00:16:47,919
+ at how artificial intelligence and machine learning 
+人工智能和机器学习是
 
 422
-00:16:44,919 --> 00:16:47,019
-intelligence and machine learning is
-智能和机器学习是
+00:16:47,919 --> 00:16:49,750
+is being used in finance 
+如何在金融中使用
 
-423
-00:16:47,019 --> 00:16:49,750
-being used in finance I hope all of you
- 在金融中使用我希望你们所有人
 
 424
 00:16:49,750 --> 00:16:51,159
-have gotten really excited about
- 真的很兴奋
+I hope all of you have gotten really excited about
+ 我希望你们所有人都对
 
 425
-00:16:51,159 --> 00:16:53,080
-artificial intelligence in the financial
- 人工智能在金融
+00:16:51,159 --> 00:16:54,080
+artificial intelligence in the financial industry 
+ 人工智能在金融的应用感到兴奋
 
 426
-00:16:53,080 --> 00:16:55,360
-industry if you're curious and want to
- 如果你很好奇并希望这个行业
+00:16:54,080 --> 00:16:56,360
+if you're curious and want to learn more
+ 如果你很好奇并希望了解更多
 
 427
-00:16:55,360 --> 00:16:57,340
-learn more we've got some excellent
- 了解更多我们有一些优秀
+00:16:56,360 --> 00:16:58,340
+ we've got some excellent books here
+ 我们有一些优秀书籍
 
 428
-00:16:57,340 --> 00:16:59,409
-books here that you can pick up and read
- 这里的书籍，你可以拿起和阅读
+00:16:58,340 --> 00:16:59,500
+ that you can pick up and read
+ 你可以阅读
 
 429
-00:16:59,409 --> 00:17:02,820
+00:16:59,500 --> 00:17:02,820
 we have flash boys by Michael Lewis
-我们有迈克尔刘易斯的闪光男孩
+我们有迈克尔刘易斯的《闪光男孩》
 
 430
-00:17:02,820 --> 00:17:05,230
-advanced analytics and artificial
- 高级分析和人工
+00:17:02,820 --> 00:17:07,230
+advanced analytics and artificial intelligence by Tony bubier
+ 托尼 bubier的《高级分析和人工智能》
 
-431
-00:17:05,230 --> 00:17:07,980
-intelligence by Tony bubier
-智能托尼 bubier
 
 432
-00:17:07,980 --> 00:17:11,109
-advances in financial machines by Marcos
- Marcos在金融机器方面的进步
+00:17:07,230 --> 00:17:13,109
+advances in financial machines by Marcos Lopez de Prairie Lewis
+ Marcos《在金融机器方面的进步》
 
 433
-00:17:11,109 --> 00:17:14,079
-Lopez de Prairie Lewis now if you decide
- Lopez de Prairie Lewis，如果你决定的话
+00:17:13,109 --> 00:17:16,079
+ now if you decide to read flash boys by Michael Lewis
+如果你决定的话读迈克尔刘易斯的闪光男孩
 
 434
-00:17:14,079 --> 00:17:16,509
-to read flash boys by Michael Lewis I've
- 迈克尔刘易斯读 我的闪光男孩
-
-435
-00:17:16,509 --> 00:17:18,160
-got a great question for you to think
-你有一个很好的问题要想
-
-436
-00:17:18,160 --> 00:17:20,349
-about as you go through the book what
- 关于你经历这本书的内容
+00:17:16,079 --> 00:17:20,349
+ I've got a great question for you to think about as you go through the book 
+  我有一个很好的问题想问你
 
 437
 00:17:20,349 --> 00:17:23,039
-happens when you take algorithms too far
-当你把算法放得太远时会发生
+what happens when you take algorithms too far
+当你太依赖算法时会发生什么
 
 438
-00:17:23,039 --> 00:17:24,659
-Michael Lewis
- Michael Lewis
+00:17:23,039 --> 00:17:27,028
+Michael Lewis writesabout traders unfairly gaming the market
+ Michael Lewis写到交易者使用他们的算法
 
-439
-00:17:24,659 --> 00:17:27,028
-about traders unfairly gaming the market
-关于交易者不公平地游戏市场
 
 440
 00:17:27,028 --> 00:17:29,638
-using their algorithms think about that
-使用他们的算法考虑这一点
+using their algorithms 
+不公平操控市场
 
 441
-00:17:29,638 --> 00:17:31,648
-flash crash we talked about earlier the
-我们之前谈过的闪电崩溃了
+00:17:29,638 --> 00:17:32,648
+think about that flash crash we talked about earlierthe lessons 
+想想看我们之前讨论的大崩盘
 
 442
-00:17:31,648 --> 00:17:34,079
-lessons and the implications that it has
-经验教训和它 具有的影响
+00:17:32,648 --> 00:17:36,079
+and the implications that it has on the stock market as a whole
+它对于整个股票市场的启示
 
-443
-00:17:34,079 --> 00:17:35,628
-on the stock market as a whole
-在股市整体上
 
 444
-00:17:35,628 --> 00:17:38,999
-this is Tomac from palo alto education i
- 这是来自palo alto education的Tomaci
+00:17:36,079 --> 00:17:38,999
+this is Tomac from palo alto education
+ 这是来自palo alto education的Tomac
 
 445
-00:17:38,999 --> 00:17:40,648
-want to thank you again for learning
-我想再次感谢你的学习
-
-446
-00:17:40,648 --> 00:17:41,799
-with me today
- 今天和我在一起
+00:17:38,999 --> 00:17:41,799
+i want to thank you again for learning with me today
+ 
+感谢和我一起学习
 

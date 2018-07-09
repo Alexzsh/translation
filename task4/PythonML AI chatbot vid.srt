@@ -1,1067 +1,1065 @@
 ﻿1
-00:00:00,000 --> 00:00:02,158
-hi there I'm Luis and I'd like to chat
-嗨， 我是路易斯，我想聊聊
+00:00:00,000 --> 00:00:05,558
+hi there I'm Luis and I'd like to chat it up about chatbots
+嗨  我是路易斯  我想聊聊关于聊天机器人
 
 2
-00:00:02,158 --> 00:00:06,049
-it up about chatbots
-关于聊天机器人
+00:00:05,558 --> 00:00:06,049
+
 
 3
 00:00:06,049 --> 00:00:08,699
-after that awful intro you know it can
-在那个糟糕的介绍之后，你知道它可以
+after that awful intro you know 
+在那个糟糕的介绍之后 
 
 4
 00:00:08,699 --> 00:00:11,308
-only go uphill from here so I'd like to
-只是从这里上山所以我想
+it can only go uphill from here 
+它在你心目中可能会失去那神秘光辉的色彩
 
 5
-00:00:11,308 --> 00:00:13,919
-talk to you about the history of
- 和你谈谈历史
+00:00:11,308 --> 00:00:15,519
+so I'd like to talk to you about the history of chatbots 
+和你谈谈聊天机器人的历史
 
 6
-00:00:13,919 --> 00:00:16,980
-chatbots we're gonna crack open some
- 聊天机器人我们要打开一些
+00:00:15,519 --> 00:00:17,980
+we're gonna crack open some chatbots
+我们要解密一些聊天机器人
 
 7
-00:00:16,980 --> 00:00:18,960
-chatbots and show you the machine
- 聊天机器人，并告诉你机器
+00:00:17,980 --> 00:00:20,560
+and show you the machine learning the models that are used 
+并告诉你在聊天机器人身上  我们所运用的机器学习模型
 
 8
-00:00:18,960 --> 00:00:20,460
-learning the models that are used to
- 得知是用来模型
+00:00:20,560 --> 00:00:22,460
+to make chatbots work today 
+是它让如今的聊天机器人得以运作
 
 9
-00:00:20,460 --> 00:00:23,429
-make chatbots work today and at the end
-使聊天机器人在今天和最后工作
+00:00:22,460 --> 00:00:24,429
+and at the end of this presentation 
+在今天的演示的最后
 
 10
-00:00:23,429 --> 00:00:25,109
-of this presentation you can do
- 您可以做这个演示文稿
+00:00:24,429 --> 00:00:26,109
+you can do something super exciting 
+你就可以做一些超级刺激的事情了
 
 11
-00:00:25,109 --> 00:00:27,028
-something super exciting you're gonna do
- 你将要做的超级刺激的事情
+00:00:26,109 --> 00:00:28,828
+you're gonna do some live coding 
+你可以开始编码啦
 
 12
-00:00:27,028 --> 00:00:29,849
-some live coding and this kind of
-一些现场编码和这种
+00:00:28,829 --> 00:00:30,849
+and this kind of scariest thing 
+这一类最可怕的事情
 
 13
-00:00:29,849 --> 00:00:31,289
-scariest thing these things could go
-这件事情最可怕的事情
+00:00:30,849 --> 00:00:31,989
+these things could go wrong 
+这些可能会出错
 
 14
-00:00:31,289 --> 00:00:33,179
-wrong but we're gonna do some live
-错了， 但我们要做点活
+00:00:31,989 --> 00:00:33,879
+but we're gonna do some live coding 
+但我们会做一些现场编码
 
 15
-00:00:33,179 --> 00:00:34,799
-coding and I'm gonna show you a very
-编码， 我会告诉你一个非常
+00:00:33,879 --> 00:00:37,299
+and I'm gonna show you a very basic chatbot 
+我会告诉你一个非常基础的聊天机器人
 
 16
-00:00:34,799 --> 00:00:38,399
-basic chat bot super exciting
-基本聊天机器人超级精彩
+00:00:37,299 --> 00:00:39,899
+super exciting presentation today 
+今天的演示将会超级精彩
 
 17
-00:00:38,399 --> 00:00:41,988
-presentation today let's get started
-今天的演讲让我们开始吧
+00:00:39,899 --> 00:00:41,988
+let's get started
+让我们开始吧
 
 18
 00:00:41,988 --> 00:00:47,210
-first of all what is the chat bot well
- 首先，什么是聊天机器人以及
+first of all what is the chatbot well
+首先  什么是聊天机器人 
 
 19
-00:00:47,210 --> 00:00:52,558
-it's a bot that chats pretty
-这是一个聊天很棒的机器人
+00:00:47,210 --> 00:00:53,558
+it's a bot that chats pretty self-explanatory 
+不言而喻  它就是一个很会聊天的机器人
 
 20
-00:00:52,558 --> 00:00:54,420
-self-explanatory what's not so
-不言自明的是什么不是这样
+00:00:53,558 --> 00:00:55,420
+what's not so self-explanatory 
+不那么明显的是
 
 21
-00:00:54,420 --> 00:00:57,899
-self-explanatory is all of the benefits
-不言自明是所有的好处
+00:00:55,420 --> 00:00:59,899
+is all of the benefits that chatbots can bring to us ok 
+聊天机器人可以为我们带来哪些好处呢
 
 22
-00:00:57,899 --> 00:01:00,359
-that chat BOTS can bring to us ok so
-该聊天机器人可以为我们带来 这么好的
+00:00:59,899 --> 00:01:01,359
+so they use AI in neural networks 
+他们使用在神经网络中使用了人工智能（AI）
 
 23
-00:01:00,359 --> 00:01:03,359
-they use AI in neural networks super
-他们在超级神经网络中使用AI
+00:01:01,359 --> 00:01:04,359
+super advanced technology 
+这是非常先进的技术
 
 24
-00:01:03,359 --> 00:01:05,879
-advanced technology so that's really
-先进的技术真的如此
+00:01:04,359 --> 00:01:05,879
+so that's really cool 
+真的非常酷了
 
 25
-00:01:05,879 --> 00:01:09,209
-cool progressing technology and the
-很酷的进步技术和
+00:01:05,879 --> 00:01:09,009
+progressing technology and 
+并且技术还在不断进步
 
 26
-00:01:09,209 --> 00:01:11,670
-biggest advantage of chat BOTS is that
- 聊天BOTS的最大优点是
+00:01:09,009 --> 00:01:11,670
+the biggest advantage of chatbots is that
+聊天机器人的最大优点是
 
 27
 00:01:11,670 --> 00:01:16,430
-they take voice and text instructions so
-他们接受语音和文字说明
+they take voice and text instructions 
+他们接受语音和文字指令
 
 28
-00:01:16,430 --> 00:01:20,310
-text instructions so that's huge because
-文本说明因此非常大
+00:01:16,430 --> 00:01:20,010
+so text instructions so that's huge
+文本指令  因此它非常了不起
 
 29
-00:01:20,310 --> 00:01:22,950
-using our voice using language that's
-使用我们的语言使用语言
+00:01:20,010 --> 00:01:22,950
+because using our voice using language that's
+因为我们使用声音  使用语言
 
 30
-00:01:22,950 --> 00:01:25,200
-how humans have interacted with the
- 人类如何与人交往
+00:01:22,950 --> 00:01:27,200
+how humans have interacted with the world for thousands of years 
+这是人类几千年来的交往方式
 
 31
-00:01:25,200 --> 00:01:28,739
-world for thousands of years so before
- 几千年前的世界
+00:01:27,200 --> 00:01:30,739
+so before we had our iPhones 
+所以我们在拥有iPhones之前
 
 32
-00:01:28,739 --> 00:01:31,590
-we had our iPhones all we had was our
-我们拥有的所有 iPhone 都是我们的
+00:01:30,739 --> 00:01:32,590
+all we had was our language 
+我们全部拥有的也就只有我们的语言
 
 33
-00:01:31,590 --> 00:01:34,409
-language so that's huge we've evolved to
-语言因此我们已经发展到了巨大的程度
+00:01:32,590 --> 00:01:35,409
+so that's huge we've evolved to use this 
+因此这是巨大的进步  我们都使用语言
 
 34
-00:01:34,409 --> 00:01:36,900
-use this our language is super complex
- 使用这个我们的语言非常复杂
+00:01:35,409 --> 00:01:37,900
+our language is super complex
+我们的语言非常复杂
 
 35
-00:01:36,900 --> 00:01:39,150
+00:01:37,900 --> 00:01:39,150
 and we're used to using it all the time
- 我们习惯一直使用它
+并且我们已经习惯总是通过语言交流
 
 36
-00:01:39,150 --> 00:01:42,060
-so why not allow us to interact with our
- 那么为什么不让我们与我们互动呢？
+00:01:39,150 --> 00:01:43,760
+so why not allow us to interact with our technology that way 
+那么为什么不以这种方式让我们与我们的科技互动呢？
 
 37
-00:01:42,060 --> 00:01:44,819
-technology that way instead of forcing
-技术而不是强迫
+00:01:43,760 --> 00:01:46,819
+instead of forcing us to physically be somewhere and 
+而不是强制我们通过身体的行动
 
 38
-00:01:44,819 --> 00:01:47,009
-us to physically be somewhere and touch
-我们身体在某处和触摸
+00:01:46,819 --> 00:01:49,809
+touch a screen or stroke a key
+去触摸屏幕  或是敲打键盘
 
 39
-00:01:47,009 --> 00:01:50,909
-a screen or stroke a key so chop us are
-一个屏幕或一个按键，所以砍我们
+00:01:49,809 --> 00:01:51,909
+so chop us are huge for that 
+所以让我们摆脱这种方式是巨大的进步
 
 40
-00:01:50,909 --> 00:01:52,709
-huge for that use our natural language
-巨大的使用我们的自然语言
+00:01:51,909 --> 00:01:54,709
+use our natural language to interact with tech 
+我们因而可以用自然语言与科技互动
 
 41
-00:01:52,709 --> 00:01:56,040
-to interact with tech another advantage
- 与科技互动的另一个好处
+00:01:54,709 --> 00:01:59,040
+another advantage always on 24 7 baby just leave it plugged in
+另一个好处就是  插上电  我们可以每时每刻使用它  离开也无碍
 
 42
-00:01:56,040 --> 00:01:59,250
-always on 24/7 baby just leave it
- 总是在24/7宝贝就好了
+00:01:59,040 --> 00:01:59,250
+
+
 
 43
-00:01:59,250 --> 00:02:01,709
-plugged in you don't need to pay it you
-插入你不需要支付你
+00:01:59,250 --> 00:02:01,409
+you don't need to pay it
+你不需要支付它费用
 
 44
-00:02:01,709 --> 00:02:03,959
-don't need to feed it you don't need to
- 不需要养活它，你不必
+00:02:01,409 --> 00:02:04,859
+you don't need to feed it you don't need to water it 
+你不需要养活它  你不必给它浇水
 
 45
-00:02:03,959 --> 00:02:06,420
-water it you definitely shouldn't water
-浇水它你绝对不应该浇水
+00:02:04,859 --> 00:02:06,820
+you definitely shouldn't water it 
+你绝对不能浇水
 
 46
-00:02:06,420 --> 00:02:09,508
-it just leave it plugged in runs all day
-它只是让它整天都在运行
+00:02:06,820 --> 00:02:10,508
+just leave it plugged in runs all day no problems 
+你可以插上插头  离开一整天也没问题
 
 47
-00:02:09,508 --> 00:02:12,568
-no problems also never judges you now
-没有问题也永远不会评判你
+00:02:10,508 --> 00:02:12,568
+also never judges you now
+并且它永远不会评判你
 
 48
-00:02:12,568 --> 00:02:13,419
-this is really
-这是真的
+00:02:12,568 --> 00:02:13,819
+this is really big
+这真的非常重要
 
 49
-00:02:13,419 --> 00:02:16,990
-big because in some cases you can think
-很大，因为在某些情况下你可以思考
+00:02:13,819 --> 00:02:16,990
+because in some cases you can think of like 
+因为在某些情况下  你可以想一下...
 
 50
-00:02:16,990 --> 00:02:19,629
-of like you can imagine like a therapist
- 就像你可以想象的像治疗师一样
+00:02:16,990 --> 00:02:19,929
+you can imagine like a therapist situation 
+想象一下  拜访治疗师的场景
 
 51
-00:02:19,629 --> 00:02:22,389
-situation you might be embarrassed and
-情况下，你可能会尴尬，
+00:02:19,929 --> 00:02:22,389
+you might be embarrassed and
+你可能会尴尬
 
 52
-00:02:22,389 --> 00:02:24,550
-it might take you a while to to open up
-你可能需要一段时间才能打开
+00:02:22,389 --> 00:02:26,000
+it might take you a while to to open up to that therapist
+你可能需要一段时间才能向治疗师  打开你的心扉
 
 53
-00:02:24,550 --> 00:02:26,530
-to that therapist about things about
- 关于事情的治疗师
+00:02:26,000 --> 00:02:26,830
+about things about yourself 
+去诉说你自己的心事
 
 54
-00:02:26,530 --> 00:02:28,180
-yourself that you're sensitive about and
- 自己要对敏感和
+00:02:26,830 --> 00:02:28,880
+that you're sensitive about and you're shy about 
+对于那些事  你可能会非常敏感  且羞于说出口
 
 55
-00:02:28,180 --> 00:02:31,000
-you're shy about chatbots don't have
-你很害羞聊天机器人没有
+00:02:28,880 --> 00:02:31,600
+chatbots don't have that problem 
+聊天机器人就不会有这样的问题
 
 56
-00:02:31,000 --> 00:02:33,310
-that problem we're gonna talk a little
-那个问题我们会谈一点
+00:02:31,600 --> 00:02:36,310
+we're gonna talk a little bit about a therapist chatbot
+我们会聊一些关于治疗用的聊天机器人
 
 57
-00:02:33,310 --> 00:02:36,669
-bit about a therapist chatbot one of the
- 关于治疗师聊天机器人之一
+00:02:36,310 --> 00:02:38,669
+one of the very first chatbots actually 
+实际上这是第一个聊天机器人
 
 58
-00:02:36,669 --> 00:02:39,430
-very first chatbots actually and this
- 实际上这是第一个聊天机器人
+00:02:38,669 --> 00:02:40,430
+and this was one of its main draws 
+这是他的主要吸引力之一
 
 59
-00:02:39,430 --> 00:02:41,289
-was one of its main draws does it never
- 从来没有它的主要吸引力之一
+00:02:40,430 --> 00:02:42,289
+this never judged you
+它从来不会判断你
 
 60
-00:02:41,289 --> 00:02:44,469
-judged you cuz it's a robot and robots
-判断你是因为它是一个机器人和机器人
+00:02:42,289 --> 00:02:45,469
+cuz it's a robot and robots don't have feelings 
+因为它是一个机器人  机器人并没有情感
 
 61
-00:02:44,469 --> 00:02:47,979
-don't have feelings yet let's talk about
- 没有感情，但让我们谈谈
+00:02:45,469 --> 00:02:49,979
+yet let's talk about the founder of chatbot 
+但在此之前  让我们谈谈聊天机器人的创始人
 
 62
-00:02:47,979 --> 00:02:51,610
-the founder of chatbot and one of the
- chatbot的创始人之一
+00:02:49,979 --> 00:02:54,000
+and one of the people who made it super popular technology 
+并且他  让聊天机器人成为非常流行的技术
 
 63
-00:02:51,610 --> 00:02:53,318
-people who made it super popular
- 让它超级流行的人
+00:02:54,000 --> 00:02:54,118
+
+
 
 64
-00:02:53,318 --> 00:02:55,389
-technology so first we're gonna talk
- 技术首先我们要谈谈
+00:02:54,118 --> 00:02:57,389
+so first we're gonna talk about Joseph Weizenbaum 
+首先  我们要谈谈Joseph Weizenbaum 
 
 65
-00:02:55,389 --> 00:03:00,009
-about Joseph Weizenbaum and he created
- 关于Joseph Weizenbaum和他创造的
+00:02:57,389 --> 00:03:02,409
+and he created the first ever chatbot 
+他曾经创造了第一个聊天机器人
 
 66
-00:03:00,009 --> 00:03:03,549
-the first ever chat bot now this chat
- 现在这个聊天的第一个聊天机器人
+00:03:02,409 --> 00:03:05,549
+now this chatbot was named Eliza 
+这个聊天机器人叫Eliza
 
 67
-00:03:03,549 --> 00:03:07,239
-bot was named Eliza and Joseph
-机器人被命名为伊丽莎和约瑟夫
+00:03:05,549 --> 00:03:10,239
+and Joseph Weizenbaum was an MIT professor when he created this 
+当Joseph Weizenbaum创造这个机器人时  他还是麻省理工学院的教授
 
 68
-00:03:07,239 --> 00:03:09,129
-Weizenbaum was an MIT professor when he
- Weizenbaum 当他是麻省理工学院的教授
+00:03:10,239 --> 00:03:10,329
+
+
 
 69
-00:03:09,129 --> 00:03:11,830
-created this and he wrote the chat put
-创造了这个，他写了聊天放
+00:03:10,329 --> 00:03:14,830
+and he wrote the chatbot in his own programming language
+他用他自己的编程语言编写了这个聊天机器人
 
 70
-00:03:11,830 --> 00:03:14,889
-in his own programming language which is
-在他自己的编程语言中
+00:03:14,830 --> 00:03:15,889
+which is super impressive 
+这一点真的非常令人惊讶
 
 71
-00:03:14,889 --> 00:03:17,669
-super impressive also super impressive
-超级令人印象深刻也令人印
+00:03:15,889 --> 00:03:17,669
+also super impressive
+同样非常令人惊讶的是
 
 72
 00:03:17,669 --> 00:03:21,969
-Eliza his chat bot was so realistic that
- Eliza 他的聊天机器人非常逼真
+Eliza his chat bot was so realistic that 
+Eliza 他的聊天机器人非常逼真
 
 73
-00:03:21,969 --> 00:03:24,729
-his assistant was interacting with it
- 他的助手正在与它互动
+00:03:21,969 --> 00:03:25,729
+his assistant was interacting with it one day 
+有一天他的助手正在与Eliza互动
 
 74
-00:03:24,729 --> 00:03:27,819
-one day and she actually asked him to
-有一天，她实际上问他
+00:03:25,729 --> 00:03:29,819
+and she actually asked him to step out of the room 
+助理却要求他离开她的房间
 
 75
-00:03:27,819 --> 00:03:30,699
-step out of the room so that she could
-走出房间，这样她就可以
+00:03:29,819 --> 00:03:34,699
+so that she could have a private conversation with Eliza
+这样助理就可以和 Eliza 进行私人的对话了
 
 76
-00:03:30,699 --> 00:03:33,810
-have a private conversation with Eliza
- 与Eliza进行私人谈话
+00:03:34,699 --> 00:03:34,810
+
+
 
 77
-00:03:33,810 --> 00:03:37,419
+00:03:34,810 --> 00:03:37,419
 so that's insane okay
- 这太疯狂了
+这太疯狂了 不是吗
 
 78
 00:03:37,419 --> 00:03:40,180
-assistants are telling their bosses to
-助理告诉他们的老板
+assistants are telling their bosses to leave the room 
+助理正在告诉他们的老板离开房间
 
 79
 00:03:40,180 --> 00:03:41,709
-leave the room so they can talk to a
-离开房间， 这样他们就可以和他们说话了
+so they can talk to a computer 
+这样他们就可以和电脑说话了
 
 80
-00:03:41,709 --> 00:03:45,849
-computer in 1960 man this bot was
- 计算机在1960年这个 机器 人是谁
+00:03:41,709 --> 00:03:48,849
+in 1960 man this bot was created in 1960 
+在1960年  亲爱的  这是1960年代发明的机器人
 
 81
-00:03:45,849 --> 00:03:52,000
-created in 1960 so a little bit more
-在1960年更是 这样一点点建立
+00:03:48,849 --> 00:03:54,500
+so a little bit more modern about thirty years into the future
+所以未来三十年大概也只会比那时更现代化一点点吧
 
 82
-00:03:52,000 --> 00:03:54,189
-modern about thirty years into the
- 现代约三十年进入
+00:03:54,500 --> 00:03:54,589
+
+
 
 83
-00:03:54,189 --> 00:03:54,579
-future
-未来
+00:03:54,589 --> 00:03:54,600
+
+
 
 84
-00:03:54,579 --> 00:03:59,169
-we've got Zhang Xiao Leung I probably
- 我可能是张小梁
+00:03:54,600 --> 00:03:59,169
+we've got Zhang Xiao Leung
+还有张小龙
 
 85
-00:03:59,169 --> 00:04:01,000
-butchered his name I hope it's close to
- 我希望它接近他的名字
+00:03:59,169 --> 00:04:01,900
+I probably butchered his name I hope it's close to correct 
+我希望我的发音接近正确
 
 86
-00:04:01,000 --> 00:04:03,639
-correct but he created this company
- 没错，但他创建了这家公司
+00:04:01,900 --> 00:04:04,639
+but he created this company called WeChat 
+但他创建了这家公司叫做 微信
 
 87
-00:04:03,639 --> 00:04:06,729
-called WeChat very popular messaging app
-叫微信非常受欢迎的消息应用程序
+00:04:04,639 --> 00:04:06,729
+very popular messaging app
+非常受欢迎的消息应用程序
 
 88
-00:04:06,729 --> 00:04:10,120
-and on the back end more engineering
- 并在后端更多的工程
+00:04:06,729 --> 00:04:10,920
+and on the back end more engineering side of things 
+从后端  从工程的角度思考
 
 89
-00:04:10,120 --> 00:04:13,629
-side of things it's a very easy platform
- 事情的一面是一个非常容易的平台
+00:04:10,920 --> 00:04:15,629
+it's a very easy platform to create chatbots for 
+这是一个非常容易创建聊天机器人的平台
 
 90
-00:04:13,629 --> 00:04:16,298
-to create chat BOTS for so lots of
-为这么多人创建聊天BOTS
+00:04:15,629 --> 00:04:19,898
+so lots of businesses have chatbots on WeChat
+很多企业在微信上有聊天机器人
 
 91
-00:04:16,298 --> 00:04:20,108
-businesses have chat bots on WeChat so
-企业对微信聊天机器人 等等
+00:04:19,898 --> 00:04:20,108
+
+
 
 92
 00:04:20,108 --> 00:04:23,050
-that you can text the business and ask
-你可以发短信给业务并提出要求
+so that you can text the business and
+你可以发短信给企业
 
 93
-00:04:23,050 --> 00:04:25,060
-it questions and the chat bot will
-它的问题和聊天机器人会
+00:04:23,050 --> 00:04:24,760
+ask it questions and 
+向它提问问题  
 
 94
-00:04:25,060 --> 00:04:26,639
-respond intelligently
-聪明地回应
+00:04:24,760 --> 00:04:26,839
+the chatbot will respond intelligently to you
+聊天机器人会非常聪明地回答你问题
 
 95
-00:04:26,639 --> 00:04:29,310
-you instead of having to have like a
-你不必拥有像
+00:04:26,839 --> 00:04:30,810
+instead of having to have like a call center or something 
+你不必拥有像呼叫中心这一类的部门
 
 96
-00:04:29,310 --> 00:04:31,499
-call center or something a business can
-呼叫中心或企业可以做的事情
+00:04:30,810 --> 00:04:31,499
+a business can set up a chat bot on WeChat 
+在微信上 企业可以设置一个聊天机器人
 
 97
-00:04:31,499 --> 00:04:33,930
-set up a chat bot on WeChat to answer
-在微信上设置一个聊天机器人来回答
+00:04:31,499 --> 00:04:36,530
+to answer tons of common questions that customers might have 
+来回答大量顾客可能会问的非常常见的问题
 
 98
-00:04:33,930 --> 00:04:35,519
-tons of common questions that customers
- 客户众多的常见问题
+00:04:36,530 --> 00:04:36,569
+
+
 
 99
-00:04:35,519 --> 00:04:38,999
-might have so that's a little about a
- 可能有一点关于a
+00:04:36,569 --> 00:04:40,900
+so that's a little about a little bit about the history of chatbots
+以上是与chatbots有关的一些发展历史
 
 100
-00:04:38,999 --> 00:04:40,740
-little bit about the history of chat
- 关于聊天历史的一点点
+00:04:40,900 --> 00:04:40,999
+
+
 
 101
-00:04:40,740 --> 00:04:43,110
-BOTS and you know starting from the very
- BOTS，你知道从最开始
+00:04:40,999 --> 00:04:43,810
+and you know starting from the very beginning 
+你知道从最早发明的时候开始
 
 102
-00:04:43,110 --> 00:04:45,149
-beginning and jumping forward a bit to
- 开始并向前跳了一下
+00:04:43,810 --> 00:04:47,949
+and jumping forward a bit to someone who helped blow this technology up 
+然后再介绍一些有助于这项技术发展的人
 
 103
-00:04:45,149 --> 00:04:47,550
-someone who helped blow this technology
- 帮助吹制这项技术的人
+00:04:47,949 --> 00:04:47,955
+
+
 
 104
-00:04:47,550 --> 00:04:49,829
-up and popularize it to where it is
-把它推广到它所在的地方
+00:04:47,955 --> 00:04:50,200
+and popularize it to where it is today 
+再到把它推广到各个领域的人
 
 105
-00:04:49,829 --> 00:04:53,240
-today so now I'd like to compare the
- 今天所以现在我想比较一下
+00:04:50,200 --> 00:04:53,240
+so now I'd like to compare the
+今天所以现在我想比较一下
 
 106
-00:04:53,240 --> 00:04:56,728
-traditional user experience of having an
- 具有传统的用户体验
+00:04:53,240 --> 00:04:57,928
+traditional user experience of having an app on your phone 
+拥有一项手机应用的传统用户体验
 
 107
-00:04:56,728 --> 00:04:59,129
-app on your phone say and you know
- 手机上的应用程序说你知道
+00:04:57,928 --> 00:05:01,529
+say and you know tapping around two different screens
+比如说  你知道的敲击两个不同的屏幕
 
 108
-00:04:59,129 --> 00:05:01,579
-tapping around two different screens
- 敲击两个不同的屏幕
+00:05:01,529 --> 00:05:01,579
+
+
 
 109
-00:05:01,579 --> 00:05:05,129
-versus a newer type of user experience
- 与较新型的用户体验相比
+00:05:01,579 --> 00:05:07,129
+versus a newer type of user experience where we've got chatbots
+与如今拥有聊天机器人  的新型用户体验相比
 
 110
-00:05:05,129 --> 00:05:07,800
-where we've got chat BOTS so with a
- 我们在哪里聊天BOTS所以
+00:05:07,129 --> 00:05:08,800
+so with a traditional app 
+传统的应用程序
 
 111
-00:05:07,800 --> 00:05:10,168
-traditional app you know it's on your
-传统的应用程序，你知道它在你的
+00:05:08,800 --> 00:05:10,568
+you know it's on your phone 
+它在你的手机里
 
 112
-00:05:10,168 --> 00:05:14,370
-phone your tap in your scroll in your
- 在你的滚动条中点按你的水龙头
+00:05:10,568 --> 00:05:15,370
+your taping your scrolling your typing 
+你需要点击  使用滚动条  输入字符
 
 113
-00:05:14,370 --> 00:05:16,589
-typing you know we're all used to that
- 输入你知道我们已经习惯了
+00:05:15,370 --> 00:05:18,589
+you know  we're all used to that type of user interaction 
+你知道  我们已经习惯了使用这种类型的用户交互
 
 114
-00:05:16,589 --> 00:05:18,269
-type of user interaction and it works
- 用户交互的类型， 它的工作原理
+00:05:18,589 --> 00:05:19,600
+and it works great okay 
+这也能很好地运作
 
 115
-00:05:18,269 --> 00:05:20,579
-great okay it works great for tons of
-非常好，它适用于大量的
+00:05:19,600 --> 00:05:21,579
+it works great for tons of applications 
+这种方式适用于大量的应用 
 
 116
-00:05:20,579 --> 00:05:22,800
-applications for tons of things that we
- 我们应用了大量的东西
+00:05:21,579 --> 00:05:23,800
+for tons of things that we want to do 
+以及我们大量想要做的事
 
 117
-00:05:22,800 --> 00:05:26,668
-want to do but chat BOTS allow us this
-我想做但聊天BOTS允许我们这个
+00:05:23,800 --> 00:05:26,968
+but chatbots allow us
+但聊天机器人提供我们
 
 118
-00:05:26,668 --> 00:05:29,158
-new functionality of interacting with
-与...交互的新功能
+00:05:26,968 --> 00:05:31,858
+this new functionality of interacting with things with our voice okay 
+一种用我们的声音进行交互的新功能
 
 119
-00:05:29,158 --> 00:05:33,269
-things with our voice okay so I don't
- 我们声音的东西还可以，所以我没有
+00:05:31,858 --> 00:05:35,969
+so I don't have to be holding a piece of technology in my hand 
+所以我没有我不需要手持一项技术
 
 120
-00:05:33,269 --> 00:05:35,009
-have to be holding a piece of technology
- 必须持有一项技术
+00:05:35,969 --> 00:05:35,999
+
+
 
 121
-00:05:35,009 --> 00:05:36,990
-in my hand I can shout at something
-在我手里， 我可以大喊大叫
+00:05:35,999 --> 00:05:37,990
+I can shout at something across the room 
+我可以在房间的另一端大喊
 
 122
-00:05:36,990 --> 00:05:40,199
-across the room and it will talk back to
- 在房间里，它会顶嘴
+00:05:37,990 --> 00:05:40,399
+and it will talk back to me 
+它会回答我的话
 
 123
-00:05:40,199 --> 00:05:42,509
-me and ask me like oh did you mean this
-我问问我哦你的意思是这个吗？
+00:05:40,399 --> 00:05:42,509
+and ask me like oh did you mean this
+并问我  噢  你是这个意思吗？
 
 124
-00:05:42,509 --> 00:05:44,579
-did you mean this and it can ask me for
- 你的意思是这个，它可以问我
+00:05:42,509 --> 00:05:45,979
+did you mean this and it can ask me for specifics
+你是那个意思吗？  它还可以问我细节
 
 125
-00:05:44,579 --> 00:05:47,610
-specifics and that's just really hard to
-细节，这只是真的很难
+00:05:45,979 --> 00:05:48,810
+and that's just really hard to do with
+但对传统的编码程序  这就很难办到了   
 
 126
-00:05:47,610 --> 00:05:52,889
-do with traditional hard coded touching
- 做传统的硬编码触摸
+00:05:48,810 --> 00:05:57,000
+traditional hard coded touching tapping scrolling apps that were used to on our phone
+因为我们传统的应用程序 需要通过触屏 打字 滑动 来交互
 
 127
-00:05:52,889 --> 00:05:56,459
-tapping scrolling apps that were used to
-点击以前使用的滚动应用
+00:05:57,000 --> 00:05:57,100
+
 
 128
-00:05:56,459 --> 00:05:57,209
-on our phone
- 在我们的手机上
+00:05:57,100 --> 00:05:57,209
+
+
 
 129
-00:05:57,209 --> 00:05:59,879
-so chat BOTS really open up a ton of
-所以聊天机器人真正打开一吨
+00:05:57,209 --> 00:06:00,700
+so chatbotS really open up a ton of possibilities 
+所以聊天机器人  真的为我们创造了非常多的可能性
 
 130
-00:05:59,879 --> 00:06:06,088
-possibilities they're used everywhere ok
- 他们在各处都可以使用的可能性
+00:06:00,700 --> 00:06:06,088
+they're used everywhere ok
+他们可以被各个领域所运用
 
 131
-00:06:06,088 --> 00:06:09,269
-used in banking used in workflow
-用于工作流程中的银行业务
+00:06:06,088 --> 00:06:10,269
+used in banking used in workflow applications 
+比如银行业务  工作流应用程序
 
 132
-00:06:09,269 --> 00:06:12,959
-applications used in content used to
-用于以往内容的应用程序
+00:06:10,269 --> 00:06:14,059
+used in content used to create content sometimes 
+内容  有时候也用于创作内容
 
 133
-00:06:12,959 --> 00:06:16,759
-create content sometimes I actually
- 我有时创造内容
+00:06:14,059 --> 00:06:18,759
+I actually remember an example of 
+我记得一个例子
 
 134
-00:06:16,759 --> 00:06:19,139
-remember an example of a guy who made a
-记住一个做出一个人的例子
+00:06:18,759 --> 00:06:21,139
+a guy who made a chatbot to make recipes for him 
+一个人让聊天机器人为他做食谱
 
 135
-00:06:19,139 --> 00:06:22,408
-chatbot to make recipes for him and he
- 聊天机器人为他和他做食谱
+00:06:21,139 --> 00:06:23,408
+and he baked one of the cakes 
+他做了一个蛋糕
 
 136
-00:06:22,408 --> 00:06:24,449
-baked one of the cakes that the chat bot
-烘焙其中一个聊天机器人的蛋糕
+00:06:23,408 --> 00:06:26,449
+that the chatbot gave him a recipe for 
+依据机器人给他的食谱
 
 137
-00:06:24,449 --> 00:06:27,718
-gave him a recipe for it came out awful
- 给了他一个食谱，它出来很可怕
+00:06:26,449 --> 00:06:27,718
+it came out awful
+成品非常糟糕
 
 138
-00:06:27,718 --> 00:06:29,158
-like one of the main ingredients was
-像其中一个主要成分是
+00:06:27,718 --> 00:06:29,658
+like one of the main ingredients was ketchup
+好像其中一个主要成分是番茄酱
 
 139
-00:06:29,158 --> 00:06:29,718
-ketchup
-番茄酱
+00:06:29,658 --> 00:06:29,718
+
+
 
 140
-00:06:29,718 --> 00:06:34,848
-but yeah so chatbots shouldn't be used
-但是，所以不应该使用聊天机器人
+00:06:29,718 --> 00:06:37,848
+but yeah so chatbots shouldn't be used everywhere in every case 
+所以使用聊天机器人  也应该分地点  分场合
 
 141
-00:06:34,848 --> 00:06:39,180
-everywhere in every case but they can be
- 在每种情况下无处不在，但他们可以
+00:06:37,848 --> 00:06:40,180
+but they can be used a lot of places
+但他们可以运用在很多场合
 
 142
-00:06:39,180 --> 00:06:40,408
-used a lot of places
-用过很多地方
+00:06:40,180 --> 00:06:40,408
+
+
 
 143
 00:06:40,408 --> 00:06:43,278
 they're very useful in a lot of places
-它们在很多地方非常有用
+它们在很多地方都非常有用
 
 144
-00:06:43,278 --> 00:06:45,538
-so let's talk about three different
- 所以我们来谈谈三个不同的
+00:06:43,278 --> 00:06:46,538
+so let's talk about three different types of chatbots 
+所以我们来谈谈三个不同类型的聊天机器人
 
 145
-00:06:45,538 --> 00:06:47,550
-types of chatbots and kind of like
- 聊天机器人的类型和类似的
+00:06:46,538 --> 00:06:50,000
+and kind of like different levels of usability 
+有点类似不同级别的可用性
 
 146
-00:06:47,550 --> 00:06:51,749
-different levels of usability so at the
- 不同级别的可用性因此
+00:06:50,000 --> 00:06:53,949
+so at the highest level we've got contextual 
+所以在最高级别  我们有上下文
 
 147
-00:06:51,749 --> 00:06:54,418
-highest level we've got contextual now
-最高级别我们现在有了上下文
+00:06:53,949 --> 00:06:54,018
+
+
 
 148
-00:06:54,418 --> 00:06:58,829
-this is a chatbot that understands you
+00:06:54,018 --> 00:06:58,829
+now this is a chatbot that understands you
 这是一个了解你的聊天机器人
 
 149
 00:06:58,829 --> 00:07:01,199
 okay it's like it gives this really good
- 好吧，它就像它给这真的很好
+好吧  它能够给你一种非常棒的
 
 150
-00:07:01,199 --> 00:07:03,269
-illusion of understanding what you're
-理解你是什么的错觉
+00:07:01,199 --> 00:07:03,869
+illusion of understanding what you're saying 
+错觉  还想它真的懂你  所说的话
 
 151
-00:07:03,269 --> 00:07:08,158
-saying so here's an example of a Pizza
-这么说这是比萨饼的一个例子
+00:07:03,869 --> 00:07:08,858
+so here's an example of a Pizza ordering chatbot
+比如说  一个披萨订餐的聊天机器人
 
 152
-00:07:08,158 --> 00:07:10,588
-ordering chat bot so you say hey I'd
- 订购聊天机器人让你说嘿我
+00:07:08,858 --> 00:07:12,588
+so you say hey I'd like to order a pizza 
+你说  嘿  我想要订一个披萨
 
 153
-00:07:10,588 --> 00:07:14,209
-like to order a pizza and the Chapa
- 喜欢点披萨和Chapa
+00:07:12,588 --> 00:07:16,809
+and the chatbot remembers that the last time you ordered
+聊天机器人还记得你上一次预订的
 
 154
-00:07:14,209 --> 00:07:16,889
-remembers that the last time you ordered
-记得你最后一次订购
+00:07:16,809 --> 00:07:16,889
+
+
 
 155
-00:07:16,889 --> 00:07:20,309
-and it might even be time related maybe
-它甚至可能与时间有关
+00:07:16,889 --> 00:07:20,009
+and it might even be time related
+甚至连时间上都有相似点
 
 156
-00:07:20,309 --> 00:07:22,259
-this guy ordered a pizza at like 8:30
-这家伙在8点30分订了披萨
+00:07:20,009 --> 00:07:24,259
+maybe this guy ordered a pizza at like 8:30 a.m. last time 
+可能这家伙上一次  在早上8点30分订了披萨
 
 157
-00:07:22,259 --> 00:07:26,639
-a.m. last time and the chat BOTS like
-我最后一次和聊天BOTS一样
+00:07:24,259 --> 00:07:26,639
+and the chatbots like
+聊天机器人可能会说  
 
 158
-00:07:26,639 --> 00:07:28,499
+00:07:26,639 --> 00:07:29,000
 hey last time you ordered at 8:30 a.m.
-嘿， 你最后一次订购上午8:30
+嘿  你上一次在上午8:30预订了一个披萨
 
 159
-00:07:28,499 --> 00:07:31,228
-you ordered this thing's chat BOTS use
- 你订购了这个东西的聊天BOTS使用
+00:07:29,000 --> 00:07:30,400
+you ordered this things 
+你订购了这个东西   
 
 160
-00:07:31,228 --> 00:07:34,829
-information like the time previous order
- 以前订单的时间等信息
+00:07:30,400 --> 00:07:37,829
+chatbots use information like the time previous order history things like that 
+聊天机器人会使用 以前订单的时间等信息
 
 161
-00:07:34,829 --> 00:07:39,689
-history things like that to get more of
-这样的历史事情可以获得更多
+00:07:37,829 --> 00:07:41,689
+to get more of an idea to get context 
+去获得获得一些想法  一些背景信息 
 
 162
-00:07:39,689 --> 00:07:43,168
-an idea to get context and to infer
- 获得背景和推断的想法
+00:07:41,689 --> 00:07:45,200
+and to infer things about what you want out of them
+并推断你想要他们做的事情
 
 163
-00:07:43,168 --> 00:07:45,240
-things about what you want out of them
-关于你想要什么的事情
+00:07:45,200 --> 00:07:45,240
+
+
 
 164
-00:07:45,240 --> 00:07:47,728
-so that's the highest level of Chapa
- 这 是Chapa的最高水平
+00:07:45,240 --> 00:07:48,928
+so that's the highest level of chatbot interaction 
+这是聊天机器人  互动的最高水平
 
 165
-00:07:47,728 --> 00:07:52,228
-interaction we've also got a step lower
-互动我们也低了一步
+00:07:48,928 --> 00:07:52,828
+we've also got a step lower
+我们也有更低的起步平台
 
 166
-00:07:52,228 --> 00:07:54,269
+00:07:52,828 --> 00:07:54,269
 these are much easier to program and
- 这些更容易编程和
+一些更容易编码的项目
 
 167
-00:07:54,269 --> 00:07:56,009
-this is what the majority of chat bots
- 这是大多数聊天机器人
+00:07:54,269 --> 00:07:59,000
+this is what the majority of chatbots are out in production out in the wild today 
+这也是  如今大多数聊天机器人  都由民间团体开发的原因
 
 168
-00:07:56,009 --> 00:07:58,829
-are out in production out in the wild
- 在野外生产出来
+00:07:59,000 --> 00:07:59,009
+
+
 
 169
-00:07:58,829 --> 00:08:01,499
-today our keyword recognition based chat
-今天我们的关键字识别聊天
+00:07:59,009 --> 00:08:02,599
+are keyword recognition based chatbots
+主要是一些关键字识别的聊天机器人
 
 170
-00:08:01,499 --> 00:08:05,129
-BOTS so these do what they say the name
- BOTS 所以这些就是他们所说的名字
+00:08:02,599 --> 00:08:05,129
+so these do what they say the name is self-explanatory 
+这些机器人的功能正如他们的名字一样  不言自明
 
 171
 00:08:05,129 --> 00:08:08,038
-self-explanatory you talk to the chat
-不言自明， 你说聊天
+you talk to the chatbot 
+你对着聊天机器人说话
 
 172
-00:08:08,038 --> 00:08:10,319
-bot and all it does is look for certain
- 机器人，它所做的一切都是肯定的
+00:08:08,038 --> 00:08:12,519
+and all it does is look for certain keywords in your speech
+它所做的一切就是  寻找你话语中的关键词
 
 173
-00:08:10,319 --> 00:08:12,988
-keywords in your speech to either
- 你的演讲中的关键词
+00:08:12,519 --> 00:08:14,988
+to either present you with more options
+要么是提供你更多的选择
 
 174
-00:08:12,988 --> 00:08:14,399
-present you with more options or
- 为您提供更多选择或
+00:08:14,988 --> 00:08:17,899
+or directly give you a solution to some question you have
+或者对于一些你问的问题  它会直接给你一个的答复
 
 175
-00:08:14,399 --> 00:08:16,588
-directly give you a solution to some
-直接给你一些解决方案
+00:08:17,899 --> 00:08:17,988
+
+
 
 176
-00:08:16,588 --> 00:08:18,269
-question you have so here we see Casey
-你有问题，我们在这里看到凯西
+00:08:17,988 --> 00:08:20,969
+so here we see Casey Phillips asking something to pointbot
+所以我们看到凯西·菲利普斯  正在问一个指向机器人
 
 177
-00:08:18,269 --> 00:08:20,788
-Phillips asking something to point bot
- 菲利普斯问东西指向机器人
+00:08:20,969 --> 00:08:20,999
+
+
 
 178
-00:08:20,788 --> 00:08:24,050
-and point bot notices the words Auto
-并指向机器人注意到单词Auto
+00:08:20,999 --> 00:08:26,550
+and pointbot notices the words Auto logout transaction 
+指向机器人注意到单词 auto（自动） logout（注销） transaction（交易）
 
 179
-00:08:24,050 --> 00:08:27,838
-logout transaction and gives him a
- 注销交易并给他一个
+00:08:26,550 --> 00:08:28,838
+and gives him a perfect answer 
+然后会给他一个完美的答案 
 
 180
-00:08:27,838 --> 00:08:30,778
-perfect answer telling him exactly how
-完美的答案告诉他究竟是怎
+00:08:28,838 --> 00:08:33,878
+telling him exactly how to do the thing that he's asking
+并准确回答他所问的问题
 
 181
-00:08:30,778 --> 00:08:34,409
-to do the thing that he's asking
- 做他要问的事情
+00:08:33,878 --> 00:08:34,409
+
+
 
 182
 00:08:34,409 --> 00:08:38,879
-and on the lowest level oh my gosh these
-并在最低水平哦，我的天哪，这些
+and on the lowest level oh my gosh
+但那些最低水平的聊天机器人  噢  我的天哪
 
 183
 00:08:38,879 --> 00:08:40,860
-are so annoying these are so annoying
- 很烦人，这些都很烦人
+these are so annoying these are so annoying okay 
+他们很烦人  简直太烦人了好嘛
 
 184
 00:08:40,860 --> 00:08:43,019
-okay I called Costco the other day and I
- 好吧，前几天我打电话给好市多和我
+I called Costco the other day and 
+前几天我打电话给 好市多（美国最大的连锁会员制仓储量贩店）
 
 185
-00:08:43,019 --> 00:08:44,159
-want to get in touch with the photo
-想要与照片取得联系
+00:08:43,019 --> 00:08:44,859
+I want to get in touch with the photo Department 
+我想要与摄影部门取得联系
 
 186
-00:08:44,159 --> 00:08:46,669
-Department pick up the phone
- 部门拿起电话
+00:08:44,859 --> 00:08:46,669
+pick up the phone
+我拿起电话
 
 187
-00:08:46,669 --> 00:08:49,470
-hey Costco can I talk to the photo
-嘿，Costco，我可以和照片对话
+00:08:46,669 --> 00:08:50,470
+hey Costco can I talk to the photo department 
+嘿  好市多  我要给摄影部门打个电话
 
 188
-00:08:49,470 --> 00:08:52,559
-department nope greeted with a bot that
- 部门都能跟得上迎接僵尸那
+00:08:50,470 --> 00:08:52,559
+nope greeted with a bot that
+一个机器人接了电话
 
 189
 00:08:52,559 --> 00:08:57,299
-says please press 1 for groceries please
-请按1买杂货
+says please press 1 for groceries 
+比如说  请帮我按1  给杂货店打电话
 
 190
-00:08:57,299 --> 00:09:00,210
-press 2 for upper management please
-按2， 高层管理人员，请
+00:08:57,299 --> 00:08:59,810
+please press 2 for upper management 
+请按2  给高层管理人员打电话
 
 191
-00:09:00,210 --> 00:09:03,600
-press 3 for the vacuum section and it's
-按3 表示真空部分
+00:08:59,810 --> 00:09:02,600
+please press 3 for the vacuum section 
+请按3  给真空部门打电话
 
 192
-00:09:03,600 --> 00:09:05,070
-so annoying because it gives you this
-太烦人了，因为它给你这个
+00:09:03,600 --> 00:09:05,570
+and it's so annoying because it gives you this menu
+这简直太烦人了  因为它给你这个菜单
 
 193
-00:09:05,070 --> 00:09:07,980
-menu you can't select something from it
-菜单你不能从中选择一些东西
+00:09:05,570 --> 00:09:08,580
+you can't select something from it right away 
+你不能立马从中选择
 
 194
-00:09:07,980 --> 00:09:09,899
-right away and it can't understand
- 马上就无法理解
+00:09:08,580 --> 00:09:11,899
+and it can't understand anything that you're saying 
+因为它无法理解你说的任何东西
 
 195
-00:09:09,899 --> 00:09:12,480
-anything that you're saying so these are
- 你所说的任何事情都是如此
+00:09:11,899 --> 00:09:14,480
+so these are super annoying sometimes 
+所以这简直就是太烦人了
 
 196
-00:09:12,480 --> 00:09:16,559
-super annoying sometimes with point but
- 有时带点但非常烦人
+00:09:14,480 --> 00:09:16,859
+with pointbot here 
+但有了指向机器人
 
 197
-00:09:16,559 --> 00:09:18,269
-here it's much nicer because you're
-在这里它更好，因为你
+00:09:16,859 --> 00:09:20,269
+it's much nicer because you're presented with a list of options 
+情况就好多了  因为他会提供你一个选择的列表
 
 198
-00:09:18,269 --> 00:09:20,850
-presented with a list of options and you
-提供了一个选项列表和你
+00:09:20,269 --> 00:09:23,850
+and you can easily see which one applies to you
+你就能很轻松地看出哪一个适用你
 
 199
-00:09:20,850 --> 00:09:23,779
-can easily see which one applies to you
- 很容易看出哪一个适用于你
+00:09:23,850 --> 00:09:23,990
+
+
 
 200
-00:09:23,779 --> 00:09:26,610
-but for much less sophisticated chat
-但对于不太复杂的聊天
+00:09:23,990 --> 00:09:26,610
+but for much less sophisticated chatbots
+但对于不太复杂的聊天机器人
 
 201
-00:09:26,610 --> 00:09:29,220
-BOTS like little Costco bot that I was
- BOTS就像我一样的小Costco机器人
+00:09:26,610 --> 00:09:30,220
+like little Costcobot that I was humping fun with yesterday 
+就像我昨天在调戏的Costco机器人一样
 
 202
-00:09:29,220 --> 00:09:31,889
-humping fun with yesterday it can be
-驼峰乐趣昨天它可以
+00:09:30,220 --> 00:09:32,889
+it can be super annoying 
+它真的超级讨厌了
 
 203
-00:09:31,889 --> 00:09:33,990
-super annoying so this is the lowest
-超级烦人所以这是最低的
+00:09:32,889 --> 00:09:36,500
+so this is the lowest level of chatbot 
+所以这是最低级的聊天机器人
 
 204
-00:09:33,990 --> 00:09:37,830
-level of chat bot the chat bot
- 聊天机器人聊天机器人的水平
+00:09:36,500 --> 00:09:39,830
+the chatbot technology today 
+在目前的聊天机器人 
 
 205
-00:09:37,830 --> 00:09:43,320
-technology today so how does it chat bot
-技术今天如何聊天机器人
+00:09:39,830 --> 00:09:43,620
+so how does it chatbot work
+所以聊天机器人是怎么运作的那？ 
 
 206
-00:09:43,320 --> 00:09:45,570
-work oh man you're in for a treat we're
-工作哦，男人， 你是一个享受我们的待遇
-
+00:09:43,620 --> 00:09:45,570
+oh man you're in for a treat 
+噢  兄弟  你将要享受到待遇啦
+ 
 207
-00:09:45,570 --> 00:09:46,950
-gonna talk about a lot of things that
-要谈谈很多事情
+00:09:45,570 --> 00:09:48,950
+we're gonna talk about a lot of things that you or I really don't understand
+我们将要谈很多我和你都不太理解的一些事情
 
 208
-00:09:46,950 --> 00:09:50,669
-you or I really don't understand so you
-你或我真的不明白你
+00:09:48,950 --> 00:09:50,669
+
+
 
 209
-00:09:50,669 --> 00:09:52,950
-got your phone made in a factory
-让你的手机在工厂生产
+00:09:50,669 --> 00:09:53,550
+so you got your phone made in a factory somewhere
+你得到了  产于某地工厂的手机
 
 210
-00:09:52,950 --> 00:09:55,350
-somewhere and you've got some messaging
- 在某个地方，你有一些消息
+00:09:53,550 --> 00:09:55,350
+and you've got some messaging apps on it 
+然后你在手机里下载了一些信息应用程序
 
 211
 00:09:55,350 --> 00:09:57,629
-apps on it maybe you've got WeChat maybe
-应用就可能你也许有微信
+maybe you've got WeChat 
+也许你有微信
 
 212
-00:09:57,629 --> 00:09:59,490
-you've got Facebook messenger maybe
-你可能有Facebook的信使
+00:09:57,629 --> 00:09:59,100
+maybe you've got Facebook messenger
+也许是facebook 的 messenger
 
 213
-00:09:59,490 --> 00:10:01,679
-you've got slack these are all super
- 你已经松弛了这些都是超级的
+00:09:59,100 --> 00:10:01,679
+maybe you've got slack 
+也可能是slack（倍洽）
 
 214
 00:10:01,679 --> 00:10:03,600
@@ -1081,17 +1079,17 @@ and you say something to a chat bot the
 217
 00:10:09,600 --> 00:10:12,389
 chat bot breaks down your language using
-聊天机器人使用它来分解你的语言
+聊天机器人来分解你的语言的工具
 
 218
 00:10:12,389 --> 00:10:14,669
 something called natural language
-称为自然语言的东西
+称为自然语言处理
 
 219
 00:10:14,669 --> 00:10:18,659
 processing and what natural language
-处理和自然语言
+自然语言
 
 220
 00:10:18,659 --> 00:10:21,929
@@ -1201,282 +1199,282 @@ translation information retrieval
 241
 00:11:12,169 --> 00:11:15,509
 sentiment analysis so like applying and
- 情绪分析就像申请和
+ 情绪分析就像分析
 
 242
 00:11:15,509 --> 00:11:17,519
 emotion to the things that you said like
- 对 你所说的事情的情感
+ 你所说的事情的情感
 
 243
 00:11:17,519 --> 00:11:19,830
 is what you said angry is what you said
-是你所说的生气是你所说的
+感情色彩是生气的还是
 
 244
 00:11:19,830 --> 00:11:22,289
 happy things like that question
-喜欢这个问题的快乐事情
+喜欢 对于像问答一类的话语
 
 245
 00:11:22,289 --> 00:11:25,110
 answering so yeah those are some
-回答所以是的，那些是一些
+所以是的，那些是一些
 
 246
-00:11:25,110 --> 00:11:27,089
-applications of natural language
- 自然语言的应用
+00:11:25,110 --> 00:11:27,389
+applications of natural language processing
+自然语言的应用
 
 247
-00:11:27,089 --> 00:11:29,519
-processing how do we do natural language
-处理我们如何做自然语言
+00:11:27,389 --> 00:11:29,519
+how do we do natural language
+那么我们是怎么完成自然语言
 
 248
 00:11:29,519 --> 00:11:31,470
 processing well we've got something
-处理得好我们有东西
+处理的呢  首先呢就是
 
 249
 00:11:31,470 --> 00:11:34,559
 called generative and selective models
- 称为生成和选择模型
+生成和选择模型
 
 250
 00:11:34,559 --> 00:11:39,059
 so generative is like a it generates
-所以生成就像它产生的一样
+所以“generative（生成）”呢就是生成一些东西
 
 251
 00:11:39,059 --> 00:11:40,860
 okay it's a machine learning model that
- 好吧，这是一个机器学习模型
+这其实是一个机器学习模型
 
 252
 00:11:40,860 --> 00:11:45,230
 generates new text we've also got
- 生成我们也有的新文本
+它能生成新文本 然后就是
 
 253
 00:11:45,230 --> 00:11:49,289
 selective models which perform actions
-执行动作的选择模型
+“选择模型” 它的作用就是
 
 254
-00:11:49,289 --> 00:11:53,009
-that maximize good and minimize bad here
-在这里最大限度地发挥好的作用
+00:11:49,289 --> 00:11:53,000
+that maximize good and minimize bad 
+将好的部分最大化 将坏的部分最小化
 
 255
-00:11:53,009 --> 00:11:56,100
-is an example of another of another
-是另一个的另一个例子
+00:11:53,000 --> 00:11:56,100
+here is an example of another of another
+接下来就是另一个被用到的
 
 256
-00:11:56,100 --> 00:11:58,379
-machine learning model used this is an
- 机器学习模型使用这是一个
+00:11:56,100 --> 00:11:57,779
+machine learning model used 
+机器学习模型
 
 257
-00:11:58,379 --> 00:12:00,889
-example of two different neural networks
-两个不同神经网络的例子
+00:11:57,779 --> 00:12:00,889
+this is an example of two different neural networks
+这是两个不同的神经网络
 
 258
 00:12:00,889 --> 00:12:04,350
 one has a ton of different training data
- 一个人有大量不同的训练数据
+一个里头有大量不同的训练数据
 
 259
 00:12:04,350 --> 00:12:09,120
 and it's going into these neurons this
-和它的进入这些神经元这
+它将进入到这些神经元里
 
 260
 00:12:09,120 --> 00:12:12,600
 it does neural network math magic okay
- 它做神经网络数学魔术没关系
+它的作用就是完成神经网络数学计算之类的东西
 
 261
 00:12:12,600 --> 00:12:13,740
 we don't need to worry about the math
-我们不需要担心数学问题
+我们现在不需要担心这个数学问题
 
 262
 00:12:13,740 --> 00:12:16,669
 and what neural networks are right now
-什么神经网络现在
+或者什么是神经网络
 
 263
 00:12:16,669 --> 00:12:19,889
 but basically it gets fed a lot of
- 但基本上它得到了很多
+总的来说 它接收到大量的
 
 264
 00:12:19,889 --> 00:12:22,019
 training data it produces some result
-训练数据会产生一些结果
+训练数据 然后生成一些结果
 
 265
 00:12:22,019 --> 00:12:25,950
 and then it's trained again with a
- 然后再用a训练
+然后再通过稍小一些
 
 266
-00:12:25,950 --> 00:12:28,669
-smaller set of training data with more
-较小的训练数据集
+00:12:25,950 --> 00:12:28,969
+smaller set of training data with more variants
+但是有更多变量的数据来接受训练
 
 267
-00:12:28,669 --> 00:12:32,490
-variants and what this does is it can
- 变体以及它的作用是什么
+00:12:28,969 --> 00:12:32,490
+and what this does is it can
+这样做的目的
 
 268
 00:12:32,490 --> 00:12:33,958
 prevent things from getting it can
-防止事情得到它可以
+就是可以防止
 
 269
 00:12:33,958 --> 00:12:35,730
 prevent the network from getting too
-防止网络过度
+网络变得有
 
 270
 00:12:35,730 --> 00:12:39,120
 biased or learning things that we don't
-有偏见或学习我们不做的事情
+有偏置和歧视 或者学习我们不
 
 271
 00:12:39,120 --> 00:12:41,970
 want it to like Microsoft experience
- 希望它喜欢微软的经验
+希望它做的事 几年前 微软公司
 
 272
-00:12:41,970 --> 00:12:44,309
-with its teh tweets robot a few years
-用它的推文机器人几年
+00:12:41,970 --> 00:12:44,509
+with its teh tweets robot a few years back
+的“taytweets”机器人就做了一件有歧视的事
 
 273
-00:12:44,309 --> 00:12:49,708
-back we've also got reinforcement
-我们也得到了加强
+00:12:44,509 --> 00:12:49,708
+we've also got
+接下来呢是
 
 274
 00:12:49,708 --> 00:12:50,039
-learning
- 学习
+reinforcement learning
+强化学习
 
 275
-00:12:50,039 --> 00:12:52,458
-so what reinforcement learning is is
- 所以强化学习是什么
+00:12:50,039 --> 00:12:52,158
+so what reinforcement learning is
+所以强化学习是什么呢
 
 276
-00:12:52,458 --> 00:12:56,039
-this thing where you've got an agent or
-这件事，你有一个代理人或
+00:12:52,158 --> 00:12:56,039
+is this thing where you've got an agent or
+就像一个中介
 
 277
 00:12:56,039 --> 00:12:58,409
 like a you can think of it as like a
-就像你可以把它想象成一个
+或者你可以把它想象成一个
 
 278
 00:12:58,409 --> 00:13:01,740
 character in a game and he's influencing
- 游戏中的角色，他正在影响
+游戏中的角色 而且它正在影响
 
 279
 00:13:01,740 --> 00:13:04,889
 his environment and the basic idea
-他的环境和基本理念
+它的周围环境  强化学习的
 
 280
 00:13:04,889 --> 00:13:06,629
 behind reinforcement learning is it
- 强化学习的背后是它
+基本理念呢就是
 
 281
 00:13:06,629 --> 00:13:09,269
 wants to maximize the positives and
- 想要最大化积极因素
+将积极因素最大化
 
 282
-00:13:09,269 --> 00:13:10,980
-minimize the negatives if you want to
- 如果你愿意，尽可能减少负面影响
+00:13:09,269 --> 00:13:10,280
+minimize the negatives
+并且尽可能减少负面因素
 
 283
-00:13:10,980 --> 00:13:12,960
-see a really cool example of this look
-看到这个外观真的很酷的例子
+00:13:10,280 --> 00:13:12,760
+if you want to see a really cool example of this
+如果你想要看强化学习的例子
 
 284
-00:13:12,960 --> 00:13:16,590
-up Marv oh and somebody uses
- Marv哦，有人用
+00:13:12,760 --> 00:13:16,590
+look up MAR I/O and somebody uses
+你可以搜一下“MAR I/O” 有人已经用
 
 285
 00:13:16,590 --> 00:13:20,309
 reinforcement learning to make AI play a
-加强学习使AI发挥作用
+强化学习来使AI（人工智能）
 
 286
-00:13:20,309 --> 00:13:24,269
-game of Mario which is super cool so
- 马里奥的比赛， 这是非常酷的
+00:13:20,309 --> 00:13:24,069
+game of Mario which is super cool
+玩马里奥  这真的很酷了
 
 287
-00:13:24,269 --> 00:13:26,629
-another type of model used in NLP is
- NLP中使用的另一种模型是
+00:13:24,069 --> 00:13:26,629
+so another type of model used in NLP is
+接下来呢 NLP中使用到的另一种模型是
 
 288
 00:13:26,629 --> 00:13:29,909
-sequence to sequence now what this is is
-顺序排序现在这是什么
+sequence-to-sequence now what this is
+“sequence-to-sequence”（序列-序列） 这是什么呢
 
 289
 00:13:29,909 --> 00:13:33,629
 it uses two steps an encoder step and a
-它使用两个步骤编码器步骤和a
+它包含两个步骤 编码器和
 
 290
 00:13:33,629 --> 00:13:36,000
 decoder step so what the encoder step
-解码器步骤那么编码器步骤
+解码器 在编码器这一步骤里呢
 
 291
 00:13:36,000 --> 00:13:38,519
 does is it takes sequences of characters
-它是否需要一系列字符
+它会将字符
 
 292
 00:13:38,519 --> 00:13:42,090
 or words and just bits of language and
- 或单词和语言和
+或单词和一部分语言
 
 293
 00:13:42,090 --> 00:13:44,220
 it turns them into numbers
-它把它们变成了数字
+的序列转化成数字
 
 294
 00:13:44,220 --> 00:13:46,860
 okay gives them a number representation
- 好吧给他们一个数字代表
+也就是给了它们一个数字表示
 
 295
-00:13:46,860 --> 00:13:50,190
-and then it goes through a thought
-然后它经历了一个想法
+00:13:46,860 --> 00:13:50,490
+and then it goes through a thought vector
+然后它通过一个“thought vector”（思维载体）
 
 296
-00:13:50,190 --> 00:13:54,360
-vector which is it's like a an
-矢量，它就像一个
+00:13:50,490 --> 00:13:54,360
+which is it's like a an
+这个思维载体呢就像是
 
 297
 00:13:54,360 --> 00:13:58,129
@@ -1486,760 +1484,759 @@ artificial kind of thinking process
 298
 00:13:58,129 --> 00:14:03,029
 where the decoder tries to think of a
-解码器试图想到的地方
+在这个过程里 解码器会对
 
 299
-00:14:03,029 --> 00:14:06,149
-good response to the text that was
-到了文本反响良好
+00:14:03,029 --> 00:14:06,449
+good response to the text that was encoded 
+已被编码的文本进行反应
 
 300
-00:14:06,149 --> 00:14:09,440
-encoded so what the decoder does is it
- 编码所以解码器的作用就是它
+00:14:06,449 --> 00:14:09,340
+so what the decoder does is 
+所以解码器的作用就是
 
 301
-00:14:09,440 --> 00:14:12,870
-thinks of some numbers it generates some
-想到它会产生一些数字
+00:14:09,340 --> 00:14:12,870
+it thinks of some numbers it generates some
+想到一些数字 生成新的数字
 
 302
-00:14:12,870 --> 00:14:17,159
-new numbers and decodes them back into
-新号码并解码它们放回
+00:14:12,870 --> 00:14:17,359
+new numbers and decodes them back into words 
+并将它们解码重新变成
 
 303
-00:14:17,159 --> 00:14:19,529
-words which is what we originally fed
- 我们最初喂的话
+00:14:17,359 --> 00:14:20,800
+which is what we originally fed into the model 
+我们刚输入编码器时候的字词
 
 304
-00:14:19,529 --> 00:14:23,070
-into the model so encoder turns the
-进入模型，所以编码器转动
+00:14:120,800 --> 00:14:23,070
+so encoder turns the
+所以编码器将
 
 305
 00:14:23,070 --> 00:14:25,490
 words into a number representation
-单词表示数字
+单词转换为数字表示
 
 306
 00:14:25,490 --> 00:14:28,500
 decoder thinks of some new numbers that
-解码器想到了一些新的数字
+解码器生成一些新的数字
 
 307
 00:14:28,500 --> 00:14:31,259
 it can use and turns those numbers into
-它可以使用并将这些数字转换成
+将这些数字转换成
 
 308
-00:14:31,259 --> 00:14:33,750
-a word representation giving you your
-一个单词表示给你你的
+00:14:31,259 --> 00:14:33,950
+a word representation giving you your response 
+一个单词表示给你
 
 309
-00:14:33,750 --> 00:14:37,950
-response here's an example of a sequence
-这里的响应是一个序列的例子
+00:14:33,950 --> 00:14:37,950
+here's an example of a sequence
+这里有一个“序列-序列”
 
 310
 00:14:37,950 --> 00:14:41,190
-to sequence mechanism they can use with
- 他们可以使用的序列机制
+to sequence mechanism 
+机制的例子
 
 311
 00:14:41,190 --> 00:14:43,769
 they can be used with multiple inputs
-它们可以与多个输入一起使用
+它可以通过多端输入
 
 312
 00:14:43,769 --> 00:14:46,440
 going into very few outputs to do cool
- 进入很少的输出做酷
+与极少输出来做很酷的事
 
 313
-00:14:46,440 --> 00:14:49,379
-things like translate Chinese into
-像翻译中文的东西
+00:14:46,440 --> 00:14:49,579
+things like translate Chinese into English 
+比如把中文翻译成英文
 
 314
-00:14:49,379 --> 00:14:52,350
-English so it's a nice little image
-英语所以这是一个很好的小形象
+00:14:49,579 --> 00:14:52,850
+so it's a nice little image right there 
+屏幕上的图像就是展示了这个过程
 
 315
-00:14:52,350 --> 00:14:56,250
-right there another type of model that
-就在那里另一种模型
+00:14:52,850 --> 00:14:56,250
+another type of model that
+另一种模型应用于
 
 316
-00:14:56,250 --> 00:14:58,340
-are used in chat BOTS are long
- 用于聊天BOTS很长
+00:14:56,250 --> 00:14:58,040
+are used in chatbots are
+chatbot（聊天机器人）上的模型是
 
 317
-00:14:58,340 --> 00:15:02,279
-short-term memory units now the name is
- 短期记忆单位现在的名字是
+00:14:58,040 --> 00:15:01,279
+long short-term memory units 
+“长短时记忆”模型
 
 318
-00:15:02,279 --> 00:15:03,929
-kind of confusing and these confused me
- 有点混乱，这些让我困惑
+00:15:01,279 --> 00:15:03,929
+now the name is kind of confusing and these confused me
+这个名字听起来还挺让人困惑的 至少它确实困惑了我
 
 319
 00:15:03,929 --> 00:15:06,870
 for a long time but on a very basic
- 很长一段时间，但非常基本
+很长一段时间 基本上来说
 
 320
 00:15:06,870 --> 00:15:09,570
 level the idea behind these is each
- 这些背后的想法是各自的
+这个模型背后的理念就是
 
 321
-00:15:09,570 --> 00:15:13,590
-building block of these networks they
- 他们构建这些网络
+00:15:09,570 --> 00:15:13,190
+building block of these networks 
+构建这些网络 
 
 322
-00:15:13,590 --> 00:15:15,179
-each have a
-每个都有一个
+00:15:13,190 --> 00:15:15,179
+they each have a
+每个网络都有一个
 
 323
 00:15:15,179 --> 00:15:17,220
 short-term memory associated with them
- 与他们相关的短期记忆
+相关联的的短期记忆
 
 324
 00:15:17,220 --> 00:15:20,190
 and each layer can pass its short-term
- 每层都可以通过它的短期
+每层都可以将它的短期
 
 325
 00:15:20,190 --> 00:15:23,399
-memory on to the later levels of the
- 内存上的后来的水平
+memory on to the later levels of the network 
+记忆内容传递到之后的层里
 
 326
 00:15:23,399 --> 00:15:24,960
-network so this is why it's called the
-网络， 这就是为什么它被称为
+so this is why it's called the
+这就是为什么它被称为
 
 327
 00:15:24,960 --> 00:15:26,940
 long short-term memory they can only
- 他们只有长期的短暂记忆
+“长短时记忆” 因为它们
 
 328
 00:15:26,940 --> 00:15:30,509
 retain small bits of memory but these
-保留一小部分内存，但这些
+保留一小部分记忆内存 但这些
 
 329
 00:15:30,509 --> 00:15:34,110
 small bits of memory are passed on layer
- 在图层上传递少量内存
+短时的记忆内容都可以
 
 330
 00:15:34,110 --> 00:15:36,299
 by layer by layer to give the illusion
-逐层给出幻觉
+一层层地被传递下去 然后就营造了一种
 
 331
-00:15:36,299 --> 00:15:39,120
-of long-term memory yeah here's some
- 长期记忆，是的，这里有一些
+00:15:36,299 --> 00:15:38,120
+of long-term memory 
+长期记忆的假象
 
 332
-00:15:39,120 --> 00:15:40,289
-books on chatbots
-关于聊天机器人的书籍
+00:15:38,120 --> 00:15:40,289
+yeah here's some books on chatbots
+我这里呢有一些关于聊天机器人的书推荐给大家
 
 333
 00:15:40,289 --> 00:15:42,029
 if you were curious to learn more about
-如果你好奇， 更多地了解
+如果你很好奇想更多地了解
 
 334
-00:15:42,029 --> 00:15:44,340
-them detailed explanation of what is a
-他们详细解释了什么是
+00:15:42,029 --> 00:15:44,640
+them detailed explanation of what is a chatbot 
+聊天机器人的话
 
 335
-00:15:44,340 --> 00:15:47,340
-chatbot I'll let you ask your teacher
- chatbot我会让你问你的老师
+00:15:44,640 --> 00:15:47,340
+I'll let you ask your teacher
+你可以向你的老师
 
 336
-00:15:47,340 --> 00:15:49,649
-for this video on your own time because
- 这个视频在你自己的时间因为
+00:15:47,340 --> 00:15:49,449
+for this video on your own time 
+要这个视频 在你自己的空余时间里看一下
 
 337
-00:15:49,649 --> 00:15:51,080
-we got to get through this presentation
- 我们得完成了这个演讲
+00:15:49,449 --> 00:15:51,080
+because we got to get through this presentation
+因为现在我们得继续往下看
 
 338
-00:15:51,080 --> 00:15:54,990
-to get to the live coding example here's
- 去现场编码例如，以下是
+00:15:51,080 --> 00:15:55,290
+to get to the live coding example 
+来进行实况编码了
 
 339
-00:15:54,990 --> 00:15:56,580
-a nice little video on how chat BOTS
- 关于如何聊天BOTS的精彩小视频
+00:15:55,290 --> 00:15:56,780
+here's a nice little video on how chatbots work
+这个就是聊天机器人如何运作的小视频了
 
 340
-00:15:56,580 --> 00:16:00,960
-work and finally the moment that you
-工作，最后是你的那一刻
+00:15:56,780 --> 00:16:00,960
+and finally the moment that you
+终于到了
 
 341
 00:16:00,960 --> 00:16:04,110
 have all been waiting for
- 一直在等待
+万众期待的时刻了
 
 342
-00:16:04,110 --> 00:16:05,429
-hopefully you're not bored out of your
-希望你不会厌倦你的
+00:16:04,110 --> 00:16:05,629
+hopefully you're not bored out of your minds
+希望你没有感到疲惫了
 
 343
-00:16:05,429 --> 00:16:07,919
-minds and if you are we're gonna wake
-心灵如果你是我们会被唤醒
+00:16:05,629 --> 00:16:08,219
+and if you are we're gonna wake you up 
+就算你觉得疲惫了 我们也要把你叫醒啦
 
 344
-00:16:07,919 --> 00:16:09,179
-you up okay we're gonna give you a
-你好， 我们会给你一个
+00:16:08,219 --> 00:16:09,179
+okay we're gonna give you a
+来来来 我要来把大家
 
 345
-00:16:09,179 --> 00:16:11,399
-little wakey-wakey here cuz I'm gonna
- 我醒来的时候有点醒来， 因为我要去
+00:16:09,179 --> 00:16:10,199
+little wakey-wakey here 
+叫醒啦 赶紧集中注意力 因为现在
 
 346
-00:16:11,399 --> 00:16:15,269
-code a chat bot live alright so if you
-代码聊天机器人生活好，如果你
+00:16:12,199 --> 00:16:14,769
+cuz I'm gonna code a chatbot live alright 
+我们要写聊天机器人的代码啦
 
 347
-00:16:15,269 --> 00:16:17,070
-have no programming experience that's
- 没有编程经验
+00:16:14,769 --> 00:16:16,870
+so if you have no programming experience 
+就算你之前没有编程经验
 
 348
-00:16:17,070 --> 00:16:20,070
-totally fine but I want to show you guys
-完全没问题， 但我想告诉你们
+00:16:16,870 --> 00:16:20,070
+that's totally fine but I want to show you guys
+也完全没问题 但我还是希望大家能看看
 
 349
 00:16:20,070 --> 00:16:21,450
-some of the code because it's really
- 一些代码 ，因为它真的
+some of the code because it's really cool
+这些代码 因为这真的非常酷
 
 350
 00:16:21,450 --> 00:16:21,929
-cool
-凉
+  
+  
 
 351
-00:16:21,929 --> 00:16:23,639
-and I think you'll be astounded at how
-而且我觉得你会对如何感到震惊
+00:16:21,929 --> 00:16:24,639
+and I think you'll be astounded at how easy this is 
+而且我觉得你会惊讶于它其实挺简单的
 
 352
-00:16:23,639 --> 00:16:28,679
-easy this is so step 0 import US
- 这是第0步导入美国
+00:16:24,639 --> 00:16:28,279
+so step 0 import
+首先 第0步
 
 353
-00:16:28,679 --> 00:16:30,269
-programmers like to start counting from
-程序员喜欢从开始计数
+00:16:28,279 --> 00:16:30,469
+us programmers like to start counting from 0
+哈哈我们程序员就是喜欢从0开始计数
 
 354
-00:16:30,269 --> 00:16:32,460
-0 you'll you'll learn that if you don't
- 0如果你不这样做，你会知道的
+00:16:30,469 --> 00:16:32,460
+you'll you'll learn that if you don't
+你可能不知道因为你打代码不多
 
 355
 00:16:32,460 --> 00:16:35,690
 have any if you haven't coded a lot yet
-如果你还没有很多编码，那就有了
+但你慢慢就会知道了
 
 356
 00:16:35,690 --> 00:16:38,870
 import oops
-进口哎呀
+输入
 
 357
-00:16:38,870 --> 00:16:44,240
-from chatter bot import chat bot so
-来自chatter bot导入聊天机器人所以
+00:16:38,870 --> 00:16:44,140
+from chatterbot import chatBot 
+from chatterbot import chatBot
 
 358
-00:16:44,240 --> 00:16:46,470
-right here what we're doing is we're
-就在这里，我们正在做的就是我们
+00:16:44,140 --> 00:16:46,470
+so right here what we're doing is we're
+这一步我们做的是
 
 359
 00:16:46,470 --> 00:16:48,870
-taking this chatter bot package
-采取这个聊天机器人包
+taking this chatterbot package
+打开“chatterbot”软件包
 
 360
 00:16:48,870 --> 00:16:51,480
-what if packages is like a bunch of
-怎么样的包就像一堆
+what is packages is like a bunch of
+软件包包含了
 
 361
 00:16:51,480 --> 00:16:54,409
 different programming functionality just
- 不同的编程功能
+不同的编程功能
 
 362
 00:16:54,409 --> 00:16:58,679
 bundled into a package and you can take
- 捆绑成一个包，你可以采取
+将这些功能捆绑在一起 你可以从中
 
 363
-00:16:58,679 --> 00:17:01,169
-different functions out of that package
- 该包装中的不同功能
+00:16:58,679 --> 00:17:02,169
+different functions out of that package as you wish 
+获得你所需要的功能
 
 364
-00:17:01,169 --> 00:17:03,840
-as you wish so right now all that we're
- 正如你所愿，现在我们所有的一切
+00:17:02,169 --> 00:17:03,840
+so right now all that we're
+所以呢我们在这一步里
 
 365
-00:17:03,840 --> 00:17:06,390
-doing is getting the chat bot
-做的是获取聊天机器人
+00:17:03,840 --> 00:17:06,790
+doing is getting the chatbot functionality 
+将chatbot功能从
 
 366
-00:17:06,390 --> 00:17:10,289
-functionality from this chatter bot from
-来自这个聊天机器人的功能
+00:17:06,790 --> 00:17:10,289
+from this chatterbot
+“chatterbot”
 
 367
-00:17:10,289 --> 00:17:13,980
-this chatter bot package so we're gonna
- 这个聊天机器人套餐所以我们要去
+00:17:10,289 --> 00:17:12,980
+this chatterbot package
+软件包里拿了出来
 
 368
-00:17:13,980 --> 00:17:17,700
-initialize a new chat bot now we'll give
- 现在我们将给出一个新的聊天机器人
+00:17:12,980 --> 00:17:16,700
+so we're gonna initialize a new chatbot now
+现在我们将初始化一个新的“chatbot”
 
 369
-00:17:17,700 --> 00:17:19,440
-it a variable we'll just name it chat
-它是一个变量，我们只是将它命名为聊天
+00:17:16,700 --> 00:17:19,540
+we'll give it a variable we'll just name it chatbot
+我们给它一个叫 “chatbot”的变量
 
 370
-00:17:19,440 --> 00:17:24,720
-bot and so now our chat bot anytime we
-机器人，所以现在我们的聊天机器人随时随地
+00:17:19,540 --> 00:17:24,720
+and so now our chatbot anytime we
+所以 之后我们想要
 
 371
 00:17:24,720 --> 00:17:27,119
-want to reference our chat bot we can do
-想要参考我们可以做的聊天机器人
+want to reference our chatbot we can do it by
+引用到“chatbot”我们就可以
 
 372
 00:17:27,119 --> 00:17:28,890
-it by
-它
+
 
 373
-00:17:28,890 --> 00:17:31,559
-accessing this variable chat bot that we
- 访问我们的这个变量聊天机器人
+00:17:28,890 --> 00:17:32,559
+accessing this variable chat bot that we just created 
+访问我们的刚刚创建的这个“chatbot”变量
 
 374
-00:17:31,559 --> 00:17:35,460
-just created so we're gonna use this see
-刚刚创建，所以我们将使用这个看
+00:17:32,559 --> 00:17:35,460
+so we're gonna use this see
+然后我们就要用到这个
 
 375
 00:17:35,460 --> 00:17:40,460
 how this is getting highlighted here
-这是如何突出显示的
+看到了吗 它现在是突出显示的
 
 376
 00:17:40,460 --> 00:17:43,740
-we're going to use this chat bot
-我们将使用这个聊天机器人
+we're going to use this chatbot
+我们将使用这个“chatbot”
 
 377
 00:17:43,740 --> 00:17:47,069
-functionality to create a new chat bot
- 创建新聊天机器人的功能
+functionality to create a new chatbot
+功能来创建新“chatbot”（聊天机器人）
 
 378
-00:17:47,069 --> 00:17:51,289
-and save it into this variable here so
-并保存到这个变量这里这么
+00:17:47,069 --> 00:17:51,089
+and save it into this variable here
+并保存到这个变量里
 
 379
-00:17:51,289 --> 00:17:55,609
-we want to make a Charlie chat bot and
-我们想做一个查理聊天机器人
+00:17:51,089 --> 00:17:55,609
+so we want to make a Charlie chatbot and
+我们想做一个叫（Charlie）查理的聊天机器人
 
 380
-00:17:55,609 --> 00:17:58,440
-we need to give it a trainer because it
-我们需要给它一个培训师，因为它
+00:17:55,609 --> 00:17:58,040
+we need to give it a trainer 
+我们需要给它一个“trainer” 
 
 381
-00:17:58,440 --> 00:18:00,509
-needs to know how it's going to respond
-需要知道它将如何回应
+00:17:58,040 --> 00:18:00,509
+because it needs to know how it's going to respond
+因为它需要知道它如何对所给的语言
 
 382
-00:18:00,509 --> 00:18:04,410
-to being given language okay it needs to
- 给予语言好的它需要
+00:18:00,509 --> 00:18:03,410
+to being given language okay
+进行回应
 
 383
-00:18:04,410 --> 00:18:06,390
-know it needs to know the way that we're
-知道它需要知道我们的方式
+00:18:03,410 --> 00:18:06,390
+it needs to know it needs to know the way that we're
+它需要知道我们如何与它
 
 384
-00:18:06,390 --> 00:18:08,039
-going to speak to it and interact with
- 去说话吧和互动
+00:18:06,390 --> 00:18:08,139
+going to speak to it and interact with it 
+说话和互动
 
 385
-00:18:08,039 --> 00:18:10,049
-it so we're gonna give it a trainer for
- 所以我们要给它一个培训师
+00:18:08,139 --> 00:18:10,149
+so we're gonna give it a trainer for that 
+所以我们要给它一个“trainer”
 
 386
-00:18:10,049 --> 00:18:14,880
-that and the trainer we're gonna use is
-那个和我们要用的训练师是
+00:18:10,149 --> 00:18:14,880
+and the trainer we're gonna use is
+我们要用的“trainer”
 
 387
 00:18:14,880 --> 00:18:23,630
-in chatter bot trainers dot list trainer
-在聊天机器人培训师点列表培训师
+in chatterbot.trainers.listTrainer
+在“chatterbot.trainers.listTrainer”里
 
 388
-00:18:23,630 --> 00:18:26,490
-that should be it to make a brand new
-这应该是一个全新的
+00:18:23,630 --> 00:18:26,790
+that should be it to make a brand new chatbot 
+好了 这样应该就是一个全新的聊天机器人了
 
 389
-00:18:26,490 --> 00:18:29,700
-chat bot step two so now we need to
-聊天机器人第二步所以现在我们 需要
+00:18:26,790 --> 00:18:29,700
+step two so now we need to
+第二步 现在我们需要
 
 390
 00:18:29,700 --> 00:18:31,880
 train the chat bot we just created on
-培养我们刚创建聊天机器人
+训练我们刚创建的聊天机器人
 
 391
 00:18:31,880 --> 00:18:34,500
 examples of things that we might say to
- 我们可能会说的事情的例子
+我们将用到可能会对它说的话
 
 392
-00:18:34,500 --> 00:18:36,000
-it and the way that we want it to
-它和我们想要它的方式
+00:18:34,500 --> 00:18:36,300
+it and the way that we want it to respond 
+以及我们想要它回应的方式
 
 393
-00:18:36,000 --> 00:18:39,960
-respond so we do that by getting this
-回应所以我们通过这样做来做到这一点
+00:18:36,300 --> 00:18:39,960
+so we do that by getting this
+要做到这个呢我们要用到
 
 394
-00:18:39,960 --> 00:18:43,170
-chat bot variable from earlier and just
-来自早期和刚才的聊天机器人变量
+00:18:39,960 --> 00:18:43,070
+chatbot variable from earlier and
+之前创建的“chatbot”变量
 
 395
-00:18:43,170 --> 00:18:47,099
-saying chat bot train now we're gonna
-说聊天机器人火车现在我们要去
+00:18:43,070 --> 00:18:46,099
+just saying chatbot.train 
+然后输入“chatbot.train” 
 
 396
-00:18:47,099 --> 00:18:49,680
-give it examples of what we'd like it to
-举例说明我们喜欢的内容
+00:18:46,099 --> 00:18:49,680
+now we're gonna give it examples of what we'd like it to say 
+现在要输入一些我们希望聊天机器人说的内容
 
 397
 00:18:49,680 --> 00:18:53,039
-say and examples of what people might
- 说和人们可能的例子
+and examples of what people might
+以及人们可能会
 
 398
 00:18:53,039 --> 00:18:55,410
-say to the chat bot so let's say we want
- 对聊天机器人 说，让我们说我们想要
+say to the chatbot so let's say we want
+对聊天机器人说的内容 比如说我们想要
 
 399
-00:18:55,410 --> 00:18:57,660
-to make a chat bot that can book flights
- 制作一个可以预订航班的聊天机器人
+00:18:55,410 --> 00:18:57,999
+to make a chatbot that can book flights for us 
+制作一个可以预订航班的聊天机器人
 
 400
-00:18:57,660 --> 00:19:03,349
-for us so first the chat bot might say
-对我们来说，首先聊天机器人可能会说
+00:18:57,999 --> 00:19:03,349
+so first the chat bot might say
+那么 首先聊天机器人可能会说
 
 401
 00:19:03,349 --> 00:19:08,630
-hi can i hi can I help you let's say hi
-嗨，我可以嗨，我可以帮助你打个招呼
+hi can I help you let's say 
+你好 
 
 402
 00:19:08,630 --> 00:19:13,500
-how can I help you , and we might say
- 我怎么能帮助你，我们可以说
+hi how can I help you and we might say
+有什么我可以为您做的吗  我们可能会回复
 
 403
-00:19:13,500 --> 00:19:18,829
-back to that I'd like to book a flight
-回到那我想预订航班
+00:19:13,500 --> 00:19:22,829
+back to that I'd like to book a flight to Iceland 
+我想预订一张去冰岛的机票
 
 404
-00:19:18,829 --> 00:19:28,079
-to Iceland comma and the bot would
- 冰岛逗号和机器人会
+00:19:22,829 --> 00:19:29,079
+and the bot would respond okay 
+然后机器人会
 
 405
-00:19:28,079 --> 00:19:36,809
-respond okay I'll say I have let's say
-回答没关系我会说我已经说过了
+00:19:29,079 --> 00:19:36,809
+I'll say I have let's say
+回答
 
 406
 00:19:36,809 --> 00:19:41,058
 your flight has been booked
-您的航班已被预订
+您的航班已预定完成
 
 407
-00:19:41,058 --> 00:19:47,210
-bang alright that should be good and now
- 好吧，现在应该是好的
+00:19:41,058 --> 00:19:47,010
+bang alright that should be good and 
+好了 这应该是做好了
 
 408
-00:19:47,210 --> 00:19:50,619
-whoops test
- 哎呀测试
+00:19:47,010 --> 00:19:50,619
+now whoops test chatbot
+然后输入test chatbot
 
 409
-00:19:50,619 --> 00:19:54,798
-chatbot so now our final step let's test
- 聊天机器人所以现在我们的最后一步让我们测试一下
+00:19:50,619 --> 00:19:54,999
+so now our final step let's test it out 
+最后让我们测试一下
 
 410
-00:19:54,798 --> 00:19:57,369
-it out let's see how this works
+00:19:54,999 --> 00:19:57,369
+let's see how this works
  它让我们看看它是如何工作的
 
 411
 00:19:57,369 --> 00:20:00,288
 chatbot oh let's come up with a query so
- chatbot哦让我们想出一个查询
+在这之前我们做一个“query”（询问过程）
 
 412
 00:20:00,288 --> 00:20:02,569
 let's say we want to book a flight
-假设我们想预订航班
+我们是想预订航班
 
 413
-00:20:02,569 --> 00:20:04,909
-that's what we want to do we want to go
- 这就是我们想要做我们想要去
+00:20:02,569 --> 00:20:04,999
+that's what we want to do we want to go to 
+没错啦 我们要完成的就是预定航班
 
 414
-00:20:04,909 --> 00:20:10,278
-to I'd like to book a flight where do
- 以我想预订航班在哪里
+00:20:04,999 --> 00:20:10,078
+I'd like to book a flight 
+输入“I'd like to book a flight”我想预订航班
 
 415
-00:20:10,278 --> 00:20:11,419
-you want to go where do you want to go
-你想去哪里你想去
+00:20:10,078 --> 00:20:11,419
+where do you want to go where do you want to go
+你想去哪里 想去哪儿呢 
 
 416
-00:20:11,419 --> 00:20:15,648
-where do you want to go no man you guys
-你想在哪里找不到你的男人
+00:20:11,419 --> 00:20:16,648
+where do you want to go no man you guys don't respond to me 
+去哪儿呢 哦对 你们不会和我互动....
 
 417
-00:20:15,648 --> 00:20:19,099
-don't respond to me I'd like to book a
-不要回应我，我想预订一个
+00:20:16,648 --> 00:20:20,099
+I'd like to book a flight to Gibraltar 
+好吧 我想预订飞往直布罗陀的航班
 
 418
-00:20:19,099 --> 00:20:29,240
-flight to Gibraltar get response and we
-飞往直布罗陀的航班得到回复，我们
+00:20:27,099 --> 00:20:29,040
+get response and
+输入“get response”
 
 419
-00:20:29,240 --> 00:20:33,648
-pass it the query so we've got a place
-传递它的查询，所以我们有一个地方
+00:20:29,040 --> 00:20:34,648
+we pass it the query so we've got a place we want to go 
+然后把“query”传过来 好啦 现在我们有了想去的地方 
 
 420
-00:20:33,648 --> 00:20:37,038
-we want to go now we need to do chatbot
-我们想去的地方，现在我们需要做的聊天机器人
+00:20:34,648 --> 00:20:37,038
+now we need to do chatbot.get response
+接下来我们要输入“chatbot.get response”（聊天机器人回应）
 
 421
 00:20:37,038 --> 00:20:40,308
-dot get response because we want it to
-斑点得到回应，因为我们希望它
+because we want it to
+因为我们希望它
 
 422
 00:20:40,308 --> 00:20:42,319
-respond to the thing that we're telling
+respond to the thing that we're telling it right now
 回应我们所说的事情
 
 423
 00:20:42,319 --> 00:20:43,148
-it right now
- 它现在
+
+
 
 424
 00:20:43,148 --> 00:20:47,538
 so we give it our query in these
-所以我们在这些中给出我们的查询
+我们把“query”（问题）
 
 425
-00:20:47,538 --> 00:20:52,909
-parentheses right here and let's just
-圆括号就在这里，让我们一起来吧
+00:20:47,538 --> 00:20:52,000
+parentheses right here and 
+放在这个圆括号
 
 426
-00:20:52,909 --> 00:20:56,960
-put this in a variable call it response
-把它放在变量中调用它的响应
+00:20:52,000 --> 00:20:56,960
+let's just put this in a variable called response
+然后把整个放进到“response”（回应）变量里
 
 427
-00:20:56,960 --> 00:21:01,490
-and then to finish off will print the
- 然后完成将打印出来
+00:20:56,960 --> 00:21:01,890
+and then to finish off will print the response 
+完成之后呢我们要“print response”（显示回应）
 
 428
-00:21:01,490 --> 00:21:18,490
-response to see what our chat bot says
-回应看看我们的聊天机器人说的话
+00:21:01,890 --> 00:21:06,490
+to see what our chat bot says
+来看看我们的聊天机器人说了些什么
 
 429
 00:21:18,490 --> 00:21:24,309
-oh I forgot we used lists trainer which
-哦，我忘了我们用过列表训练器
+oh I forgot we used lists trainer 
+哎呀 我忘了我们用过“ListTrainor”列表训练
 
 430
-00:21:24,309 --> 00:21:30,339
-needs the it needs the language examples
-需要它需要语言示例
+00:21:24,309 --> 00:21:30,939
+it needs the language examples in a list 
+它需要列表里面有语言例子
 
 431
-00:21:30,339 --> 00:21:34,809
-in a list so I'm just going to wrap
-在一个列表中， 所以我要打包
+00:21:34,000 --> 00:21:34,809
+so I'm just going to wrap
+所以我要把
 
 432
-00:21:34,809 --> 00:21:40,119
-these in a list right here so now I've
-这些在这里列表，所以现在我
+00:21:34,809 --> 00:21:39,669
+these in a list right here 
+这些都框进列别里
 
 433
-00:21:40,119 --> 00:21:45,069
-got a list of samples and this should
-有一个样本列表，这应该
+00:21:39,669 --> 00:21:44,569
+so now I've got a list of samples and 
+所以现在我们有了一个样本列表
 
 434
-00:21:45,069 --> 00:22:01,039
-work now cool
-现在工作很酷
+00:21:44,569 --> 00:21:48,000
+this should work now cool
+现在应该可以了 
 
 435
-00:22:01,039 --> 00:22:05,400
-we go into Gibraltar cool so there you
-我们进入直布罗陀很酷，也让你有
+00:22:01,039 --> 00:22:05,000
+we go into Gibraltar cool 
+耶 我们可以去直布罗陀啦 太帅了
 
 436
-00:22:05,400 --> 00:22:07,859
-go there's a chatbot obviously very
- 去那里聊天机器人显然非常
+00:22:05,000 --> 00:22:07,999
+so there you go there's a chatbot obviously very basic
+虽然这个聊天机器人还很基础
 
 437
-00:22:07,859 --> 00:22:12,390
-basic and it doesn't actually book us a
-基本的，它实际上没有预订我们
+00:22:07,999 --> 00:22:12,690
+and it doesn't actually book us a flight 
+它实际上没有预订航班
 
 438
-00:22:12,390 --> 00:22:16,829
-flight but I think that's pretty cool
-飞行但我觉得这很酷
+00:22:12,690 --> 00:22:16,829
+but I think that's pretty cool
+但我还是觉得这很酷
 
 439
 00:22:16,829 --> 00:22:19,410
 how I mean look at how little training
-我怎么说看看训练有多少
+你看看我们通过这些训练
 
 440
-00:22:19,410 --> 00:22:21,509
-we had to do to get it to respond
- 我们必须做到让它回应
+00:22:19,410 --> 00:22:21,809
+we had to do to get it to respond meaningfully 
+来让它做出有意义的答复
 
 441
-00:22:21,509 --> 00:22:24,839
-meaningfully so there's an idea of some
-有意义的是有一些想法
+00:22:21,809 --> 00:22:24,839
+so there's an idea of some
+所以我们确实可以
 
 442
 00:22:24,839 --> 00:22:26,549
 chatbot code that could be written out
- 可以写出的聊天机器人代码
+写出代码来做出一个
 
 443
-00:22:26,549 --> 00:22:31,019
-in the wild somewhere and yeah there you
-在某处野外，是的，你呢
+00:22:26,549 --> 00:22:30,019
+in the wild somewhere and
+聊天机器人
 
 444
-00:22:31,019 --> 00:22:32,460
-go I hope you enjoy it I hope you
-去， 我希望你喜欢它，我希望你
+00:22:30,019 --> 00:22:32,460
+yeah there you go I hope you enjoy it I hope you
+没错了 希望大家喜欢 也希望大家
 
 445
 00:22:32,460 --> 00:22:34,079
 learned something about chatbots
-了解了聊天机器人的一些知识
+了解了一些聊天机器人的知识
 
 446
 00:22:34,079 --> 00:22:36,150
 and I hope you keep learning about
- 我希望你继续学习
+我更希望你继续学习
 
 447
-00:22:36,150 --> 00:22:37,799
-machine learning because it's a super
-机器学习， 因为它是超级的
+00:22:36,150 --> 00:22:38,799
+machine learning because it's a super interesting field
+机器学习 因为它是很有趣的一个领域
 
 448
-00:22:37,799 --> 00:22:40,980
-interesting field I'm Lewis with Palo
- 有趣的领域我是刘易斯与帕洛
+00:22:38,799 --> 00:22:40,980
+I'm Lewis with 
+最后 我是Lewis
 
 449
 00:22:40,980 --> 00:22:43,134
-Alto education signing out for now
- 奥拓教育现在退出
+Palo Alto education signing out for now
+来自Palo Alto教育 今天的课就到这里啦
 
